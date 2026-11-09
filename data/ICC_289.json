@@ -1,1 +1,108 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_289","dbfId":43072,"name":"무라비","type":"MINION","cardClass":"SHAMAN","rarity":"LEGENDARY","collectible":true,"cost":6,"text":"다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.","attack":4,"health":4,"durability":0,"armor":0,"flavor":"하수인이 얼어붙으면 냉장고에 넣어서 보관했다가 다시 꺼냅니다.","spellSchool":"","portrait":"HS11-131_M.psd:b27d0ecc4e64d2c4fb042d872ea539fb","set":"ICECROWN","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":6},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":208,"name":"빙결","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/ICC_289.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-131_M.psd:b27d0ecc4e64d2c4fb042d872ea539fb","goldenMaterial":"ICC_289_PremiumCard.mat:c1c17a240f47d8a49a9639eacf26a6da","goldenAnimation":"ICC_289_PremiumCard.asset:b9fd471f5d2dba14286c42753ad910dc"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Moorabi",
+  "card": {
+    "id": "ICC_289",
+    "dbfId": 43072,
+    "name": "무라비",
+    "text": "다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "LEGENDARY",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 6,
+    "attack": 4,
+    "health": 4,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-131_M.psd:b27d0ecc4e64d2c4fb042d872ea539fb",
+    "flavor": "하수인이 얼어붙으면 냉장고에 넣어서 보관했다가 다시 꺼냅니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

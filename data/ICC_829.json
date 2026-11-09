@@ -1,1 +1,120 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_829","dbfId":43406,"name":"칠흑의 기사단장 우서","type":"HERO","cardClass":"PALADIN","rarity":"LEGENDARY","collectible":true,"cost":9,"text":"<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.","attack":0,"health":30,"durability":0,"armor":5,"flavor":"\"앞으로 나와라. 그리고 속죄하라! 한때 나는 빛의 종복이었지만, 이제 심판을 내리는 자는 오직 나뿐이다.\"","spellSchool":"","portrait":"HS11-088_H.psd:64ed40ae93e804e4bb3b677f493248aa","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":30},{"id":48,"name":"마나 비용","value":9},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":3},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":292,"name":"방어도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":380,"name":"영웅 능력","value":43013},{"id":685,"name":"생명력 흡수","value":1}],"races":[],"race":"","classes":[],"art":"art/ICC_829.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-088_H.psd:64ed40ae93e804e4bb3b677f493248aa","goldenMaterial":"ICC_829_PremiumCard_NEW.mat:1d3db45ed1d6de34f94187d90931d5d8","goldenAnimation":"ICC_829_PremiumCard_NEW.asset:563aa98d65eb92c428b538aa3e2122d0"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Uther of the Ebon Blade",
+  "card": {
+    "id": "ICC_829",
+    "dbfId": 43406,
+    "name": "칠흑의 기사단장 우서",
+    "text": "<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
+    "type": "HERO",
+    "cardClass": "PALADIN",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "LEGENDARY",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 9,
+    "attack": 0,
+    "health": 30,
+    "armor": 5,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-088_H.psd:64ed40ae93e804e4bb3b677f493248aa",
+    "flavor": "\"앞으로 나와라. 그리고 속죄하라! 한때 나는 빛의 종복이었지만, 이제 심판을 내리는 자는 오직 나뿐이다.\"",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 43013
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [
+    43013,
+    43405,
+    45618,
+    45619,
+    45620,
+    45621
+  ],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,1 +1,86 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_314t4","dbfId":42590,"name":"죽음의 손아귀","type":"SPELL","cardClass":"DEATHKNIGHT","collectible":false,"cost":2,"text":"상대편의 덱에서 하수인을 내 손으로 가져옵니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"SHADOW","portrait":"DKPR_A020.psd:ca8e80c17db7c054196999856cfd3604","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":1},{"id":202,"name":"카드 유형","value":5},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/ICC_314t4.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"DKPR_A020.psd:ca8e80c17db7c054196999856cfd3604","goldenMaterial":"ICC_314t4_PremiumCard.mat:85233f03ccecf1b419549578cb213197","goldenAnimation":"ICC_314t4_PremiumCard.asset:a97b0e33734793f4da67e384f45b56e1"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Death Grip",
+  "card": {
+    "id": "ICC_314t4",
+    "dbfId": 42590,
+    "name": "죽음의 손아귀",
+    "text": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
+    "type": "SPELL",
+    "cardClass": "DEATHKNIGHT",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "DKPR_A020.psd:ca8e80c17db7c054196999856cfd3604",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "nativeRawText": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2021-03-26": "taxonomy introduction"
+    }
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

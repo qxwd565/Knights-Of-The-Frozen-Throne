@@ -1,1 +1,119 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_467","dbfId":42394,"name":"죽음예언자","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":3,"text":"<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.","attack":2,"health":4,"durability":0,"armor":0,"flavor":"시끄러운 소리에도 면역이 됩니다.","spellSchool":"","portrait":"HS11-074_M.psd:707f9c86b7986434bb5b1f273ef68a2d","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":240,"name":"면역","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/ICC_467.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-074_M.psd:707f9c86b7986434bb5b1f273ef68a2d","goldenMaterial":"ICC_467_PremiumCard.mat:8a5206225e1c5cb4e8cd976370e4ca3d","goldenAnimation":"ICC_467_PremiumCard.asset:ddc06d6fab6cf6d4c8ad56352dc069b2"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Deathspeaker",
+  "card": {
+    "id": "ICC_467",
+    "dbfId": 42394,
+    "name": "죽음예언자",
+    "text": "<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "COMMON",
+    "race": "언데드",
+    "races": [],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-074_M.psd:707f9c86b7986434bb5b1f273ef68a2d",
+    "flavor": "시끄러운 소리에도 면역이 됩니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 240,
+        "name": "면역",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

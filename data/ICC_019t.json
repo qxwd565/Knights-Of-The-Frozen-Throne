@@ -1,1 +1,98 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_019t","dbfId":42329,"name":"해골 타작꾼","type":"MINION","cardClass":"NEUTRAL","collectible":false,"cost":8,"text":"","attack":8,"health":8,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS11-081_M.psd:9be5eac8ef6315643a9feab34f81d299","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":8},{"id":48,"name":"마나 비용","value":8},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/ICC_019t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-081_M.psd:9be5eac8ef6315643a9feab34f81d299","goldenMaterial":"ICC_019t_PremiumCard.mat:10d73013c4cc99947953d4625f992dd1","goldenAnimation":"ICC_019t_PremiumCard.asset:acff7b29b8494cc44ae0d3ab334fd12e"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Skeletal Flayer",
+  "card": {
+    "id": "ICC_019t",
+    "dbfId": 42329,
+    "name": "해골 타작꾼",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "언데드",
+    "races": [],
+    "spellSchool": "",
+    "cost": 8,
+    "attack": 8,
+    "health": 8,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-081_M.psd:9be5eac8ef6315643a9feab34f81d299",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

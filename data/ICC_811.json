@@ -1,1 +1,119 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_811","dbfId":43031,"name":"릴리안 보스","type":"MINION","cardClass":"ROGUE","rarity":"LEGENDARY","collectible":true,"cost":4,"text":"<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.","attack":4,"health":5,"durability":0,"armor":0,"flavor":"동정심도, 후회도, 공포도 느끼지 않습니다. 모든 강령술사들을 사냥하기 전까지 그녀는 멈추지 않을 것입니다.","spellSchool":"","portrait":"HS11-108_M.psd:c27a28fa72cc4914da6fb2f02c2235e6","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":7},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/ICC_811.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-108_M.psd:c27a28fa72cc4914da6fb2f02c2235e6","goldenMaterial":"ICC_811_PremiumCard.mat:2176ab13b772b1440b0a0178b102eb51","goldenAnimation":"ICC_811_PremiumCard.asset:776729944ed272246a0792923b0a06ba"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Lilian Voss",
+  "card": {
+    "id": "ICC_811",
+    "dbfId": 43031,
+    "name": "릴리안 보스",
+    "text": "<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "LEGENDARY",
+    "race": "언데드",
+    "races": [],
+    "spellSchool": "",
+    "cost": 4,
+    "attack": 4,
+    "health": 5,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-108_M.psd:c27a28fa72cc4914da6fb2f02c2235e6",
+    "flavor": "동정심도, 후회도, 공포도 느끼지 않습니다. 모든 강령술사들을 사냥하기 전까지 그녀는 멈추지 않을 것입니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

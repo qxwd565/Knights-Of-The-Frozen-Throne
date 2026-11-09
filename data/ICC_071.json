@@ -1,1 +1,103 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_071","dbfId":42735,"name":"빛의 슬픔","type":"WEAPON","cardClass":"PALADIN","rarity":"EPIC","collectible":true,"cost":4,"text":"아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.","attack":1,"health":4,"durability":4,"armor":0,"flavor":"슬픔이 남긴 상처인지, 상처가 남긴 슬픔인지 알 수가 없습니다.","spellSchool":"","portrait":"W12_a178(EA)_W.psd:dd29b5cd91091e64ba842cbcc50a90d8","set":"ICECROWN","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":4},{"id":194,"name":"천상의 보호막","value":1},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/ICC_071.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W12_a178(EA)_W.psd:dd29b5cd91091e64ba842cbcc50a90d8","goldenMaterial":"ICC_071_PremiumCard.mat:e2260bd1fdbd26b44905ad70bd83e919","goldenAnimation":"ICC_071_PremiumCard.asset:1b06e14ca8afe9e4b878f7989db0244e"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Light's Sorrow",
+  "card": {
+    "id": "ICC_071",
+    "dbfId": 42735,
+    "name": "빛의 슬픔",
+    "text": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "EPIC",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 4,
+    "attack": 1,
+    "health": 4,
+    "armor": 0,
+    "durability": 4,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W12_a178(EA)_W.psd:dd29b5cd91091e64ba842cbcc50a90d8",
+    "flavor": "슬픔이 남긴 상처인지, 상처가 남긴 슬픔인지 알 수가 없습니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

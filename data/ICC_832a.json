@@ -1,1 +1,79 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_832a","dbfId":45303,"name":"딱정벌레 역병","type":"SPELL","cardClass":"DRUID","collectible":false,"cost":7,"text":"<b>도발</b> 능력이 있는 1/5 딱정벌레를 2마리 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS11-123_S.psd:3f74005aae6dbd1418c6db43a6813722","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":7},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5}],"races":[],"race":"","classes":[],"art":"art/ICC_832a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-123_S.psd:3f74005aae6dbd1418c6db43a6813722","goldenMaterial":"ICC_832a_PremiumCard.mat:d427a84e555b3eb42bd3f7f67c48b158","goldenAnimation":"ICC_832a_PremiumCard.asset:525241ea8346477448054fb19f5b6ce1"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Scarab Plague",
+  "card": {
+    "id": "ICC_832a",
+    "dbfId": 45303,
+    "name": "딱정벌레 역병",
+    "text": "<b>도발</b> 능력이 있는 1/5 딱정벌레를 2마리 소환합니다.",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 7,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-123_S.psd:3f74005aae6dbd1418c6db43a6813722",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "nativeRawText": "<b>도발</b> 능력이 있는 1/5 딱정벌레를 2마리 소환합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [
+    45301
+  ],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

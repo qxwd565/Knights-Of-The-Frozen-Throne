@@ -1,1 +1,98 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_085t","dbfId":46389,"name":"역병 구울","type":"MINION","cardClass":"DRUID","collectible":false,"cost":5,"text":"","attack":5,"health":5,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"W17_A018_M.psd:823765f6891c7834eb54a6f599fa1bd6","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/ICC_085t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W17_A018_M.psd:823765f6891c7834eb54a6f599fa1bd6","goldenMaterial":"ICC_901_PremiumCard.mat:0ca232947fcf7f4479cbbb24045f04ef","goldenAnimation":"ICC_901_PremiumCard.asset:fa454ba1e0ac3e84f930afc612a90527"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Ghoul Infestor",
+  "card": {
+    "id": "ICC_085t",
+    "dbfId": 46389,
+    "name": "역병 구울",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "언데드",
+    "races": [],
+    "spellSchool": "",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W17_A018_M.psd:823765f6891c7834eb54a6f599fa1bd6",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

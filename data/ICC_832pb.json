@@ -1,1 +1,72 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_832pb","dbfId":46051,"name":"거미의 송곳니","type":"SPELL","cardClass":"DRUID","collectible":false,"cost":2,"text":"공격력 +3","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS11-091b_S.psd:0986d23ae2ccbbd4cab3d7b128bb1620","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5}],"races":[],"race":"","classes":[],"art":"art/ICC_832pb.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-091b_S.psd:0986d23ae2ccbbd4cab3d7b128bb1620","goldenMaterial":"ICC_832pb_PremiumCard.mat:8251d76876235ac46916557ed2b5a2da","goldenAnimation":"ICC_832pb_PremiumCard.asset:df3be66892f85e747ac5d008ef3ead13"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Spider Fangs",
+  "card": {
+    "id": "ICC_832pb",
+    "dbfId": 46051,
+    "name": "거미의 송곳니",
+    "text": "공격력 +3",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-091b_S.psd:0986d23ae2ccbbd4cab3d7b128bb1620",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "nativeRawText": "공격력 +$a3",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

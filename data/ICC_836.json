@@ -1,1 +1,102 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_836","dbfId":43502,"name":"신드라고사의 숨결","type":"SPELL","cardClass":"MAGE","rarity":"COMMON","collectible":true,"cost":1,"text":"무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"저만 추운 건가요? 아니면 그냥 신드라고사 때문일까요?","spellSchool":"FROST","portrait":"HS11-033_S.psd:4ca67783db3f4e14e95b9a85b98005be","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":208,"name":"빙결","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":3}],"races":[],"race":"","classes":[],"art":"art/ICC_836.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-033_S.psd:4ca67783db3f4e14e95b9a85b98005be","goldenMaterial":"ICC_836_PremiumCard.mat:d008ef39ac930c641ab7baef3bd11f14","goldenAnimation":"ICC_836_PremiumCard.asset:2f3583def05324a4fa59d2dd06136d14"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Breath of Sindragosa",
+  "card": {
+    "id": "ICC_836",
+    "dbfId": 43502,
+    "name": "신드라고사의 숨결",
+    "text": "무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "COMMON",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-033_S.psd:4ca67783db3f4e14e95b9a85b98005be",
+    "flavor": "저만 추운 건가요? 아니면 그냥 신드라고사 때문일까요?",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 3
+      }
+    ],
+    "nativeRawText": "[x]무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2021-03-26": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

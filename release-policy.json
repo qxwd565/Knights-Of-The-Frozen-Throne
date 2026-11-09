@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "default": {
+    "date": "2017-08-11",
+    "status": "verified"
+  },
+  "prefixes": {},
+  "cards": {},
+  "sources": {
+    "main": "https://hearthstone.blizzard.com/ko-kr/expansions-adventures/knights-of-the-frozen-throne"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "set": "Knights Of The Frozen Throne",
+  "repository": "qxwd565/Knights-Of-The-Frozen-Throne",
+  "sourceRecords": 182,
+  "sourceVariants": 0,
+  "totalSourceJSON": 182,
+  "collectible": 135,
+  "uncollectible": 47,
+  "pendingReleaseIds": [],
+  "patchVerifiedIds": [
+    "ICC_054",
+    "ICC_705"
+  ],
+  "patchVerifiedCardCount": 2,
+  "patchEvents": 3,
+  "excludedDifferentNativeSet": [],
+  "historicalAccuracy": "Historical initial snapshots are provisional, except fields directly reconstructed from cited patches; no exhaustive patch verification claimed",
+  "existingArtworkAndGoldenPreserved": true,
+  "committedPatchEvents": 111,
+  "skippedUnconfirmedFields": 78
+}

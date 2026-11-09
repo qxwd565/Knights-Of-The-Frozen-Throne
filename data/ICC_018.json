@@ -1,1 +1,122 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_018","dbfId":42327,"name":"유령 약탈자","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":4,"text":"<b>전투의 함성:</b>\n내 무기의 능력치를 얻습니다.","attack":3,"health":3,"durability":0,"armor":0,"flavor":"요즘 세상에도 유령 해적이 있다니요.","spellSchool":"","portrait":"HS8-127_M.psd:c3ebd852036b54a4aa372a27c5092a09","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":23},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":2534,"name":"게임 태그 2534","value":1}],"races":["UNDEAD","PIRATE"],"race":"언데드, 해적","classes":[],"art":"art/ICC_018.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-127_M.psd:c3ebd852036b54a4aa372a27c5092a09","goldenMaterial":"ICC_018_PremiumCard.mat:2410d8c8cdb19cb488a82041966ca843","goldenAnimation":"ICC_018_PremiumCard.asset:467c90ab7ccfb05488d44a10f7ec6071"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Phantom Freebooter",
+  "card": {
+    "id": "ICC_018",
+    "dbfId": 42327,
+    "name": "유령 약탈자",
+    "text": "<b>전투의 함성:</b>\n내 무기의 능력치를 얻습니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "RARE",
+    "race": "언데드, 해적",
+    "races": [
+      "PIRATE"
+    ],
+    "spellSchool": "",
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS8-127_M.psd:c3ebd852036b54a4aa372a27c5092a09",
+    "flavor": "요즘 세상에도 유령 해적이 있다니요.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 23
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2534,
+        "name": "게임 태그 2534",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b>\n내 무기의 능력치를 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "PIRATE"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

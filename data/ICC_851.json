@@ -1,1 +1,119 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_851","dbfId":45340,"name":"공작 켈레세스","type":"MINION","cardClass":"NEUTRAL","rarity":"LEGENDARY","collectible":true,"cost":2,"text":"<b>전투의 함성:</b> 내 덱에 비용이\n2인 카드가 없으면, 내 덱에\n있는 모든 하수인에게\n+1/+1을 부여합니다.","attack":2,"health":2,"durability":0,"armor":0,"flavor":"세 명의 공작이 당신 앞에 섰습니다. 이 공작은 형제들을 강화하려고 합니다.","spellSchool":"","portrait":"HS11-213_M.psd:c753b818b40fb354f86e1e969665e741","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/ICC_851.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-213_M.psd:c753b818b40fb354f86e1e969665e741","goldenMaterial":"ICC_851_PremiumCard.mat:9b86f7774ae500b4194e293851cb60c2","goldenAnimation":"ICC_851_PremiumCard.asset:35f524f976dc51442841ac9fe8f0ff4f"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Prince Keleseth",
+  "card": {
+    "id": "ICC_851",
+    "dbfId": 45340,
+    "name": "공작 켈레세스",
+    "text": "<b>전투의 함성:</b> 내 덱에 비용이\n2인 카드가 없으면, 내 덱에\n있는 모든 하수인에게\n+1/+1을 부여합니다.",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "LEGENDARY",
+    "race": "언데드",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-213_M.psd:c753b818b40fb354f86e1e969665e741",
+    "flavor": "세 명의 공작이 당신 앞에 섰습니다. 이 공작은 형제들을 강화하려고 합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]<b>전투의 함성:</b> 내 덱에 비용이\n2인 카드가 없으면, 내 덱에\n있는 모든 하수인에게\n+1/+1을 부여합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

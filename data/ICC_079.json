@@ -1,1 +1,83 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_079","dbfId":42748,"name":"뾰족니","type":"SPELL","cardClass":"DRUID","rarity":"COMMON","collectible":true,"cost":3,"text":"방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"할퀴는 것보단 아프고 무는 것보단 덜 아픈 것 같군요.","spellSchool":"","portrait":"HS11-121_S.psd:95f1eaa5476721248ab47fc630f6d8b3","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/ICC_079.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-121_S.psd:95f1eaa5476721248ab47fc630f6d8b3","goldenMaterial":"ICC_079_PremiumCard.mat:9091faba0af34084fa2075e48ad52c40","goldenAnimation":"ICC_079_PremiumCard_FIX.asset:e246bf1f73425ec449797c81a31f958b"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Gnash",
+  "card": {
+    "id": "ICC_079",
+    "dbfId": 42748,
+    "name": "뾰족니",
+    "text": "방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "COMMON",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-121_S.psd:95f1eaa5476721248ab47fc630f6d8b3",
+    "flavor": "할퀴는 것보단 아프고 무는 것보단 덜 아픈 것 같군요.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

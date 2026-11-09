@@ -1,1 +1,103 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_236","dbfId":42808,"name":"얼음 파괴자","type":"WEAPON","cardClass":"SHAMAN","rarity":"RARE","collectible":true,"cost":3,"text":"이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.","attack":1,"health":3,"durability":3,"armor":0,"flavor":"지구 온난화를 막기 위해 빙하는 파괴하지 않습니다.","spellSchool":"","portrait":"HS11-046.psd:23243ddfad7a9b146bc34647abbad235","set":"ICECROWN","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":3},{"id":208,"name":"빙결","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/ICC_236.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-046.psd:23243ddfad7a9b146bc34647abbad235","goldenMaterial":"ICC_236_PremiumCard.mat:1a416317861b3fe4c984c91dd62c4234","goldenAnimation":"ICC_236_PremiumCard.asset:4f7013c41f49aa8448fac1ba4d49c214"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Ice Breaker",
+  "card": {
+    "id": "ICC_236",
+    "dbfId": 42808,
+    "name": "얼음 파괴자",
+    "text": "이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
+    "type": "WEAPON",
+    "cardClass": "SHAMAN",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "RARE",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 3,
+    "attack": 1,
+    "health": 3,
+    "armor": 0,
+    "durability": 3,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-046.psd:23243ddfad7a9b146bc34647abbad235",
+    "flavor": "지구 온난화를 막기 위해 빙하는 파괴하지 않습니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

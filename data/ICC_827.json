@@ -1,1 +1,116 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_827","dbfId":43392,"name":"환영자객 발리라","type":"HERO","cardClass":"ROGUE","rarity":"LEGENDARY","collectible":true,"cost":9,"text":"<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.","attack":0,"health":30,"durability":0,"armor":5,"flavor":"\"그래, 도망쳐라. 너의 요새와 성곽과 병사들 뒤에 숨어 보아라. 밤은 언제나 찾아오고, 그림자는 언제나 드리운다. 그리고 어느 날, 나는 너의 뒤에 있을 것이다.\"","spellSchool":"","portrait":"HS11-086_H.psd:8c1dbe5a20c2a0f4583e2ee0ee211e74","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":30},{"id":48,"name":"마나 비용","value":9},{"id":114,"name":"전설 속성","value":1},{"id":191,"name":"은신","value":1},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":3},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":292,"name":"방어도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":380,"name":"영웅 능력","value":43188}],"races":[],"race":"","classes":[],"art":"art/ICC_827.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-086_H.psd:8c1dbe5a20c2a0f4583e2ee0ee211e74","goldenMaterial":"ICC_827_PremiumCard_NEW.mat:d17be97022e41cf4ba3d0d138bae01ea","goldenAnimation":"ICC_827_PremiumCard_NEW.asset:63ecf942b0d342d4ab3efc0fc988cd47"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Valeera the Hollow",
+  "card": {
+    "id": "ICC_827",
+    "dbfId": 43392,
+    "name": "환영자객 발리라",
+    "text": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
+    "type": "HERO",
+    "cardClass": "ROGUE",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "LEGENDARY",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 9,
+    "attack": 0,
+    "health": 30,
+    "armor": 5,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-086_H.psd:8c1dbe5a20c2a0f4583e2ee0ee211e74",
+    "flavor": "\"그래, 도망쳐라. 너의 요새와 성곽과 병사들 뒤에 숨어 보아라. 밤은 언제나 찾아오고, 그림자는 언제나 드리운다. 그리고 어느 날, 나는 너의 뒤에 있을 것이다.\"",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 43188
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": true,
+  "relatedIds": [
+    43188,
+    45724
+  ],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

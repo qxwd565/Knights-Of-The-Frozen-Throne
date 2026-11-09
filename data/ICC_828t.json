@@ -1,1 +1,101 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_828t","dbfId":46119,"name":"누더기야수","type":"MINION","cardClass":"HUNTER","collectible":false,"cost":0,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS11-117_M.psd:0246a816f07444148b5588159a10379f","set":"ICECROWN","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":2534,"name":"게임 태그 2534","value":1}],"races":["UNDEAD","BEAST"],"race":"언데드, 야수","classes":[],"art":"art/ICC_828t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-117_M.psd:0246a816f07444148b5588159a10379f","goldenMaterial":"ICC_828t_PremiumCard.mat:48f249dd6c5e9f74e86bbcd56fe170d3","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Zombeast",
+  "card": {
+    "id": "ICC_828t",
+    "dbfId": 46119,
+    "name": "누더기야수",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "언데드, 야수",
+    "races": [
+      "BEAST"
+    ],
+    "spellSchool": "",
+    "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-117_M.psd:0246a816f07444148b5588159a10379f",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2534,
+        "name": "게임 태그 2534",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "{0}, {1}",
+    "nativeTextBuilder": 3,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "BEAST"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

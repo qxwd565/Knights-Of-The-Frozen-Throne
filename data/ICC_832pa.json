@@ -1,1 +1,72 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_832pa","dbfId":46050,"name":"딱정벌레의 껍질","type":"SPELL","cardClass":"DRUID","collectible":false,"cost":2,"text":"방어도 +3","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS11-091a_S.psd:3fe6fb03343d88f4c8c88bfaaa6c4ee5","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5}],"races":[],"race":"","classes":[],"art":"art/ICC_832pa.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-091a_S.psd:3fe6fb03343d88f4c8c88bfaaa6c4ee5","goldenMaterial":"ICC_832pa_PremiumCard.mat:de14bcb6c7101a242afd3a83b9eff82e","goldenAnimation":"ICC_832pa_PremiumCard.asset:bc8cbdf6a5975ea40aa2b785943eb1fa"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Scarab Shell",
+  "card": {
+    "id": "ICC_832pa",
+    "dbfId": 46050,
+    "name": "딱정벌레의 껍질",
+    "text": "방어도 +3",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-091a_S.psd:3fe6fb03343d88f4c8c88bfaaa6c4ee5",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "nativeRawText": "방어도 +$d3",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

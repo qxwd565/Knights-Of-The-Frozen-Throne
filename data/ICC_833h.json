@@ -1,1 +1,72 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_833h","dbfId":42944,"name":"얼음 손길","type":"HERO_POWER","cardClass":"NEUTRAL","collectible":false,"cost":2,"text":"피해를 $1 줍니다.\n이 피해로 하수인이 죽으면, 물의 정령을 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS11-103_HP.psd:64290805529ef23459c0a6027715e577","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":10}],"races":[],"race":"","classes":[],"art":"art/ICC_833h.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-103_HP.psd:64290805529ef23459c0a6027715e577","goldenMaterial":"ICC_833h_PremiumCard.mat:d2e10a07d42e7914ab91bc6833134584","goldenAnimation":"ICC_833h_PremiumCard.asset:59ed7e8794174fa41a9530fdb287e274"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Icy Touch",
+  "card": {
+    "id": "ICC_833h",
+    "dbfId": 42944,
+    "name": "얼음 손길",
+    "text": "피해를 $1 줍니다.\n이 피해로 하수인이 죽으면, 물의 정령을 소환합니다.",
+    "type": "HERO_POWER",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-103_HP.psd:64290805529ef23459c0a6027715e577",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      }
+    ],
+    "nativeRawText": "피해를 $1 줍니다.\n이 피해로 하수인이 죽으면, 물의 정령을 소환합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

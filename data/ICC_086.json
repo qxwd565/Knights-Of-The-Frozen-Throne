@@ -1,1 +1,102 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"ICC_086","dbfId":42760,"name":"불가사의한 빙하","type":"SPELL","cardClass":"MAGE","rarity":"EPIC","collectible":true,"cost":8,"text":"내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"이 책에는 가젯잔 최고의 작가가 쓴 글이 담겨 있습니다. 우둔한 사람들이 자신의 미래를 팔아 헛된 재물을 구하려는 이야기죠.","spellSchool":"FROST","portrait":"HS11-038_S.psd:6e2bb2819b19f7b4197ace90e85afeb6","set":"ICECROWN","nativeTags":[{"id":48,"name":"마나 비용","value":8},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":3}],"races":[],"race":"","classes":[],"art":"art/ICC_086.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS11-038_S.psd:6e2bb2819b19f7b4197ace90e85afeb6","goldenMaterial":"ICC_086_PremiumCard.mat:9156bc00569ecb641825012ddbad29c3","goldenAnimation":"ICC_086_PremiumCard.asset:eb27ae616f0e22143abacaf4b9cb9999"}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Glacial Mysteries",
+  "card": {
+    "id": "ICC_086",
+    "dbfId": 42760,
+    "name": "불가사의한 빙하",
+    "text": "내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "classes": [],
+    "nativeSetId": 1001,
+    "set": "ICECROWN",
+    "rarity": "EPIC",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 8,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS11-038_S.psd:6e2bb2819b19f7b4197ace90e85afeb6",
+    "flavor": "이 책에는 가젯잔 최고의 작가가 쓴 글이 담겨 있습니다. 우둔한 사람들이 자신의 미래를 팔아 헛된 재물을 구하려는 이야기죠.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 3
+      }
+    ],
+    "nativeRawText": "내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2017-08-11",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2021-03-26": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1001,
+    "slug": "knights-of-the-frozen-throne",
+    "name": "얼어붙은 왕좌의 기사들",
+    "type": "expansion",
+    "englishName": "Knights Of The Frozen Throne"
+  },
+  "setOrder": 33,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}
