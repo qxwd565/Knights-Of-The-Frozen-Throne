@@ -1,33 +1,119 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Howlfiend",
-  "card": {
-    "id": "ICC_218",
-    "dbfId": 42642,
+  "schemaVersion": 2,
+  "id": "ICC_218",
+  "dbfId": 42642,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "울부짖는 마귀",
-    "text": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "악마",
-    "races": [
-      "DEMON"
+    "text": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 3,
     "attack": 3,
     "health": 6,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-119_M.psd:f03a78a0cd9f80a45a61acf84a5a62a9",
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "nativeRawText": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_218",
+    "dbfId": 42642,
+    "name": "울부짖는 마귀",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
     "flavor": "입에 카드를 넣고 다니는 게 문제라면 문제입니다.",
+    "spellSchool": "",
+    "portrait": "HS11-119_M.psd:f03a78a0cd9f80a45a61acf84a5a62a9",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -90,14 +176,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/ICC_218.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Howlfiend",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,30 +1,79 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Frozen Champion",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_838t",
+  "dbfId": 46019,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "얼어붙은 용사",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 <b>전설</b> 하수인을<br></br>내 손으로 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 1,
+    "health": 1,
+    "collectible": false,
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_838t",
     "dbfId": 46019,
     "name": "얼어붙은 용사",
-    "text": "<b>죽음의 메아리:</b><br></br>무작위 <b>전설</b> 하수인을<br></br>내 손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "MAGE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 1,
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 <b>전설</b> 하수인을<br></br>내 손으로 가져옵니다.",
     "attack": 0,
     "health": 1,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-217_M.psd:049ed13b7334cb04bade28ae623167b8",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-217_M.psd:049ed13b7334cb04bade28ae623167b8",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -52,14 +101,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_838t.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]<b>죽음의 메아리:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Frozen Champion",
   "root": false,
   "relatedIds": [],
   "expansion": {

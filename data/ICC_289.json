@@ -1,31 +1,108 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Moorabi",
-  "card": {
-    "id": "ICC_289",
-    "dbfId": 43072,
+  "schemaVersion": 2,
+  "id": "ICC_289",
+  "dbfId": 43072,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "무라비",
-    "text": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "SHAMAN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 208,
+        "name": "FREEZE",
+        "value": 1
+      }
+    ],
     "cost": 6,
     "attack": 4,
     "health": 4,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-131_M.psd:b27d0ecc4e64d2c4fb042d872ea539fb",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_289",
+    "dbfId": 43072,
+    "name": "무라비",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
     "flavor": "하수인이 얼어붙으면 냉장고에 넣어서 보관했다가 다시 꺼냅니다.",
+    "spellSchool": "",
+    "portrait": "HS11-131_M.psd:b27d0ecc4e64d2c4fb042d872ea539fb",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -78,14 +155,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_289.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Moorabi",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,97 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Spreading Plague",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_054",
+  "dbfId": 42656,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "퍼져나가는 역병",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "<b>도발</b> 능력이 있는<br></br>1/5 딱정벌레를 소환합니다.<br></br>상대편의 하수인이 더 많으면,<br></br>이 주문을 한 번 더 시전합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 190,
+        "name": "TAUNT",
+        "value": 1
+      }
+    ],
+    "cost": 5,
+    "rarity": "RARE",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "[x]<b>도발</b> 능력이 있는\n1/5 딱정벌레를 소환합니다.\n상대편의 하수인이 더 많으면,\n이 주문을 한 번 더 시전합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2017-09-19": {
+    "changes": {
+      "cost": 6
+    },
+    "source": "https://hearthstone.blizzard.com/ko-kr/news/21037556"
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "NATURE"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_054",
     "dbfId": 42656,
     "name": "퍼져나가는 역병",
-    "text": "<b>도발</b> 능력이 있는<br></br>1/5 딱정벌레를 소환합니다.<br></br>상대편의 하수인이 더 많으면,<br></br>이 주문을 한 번 더 시전합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
-    "cost": 5,
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>도발</b> 능력이 있는<br></br>1/5 딱정벌레를 소환합니다.<br></br>상대편의 하수인이 더 많으면,<br></br>이 주문을 한 번 더 시전합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-031_S.psd:f02493f0b7fad40438dd0961d698f17e",
+    "armor": 0,
     "flavor": "옛날 아제로스인들에겐 들창코, 학카르의 오염된 피, 가시덤불 골짜기의 만렙 등이 가장 무서운 재앙이었으나, 현대의 아제로스인들은 엘프가 퍼뜨리는 무분별한 역병에 시달리고 있습니다.",
+    "spellSchool": "NATURE",
+    "portrait": "HS11-031_S.psd:f02493f0b7fad40438dd0961d698f17e",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -68,30 +134,33 @@
         "value": 4
       }
     ],
-    "nativeRawText": "[x]<b>도발</b> 능력이 있는\n1/5 딱정벌레를 소환합니다.\n상대편의 하수인이 더 많으면,\n이 주문을 한 번 더 시전합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_054.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "[x]<b>도발</b> 능력이 있는\n1/5 딱정벌레를 소환합니다.\n상대편의 하수인이 더 많으면,\n이 주문을 한 번 더 시전합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2017-09-19",
-        "changes": {
-          "cost": 6
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "NATURE"
-        }
+        "id": 190,
+        "name": "도발",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "partially_verified",
-    "patchSources": {
-      "2017-09-19": "https://hearthstone.blizzard.com/ko-kr/news/21037556",
-      "2021-03-26": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Spreading Plague",
   "root": true,
   "relatedIds": [
     45301

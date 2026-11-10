@@ -1,32 +1,103 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Frost Widow",
-  "card": {
-    "id": "ICC_832t3",
-    "dbfId": 45302,
+  "schemaVersion": 2,
+  "id": "ICC_832t3",
+  "dbfId": 45302,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "서리 과부거미",
-    "text": "<b>독성</b>",
     "type": "MINION",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "야수",
+    "text": "<b>독성</b>",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "collectible": false,
     "races": [
       "BEAST"
     ],
-    "spellSchool": "",
+    "race": "야수",
+    "nativeRawText": "<b>독성</b>",
+    "nativeTextBuilder": 0
+  },
+  "2017-12-07": {
+    "changes": {
+      "cost": 1
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 48,
+        "value": 1
+      }
+    ]
+  },
+  "current": {
+    "id": "ICC_832t3",
+    "dbfId": 45302,
+    "name": "서리 과부거미",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
     "cost": 1,
+    "text": "<b>독성</b>",
     "attack": 1,
     "health": 2,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-122_M.psd:b85bccff231584645b762fd5cee9b8b6",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-122_M.psd:b85bccff231584645b762fd5cee9b8b6",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -64,14 +135,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>독성</b>",
-    "nativeTextBuilder": 0,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/ICC_832t3.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>독성</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Frost Widow",
   "root": false,
   "relatedIds": [],
   "expansion": {

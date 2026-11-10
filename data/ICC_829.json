@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Uther of the Ebon Blade",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_829",
+  "dbfId": 43406,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "칠흑의 기사단장 우서",
+    "type": "HERO",
+    "cardClass": "PALADIN",
+    "text": "<b>전투의 함성:</b><br></br>5/3 <b>생명력 흡수</b><br></br>무기를 장착합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 43013
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 685,
+        "name": "1",
+        "value": 1
+      }
+    ],
+    "cost": 9,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_829",
     "dbfId": 43406,
     "name": "칠흑의 기사단장 우서",
-    "text": "<b>전투의 함성:</b><br></br>5/3 <b>생명력 흡수</b><br></br>무기를 장착합니다.",
     "type": "HERO",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 9,
+    "text": "<b>전투의 함성:</b><br></br>5/3 <b>생명력 흡수</b><br></br>무기를 장착합니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-088_H.psd:64ed40ae93e804e4bb3b677f493248aa",
+    "armor": 5,
     "flavor": "\"앞으로 나와라. 그리고 속죄하라! 한때 나는 빛의 종복이었지만, 이제 심판을 내리는 자는 오직 나뿐이다.\"",
+    "spellSchool": "",
+    "portrait": "HS11-088_H.psd:64ed40ae93e804e4bb3b677f493248aa",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -83,14 +163,33 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_829.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Uther of the Ebon Blade",
   "root": true,
   "relatedIds": [
     43013,

@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Crypt Lord",
-  "card": {
-    "id": "ICC_808",
-    "dbfId": 43025,
+  "schemaVersion": 2,
+  "id": "ICC_808",
+  "dbfId": 43025,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "지하군주",
-    "text": "<b>도발</b><br></br>내 하수인이 소환된 후에,<br></br>생명력을 +1 얻습니다.",
     "type": "MINION",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>도발</b><br></br>내 하수인이 소환된 후에,<br></br>생명력을 +1 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 3,
     "attack": 1,
     "health": 6,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-026_M.psd:a2bb7e4710f2bce4484df031b293fee4",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>도발</b>\n내 하수인이 소환된 후에,\n생명력을 +1 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_808",
+    "dbfId": 43025,
+    "name": "지하군주",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>도발</b><br></br>내 하수인이 소환된 후에,<br></br>생명력을 +1 얻습니다.",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
     "flavor": "나는 풍뎅이가 아냐! 나는 딱정벌레다!",
+    "spellSchool": "",
+    "portrait": "HS11-026_M.psd:a2bb7e4710f2bce4484df031b293fee4",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -78,25 +158,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>도발</b>\n내 하수인이 소환된 후에,\n생명력을 +1 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_808.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>도발</b>\n내 하수인이 소환된 후에,\n생명력을 +1 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Crypt Lord",
   "root": true,
   "relatedIds": [],
   "expansion": {

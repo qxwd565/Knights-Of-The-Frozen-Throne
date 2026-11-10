@@ -1,30 +1,73 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Army of the Frozen Throne",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_314t2",
+  "dbfId": 42586,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "얼어붙은 왕좌의 군대",
+    "type": "SPELL",
+    "cardClass": "DEATHKNIGHT",
+    "text": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "referenceTags": [],
+    "cost": 6,
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_314t2",
     "dbfId": 42586,
     "name": "얼어붙은 왕좌의 군대",
-    "text": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 6,
+    "text": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W12_a024(EA)_S.psd:7b31772e23d9d5f48aa02660001e2f66",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "SHADOW",
+    "portrait": "W12_a024(EA)_S.psd:7b31772e23d9d5f48aa02660001e2f66",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -47,23 +90,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_314t2.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Army of the Frozen Throne",
   "root": false,
   "relatedIds": [],
   "expansion": {

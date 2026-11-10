@@ -1,31 +1,124 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Spectral Pillager",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_910",
+  "dbfId": 45975,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "유령 강탈자",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "text": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 피해를 줍니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 220,
+        "name": "연계",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "rarity": "EPIC",
+    "collectible": true,
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 피해를 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "2023-03-03": {
+    "changes": {
+      "cost": 5,
+      "text": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다.",
+      "nativeRawText": "<b>연계:</b> 이번 턴에 앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 48,
+        "value": 5
+      }
+    ]
+  },
+  "current": {
     "id": "ICC_910",
     "dbfId": 45975,
     "name": "유령 강탈자",
-    "text": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다.",
     "type": "MINION",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "EPIC",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 5,
+    "text": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다.",
     "attack": 5,
     "health": 5,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-002_M.psd:cbe2a9e20453f5b418867876e20fe670",
+    "armor": 0,
     "flavor": "누가 노잣돈이 쓸모 없다고 했습니까.",
+    "spellSchool": "",
+    "portrait": "HS11-002_M.psd:cbe2a9e20453f5b418867876e20fe670",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -93,25 +186,29 @@
         "value": 0
       }
     ],
-    "nativeRawText": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_910.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Spectral Pillager",
   "root": true,
   "relatedIds": [],
   "expansion": {

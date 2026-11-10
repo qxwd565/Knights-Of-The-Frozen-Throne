@@ -1,30 +1,61 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Spider Fangs",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_832pb",
+  "dbfId": 46051,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "거미의 송곳니",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "공격력 +3",
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "referenceTags": [],
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "공격력 +$a3",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_832pb",
     "dbfId": 46051,
     "name": "거미의 송곳니",
-    "text": "공격력 +3",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "공격력 +3",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-091b_S.psd:0986d23ae2ccbbd4cab3d7b128bb1620",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-091b_S.psd:0986d23ae2ccbbd4cab3d7b128bb1620",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -42,14 +73,27 @@
         "value": 5
       }
     ],
-    "nativeRawText": "공격력 +$a3",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_832pb.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "공격력 +$a3",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Spider Fangs",
   "root": false,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,105 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Thrall, Deathseer",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_481",
+  "dbfId": 42987,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "사령술사 스랄",
+    "type": "HERO",
+    "cardClass": "SHAMAN",
+    "text": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 42982
+      }
+    ],
+    "referenceTags": [],
+    "cost": 5,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_481",
     "dbfId": 42987,
     "name": "사령술사 스랄",
-    "text": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
     "type": "HERO",
     "cardClass": "SHAMAN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 5,
+    "text": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-093_H.psd:898b4a44e68296348b3644eef5261e13",
+    "armor": 5,
     "flavor": "\"두려워 말고 다가오라. 망자들은 잠들 것이다... 당분간은.\"",
+    "spellSchool": "",
+    "portrait": "HS11-093_H.psd:898b4a44e68296348b3644eef5261e13",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,14 +152,27 @@
         "value": 42982
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_481.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Thrall, Deathseer",
   "root": true,
   "relatedIds": [
     42982

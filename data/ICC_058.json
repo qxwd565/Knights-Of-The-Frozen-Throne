@@ -1,33 +1,120 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Brrrloc",
-  "card": {
-    "id": "ICC_058",
-    "dbfId": 42678,
+  "schemaVersion": 2,
+  "id": "ICC_058",
+  "dbfId": 42678,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "얼록",
-    "text": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
     "type": "MINION",
     "cardClass": "SHAMAN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드, 멀록",
-    "races": [
-      "MURLOC"
+    "text": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [
+      {
+        "id": 208,
+        "name": "FREEZE",
+        "value": 1
+      }
+    ],
     "cost": 2,
     "attack": 2,
     "health": 2,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-127_M.psd:90da24a74ab1e1d44bc9862c36bf293e",
+    "races": [
+      "MURLOC"
+    ],
+    "race": "멀록",
+    "nativeRawText": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "MURLOC"
+      ],
+      "race": "언데드, 멀록"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_058",
+    "dbfId": 42678,
+    "name": "얼록",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
     "flavor": "얼어버린 멀록의 얼얼한 주먹!",
+    "spellSchool": "",
+    "portrait": "HS11-127_M.psd:90da24a74ab1e1d44bc9862c36bf293e",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -85,26 +172,36 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "MURLOC"
+    ],
+    "race": "언데드, 멀록",
+    "classes": [],
+    "art": "art/ICC_058.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "MURLOC"
-          ]
-        }
+        "id": 208,
+        "name": "빙결",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Brrrloc",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,101 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Mindbreaker",
-  "card": {
-    "id": "ICC_902",
-    "dbfId": 45314,
+  "schemaVersion": 2,
+  "id": "ICC_902",
+  "dbfId": 45314,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "정신파괴자",
-    "text": "두 플레이어 모두<br></br>영웅 능력을 사용할 수 없습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "두 플레이어 모두<br></br>영웅 능력을 사용할 수 없습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 3,
     "attack": 2,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "R7_a078_M.psd:d2a269648cd056f46ad085df0b7e57eb",
+    "races": [],
+    "race": "",
+    "nativeRawText": "두 플레이어 모두\n영웅 능력을 사용할 수 없습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_902",
+    "dbfId": 45314,
+    "name": "정신파괴자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "두 플레이어 모두<br></br>영웅 능력을 사용할 수 없습니다.",
+    "attack": 2,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "고작 정신밖에 파괴하지 못하다니. 필멸자 중에는 무엇이든 파괴할 수 있는 자가 있거늘.",
+    "spellSchool": "",
+    "portrait": "R7_a078_M.psd:d2a269648cd056f46ad085df0b7e57eb",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -68,25 +138,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "두 플레이어 모두\n영웅 능력을 사용할 수 없습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_902.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "두 플레이어 모두\n영웅 능력을 사용할 수 없습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Mindbreaker",
   "root": true,
   "relatedIds": [],
   "expansion": {

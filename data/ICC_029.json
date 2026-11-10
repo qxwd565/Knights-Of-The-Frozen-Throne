@@ -1,33 +1,104 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Cobalt Scalebane",
-  "card": {
-    "id": "ICC_029",
-    "dbfId": 42442,
+  "schemaVersion": 2,
+  "id": "ICC_029",
+  "dbfId": 42442,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "푸른비늘혈족 맹독전사",
-    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "용족",
-    "races": [
-      "DRAGON"
+    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 5,
     "attack": 5,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-064_M.psd:6731b606bda805d44b5c8799d364234d",
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_029",
+    "dbfId": 42442,
+    "name": "푸른비늘혈족 맹독전사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "너도 칼! 너도 칼! 모두에게 칼!",
+    "spellSchool": "",
+    "portrait": "HS11-064_M.psd:6731b606bda805d44b5c8799d364234d",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -90,14 +161,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/ICC_029.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Cobalt Scalebane",
   "root": true,
   "relatedIds": [],
   "expansion": {

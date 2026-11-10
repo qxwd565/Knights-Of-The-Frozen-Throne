@@ -1,33 +1,135 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Bonemare",
-  "card": {
-    "id": "ICC_705",
-    "dbfId": 42790,
+  "schemaVersion": 2,
+  "id": "ICC_705",
+  "dbfId": 42790,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "해골마",
-    "text": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드, 야수",
-    "races": [
-      "BEAST"
+    "text": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [
+      {
+        "id": 190,
+        "name": "TAUNT",
+        "value": 1
+      }
+    ],
     "cost": 7,
     "attack": 5,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W12_a196_M.psd:ee9376cd70e42fc4fa516ae6ec867e8f",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2018-02-07": {
+    "changes": {
+      "cost": 8
+    },
+    "source": "https://hearthstone.blizzard.com/ko-kr/news/21507224"
+  },
+  "2021-03-26": {
+    "changes": {
+      "cost": 7
+    },
+    "source": "https://hearthstone.blizzard.com/en-us/news/23642550"
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "BEAST"
+      ],
+      "race": "언데드, 야수"
+    },
+    "source": "taxonomy introduction",
+    "nativeTagUpdates": [
+      {
+        "id": 200,
+        "value": 11
+      },
+      {
+        "id": 2542,
+        "value": 1
+      }
+    ]
+  },
+  "current": {
+    "id": "ICC_705",
+    "dbfId": 42790,
+    "name": "해골마",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "백골마인지 천골마인지는 중요하지 않습니다.",
+    "spellSchool": "",
+    "portrait": "W12_a196_M.psd:ee9376cd70e42fc4fa516ae6ec867e8f",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -85,40 +187,36 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "BEAST"
+    ],
+    "race": "언데드, 야수",
+    "classes": [],
+    "art": "art/ICC_705.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2018-02-07",
-        "changes": {
-          "cost": 8
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "cost": 7
-        }
-      },
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "BEAST"
-          ]
-        }
+        "id": 190,
+        "name": "도발",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "partially_verified",
-    "patchSources": {
-      "2018-02-07": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-      "2021-03-26": "https://hearthstone.blizzard.com/en-us/news/23642550",
-      "2022-11-30": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Bonemare",
   "root": true,
   "relatedIds": [],
   "expansion": {

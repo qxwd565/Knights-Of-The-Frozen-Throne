@@ -1,31 +1,90 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Venomstrike Trap",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_200",
+  "dbfId": 42525,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "독사 덫",
+    "type": "SPELL",
+    "cardClass": "HUNTER",
+    "text": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 363,
+        "name": "POISONOUS",
+        "value": 1
+      }
+    ],
+    "cost": 2,
+    "rarity": "RARE",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_200",
     "dbfId": 42525,
     "name": "독사 덫",
-    "text": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
     "type": "SPELL",
     "cardClass": "HUNTER",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 2,
+    "text": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "R6_a063_S.psd:1ee4084410ef577408c30ba68ad3e41f",
+    "armor": 0,
     "flavor": "내 하수인을 공격하면 배애애앰! 하고 이 녀석이 나오지.",
+    "spellSchool": "",
+    "portrait": "R6_a063_S.psd:1ee4084410ef577408c30ba68ad3e41f",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -68,14 +127,33 @@
         "value": 1098
       }
     ],
-    "nativeRawText": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_200.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Venomstrike Trap",
   "root": true,
   "relatedIds": [
     1098

@@ -1,31 +1,84 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Doomerang",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_233",
+  "dbfId": 42801,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "부셔메랑",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "text": "하수인에게 무기를<br></br>던져 무기의 공격력만큼<br></br>피해를 주고 내 손으로<br></br>다시 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 1,
+    "rarity": "EPIC",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "[x]하수인에게 무기를\n던져 무기의 공격력만큼\n피해를 주고 내 손으로\n다시 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_233",
     "dbfId": 42801,
     "name": "부셔메랑",
-    "text": "하수인에게 무기를<br></br>던져 무기의 공격력만큼<br></br>피해를 주고 내 손으로<br></br>다시 가져옵니다.",
     "type": "SPELL",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 1,
+    "text": "하수인에게 무기를<br></br>던져 무기의 공격력만큼<br></br>피해를 주고 내 손으로<br></br>다시 가져옵니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-004_S.psd:b9f45fab022531942be037e4f6de2aa9",
+    "armor": 0,
     "flavor": "반드시 내 손으로 돌아옵니다! (두꺼운 장갑을 꼭 착용하세요.)",
+    "spellSchool": "",
+    "portrait": "HS11-004_S.psd:b9f45fab022531942be037e4f6de2aa9",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,14 +111,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]하수인에게 무기를\n던져 무기의 공격력만큼\n피해를 주고 내 손으로\n다시 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_233.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]하수인에게 무기를\n던져 무기의 공격력만큼\n피해를 주고 내 손으로\n다시 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Doomerang",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,30 +1,72 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Shadow Reflection",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_827t",
+  "dbfId": 45724,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "그림자 환영",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "text": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 402,
+        "name": "능력치 숨김",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_827t",
     "dbfId": 45724,
     "name": "그림자 환영",
-    "text": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
     "type": "SPELL",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 0,
+    "text": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-095b_S.psd:c31f91e0618c9094187d92c753c25ad1",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "SHADOW",
+    "portrait": "HS11-095b_S.psd:c31f91e0618c9094187d92c753c25ad1",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 199,
@@ -47,23 +89,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_827t.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Shadow Reflection",
   "root": false,
   "relatedIds": [],
   "expansion": {

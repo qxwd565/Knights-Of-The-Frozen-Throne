@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Chillblade Champion",
-  "card": {
-    "id": "ICC_820",
-    "dbfId": 43127,
+  "schemaVersion": 2,
+  "id": "ICC_820",
+  "dbfId": 43127,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "싸늘칼날 용사",
-    "text": "<b>돌진</b><br></br><b>생명력 흡수</b>",
     "type": "MINION",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>돌진</b><br></br><b>생명력 흡수</b>",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 4,
     "attack": 3,
     "health": 2,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W11_055_M.psd:1d54ca7e20e52b54bb99f0e61cf8fb1c",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>돌진</b>\n<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_820",
+    "dbfId": 43127,
+    "name": "싸늘칼날 용사",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>돌진</b><br></br><b>생명력 흡수</b>",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
     "flavor": "베고, 찌르고, 도륙냅니다! 싸늘칼날 용사는 그 어떤 하찮은 노움도 용사로 만들 수 있습니다.",
+    "spellSchool": "",
+    "portrait": "W11_055_M.psd:1d54ca7e20e52b54bb99f0e61cf8fb1c",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,25 +158,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>돌진</b>\n<b>생명력 흡수</b>",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_820.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>돌진</b>\n<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Chillblade Champion",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,96 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Shadow Essence",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_235",
+  "dbfId": 42804,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "암흑의 정수",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "text": "내 덱에서 무작위 하수인을 복사하여<br></br>5/5 하수인으로 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 6,
+    "rarity": "RARE",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "내 덱에서 무작위 하수인을 복사하여\n5/5 하수인으로 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "2023-09-29": {
+    "changes": {
+      "cost": 7
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 48,
+        "value": 7
+      }
+    ]
+  },
+  "current": {
     "id": "ICC_235",
     "dbfId": 42804,
     "name": "암흑의 정수",
-    "text": "내 덱에서 무작위 하수인을 복사하여<br></br>5/5 하수인으로 소환합니다.",
     "type": "SPELL",
     "cardClass": "PRIEST",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 7,
+    "text": "내 덱에서 무작위 하수인을 복사하여<br></br>5/5 하수인으로 소환합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-018_S.psd:c83bbae9509b4324b89ba3b32b6f33ba",
+    "armor": 0,
     "flavor": "병에 담아서 팔기에는 어렵지만 효능은 확실합니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "HS11-018_S.psd:c83bbae9509b4324b89ba3b32b6f33ba",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,23 +123,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "내 덱에서 무작위 하수인을 복사하여\n5/5 하수인으로 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_235.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "내 덱에서 무작위 하수인을 복사하여\n5/5 하수인으로 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Shadow Essence",
   "root": true,
   "relatedIds": [],
   "expansion": {

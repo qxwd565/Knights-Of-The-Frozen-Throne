@@ -1,33 +1,115 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Despicable Dreadlord",
-  "card": {
-    "id": "ICC_075",
-    "dbfId": 42743,
+  "schemaVersion": 2,
+  "id": "ICC_075",
+  "dbfId": 42743,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "악랄한 공포의 군주",
-    "text": "내 턴이 끝날 때,<br></br>모든 적 하수인에게<br></br>피해를 1 줍니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
+    "text": "내 턴이 끝날 때,<br></br>모든 적 하수인에게<br></br>피해를 1 줍니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 5,
+    "attack": 4,
+    "health": 5,
     "rarity": "RARE",
-    "race": "악마",
+    "collectible": true,
     "races": [
       "DEMON"
     ],
-    "spellSchool": "",
+    "race": "악마",
+    "nativeRawText": "내 턴이 끝날 때,\n모든 적 하수인에게\n피해를 1 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "2025-03-19": {
+    "changes": {
+      "health": 6
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 45,
+        "value": 6
+      }
+    ]
+  },
+  "current": {
+    "id": "ICC_075",
+    "dbfId": 42743,
+    "name": "악랄한 공포의 군주",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
     "cost": 5,
+    "text": "내 턴이 끝날 때,<br></br>모든 적 하수인에게<br></br>피해를 1 줍니다.",
     "attack": 4,
     "health": 6,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-120_M.psd:580217a48416d004ebfb9cb03fcffa50",
+    "armor": 0,
     "flavor": "죽여주게 악랄합니다.",
+    "spellSchool": "",
+    "portrait": "HS11-120_M.psd:580217a48416d004ebfb9cb03fcffa50",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -75,14 +157,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 턴이 끝날 때,\n모든 적 하수인에게\n피해를 1 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/ICC_075.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "내 턴이 끝날 때,\n모든 적 하수인에게\n피해를 1 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Despicable Dreadlord",
   "root": true,
   "relatedIds": [],
   "expansion": {

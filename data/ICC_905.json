@@ -1,33 +1,104 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Bloodworm",
-  "card": {
-    "id": "ICC_905",
-    "dbfId": 45329,
+  "schemaVersion": 2,
+  "id": "ICC_905",
+  "dbfId": 45329,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "피구더기",
-    "text": "<b>생명력 흡수</b>",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "야수",
-    "races": [
-      "BEAST"
+    "text": "<b>생명력 흡수</b>",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 5,
     "attack": 4,
     "health": 4,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-021_D.psd:2ee05a9ca6c3e234ca758698e0818c13",
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "nativeRawText": "<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_905",
+    "dbfId": 45329,
+    "name": "피구더기",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>생명력 흡수</b>",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
     "flavor": "피의 여왕 라나텔이 아침에 꼭 챙겨 먹는 건강식입니다.",
+    "spellSchool": "",
+    "portrait": "HS11-021_D.psd:2ee05a9ca6c3e234ca758698e0818c13",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -75,14 +146,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>생명력 흡수</b>",
-    "nativeTextBuilder": 0,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/ICC_905.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Bloodworm",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,117 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Professor Putricide",
-  "card": {
-    "id": "ICC_204",
-    "dbfId": 42563,
+  "schemaVersion": 2,
+  "id": "ICC_204",
+  "dbfId": 42563,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "교수 퓨트리사이드",
-    "text": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 219,
+        "name": "SECRET",
+        "value": 1
+      }
+    ],
     "cost": 4,
     "attack": 5,
     "health": 4,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-201_M.psd:7254ad5a4ddc90045acb7a7a170310fc",
+    "races": [],
+    "race": "",
+    "nativeRawText": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_204",
+    "dbfId": 42563,
+    "name": "교수 퓨트리사이드",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
+    "attack": 5,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
     "flavor": "교수는 C뿌리기를 사용했다! 효과는 굉장했다! 학생은 B바라기를 사용했다! 그러나 아무 일도 일어나지 않았다! 학생은 눈앞이 깜깜해졌다!",
+    "spellSchool": "",
+    "portrait": "HS11-201_M.psd:7254ad5a4ddc90045acb7a7a170310fc",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -83,25 +169,35 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_204.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
+        "id": 219,
+        "name": "비밀",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Professor Putricide",
   "root": true,
   "relatedIds": [],
   "expansion": {

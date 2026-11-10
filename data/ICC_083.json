@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Doomed Apprentice",
-  "card": {
-    "id": "ICC_083",
-    "dbfId": 42756,
+  "schemaVersion": 2,
+  "id": "ICC_083",
+  "dbfId": 42756,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "파멸의 수습생",
-    "text": "상대편의 주문의 비용이<br></br>(1) 증가합니다.",
     "type": "MINION",
     "cardClass": "MAGE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "상대편의 주문의 비용이<br></br>(1) 증가합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 3,
     "attack": 3,
     "health": 2,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-035_M.psd:4f6edef5acd87b0499d635cbc24e9bcc",
+    "races": [],
+    "race": "",
+    "nativeRawText": "상대편의 주문의 비용이\n(1) 증가합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_083",
+    "dbfId": 42756,
+    "name": "파멸의 수습생",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "상대편의 주문의 비용이<br></br>(1) 증가합니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
     "flavor": "제이나처럼 되고 싶다고 하더니 결국...",
+    "spellSchool": "",
+    "portrait": "HS11-035_M.psd:4f6edef5acd87b0499d635cbc24e9bcc",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,25 +148,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "상대편의 주문의 비용이\n(1) 증가합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_083.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "상대편의 주문의 비용이\n(1) 증가합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Doomed Apprentice",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,30 +1,73 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Death Grip",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_314t4",
+  "dbfId": 42590,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "죽음의 손아귀",
+    "type": "SPELL",
+    "cardClass": "DEATHKNIGHT",
+    "text": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_314t4",
     "dbfId": 42590,
     "name": "죽음의 손아귀",
-    "text": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "DKPR_A020.psd:ca8e80c17db7c054196999856cfd3604",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "SHADOW",
+    "portrait": "DKPR_A020.psd:ca8e80c17db7c054196999856cfd3604",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -47,23 +90,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_314t4.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Death Grip",
   "root": false,
   "relatedIds": [],
   "expansion": {

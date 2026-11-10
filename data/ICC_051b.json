@@ -1,33 +1,104 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Scarab Form",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_051b",
+  "dbfId": 46049,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "딱정벌레 변신",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "<b>도발</b>",
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "referenceTags": [],
+    "collectible": false,
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>도발</b>",
+    "nativeTextBuilder": 0
+  },
+  "2018-11-30": {
+    "changes": {
+      "type": "MINION",
+      "cost": 2,
+      "attack": 1,
+      "health": 5,
+      "rarity": "RARE",
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "text": "<b>도발</b>",
+      "nativeRawText": "<b>도발</b>"
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 45,
+        "value": 5
+      },
+      {
+        "id": 47,
+        "value": 1
+      },
+      {
+        "id": 48,
+        "value": 2
+      },
+      {
+        "id": 200,
+        "value": 20
+      },
+      {
+        "id": 202,
+        "value": 4
+      },
+      {
+        "id": 203,
+        "value": 3
+      }
+    ]
+  },
+  "current": {
     "id": "ICC_051b",
     "dbfId": 46049,
     "name": "딱정벌레 변신",
-    "text": "<b>도발</b>",
     "type": "MINION",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "RARE",
-    "race": "야수",
-    "races": [
-      "BEAST"
-    ],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "<b>도발</b>",
     "attack": 1,
     "health": 5,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-130_S.psd:451d2153070a63543bb0c0160c000914",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-130_S.psd:451d2153070a63543bb0c0160c000914",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -70,14 +141,29 @@
         "value": 3
       }
     ],
-    "nativeRawText": "<b>도발</b>",
-    "nativeTextBuilder": 0,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/ICC_051b.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>도발</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Scarab Form",
   "root": false,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,101 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Ice Breaker",
-  "card": {
-    "id": "ICC_236",
-    "dbfId": 42808,
+  "schemaVersion": 2,
+  "id": "ICC_236",
+  "dbfId": 42808,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "얼음 파괴자",
-    "text": "이 무기에 피해를<br></br>받은 <b>빙결</b> 상태인<br></br>하수인을 무조건<br></br>처치합니다.",
     "type": "WEAPON",
     "cardClass": "SHAMAN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "이 무기에 피해를<br></br>받은 <b>빙결</b> 상태인<br></br>하수인을 무조건<br></br>처치합니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 187,
+        "name": "DURABILITY",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 208,
+        "name": "FREEZE",
+        "value": 1
+      }
+    ],
     "cost": 3,
     "attack": 1,
     "health": 3,
-    "armor": 0,
-    "durability": 3,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-046.psd:23243ddfad7a9b146bc34647abbad235",
+    "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_236",
+    "dbfId": 42808,
+    "name": "얼음 파괴자",
+    "type": "WEAPON",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "이 무기에 피해를<br></br>받은 <b>빙결</b> 상태인<br></br>하수인을 무조건<br></br>처치합니다.",
+    "attack": 1,
+    "health": 3,
+    "durability": 3,
+    "armor": 0,
     "flavor": "지구 온난화를 막기 위해 빙하는 파괴하지 않습니다.",
+    "spellSchool": "",
+    "portrait": "HS11-046.psd:23243ddfad7a9b146bc34647abbad235",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -73,14 +143,33 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_236.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Ice Breaker",
   "root": true,
   "relatedIds": [],
   "expansion": {

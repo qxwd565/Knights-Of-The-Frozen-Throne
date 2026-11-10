@@ -1,31 +1,101 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Light's Sorrow",
-  "card": {
-    "id": "ICC_071",
-    "dbfId": 42735,
+  "schemaVersion": 2,
+  "id": "ICC_071",
+  "dbfId": 42735,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "빛의 슬픔",
-    "text": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
     "type": "WEAPON",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 187,
+        "name": "DURABILITY",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 194,
+        "name": "DIVINE_SHIELD",
+        "value": 1
+      }
+    ],
     "cost": 4,
     "attack": 1,
     "health": 4,
-    "armor": 0,
-    "durability": 4,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W12_a178(EA)_W.psd:dd29b5cd91091e64ba842cbcc50a90d8",
+    "nativeRawText": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_071",
+    "dbfId": 42735,
+    "name": "빛의 슬픔",
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "attack": 1,
+    "health": 4,
+    "durability": 4,
+    "armor": 0,
     "flavor": "슬픔이 남긴 상처인지, 상처가 남긴 슬픔인지 알 수가 없습니다.",
+    "spellSchool": "",
+    "portrait": "W12_a178(EA)_W.psd:dd29b5cd91091e64ba842cbcc50a90d8",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -73,14 +143,33 @@
         "value": 1
       }
     ],
-    "nativeRawText": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_071.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Light's Sorrow",
   "root": true,
   "relatedIds": [],
   "expansion": {

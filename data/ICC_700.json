@@ -1,31 +1,101 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Happy Ghoul",
-  "card": {
-    "id": "ICC_700",
-    "dbfId": 42783,
+  "schemaVersion": 2,
+  "id": "ICC_700",
+  "dbfId": 42783,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "행복한 구울",
-    "text": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 3,
     "attack": 3,
     "health": 3,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-137_M.psd:0ceb11c5e7930d242b9c5aa6ce2d108d",
+    "races": [],
+    "race": "",
+    "nativeRawText": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_700",
+    "dbfId": 42783,
+    "name": "행복한 구울",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
     "flavor": "눈이 내린 날에는 강아지처럼 들뜹니다.",
+    "spellSchool": "",
+    "portrait": "HS11-137_M.psd:0ceb11c5e7930d242b9c5aa6ce2d108d",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -68,25 +138,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_700.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Happy Ghoul",
   "root": true,
   "relatedIds": [],
   "expansion": {

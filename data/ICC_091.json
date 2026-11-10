@@ -1,31 +1,79 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Dead Man's Hand",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_091",
+  "dbfId": 42766,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "망자의 손패",
+    "type": "SPELL",
+    "cardClass": "WARRIOR",
+    "text": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "rarity": "EPIC",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_091",
     "dbfId": 42766,
     "name": "망자의 손패",
-    "text": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
     "type": "SPELL",
     "cardClass": "WARRIOR",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 2,
+    "text": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-135_S.psd:29e3e48ea95f87844bb176b6d6e3ed06",
+    "armor": 0,
     "flavor": "나는 라그나로스랑 방어구 제작자 투 페어. 넌 뭐야?",
+    "spellSchool": "",
+    "portrait": "HS11-135_S.psd:29e3e48ea95f87844bb176b6d6e3ed06",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -53,14 +101,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_091.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Dead Man's Hand",
   "root": true,
   "relatedIds": [],
   "expansion": {

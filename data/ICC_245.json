@@ -1,31 +1,116 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Blackguard",
-  "card": {
-    "id": "ICC_245",
-    "dbfId": 42825,
+  "schemaVersion": 2,
+  "id": "ICC_245",
+  "dbfId": 42825,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "검은경비병",
-    "text": "내 영웅이 치유될 때마다<br></br>무작위 적 하수인에게<br></br>그만큼 피해를 줍니다.",
     "type": "MINION",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "언데드, 드레나이",
-    "races": [],
-    "spellSchool": "",
+    "text": "내 영웅이 치유될 때마다<br></br>무작위 적 하수인에게<br></br>그만큼 피해를 줍니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 9
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 6,
     "attack": 3,
     "health": 9,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-016_M.psd:3dea2b53b48d772449188ef0377c392e",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]내 영웅이 치유될 때마다\n무작위 적 하수인에게\n그만큼 피해를 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "2024-10-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "DRAENEI"
+      ],
+      "race": "언데드, 드레나이"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_245",
+    "dbfId": 42825,
+    "name": "검은경비병",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "내 영웅이 치유될 때마다<br></br>무작위 적 하수인에게<br></br>그만큼 피해를 줍니다.",
+    "attack": 3,
+    "health": 9,
+    "durability": 0,
+    "armor": 0,
     "flavor": "\"혹시... 저번에 내가 크툰과 17:1로 싸워서 이겼던 얘기를 했던가?\" - 리노 잭슨",
+    "spellSchool": "",
+    "portrait": "HS11-016_M.psd:3dea2b53b48d772449188ef0377c392e",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -78,35 +163,30 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]내 영웅이 치유될 때마다\n무작위 적 하수인에게\n그만큼 피해를 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "DRAENEI"
+    ],
+    "race": "언데드, 드레나이",
+    "classes": [],
+    "art": "art/ICC_245.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      },
-      {
-        "date": "2024-10-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "DRAENEI"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction",
-      "2024-10-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]내 영웅이 치유될 때마다\n무작위 적 하수인에게\n그만큼 피해를 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Blackguard",
   "root": true,
   "relatedIds": [],
   "expansion": {

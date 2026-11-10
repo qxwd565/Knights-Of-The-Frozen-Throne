@@ -1,31 +1,116 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Malfurion the Pestilent",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_832",
+  "dbfId": 43417,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "역병의 드루이드 말퓨리온",
+    "type": "HERO",
+    "cardClass": "DRUID",
+    "text": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 43182
+      },
+      {
+        "id": 443,
+        "name": "선택",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 190,
+        "name": "TAUNT",
+        "value": 1
+      },
+      {
+        "id": 363,
+        "name": "POISONOUS",
+        "value": 1
+      }
+    ],
+    "cost": 7,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_832",
     "dbfId": 43417,
     "name": "역병의 드루이드 말퓨리온",
-    "text": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
     "type": "HERO",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 7,
+    "text": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": true,
-    "installed": true,
-    "portrait": "HS11-091_H_S.psd:06fe296100fdefe458852355ea364757",
+    "armor": 5,
     "flavor": "\"세나리우스는 내게 생명과 죽음의 조화를 꿈꾸라고 했었지. 하지만 마침내 깨달았다. 조화란 있을 수 없다. 죽음은 언제나 지배한다.\"",
+    "spellSchool": "",
+    "portrait": "HS11-091_H_S.psd:06fe296100fdefe458852355ea364757",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -88,14 +173,38 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_832.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Malfurion the Pestilent",
   "root": true,
   "relatedIds": [
     43182,

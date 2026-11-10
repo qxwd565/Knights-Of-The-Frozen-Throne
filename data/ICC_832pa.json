@@ -1,30 +1,61 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Scarab Shell",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_832pa",
+  "dbfId": 46050,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "딱정벌레의 껍질",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "방어도 +3",
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "referenceTags": [],
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "방어도 +$d3",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_832pa",
     "dbfId": 46050,
     "name": "딱정벌레의 껍질",
-    "text": "방어도 +3",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "방어도 +3",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-091a_S.psd:3fe6fb03343d88f4c8c88bfaaa6c4ee5",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-091a_S.psd:3fe6fb03343d88f4c8c88bfaaa6c4ee5",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -42,14 +73,27 @@
         "value": 5
       }
     ],
-    "nativeRawText": "방어도 +$d3",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_832pa.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "방어도 +$d3",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Scarab Shell",
   "root": false,
   "relatedIds": [],
   "expansion": {

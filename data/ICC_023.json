@@ -1,33 +1,93 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Snowflipper Penguin",
-  "card": {
-    "id": "ICC_023",
-    "dbfId": 42338,
+  "schemaVersion": 2,
+  "id": "ICC_023",
+  "dbfId": 42338,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "눈발바닥 펭귄",
-    "text": "",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
+    "text": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "attack": 1,
+    "health": 1,
     "rarity": "COMMON",
-    "race": "야수",
+    "collectible": true,
     "races": [
       "BEAST"
     ],
-    "spellSchool": "",
+    "race": "야수",
+    "nativeRawText": "",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_023",
+    "dbfId": 42338,
+    "name": "눈발바닥 펭귄",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
     "cost": 0,
+    "text": "",
     "attack": 1,
     "health": 1,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-139_M.psd:7713d733b7c62b641b9e2ab54193ab6b",
+    "armor": 0,
     "flavor": "육지에선 펭귄 무리를 \"뒤뚱이\"라고 부릅니다.",
+    "spellSchool": "",
+    "portrait": "HS11-139_M.psd:7713d733b7c62b641b9e2ab54193ab6b",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -65,14 +125,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "",
-    "nativeTextBuilder": 0,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/ICC_023.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Snowflipper Penguin",
   "root": true,
   "relatedIds": [],
   "expansion": {

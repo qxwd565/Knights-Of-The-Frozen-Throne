@@ -1,31 +1,117 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Shadow Ascendant",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_210",
+  "dbfId": 42574,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "암흑의 승천자",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "rarity": "COMMON",
+    "collectible": true,
+    "races": [],
+    "race": "",
+    "nativeRawText": "내 턴이 끝날 때,& 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "2023-04-05": {
+    "changes": {
+      "health": 3
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 45,
+        "value": 3
+      }
+    ]
+  },
+  "current": {
     "id": "ICC_210",
     "dbfId": 42574,
     "name": "암흑의 승천자",
-    "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
     "type": "MINION",
     "cardClass": "PRIEST",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "COMMON",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 2,
+    "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
     "attack": 2,
     "health": 3,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "R7_a122_M.psd:cb6a5bbee9d1d604bb5ce354187ec3ca",
+    "armor": 0,
     "flavor": "밑바닥에서 시작하면 올라가는 일만 남았습니다.",
+    "spellSchool": "",
+    "portrait": "R7_a122_M.psd:cb6a5bbee9d1d604bb5ce354187ec3ca",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -83,25 +169,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 턴이 끝날 때,& 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_210.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "내 턴이 끝날 때,& 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Shadow Ascendant",
   "root": true,
   "relatedIds": [],
   "expansion": {

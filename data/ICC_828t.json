@@ -1,32 +1,91 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Zombeast",
-  "card": {
-    "id": "ICC_828t",
-    "dbfId": 46119,
+  "schemaVersion": 2,
+  "id": "ICC_828t",
+  "dbfId": 46119,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "누더기야수",
-    "text": "",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "언데드, 야수",
+    "text": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "referenceTags": [],
+    "attack": 1,
+    "health": 1,
+    "collectible": false,
     "races": [
       "BEAST"
     ],
-    "spellSchool": "",
+    "race": "야수",
+    "nativeRawText": "{0}, {1}",
+    "nativeTextBuilder": 3
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "BEAST"
+      ],
+      "race": "언데드, 야수"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_828t",
+    "dbfId": 46119,
+    "name": "누더기야수",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
     "cost": 0,
+    "text": "",
     "attack": 1,
     "health": 1,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-117_M.psd:0246a816f07444148b5588159a10379f",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-117_M.psd:0246a816f07444148b5588159a10379f",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -59,26 +118,30 @@
         "value": 1
       }
     ],
-    "nativeRawText": "{0}, {1}",
-    "nativeTextBuilder": 3,
+    "races": [
+      "UNDEAD",
+      "BEAST"
+    ],
+    "race": "언데드, 야수",
+    "classes": [],
+    "art": "art/ICC_828t.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "BEAST"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "{0}, {1}",
+    "nativeTextBuilder": 3,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Zombeast",
   "root": false,
   "relatedIds": [],
   "expansion": {

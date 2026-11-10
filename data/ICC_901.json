@@ -1,31 +1,97 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Drakkari Enchanter",
-  "card": {
-    "id": "ICC_901",
-    "dbfId": 45309,
+  "schemaVersion": 2,
+  "id": "ICC_901",
+  "dbfId": 45309,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "드라카리 마법부여사",
-    "text": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 3,
     "attack": 1,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-040_M.psd:1b5f05d18dc41554e9552d62fca1fe4f",
+    "races": [],
+    "race": "",
+    "nativeRawText": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_901",
+    "dbfId": 45309,
+    "name": "드라카리 마법부여사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
+    "attack": 1,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "드라카리 마법부여사들은 말 끝을 언제나 반복합니다. 언제나 반복합니다.",
+    "spellSchool": "",
+    "portrait": "HS11-040_M.psd:1b5f05d18dc41554e9552d62fca1fe4f",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -68,14 +134,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_901.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Drakkari Enchanter",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Keening Banshee",
-  "card": {
-    "id": "ICC_911",
-    "dbfId": 46101,
+  "schemaVersion": 2,
+  "id": "ICC_911",
+  "dbfId": 46101,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "통곡하는 밴시",
-    "text": "내가 카드를 낼 때마다<br></br>내 다음 카드 3장을 없앱니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "내가 카드를 낼 때마다<br></br>내 다음 카드 3장을 없앱니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 4,
     "attack": 5,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-001_M.psd:3c71b0a0ead59654788f1fc0fc2bd910",
+    "races": [],
+    "race": "",
+    "nativeRawText": "내가 카드를 낼 때마다\n내 다음 카드 3장을 없앱니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_911",
+    "dbfId": 46101,
+    "name": "통곡하는 밴시",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 카드를 낼 때마다<br></br>내 다음 카드 3장을 없앱니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "\"취미는 뭡니까?\" \"통곡하기입니다.\" \"특기는 뭡니까?\" \"취미 살리기입니다.\"",
+    "spellSchool": "",
+    "portrait": "HS11-001_M.psd:3c71b0a0ead59654788f1fc0fc2bd910",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -73,25 +148,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내가 카드를 낼 때마다\n내 다음 카드 3장을 없앱니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_911.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "내가 카드를 낼 때마다\n내 다음 카드 3장을 없앱니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Keening Banshee",
   "root": true,
   "relatedIds": [],
   "expansion": {

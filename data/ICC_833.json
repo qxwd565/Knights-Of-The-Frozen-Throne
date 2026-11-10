@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Frost Lich Jaina",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_833",
+  "dbfId": 43419,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "리치 여왕 제이나",
+    "type": "HERO",
+    "cardClass": "MAGE",
+    "text": "<b>전투의 함성:</b> 3/6<br></br>물의 정령을 소환합니다.<br></br>이번 게임에서 내 정령들이<br></br><b>생명력 흡수</b>를 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 42944
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 685,
+        "name": "1",
+        "value": 1
+      }
+    ],
+    "cost": 9,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "[x]<b>전투의 함성:</b> 3/6\n물의 정령을 소환합니다.\n이번 게임에서 내 정령들이\n<b>생명력 흡수</b>를 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_833",
     "dbfId": 43419,
     "name": "리치 여왕 제이나",
-    "text": "<b>전투의 함성:</b> 3/6<br></br>물의 정령을 소환합니다.<br></br>이번 게임에서 내 정령들이<br></br><b>생명력 흡수</b>를 얻습니다.",
     "type": "HERO",
     "cardClass": "MAGE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 9,
+    "text": "<b>전투의 함성:</b> 3/6<br></br>물의 정령을 소환합니다.<br></br>이번 게임에서 내 정령들이<br></br><b>생명력 흡수</b>를 얻습니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-092_H.psd:2f819ed4bb682194589ce679ee7d3c71",
+    "armor": 5,
     "flavor": "\"아서스는 버릇 없는 아이였다. 통제하지도, 이해하지도 못할 장난감들을 가지고 놀았으니. 한기를 받아들여라. 내가 너에게 얼어붙은 왕좌의 진정한 힘을 보여주겠노라.\"",
+    "spellSchool": "",
+    "portrait": "HS11-092_H.psd:2f819ed4bb682194589ce679ee7d3c71",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -83,14 +163,33 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b> 3/6\n물의 정령을 소환합니다.\n이번 게임에서 내 정령들이\n<b>생명력 흡수</b>를 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_833.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]<b>전투의 함성:</b> 3/6\n물의 정령을 소환합니다.\n이번 게임에서 내 정령들이\n<b>생명력 흡수</b>를 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Frost Lich Jaina",
   "root": true,
   "relatedIds": [
     42944,

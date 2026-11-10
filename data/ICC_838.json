@@ -1,33 +1,119 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Sindragosa",
-  "card": {
-    "id": "ICC_838",
-    "dbfId": 43506,
+  "schemaVersion": 2,
+  "id": "ICC_838",
+  "dbfId": 43506,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "신드라고사",
-    "text": "<b>전투의 함성:</b><br></br>0/1 얼어붙은 용사를<br></br>2명 소환합니다.",
     "type": "MINION",
     "cardClass": "MAGE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드, 용족",
-    "races": [
-      "DRAGON"
+    "text": "<b>전투의 함성:</b><br></br>0/1 얼어붙은 용사를<br></br>2명 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 8,
     "attack": 8,
     "health": 8,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-214_M.psd:4831bd6a872a47f45914811ab3862409",
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n0/1 얼어붙은 용사를\n2명 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "DRAGON"
+      ],
+      "race": "언데드, 용족"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_838",
+    "dbfId": 43506,
+    "name": "신드라고사",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b><br></br>0/1 얼어붙은 용사를<br></br>2명 소환합니다.",
+    "attack": 8,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
     "flavor": "\"당신의 노력은 분명 괄목할만 하지만 그 마법은 아직 개선의 여지가 있을 것 같아요.\" - 건설적 피드백에 대한 강의를 들은 후의 신드라고사",
+    "spellSchool": "",
+    "portrait": "HS11-214_M.psd:4831bd6a872a47f45914811ab3862409",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -90,26 +176,30 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b>\n0/1 얼어붙은 용사를\n2명 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "DRAGON"
+    ],
+    "race": "언데드, 용족",
+    "classes": [],
+    "art": "art/ICC_838.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "DRAGON"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n0/1 얼어붙은 용사를\n2명 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Sindragosa",
   "root": true,
   "relatedIds": [
     46019

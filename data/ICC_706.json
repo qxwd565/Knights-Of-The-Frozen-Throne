@@ -1,31 +1,120 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Nerubian Unraveler",
-  "card": {
-    "id": "ICC_706",
-    "dbfId": 42791,
+  "schemaVersion": 2,
+  "id": "ICC_706",
+  "dbfId": 42791,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "네루비안 해결자",
-    "text": "주문의 비용이 (2) 증가합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "주문의 비용이 (2) 증가합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 6,
     "attack": 5,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W10_A069.psd:af7042e707c292d429b135280a2821b9",
+    "races": [],
+    "race": "",
+    "nativeRawText": "주문의 비용이 (2) 증가합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 200,
+        "value": 11
+      }
+    ]
+  },
+  "2023-02-15": {
+    "changes": {
+      "races": [],
+      "race": ""
+    },
+    "nativeTagRemovals": [
+      200
+    ]
+  },
+  "current": {
+    "id": "ICC_706",
+    "dbfId": 42791,
+    "name": "네루비안 해결자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "주문의 비용이 (2) 증가합니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "범인은 이 안에 있습니다.",
+    "spellSchool": "",
+    "portrait": "W10_A069.psd:af7042e707c292d429b135280a2821b9",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -68,14 +157,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "주문의 비용이 (2) 증가합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_706.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "주문의 비용이 (2) 증가합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Nerubian Unraveler",
   "root": true,
   "relatedIds": [],
   "expansion": {

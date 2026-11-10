@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Lilian Voss",
-  "card": {
-    "id": "ICC_811",
-    "dbfId": 43031,
+  "schemaVersion": 2,
+  "id": "ICC_811",
+  "dbfId": 43031,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "릴리안 보스",
-    "text": "<b>전투의 함성:</b><br></br>내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
     "type": "MINION",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b><br></br>내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 4,
     "attack": 4,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-108_M.psd:c27a28fa72cc4914da6fb2f02c2235e6",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_811",
+    "dbfId": 43031,
+    "name": "릴리안 보스",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b><br></br>내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+    "attack": 4,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "동정심도, 후회도, 공포도 느끼지 않습니다. 모든 강령술사들을 사냥하기 전까지 그녀는 멈추지 않을 것입니다.",
+    "spellSchool": "",
+    "portrait": "HS11-108_M.psd:c27a28fa72cc4914da6fb2f02c2235e6",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,25 +158,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_811.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Lilian Voss",
   "root": true,
   "relatedIds": [],
   "expansion": {

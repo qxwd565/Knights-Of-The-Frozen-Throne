@@ -1,31 +1,85 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Ice Fishing",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_089",
+  "dbfId": 42763,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "얼음 낚시",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "text": "내 덱에서 멀록을 2마리 뽑습니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "rarity": "COMMON",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "내 덱에서 멀록을 2마리 뽑습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "FROST"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_089",
     "dbfId": 42763,
     "name": "얼음 낚시",
-    "text": "내 덱에서 멀록을 2마리 뽑습니다.",
     "type": "SPELL",
     "cardClass": "SHAMAN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 2,
+    "text": "내 덱에서 멀록을 2마리 뽑습니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-042_S.psd:33b96342bfdf4604fb9f4c009bda7517",
+    "armor": 0,
     "flavor": "반짝이는 물고기, 전투 물고기... 터지는 물고기, 낚여라 물고기...",
+    "spellSchool": "FROST",
+    "portrait": "HS11-042_S.psd:33b96342bfdf4604fb9f4c009bda7517",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,23 +112,27 @@
         "value": 3
       }
     ],
-    "nativeRawText": "내 덱에서 멀록을 2마리 뽑습니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_089.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "FROST"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "내 덱에서 멀록을 2마리 뽑습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Ice Fishing",
   "root": true,
   "relatedIds": [],
   "expansion": {

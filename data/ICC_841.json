@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Blood-Queen Lana'thel",
-  "card": {
-    "id": "ICC_841",
-    "dbfId": 43064,
+  "schemaVersion": 2,
+  "id": "ICC_841",
+  "dbfId": 43064,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "피의 여왕 라나텔",
-    "text": "<b>생명력 흡수</b><br></br>이번 게임에서 내가 버린<br></br>카드 하나당 공격력을<br></br>+1 얻습니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>생명력 흡수</b><br></br>이번 게임에서 내가 버린<br></br>카드 하나당 공격력을<br></br>+1 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 5,
     "attack": 1,
     "health": 6,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-023_M.psd:007133b1f0dec2442ab9d0a5506d56e9",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>생명력 흡수</b>\n이번 게임에서 내가 버린\n카드 하나당 공격력을\n+1 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_841",
+    "dbfId": 43064,
+    "name": "피의 여왕 라나텔",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>생명력 흡수</b><br></br>이번 게임에서 내가 버린<br></br>카드 하나당 공격력을<br></br>+1 얻습니다.",
+    "attack": 1,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
     "flavor": "피의 공주였던 시절에 라나텔은 숙녀가 알아야 할 기본적인 예절을 배웠습니다. 인사하는 법, 왕가의 다른 사람들을 대하는 법, 그리고 그들을 깨무는 법 등등.",
+    "spellSchool": "",
+    "portrait": "HS11-023_M.psd:007133b1f0dec2442ab9d0a5506d56e9",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,25 +158,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>생명력 흡수</b>\n이번 게임에서 내가 버린\n카드 하나당 공격력을\n+1 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_841.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>생명력 흡수</b>\n이번 게임에서 내가 버린\n카드 하나당 공격력을\n+1 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Blood-Queen Lana'thel",
   "root": true,
   "relatedIds": [],
   "expansion": {

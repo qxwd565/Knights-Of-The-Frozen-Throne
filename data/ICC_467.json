@@ -1,31 +1,112 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Deathspeaker",
-  "card": {
-    "id": "ICC_467",
-    "dbfId": 42394,
+  "schemaVersion": 2,
+  "id": "ICC_467",
+  "dbfId": 42394,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "죽음예언자",
-    "text": "<b>전투의 함성:</b> 이번<br></br>턴에 아군 하수인에게<br></br><b>면역</b>을 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b> 이번<br></br>턴에 아군 하수인에게<br></br><b>면역</b>을 부여합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 240,
+        "name": "IMMUNE",
+        "value": 1
+      }
+    ],
     "cost": 3,
     "attack": 2,
     "health": 4,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-074_M.psd:707f9c86b7986434bb5b1f273ef68a2d",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_467",
+    "dbfId": 42394,
+    "name": "죽음예언자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 이번<br></br>턴에 아군 하수인에게<br></br><b>면역</b>을 부여합니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
     "flavor": "시끄러운 소리에도 면역이 됩니다.",
+    "spellSchool": "",
+    "portrait": "HS11-074_M.psd:707f9c86b7986434bb5b1f273ef68a2d",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,25 +159,35 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_467.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "[x]<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
+        "id": 240,
+        "name": "면역",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Deathspeaker",
   "root": true,
   "relatedIds": [],
   "expansion": {

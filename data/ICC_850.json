@@ -1,31 +1,101 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Shadowblade",
-  "card": {
-    "id": "ICC_850",
-    "dbfId": 45338,
+  "schemaVersion": 2,
+  "id": "ICC_850",
+  "dbfId": 45338,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "그림자칼날",
-    "text": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
     "type": "WEAPON",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
+    "nativeTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 187,
+        "name": "DURABILITY",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 240,
+        "name": "IMMUNE",
+        "value": 1
+      }
+    ],
     "cost": 3,
     "attack": 3,
     "health": 2,
-    "armor": 0,
-    "durability": 2,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-015_W.psd:75d119d6dc779f84ea3ef9916d2a62b5",
+    "nativeRawText": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_850",
+    "dbfId": 45338,
+    "name": "그림자칼날",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 2,
+    "armor": 0,
     "flavor": "이제서야 마침내 등 뒤를 노리나 보네요.",
+    "spellSchool": "",
+    "portrait": "HS11-015_W.psd:75d119d6dc779f84ea3ef9916d2a62b5",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,14 +143,33 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_850.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 240,
+        "name": "면역",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Shadowblade",
   "root": true,
   "relatedIds": [],
   "expansion": {

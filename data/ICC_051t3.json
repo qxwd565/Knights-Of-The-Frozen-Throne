@@ -1,33 +1,104 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Druid of the Swarm",
-  "card": {
-    "id": "ICC_051t3",
-    "dbfId": 46009,
+  "schemaVersion": 2,
+  "id": "ICC_051t3",
+  "dbfId": 46009,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "무리의 드루이드",
-    "text": "<b>도발</b><br></br><b>독성</b>",
     "type": "MINION",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "야수",
-    "races": [
-      "BEAST"
+    "text": "<b>도발</b><br></br><b>독성</b>",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 2,
     "attack": 1,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-141_M.psd:5152017f847d1d448ba3eef647d16e06",
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "nativeRawText": "<b>도발</b>\n<b>독성</b>",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_051t3",
+    "dbfId": 46009,
+    "name": "무리의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>도발</b><br></br><b>독성</b>",
+    "attack": 1,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-141_M.psd:5152017f847d1d448ba3eef647d16e06",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -75,14 +146,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>도발</b>\n<b>독성</b>",
-    "nativeTextBuilder": 0,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/ICC_051t3.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>도발</b>\n<b>독성</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Druid of the Swarm",
   "root": false,
   "relatedIds": [],
   "expansion": {

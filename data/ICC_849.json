@@ -1,31 +1,85 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Embrace Darkness",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_849",
+  "dbfId": 45308,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "어둠의 은총",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "text": "적 하수인을 선택합니다.<br></br>내 턴이 시작될 때,<br></br>그 하수인을 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 6,
+    "rarity": "EPIC",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "[x]적 하수인을 선택합니다.\n내 턴이 시작될 때,\n그 하수인을 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_849",
     "dbfId": 45308,
     "name": "어둠의 은총",
-    "text": "적 하수인을 선택합니다.<br></br>내 턴이 시작될 때,<br></br>그 하수인을 가져옵니다.",
     "type": "SPELL",
     "cardClass": "PRIEST",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 6,
+    "text": "적 하수인을 선택합니다.<br></br>내 턴이 시작될 때,<br></br>그 하수인을 가져옵니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-017_S.psd:e35fb8db2268a46458142374e32c29ec",
+    "armor": 0,
     "flavor": "좀 익숙해지면 어둠이 꽤 포근한 곳이란 걸 알게 될 겁니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "HS11-017_S.psd:e35fb8db2268a46458142374e32c29ec",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,23 +112,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "[x]적 하수인을 선택합니다.\n내 턴이 시작될 때,\n그 하수인을 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_849.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]적 하수인을 선택합니다.\n내 턴이 시작될 때,\n그 하수인을 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Embrace Darkness",
   "root": true,
   "relatedIds": [],
   "expansion": {

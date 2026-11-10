@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Valeera the Hollow",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_827",
+  "dbfId": 43392,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "환영자객 발리라",
+    "type": "HERO",
+    "cardClass": "ROGUE",
+    "text": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 43188
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 191,
+        "name": "STEALTH",
+        "value": 1
+      }
+    ],
+    "cost": 9,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_827",
     "dbfId": 43392,
     "name": "환영자객 발리라",
-    "text": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
     "type": "HERO",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 9,
+    "text": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-086_H.psd:8c1dbe5a20c2a0f4583e2ee0ee211e74",
+    "armor": 5,
     "flavor": "\"그래, 도망쳐라. 너의 요새와 성곽과 병사들 뒤에 숨어 보아라. 밤은 언제나 찾아오고, 그림자는 언제나 드리운다. 그리고 어느 날, 나는 너의 뒤에 있을 것이다.\"",
+    "spellSchool": "",
+    "portrait": "HS11-086_H.psd:8c1dbe5a20c2a0f4583e2ee0ee211e74",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -83,14 +163,33 @@
         "value": 43188
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_827.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Valeera the Hollow",
   "root": true,
   "relatedIds": [
     43188,

@@ -1,31 +1,122 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Prince Valanar",
-  "card": {
-    "id": "ICC_853",
-    "dbfId": 45342,
+  "schemaVersion": 2,
+  "id": "ICC_853",
+  "dbfId": 45342,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "공작 발라나르",
-    "text": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 190,
+        "name": "TAUNT",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "1",
+        "value": 1
+      }
+    ],
     "cost": 4,
     "attack": 4,
     "health": 4,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-211_M.psd:e201eb38e8e78b446810d79e55c3f3f7",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_853",
+    "dbfId": 45342,
+    "name": "공작 발라나르",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
     "flavor": "세 명의 공작이 당신 앞에 섰습니다. 이 공작은 다른 이들을 잡아먹으려고 합니다.",
+    "spellSchool": "",
+    "portrait": "HS11-211_M.psd:e201eb38e8e78b446810d79e55c3f3f7",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -88,25 +179,40 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_853.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Prince Valanar",
   "root": true,
   "relatedIds": [],
   "expansion": {

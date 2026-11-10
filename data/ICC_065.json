@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Bone Baron",
-  "card": {
-    "id": "ICC_065",
-    "dbfId": 42712,
+  "schemaVersion": 2,
+  "id": "ICC_065",
+  "dbfId": 42712,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "뼈다귀 남작",
-    "text": "<b>죽음의 메아리:</b><br></br>1/1 해골 둘을<br></br>내 손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>죽음의 메아리:</b><br></br>1/1 해골 둘을<br></br>내 손으로 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 5,
     "attack": 5,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-003_M.psd:160bcba4d64959e47912167554de03ba",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_065",
+    "dbfId": 42712,
+    "name": "뼈다귀 남작",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>죽음의 메아리:</b><br></br>1/1 해골 둘을<br></br>내 손으로 가져옵니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "1종 시체 수레 운전면허증 소지자입니다.",
+    "spellSchool": "",
+    "portrait": "HS11-003_M.psd:160bcba4d64959e47912167554de03ba",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,25 +153,29 @@
         "value": 43052
       }
     ],
-    "nativeRawText": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_065.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Bone Baron",
   "root": true,
   "relatedIds": [
     43052

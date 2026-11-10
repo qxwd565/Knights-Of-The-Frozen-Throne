@@ -1,31 +1,79 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Ultimate Infestation",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_085",
+  "dbfId": 42759,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "궁극의 역병",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,<br></br>5/5 구울을 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 10
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 10,
+    "rarity": "EPIC",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,\n5/5 구울을 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_085",
     "dbfId": 42759,
     "name": "궁극의 역병",
-    "text": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,<br></br>5/5 구울을 소환합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 10,
+    "text": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,<br></br>5/5 구울을 소환합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-032_S.psd:66733f44a3c12f84a9e147b6deec1022",
+    "armor": 0,
     "flavor": "정작 비용은 10이라니 밸런스 담당자가 잘못했네요.",
+    "spellSchool": "",
+    "portrait": "HS11-032_S.psd:66733f44a3c12f84a9e147b6deec1022",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,14 +106,27 @@
         "value": 46389
       }
     ],
-    "nativeRawText": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,\n5/5 구울을 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_085.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,\n5/5 구울을 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Ultimate Infestation",
   "root": true,
   "relatedIds": [
     46389

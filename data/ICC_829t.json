@@ -1,30 +1,83 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Grave Vengeance",
-  "card": {
-    "id": "ICC_829t",
-    "dbfId": 43405,
+  "schemaVersion": 2,
+  "id": "ICC_829t",
+  "dbfId": 43405,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "죽음의 복수",
-    "text": "<b>생명력 흡수</b>",
     "type": "WEAPON",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>생명력 흡수</b>",
+    "nativeTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 187,
+        "name": "DURABILITY",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 8,
     "attack": 5,
     "health": 3,
-    "armor": 0,
-    "durability": 3,
     "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-247_W.psd:0858cd3fd22297b4685e5fe24d7d7051",
+    "nativeRawText": "<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_829t",
+    "dbfId": 43405,
+    "name": "죽음의 복수",
+    "type": "WEAPON",
+    "cardClass": "PALADIN",
+    "collectible": false,
+    "cost": 8,
+    "text": "<b>생명력 흡수</b>",
+    "attack": 5,
+    "health": 3,
+    "durability": 3,
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-247_W.psd:0858cd3fd22297b4685e5fe24d7d7051",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -62,14 +115,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>생명력 흡수</b>",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_829t.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>생명력 흡수</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Grave Vengeance",
   "root": false,
   "relatedIds": [],
   "expansion": {

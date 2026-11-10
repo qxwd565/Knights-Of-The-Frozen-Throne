@@ -1,31 +1,116 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "The Lich King",
-  "card": {
-    "id": "ICC_314",
-    "dbfId": 42818,
+  "schemaVersion": 2,
+  "id": "ICC_314",
+  "dbfId": 42818,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "리치 왕",
-    "text": "<b>도발</b>, 내 턴이 끝날 때,<br></br>무작위 <b>리치 왕</b> 카드를<br></br>내 손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>도발</b>, 내 턴이 끝날 때,<br></br>무작위 <b>리치 왕</b> 카드를<br></br>내 손으로 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 8,
     "attack": 8,
     "health": 8,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W12_a110_M.psd:e06435c847a5477458f4b7c06297a8bd",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>도발</b>, 내 턴이 끝날 때,\n무작위 <b>리치 왕</b> 카드를\n내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_314",
+    "dbfId": 42818,
+    "name": "리치 왕",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>도발</b>, 내 턴이 끝날 때,<br></br>무작위 <b>리치 왕</b> 카드를<br></br>내 손으로 가져옵니다.",
+    "attack": 8,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
     "flavor": "\"분노, 복수, 잔혹함, 공격력 +8. 나는 그 모든 것이다. 선택받은 나의 기사여, 이를 너에게 내리겠다.\"",
+    "spellSchool": "",
+    "portrait": "W12_a110_M.psd:e06435c847a5477458f4b7c06297a8bd",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -83,25 +168,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>도발</b>, 내 턴이 끝날 때,\n무작위 <b>리치 왕</b> 카드를\n내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_314.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>도발</b>, 내 턴이 끝날 때,\n무작위 <b>리치 왕</b> 카드를\n내 손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "The Lich King",
   "root": true,
   "relatedIds": [
     45384,

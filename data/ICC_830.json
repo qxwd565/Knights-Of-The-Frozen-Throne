@@ -1,31 +1,105 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Shadowreaper Anduin",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_830",
+  "dbfId": 43408,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "암흑사신 안두인",
+    "type": "HERO",
+    "cardClass": "PRIEST",
+    "text": "<b>전투의 함성:</b><br></br>공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 45397
+      }
+    ],
+    "referenceTags": [],
+    "cost": 8,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "<b>전투의 함성:</b>\n공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_830",
     "dbfId": 43408,
     "name": "암흑사신 안두인",
-    "text": "<b>전투의 함성:</b><br></br>공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
     "type": "HERO",
     "cardClass": "PRIEST",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 8,
+    "text": "<b>전투의 함성:</b><br></br>공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-089_H.psd:26a9122a2cf08e049b2cbd4357e3e271",
+    "armor": 5,
     "flavor": "\"벨렌이 내게 절대 가르쳐주지 않은 걸 너에게 알려주마. 빛을 마주한 자들은 반드시 그림자를 드리우는 법이다.\"",
+    "spellSchool": "",
+    "portrait": "HS11-089_H.psd:26a9122a2cf08e049b2cbd4357e3e271",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,14 +152,27 @@
         "value": 45397
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b>\n공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_830.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>전투의 함성:</b>\n공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Shadowreaper Anduin",
   "root": true,
   "relatedIds": [
     45397

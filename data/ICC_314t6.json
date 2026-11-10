@@ -1,30 +1,72 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Obliterate",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_314t6",
+  "dbfId": 43120,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "절멸",
+    "type": "SPELL",
+    "cardClass": "DEATHKNIGHT",
+    "text": "하수인을 처치합니다.<br></br>그 하수인의 생명력만큼<br></br>내 영웅에게 피해를 줍니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "[x]하수인을 처치합니다.\n그 하수인의 생명력만큼\n내 영웅에게 피해를 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_314t6",
     "dbfId": 43120,
     "name": "절멸",
-    "text": "하수인을 처치합니다.<br></br>그 하수인의 생명력만큼<br></br>내 영웅에게 피해를 줍니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "하수인을 처치합니다.<br></br>그 하수인의 생명력만큼<br></br>내 영웅에게 피해를 줍니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W21_A004_S_OG.tif:19174091d23b48b459aa30867a08cdc8",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "W21_A004_S_OG.tif:19174091d23b48b459aa30867a08cdc8",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -47,14 +89,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]하수인을 처치합니다.\n그 하수인의 생명력만큼\n내 영웅에게 피해를 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_314t6.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]하수인을 처치합니다.\n그 하수인의 생명력만큼\n내 영웅에게 피해를 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Obliterate",
   "root": false,
   "relatedIds": [],
   "expansion": {

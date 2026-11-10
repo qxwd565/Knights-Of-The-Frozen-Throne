@@ -1,30 +1,66 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Build-A-Beast",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_828p",
+  "dbfId": 43183,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "누더기야수 제작",
+    "type": "HERO_POWER",
+    "cardClass": "NEUTRAL",
+    "text": "원하는 누더기야수를 직접 만듭니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "collectible": false,
+    "nativeRawText": "원하는 누더기야수를 직접 만듭니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_828p",
     "dbfId": 43183,
     "name": "누더기야수 제작",
-    "text": "원하는 누더기야수를 직접 만듭니다.",
     "type": "HERO_POWER",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "원하는 누더기야수를 직접 만듭니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-096_HP.psd:a8f94c4de2fc01f488a1538536ddb6aa",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-096_HP.psd:a8f94c4de2fc01f488a1538536ddb6aa",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -42,14 +78,27 @@
         "value": 10
       }
     ],
-    "nativeRawText": "원하는 누더기야수를 직접 만듭니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_828p.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "원하는 누더기야수를 직접 만듭니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Build-A-Beast",
   "root": false,
   "relatedIds": [],
   "expansion": {

@@ -1,30 +1,61 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Growth",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_047a",
+  "dbfId": 43437,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "성장",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "<b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>+2/+2를 부여합니다.",
+    "nativeTags": [
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "referenceTags": [],
+    "collectible": false,
+    "spellSchool": "",
+    "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n+2/+2를 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_047a",
     "dbfId": 43437,
     "name": "성장",
-    "text": "<b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>+2/+2를 부여합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 5,
+    "text": "<b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>+2/+2를 부여합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-029a_S.psd:2df7c8b5031deb74393587ca4a5f3e75",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-029a_S.psd:2df7c8b5031deb74393587ca4a5f3e75",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -42,14 +73,27 @@
         "value": 5
       }
     ],
-    "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n+2/+2를 부여합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_047a.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n+2/+2를 부여합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Growth",
   "root": false,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Sanguine Reveler",
-  "card": {
-    "id": "ICC_903",
-    "dbfId": 45321,
+  "schemaVersion": 2,
+  "id": "ICC_903",
+  "dbfId": 45321,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "핏빛 하객",
-    "text": "<b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>+2/+2를 얻습니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>+2/+2를 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 1,
     "attack": 1,
     "health": 1,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-020_M.psd:12ba1fef8cac9df488ef9a7d89cf2f46",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n아군 하수인을 처치하고\n+2/+2를 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_903",
+    "dbfId": 45321,
+    "name": "핏빛 하객",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>+2/+2를 얻습니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
     "flavor": "둘이 마시다 둘이 죽어도 모를 맛입니다!",
+    "spellSchool": "",
+    "portrait": "HS11-020_M.psd:12ba1fef8cac9df488ef9a7d89cf2f46",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,25 +148,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b>\n아군 하수인을 처치하고\n+2/+2를 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_903.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n아군 하수인을 처치하고\n+2/+2를 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Sanguine Reveler",
   "root": true,
   "relatedIds": [],
   "expansion": {

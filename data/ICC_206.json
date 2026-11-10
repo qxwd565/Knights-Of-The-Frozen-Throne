@@ -1,31 +1,85 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Treachery",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_206",
+  "dbfId": 42565,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "배반",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "text": "아군 하수인을 상대편에게 줍니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 3,
+    "rarity": "EPIC",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "아군 하수인을 상대편에게 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_206",
     "dbfId": 42565,
     "name": "배반",
-    "text": "아군 하수인을 상대편에게 줍니다.",
     "type": "SPELL",
     "cardClass": "WARLOCK",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "EPIC",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 3,
+    "text": "아군 하수인을 상대편에게 줍니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W16_a133.psd:1a13a2ab1b1f41c4ea0438a709d55b82",
+    "armor": 0,
     "flavor": "뭘 좋아할지 몰라서 파멸의 예언자를 준비했어.",
+    "spellSchool": "SHADOW",
+    "portrait": "W16_a133.psd:1a13a2ab1b1f41c4ea0438a709d55b82",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,23 +112,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "아군 하수인을 상대편에게 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_206.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "아군 하수인을 상대편에게 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Treachery",
   "root": true,
   "relatedIds": [],
   "expansion": {

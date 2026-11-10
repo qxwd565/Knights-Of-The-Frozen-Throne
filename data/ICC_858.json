@@ -1,31 +1,116 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Bolvar, Fireblood",
-  "card": {
-    "id": "ICC_858",
-    "dbfId": 45392,
+  "schemaVersion": 2,
+  "id": "ICC_858",
+  "dbfId": 45392,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "불꽃피 볼바르",
-    "text": "<b>천상의 보호막</b>, 아군<br></br>하수인이 <b>천상의 보호막</b>을<br></br>잃은 후에, 공격력을<br></br>+2 얻습니다.",
     "type": "MINION",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "LEGENDARY",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>천상의 보호막</b>, 아군<br></br>하수인이 <b>천상의 보호막</b>을<br></br>잃은 후에, 공격력을<br></br>+2 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 5,
     "attack": 1,
     "health": 7,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "LEGENDARY",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-113_M.psd:687ef6c914dbe424a8ce4df8cdfaf924",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>천상의 보호막</b>, 아군\n하수인이 <b>천상의_보호막</b>을\n잃은 후에, 공격력을\n+2 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_858",
+    "dbfId": 45392,
+    "name": "불꽃피 볼바르",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>천상의 보호막</b>, 아군<br></br>하수인이 <b>천상의 보호막</b>을<br></br>잃은 후에, 공격력을<br></br>+2 얻습니다.",
+    "attack": 1,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
     "flavor": "정말 뜨거운 남자입니다.",
+    "spellSchool": "",
+    "portrait": "HS11-113_M.psd:687ef6c914dbe424a8ce4df8cdfaf924",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -93,25 +178,29 @@
         "value": 4
       }
     ],
-    "nativeRawText": "[x]<b>천상의 보호막</b>, 아군\n하수인이 <b>천상의_보호막</b>을\n잃은 후에, 공격력을\n+2 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_858.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>천상의 보호막</b>, 아군\n하수인이 <b>천상의_보호막</b>을\n잃은 후에, 공격력을\n+2 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Bolvar, Fireblood",
   "root": true,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,111 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Rattling Rascal",
-  "card": {
-    "id": "ICC_025",
-    "dbfId": 42422,
+  "schemaVersion": 2,
+  "id": "ICC_025",
+  "dbfId": 42422,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "아장아장거리는 해골",
-    "text": "<b>전투의 함성:</b><br></br>5/5 해골을 소환합니다.<br></br><b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b><br></br>5/5 해골을 소환합니다.<br></br><b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 4,
     "attack": 2,
     "health": 2,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-073_M_NEW.psd:a97bdc4c3f69863458899a10576ce174",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>전투의 함성:</b>\n5/5 해골을 소환합니다.\n<b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_025",
+    "dbfId": 42422,
+    "name": "아장아장거리는 해골",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b><br></br>5/5 해골을 소환합니다.<br></br><b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
     "flavor": "해골, 포기하지 마세요!",
+    "spellSchool": "",
+    "portrait": "HS11-073_M_NEW.psd:a97bdc4c3f69863458899a10576ce174",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -83,25 +163,29 @@
         "value": 42423
       }
     ],
-    "nativeRawText": "<b>전투의 함성:</b>\n5/5 해골을 소환합니다.\n<b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_025.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>전투의 함성:</b>\n5/5 해골을 소환합니다.\n<b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Rattling Rascal",
   "root": true,
   "relatedIds": [
     42423

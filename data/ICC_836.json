@@ -1,31 +1,91 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Breath of Sindragosa",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_836",
+  "dbfId": 43502,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "신드라고사의 숨결",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "text": "무작위 적 하수인에게<br></br>피해를 $2 주고<br></br><b>빙결</b> 상태로 만듭니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 208,
+        "name": "FREEZE",
+        "value": 1
+      }
+    ],
+    "cost": 1,
+    "rarity": "COMMON",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "[x]무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "FROST"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_836",
     "dbfId": 43502,
     "name": "신드라고사의 숨결",
-    "text": "무작위 적 하수인에게<br></br>피해를 $2 주고<br></br><b>빙결</b> 상태로 만듭니다.",
     "type": "SPELL",
     "cardClass": "MAGE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 1,
+    "text": "무작위 적 하수인에게<br></br>피해를 $2 주고<br></br><b>빙결</b> 상태로 만듭니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-033_S.psd:4ca67783db3f4e14e95b9a85b98005be",
+    "armor": 0,
     "flavor": "저만 추운 건가요? 아니면 그냥 신드라고사 때문일까요?",
+    "spellSchool": "FROST",
+    "portrait": "HS11-033_S.psd:4ca67783db3f4e14e95b9a85b98005be",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -63,23 +123,33 @@
         "value": 3
       }
     ],
-    "nativeRawText": "[x]무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_836.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "[x]무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "FROST"
-        }
+        "id": 208,
+        "name": "빙결",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Breath of Sindragosa",
   "root": true,
   "relatedIds": [],
   "expansion": {

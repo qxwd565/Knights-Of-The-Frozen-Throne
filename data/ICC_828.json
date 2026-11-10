@@ -1,31 +1,105 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Deathstalker Rexxar",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_828",
+  "dbfId": 43398,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "죽음추적자 렉사르",
+    "type": "HERO",
+    "cardClass": "HUNTER",
+    "text": "<b>전투의 함성:</b><br></br>모든 적 하수인에게<br></br>피해를 2 줍니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 43183
+      }
+    ],
+    "referenceTags": [],
+    "cost": 6,
+    "health": 30,
+    "armor": 5,
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n모든 적 하수인에게\n피해를 2 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_828",
     "dbfId": 43398,
     "name": "죽음추적자 렉사르",
-    "text": "<b>전투의 함성:</b><br></br>모든 적 하수인에게<br></br>피해를 2 줍니다.",
     "type": "HERO",
     "cardClass": "HUNTER",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 6,
+    "text": "<b>전투의 함성:</b><br></br>모든 적 하수인에게<br></br>피해를 2 줍니다.",
     "attack": 0,
     "health": 30,
-    "armor": 5,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-087_D_H.psd:4232c9bc238b64f488bdd06fee5ba9dd",
+    "armor": 5,
     "flavor": "\"너는 너무 느리구나, 오랜 친구여. 사냥은 이미 시작되었다... 그리고 절대로 끝나지 않아.\"",
+    "spellSchool": "",
+    "portrait": "HS11-087_D_H.psd:4232c9bc238b64f488bdd06fee5ba9dd",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -78,14 +152,27 @@
         "value": 43183
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b>\n모든 적 하수인에게\n피해를 2 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_828.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n모든 적 하수인에게\n피해를 2 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Deathstalker Rexxar",
   "root": true,
   "relatedIds": [
     43183,

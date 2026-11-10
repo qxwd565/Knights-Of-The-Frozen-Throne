@@ -1,33 +1,114 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Grave Shambler",
-  "card": {
-    "id": "ICC_097",
-    "dbfId": 42780,
+  "schemaVersion": 2,
+  "id": "ICC_097",
+  "dbfId": 42780,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "무덤괴물",
-    "text": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "언데드, 정령",
-    "races": [
-      "ELEMENTAL"
+    "text": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 18
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 4,
     "attack": 4,
     "health": 4,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "Hs11-058_M_FIX.psd:7464a0b281fdd2c46be843b7b3b43873",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령",
+    "nativeRawText": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "ELEMENTAL"
+      ],
+      "race": "언데드, 정령"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_097",
+    "dbfId": 42780,
+    "name": "무덤괴물",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
     "flavor": "강령술사의 미의식에는 문제가 있어 보입니다.",
+    "spellSchool": "",
+    "portrait": "Hs11-058_M_FIX.psd:7464a0b281fdd2c46be843b7b3b43873",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 32,
@@ -80,26 +161,30 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "ELEMENTAL"
+    ],
+    "race": "언데드, 정령",
+    "classes": [],
+    "art": "art/ICC_097.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "ELEMENTAL"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Grave Shambler",
   "root": true,
   "relatedIds": [],
   "expansion": {

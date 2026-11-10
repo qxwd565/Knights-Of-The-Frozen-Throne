@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Abominable Bowman",
-  "card": {
-    "id": "ICC_825",
-    "dbfId": 43245,
+  "schemaVersion": 2,
+  "id": "ICC_825",
+  "dbfId": 43245,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "누더기골렘 궁병",
-    "text": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 7,
     "attack": 6,
     "health": 7,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-007.psd:c4bc449fe8cfc694b804e6ef15ffd033",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_825",
+    "dbfId": 43245,
+    "name": "누더기골렘 궁병",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
+    "attack": 6,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
     "flavor": "궁수 꽁꽁이는 언제나 꽁해 있었습니다. 하지만 팔이 세 개가 되니 그렇게 편할 수 없었습니다.",
+    "spellSchool": "",
+    "portrait": "HS11-007.psd:c4bc449fe8cfc694b804e6ef15ffd033",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,25 +148,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_825.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Abominable Bowman",
   "root": true,
   "relatedIds": [],
   "expansion": {

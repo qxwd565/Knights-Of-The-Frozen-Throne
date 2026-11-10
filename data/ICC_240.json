@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Runeforge Haunter",
-  "card": {
-    "id": "ICC_240",
-    "dbfId": 42819,
+  "schemaVersion": 2,
+  "id": "ICC_240",
+  "dbfId": 42819,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "룬가열로 외눈깨비",
-    "text": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
     "type": "MINION",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 4,
     "attack": 5,
     "health": 3,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-005_M.psd:9835a0b051f6eae4394cdd021891ce31",
+    "races": [],
+    "race": "",
+    "nativeRawText": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_240",
+    "dbfId": 42819,
+    "name": "룬가열로 외눈깨비",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
+    "attack": 5,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
     "flavor": "한 눈 똑바로 뜨고 당신의 무기가 닳지 않나 확인합니다.",
+    "spellSchool": "",
+    "portrait": "HS11-005_M.psd:9835a0b051f6eae4394cdd021891ce31",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,25 +148,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_240.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Runeforge Haunter",
   "root": true,
   "relatedIds": [],
   "expansion": {

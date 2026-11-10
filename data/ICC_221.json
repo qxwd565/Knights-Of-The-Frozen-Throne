@@ -1,31 +1,119 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Leeching Poison",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_221",
+  "dbfId": 42665,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "착취 독",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "text": "내 무기에 <b>생명력 흡수</b>를 부여합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [
+      {
+        "id": 685,
+        "name": "1",
+        "value": 1
+      }
+    ],
+    "cost": 2,
+    "rarity": "COMMON",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "내 무기에 <b>생명력 흡수</b>를 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2018-12-20": {
+    "changes": {
+      "cost": 1,
+      "text": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
+      "nativeRawText": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다."
+    },
+    "nativeTagUpdates": [
+      {
+        "id": 48,
+        "value": 1
+      }
+    ]
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "NATURE"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_221",
     "dbfId": 42665,
     "name": "착취 독",
-    "text": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
     "type": "SPELL",
     "cardClass": "ROGUE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 1,
+    "text": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W3_011_S.psd:a138229bebf2228438f94ac7e26b0dc9",
+    "armor": 0,
     "flavor": "그렇다고 이 카드를 만들기 위해 누군가를 착취한 건 아닙니다.",
+    "spellSchool": "NATURE",
+    "portrait": "W3_011_S.psd:a138229bebf2228438f94ac7e26b0dc9",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -83,23 +171,33 @@
         "value": 4
       }
     ],
-    "nativeRawText": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_221.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "NATURE"
-        }
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Leeching Poison",
   "root": true,
   "relatedIds": [],
   "expansion": {

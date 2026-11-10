@@ -1,30 +1,66 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Transmute Spirit",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_481p",
+  "dbfId": 42982,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "영혼 뒤틀기",
+    "type": "HERO_POWER",
+    "cardClass": "NEUTRAL",
+    "text": "아군 하수인을 비용이 (1)<br></br>높은 무작위 하수인으로 변신시킵니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "collectible": false,
+    "nativeRawText": "아군 하수인을 비용이 (1)\n높은 무작위 하수인으로 변신시킵니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_481p",
     "dbfId": 42982,
     "name": "영혼 뒤틀기",
-    "text": "아군 하수인을 비용이 (1)<br></br>높은 무작위 하수인으로 변신시킵니다.",
     "type": "HERO_POWER",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": false,
     "cost": 2,
+    "text": "아군 하수인을 비용이 (1)<br></br>높은 무작위 하수인으로 변신시킵니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-104_HP.psd:90ff3272a60f9604a84c49ac993bf990",
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-104_HP.psd:90ff3272a60f9604a84c49ac993bf990",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -42,14 +78,27 @@
         "value": 10
       }
     ],
-    "nativeRawText": "아군 하수인을 비용이 (1)\n높은 무작위 하수인으로 변신시킵니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_481p.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "아군 하수인을 비용이 (1)\n높은 무작위 하수인으로 변신시킵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Transmute Spirit",
   "root": false,
   "relatedIds": [],
   "expansion": {

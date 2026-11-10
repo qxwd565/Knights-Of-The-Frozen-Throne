@@ -1,31 +1,79 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Gnash",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_079",
+  "dbfId": 42748,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "뾰족니",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "text": "방어도를 +3 얻고,<br></br>이번 턴에 내 영웅이<br></br>공격력을 +3 얻습니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 3,
+    "rarity": "COMMON",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "[x]방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
     "id": "ICC_079",
     "dbfId": 42748,
     "name": "뾰족니",
-    "text": "방어도를 +3 얻고,<br></br>이번 턴에 내 영웅이<br></br>공격력을 +3 얻습니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 3,
+    "text": "방어도를 +3 얻고,<br></br>이번 턴에 내 영웅이<br></br>공격력을 +3 얻습니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-121_S.psd:95f1eaa5476721248ab47fc630f6d8b3",
+    "armor": 0,
     "flavor": "할퀴는 것보단 아프고 무는 것보단 덜 아픈 것 같군요.",
+    "spellSchool": "",
+    "portrait": "HS11-121_S.psd:95f1eaa5476721248ab47fc630f6d8b3",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -53,14 +101,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_079.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "[x]방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Gnash",
   "root": true,
   "relatedIds": [],
   "expansion": {

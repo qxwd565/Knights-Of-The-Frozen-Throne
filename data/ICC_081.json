@@ -1,31 +1,107 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Drakkari Defender",
-  "card": {
-    "id": "ICC_081",
-    "dbfId": 42750,
+  "schemaVersion": 2,
+  "id": "ICC_081",
+  "dbfId": 42750,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "드라카리 수호병",
-    "text": "<b>도발</b><br></br><b>과부하:</b> (3)",
     "type": "MINION",
     "cardClass": "SHAMAN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>도발</b><br></br><b>과부하:</b> (3)",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 3
+      },
+      {
+        "id": 296,
+        "name": "OVERLOAD_OWED",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 3,
     "attack": 2,
     "health": 8,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W10_A072_M.psd:ffb8241c9d84f0a489b0349c4f28fbae",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>도발</b>\n<b>과부하:</b> (3)",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_081",
+    "dbfId": 42750,
+    "name": "드라카리 수호병",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>도발</b><br></br><b>과부하:</b> (3)",
+    "attack": 2,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
     "flavor": "도발이 필요한가.",
+    "spellSchool": "",
+    "portrait": "W10_A072_M.psd:ffb8241c9d84f0a489b0349c4f28fbae",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,14 +149,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>도발</b>\n<b>과부하:</b> (3)",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_081.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>도발</b>\n<b>과부하:</b> (3)",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Drakkari Defender",
   "root": true,
   "relatedIds": [],
   "expansion": {

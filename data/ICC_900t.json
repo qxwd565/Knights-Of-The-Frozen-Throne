@@ -1,30 +1,89 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Ghoul",
-  "card": {
-    "id": "ICC_900t",
-    "dbfId": 45305,
+  "schemaVersion": 2,
+  "id": "ICC_900t",
+  "dbfId": 45305,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "구울",
-    "text": "",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "referenceTags": [],
     "cost": 2,
     "attack": 2,
     "health": 2,
-    "armor": 0,
-    "durability": 0,
     "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-215_M.psd:3f3929a7447130d408063e6e9eacae72",
+    "races": [],
+    "race": "",
+    "nativeRawText": "",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_900t",
+    "dbfId": 45305,
+    "name": "구울",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 2,
+    "text": "",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS11-215_M.psd:3f3929a7447130d408063e6e9eacae72",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -57,25 +116,29 @@
         "value": 4
       }
     ],
-    "nativeRawText": "",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_900t.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Ghoul",
   "root": false,
   "relatedIds": [],
   "expansion": {

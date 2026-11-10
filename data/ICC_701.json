@@ -1,31 +1,106 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Skulking Geist",
-  "card": {
-    "id": "ICC_701",
-    "dbfId": 42784,
+  "schemaVersion": 2,
+  "id": "ICC_701",
+  "dbfId": 42784,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "엄습하는 외눈깨비",
-    "text": "<b>전투의 함성:</b><br></br>두 플레이어의 손과 덱에<br></br>있는 비용이 1인 주문을<br></br>모두 파괴합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "EPIC",
-    "race": "언데드",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성:</b><br></br>두 플레이어의 손과 덱에<br></br>있는 비용이 1인 주문을<br></br>모두 파괴합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 6,
     "attack": 4,
     "health": 6,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "EPIC",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W10_A158_M.psd:75268028d21ffd1409e14bea8d282e63",
+    "races": [],
+    "race": "",
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n두 플레이어의 손과 덱에\n있는 비용이 1인 주문을\n모두 파괴합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_701",
+    "dbfId": 42784,
+    "name": "엄습하는 외눈깨비",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b><br></br>두 플레이어의 손과 덱에<br></br>있는 비용이 1인 주문을<br></br>모두 파괴합니다.",
+    "attack": 4,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
     "flavor": "백만마리의비취골렘이도로로질주하오. (길은막다른골목이적당하오)",
+    "spellSchool": "",
+    "portrait": "W10_A158_M.psd:75268028d21ffd1409e14bea8d282e63",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,25 +148,29 @@
         "value": 1
       }
     ],
-    "nativeRawText": "[x]<b>전투의 함성:</b>\n두 플레이어의 손과 덱에\n있는 비용이 1인 주문을\n모두 파괴합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/ICC_701.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "[x]<b>전투의 함성:</b>\n두 플레이어의 손과 덱에\n있는 비용이 1인 주문을\n모두 파괴합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Skulking Geist",
   "root": true,
   "relatedIds": [],
   "expansion": {

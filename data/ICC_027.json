@@ -1,33 +1,114 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Bone Drake",
-  "card": {
-    "id": "ICC_027",
-    "dbfId": 42439,
+  "schemaVersion": 2,
+  "id": "ICC_027",
+  "dbfId": 42439,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "해골 비룡",
-    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족을 내<br></br>손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드, 용족",
-    "races": [
-      "DRAGON"
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족을 내<br></br>손으로 가져옵니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 6,
     "attack": 6,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-140_M.psd:492e618da28a5144789c87f51402a526",
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을 내\n손으로 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "DRAGON"
+      ],
+      "race": "언데드, 용족"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_027",
+    "dbfId": 42439,
+    "name": "해골 비룡",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족을 내<br></br>손으로 가져옵니다.",
+    "attack": 6,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
     "flavor": "해골 비룡은 모든 용을 데리고 나올 겁니다. 당신에게 한 수 가르쳐주고 싶어 하지만, 카드가 없군요.",
+    "spellSchool": "",
+    "portrait": "HS11-140_M.psd:492e618da28a5144789c87f51402a526",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -80,26 +161,30 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을 내\n손으로 가져옵니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "DRAGON"
+    ],
+    "race": "언데드, 용족",
+    "classes": [],
+    "art": "art/ICC_027.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "DRAGON"
-          ]
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을 내\n손으로 가져옵니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Bone Drake",
   "root": true,
   "relatedIds": [],
   "expansion": {

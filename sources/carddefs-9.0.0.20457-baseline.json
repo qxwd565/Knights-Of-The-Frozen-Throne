@@ -1,0 +1,8723 @@
+{
+  "schema": 1,
+  "source": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Launch CardDefs snapshot on 2017-08-08; first playable date is 2017-08-11 Korea time.",
+  "cards": {
+    "ICC_018": {
+      "dbfId": 42327,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 23
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_019": {
+      "dbfId": 42328,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_019t": {
+      "dbfId": 42329,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_021": {
+      "dbfId": 42320,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_023": {
+      "dbfId": 42338,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_025": {
+      "dbfId": 42422,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_025t": {
+      "dbfId": 42423,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_026": {
+      "dbfId": 42438,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_026t": {
+      "dbfId": 43052,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_027": {
+      "dbfId": 42439,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_028": {
+      "dbfId": 42440,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_029": {
+      "dbfId": 42442,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_031": {
+      "dbfId": 42445,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_032": {
+      "dbfId": 42446,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_034": {
+      "dbfId": 42462,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_038": {
+      "dbfId": 42467,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "DIVINE_SHIELD",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_039": {
+      "dbfId": 42469,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_041": {
+      "dbfId": 42471,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_047": {
+      "dbfId": 42615,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 443,
+          "name": "CHOOSE_ONE",
+          "value": 1
+        },
+        {
+          "id": 818,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_047a": {
+      "dbfId": 43437,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_047b": {
+      "dbfId": 43436,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_047t": {
+      "dbfId": 43430,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_047t2": {
+      "dbfId": 43431,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_049": {
+      "dbfId": 42648,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_050": {
+      "dbfId": 42649,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_051": {
+      "dbfId": 42651,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 443,
+          "name": "CHOOSE_ONE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_051a": {
+      "dbfId": 46048,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_051b": {
+      "dbfId": 46049,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_051t": {
+      "dbfId": 42650,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_051t2": {
+      "dbfId": 46008,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_051t3": {
+      "dbfId": 46009,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_052": {
+      "dbfId": 42652,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_054": {
+      "dbfId": 42656,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_055": {
+      "dbfId": 42658,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_056": {
+      "dbfId": 42676,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_058": {
+      "dbfId": 42678,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 14
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_062": {
+      "dbfId": 42698,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_064": {
+      "dbfId": 42700,
+      "nativeTags": [
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_065": {
+      "dbfId": 42712,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_067": {
+      "dbfId": 42714,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_068": {
+      "dbfId": 42716,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_069": {
+      "dbfId": 42718,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_071": {
+      "dbfId": 42735,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 194,
+          "name": "DIVINE_SHIELD",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_075": {
+      "dbfId": 42743,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 15
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_078": {
+      "dbfId": 42747,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_079": {
+      "dbfId": 42748,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_081": {
+      "dbfId": 42750,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 215,
+          "name": "OVERLOAD",
+          "value": 3
+        },
+        {
+          "id": 296,
+          "name": "OVERLOAD_OWED",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_082": {
+      "dbfId": 42754,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "SECRET",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_083": {
+      "dbfId": 42756,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "AURA",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_085": {
+      "dbfId": 42759,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 10
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_085t": {
+      "dbfId": 46389,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_086": {
+      "dbfId": 42760,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 219,
+          "name": "SECRET",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_088": {
+      "dbfId": 42762,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_089": {
+      "dbfId": 42763,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_090": {
+      "dbfId": 42765,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 11
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 215,
+          "name": "OVERLOAD",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_091": {
+      "dbfId": 42766,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_092": {
+      "dbfId": 42773,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_093": {
+      "dbfId": 42775,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 192,
+          "name": "SPELLPOWER",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_094": {
+      "dbfId": 42777,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_096": {
+      "dbfId": 42779,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_097": {
+      "dbfId": 42780,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_098": {
+      "dbfId": 42781,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_099": {
+      "dbfId": 42782,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_200": {
+      "dbfId": 42525,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 219,
+          "name": "SECRET",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_201": {
+      "dbfId": 42560,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_204": {
+      "dbfId": 42563,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 219,
+          "name": "SECRET",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_206": {
+      "dbfId": 42565,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_207": {
+      "dbfId": 42566,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_210": {
+      "dbfId": 42574,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_212": {
+      "dbfId": 42596,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_213": {
+      "dbfId": 42597,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 415,
+          "name": "DISCOVER",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_214": {
+      "dbfId": 42598,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 9
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_215": {
+      "dbfId": 42633,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 7
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_218": {
+      "dbfId": 42642,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 15
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "AttackVisualType",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "DevState",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_220": {
+      "dbfId": 42663,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 14
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_221": {
+      "dbfId": 42665,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "AttackVisualType",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "DevState",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_233": {
+      "dbfId": 42801,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 349,
+          "name": "ImmuneToSpellpower",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_235": {
+      "dbfId": 42804,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_236": {
+      "dbfId": 42808,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_238": {
+      "dbfId": 42810,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_240": {
+      "dbfId": 42819,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "AURA",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_243": {
+      "dbfId": 42822,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "AURA",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_244": {
+      "dbfId": 42824,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_245": {
+      "dbfId": 42825,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 9
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_252": {
+      "dbfId": 42836,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_257": {
+      "dbfId": 42909,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 554,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_281": {
+      "dbfId": 42998,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_289": {
+      "dbfId": 43072,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_314": {
+      "dbfId": 42818,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t1": {
+      "dbfId": 43012,
+      "nativeTags": [
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 7
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t2": {
+      "dbfId": 42586,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t3": {
+      "dbfId": 42587,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 251,
+          "name": "AttackVisualType",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "DevState",
+          "value": 2
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t4": {
+      "dbfId": 42590,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t5": {
+      "dbfId": 45384,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t6": {
+      "dbfId": 43120,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 349,
+          "name": "ImmuneToSpellpower",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t7": {
+      "dbfId": 45387,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 311,
+          "name": "CANT_BE_TARGETED_BY_SPELLS",
+          "value": 1
+        },
+        {
+          "id": 332,
+          "name": "CANT_BE_TARGETED_BY_HERO_POWERS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_314t8": {
+      "dbfId": 46194,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 1
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 251,
+          "name": "AttackVisualType",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "DevState",
+          "value": 2
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_405": {
+      "dbfId": 42630,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_407": {
+      "dbfId": 42670,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_408": {
+      "dbfId": 42671,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_415": {
+      "dbfId": 42707,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 415,
+          "name": "DISCOVER",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_419": {
+      "dbfId": 42711,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 311,
+          "name": "CANT_BE_TARGETED_BY_SPELLS",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 332,
+          "name": "CANT_BE_TARGETED_BY_HERO_POWERS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_450": {
+      "dbfId": 42392,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_466": {
+      "dbfId": 42395,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_467": {
+      "dbfId": 42394,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 240,
+          "name": "IMMUNE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_468": {
+      "dbfId": 42398,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_469": {
+      "dbfId": 42391,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_481": {
+      "dbfId": 42987,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 42982
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_481p": {
+      "dbfId": 42982,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_700": {
+      "dbfId": 42783,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_701": {
+      "dbfId": 42784,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_702": {
+      "dbfId": 42785,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_705": {
+      "dbfId": 42790,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 7
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_706": {
+      "dbfId": 42791,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "AURA",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_801": {
+      "dbfId": 42948,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 194,
+          "name": "DIVINE_SHIELD",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_802": {
+      "dbfId": 42992,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_807": {
+      "dbfId": 43022,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_808": {
+      "dbfId": 43025,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_809": {
+      "dbfId": 43028,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 220,
+          "name": "COMBO",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_810": {
+      "dbfId": 43029,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_811": {
+      "dbfId": 43031,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_812": {
+      "dbfId": 43051,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 17
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_820": {
+      "dbfId": 43127,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 197,
+          "name": "CHARGE",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_823": {
+      "dbfId": 43193,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_825": {
+      "dbfId": 43245,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 7
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_827": {
+      "dbfId": 43392,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 43188
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 191,
+          "name": "STEALTH",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_827p": {
+      "dbfId": 43188,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        },
+        {
+          "id": 402,
+          "name": "HIDE_STATS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_827t": {
+      "dbfId": 45724,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 402,
+          "name": "HIDE_STATS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_828": {
+      "dbfId": 43398,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 43183
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_828p": {
+      "dbfId": 43183,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_828t": {
+      "dbfId": 46119,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_829": {
+      "dbfId": 43406,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 43013
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_829p": {
+      "dbfId": 43013,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_829t": {
+      "dbfId": 43405,
+      "nativeTags": [
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_829t2": {
+      "dbfId": 45618,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_829t3": {
+      "dbfId": 45619,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_829t4": {
+      "dbfId": 45620,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_829t5": {
+      "dbfId": 45621,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_830": {
+      "dbfId": 43408,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 45397
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_830p": {
+      "dbfId": 45397,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_831": {
+      "dbfId": 43415,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 10
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 43181
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_831p": {
+      "dbfId": 43181,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832": {
+      "dbfId": 43417,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 7
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 43182
+        },
+        {
+          "id": 443,
+          "name": "CHOOSE_ONE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_832a": {
+      "dbfId": 45303,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832b": {
+      "dbfId": 45300,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832p": {
+      "dbfId": 43182,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        },
+        {
+          "id": 443,
+          "name": "CHOOSE_ONE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832pa": {
+      "dbfId": 46050,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832pb": {
+      "dbfId": 46051,
+      "nativeTags": [
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832t3": {
+      "dbfId": 45302,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 363,
+          "name": "POISONOUS",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_832t4": {
+      "dbfId": 45301,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_833": {
+      "dbfId": 43419,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 42944
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_833h": {
+      "dbfId": 42944,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_833t": {
+      "dbfId": 46458,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 18
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "AttackVisualType",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "DevState",
+          "value": 2
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_834": {
+      "dbfId": 43423,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "ARMOR",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "HERO_POWER",
+          "value": 45585
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_834h": {
+      "dbfId": 45585,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 10
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_834w": {
+      "dbfId": 45297,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_835": {
+      "dbfId": 43439,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_836": {
+      "dbfId": 43502,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_837": {
+      "dbfId": 43505,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_838": {
+      "dbfId": 43506,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_838t": {
+      "dbfId": 46019,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_841": {
+      "dbfId": 43064,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_849": {
+      "dbfId": 45308,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_850": {
+      "dbfId": 45338,
+      "nativeTags": [
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 187,
+          "name": "DURABILITY",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 240,
+          "name": "IMMUNE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_851": {
+      "dbfId": 45340,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_852": {
+      "dbfId": 45341,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_853": {
+      "dbfId": 45342,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_854": {
+      "dbfId": 45366,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "DEATHRATTLE",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_855": {
+      "dbfId": 45377,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 208,
+          "name": "FREEZE",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_856": {
+      "dbfId": 45378,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 192,
+          "name": "SPELLPOWER",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_858": {
+      "dbfId": 45392,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "ELITE",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 194,
+          "name": "DIVINE_SHIELD",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_900": {
+      "dbfId": 45307,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_900t": {
+      "dbfId": 45305,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_901": {
+      "dbfId": 45309,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "AURA",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_902": {
+      "dbfId": 45314,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 3
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_903": {
+      "dbfId": 45321,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 1
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_904": {
+      "dbfId": 45328,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_905": {
+      "dbfId": 45329,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 5
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "CARDRACE",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_910": {
+      "dbfId": 45975,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 6
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 7
+        },
+        {
+          "id": 201,
+          "name": "FACTION",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 220,
+          "name": "COMBO",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_911": {
+      "dbfId": 46101,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    },
+    "ICC_912": {
+      "dbfId": 46102,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 4
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "BATTLECRY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": [
+        {
+          "id": 189,
+          "name": "WINDFURY",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "TAUNT",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "DIVINE_SHIELD",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "1",
+          "value": 1
+        }
+      ]
+    },
+    "ICC_913": {
+      "dbfId": 46103,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "HEALTH",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "ATK",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "COST",
+          "value": 2
+        },
+        {
+          "id": 183,
+          "name": "CARD_SET",
+          "value": 1001
+        },
+        {
+          "id": 192,
+          "name": "SPELLPOWER",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "DIVINE_SHIELD",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "CLASS",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "CARDTYPE",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "RARITY",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "COLLECTIBLE",
+          "value": 1
+        }
+      ],
+      "referenceTags": []
+    }
+  }
+}

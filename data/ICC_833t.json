@@ -1,32 +1,107 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Water Elemental",
-  "card": {
-    "id": "ICC_833t",
-    "dbfId": 46458,
+  "schemaVersion": 2,
+  "id": "ICC_833t",
+  "dbfId": 46458,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "물의 정령",
-    "text": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
     "type": "MINION",
     "cardClass": "MAGE",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "race": "정령",
-    "races": [
-      "ELEMENTAL"
+    "text": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 18
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 208,
+        "name": "빙결",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [],
     "cost": 4,
     "attack": 3,
     "health": 6,
-    "armor": 0,
-    "durability": 0,
     "collectible": false,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "W3_057_D.psd:d3da72810b0302a46949850095ba609d",
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령",
+    "nativeRawText": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_833t",
+    "dbfId": 46458,
+    "name": "물의 정령",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "collectible": false,
+    "cost": 4,
+    "text": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
     "flavor": "",
+    "spellSchool": "",
+    "portrait": "W3_057_D.psd:d3da72810b0302a46949850095ba609d",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -99,14 +174,29 @@
         "value": 0
       }
     ],
-    "nativeRawText": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령",
+    "classes": [],
+    "art": "art/ICC_833t.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Water Elemental",
   "root": false,
   "relatedIds": [],
   "expansion": {

@@ -1,31 +1,85 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Defile",
-  "card": {
+  "schemaVersion": 2,
+  "id": "ICC_041",
+  "dbfId": 42471,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
+    "name": "모독",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "text": "<b>모든</b> 하수인에게<br></br>피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
+    "cost": 2,
+    "rarity": "RARE",
+    "collectible": true,
+    "spellSchool": "",
+    "nativeRawText": "<b>모든</b> 하수인에게\n피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2021-03-26": {
+    "changes": {
+      "spellSchool": "SHADOW"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
     "id": "ICC_041",
     "dbfId": 42471,
     "name": "모독",
-    "text": "<b>모든</b> 하수인에게<br></br>피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
     "type": "SPELL",
     "cardClass": "WARLOCK",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
     "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "collectible": true,
     "cost": 2,
+    "text": "<b>모든</b> 하수인에게<br></br>피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
     "attack": 0,
     "health": 0,
-    "armor": 0,
     "durability": 0,
-    "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "R6_a028_S.psd:4557b46e24ecbe54a89de484a661e92a",
+    "armor": 0,
     "flavor": "연쇄 소용돌이마라고 들어보셨나요?",
+    "spellSchool": "SHADOW",
+    "portrait": "R6_a028_S.psd:4557b46e24ecbe54a89de484a661e92a",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 48,
@@ -58,23 +112,27 @@
         "value": 6
       }
     ],
-    "nativeRawText": "<b>모든</b> 하수인에게\n피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_041.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "SHADOW"
-        }
-      }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2021-03-26": "taxonomy introduction"
-    }
+    "nativeRawText": "<b>모든</b> 하수인에게\n피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Defile",
   "root": true,
   "relatedIds": [],
   "expansion": {

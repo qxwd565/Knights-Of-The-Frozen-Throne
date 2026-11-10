@@ -1,33 +1,120 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Corpse Widow",
-  "card": {
-    "id": "ICC_243",
-    "dbfId": 42822,
+  "schemaVersion": 2,
+  "id": "ICC_243",
+  "dbfId": 42822,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "시체 과부거미",
-    "text": "내 <b>죽음의 메아리</b> 카드의 비용이 (2) 감소합니다.",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "RARE",
-    "race": "언데드, 야수",
-    "races": [
-      "BEAST"
+    "text": "내 <b>죽음의 메아리</b> 카드의 비용이 (2) 감소합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
     ],
-    "spellSchool": "",
+    "referenceTags": [
+      {
+        "id": 217,
+        "name": "DEATHRATTLE",
+        "value": 1
+      }
+    ],
     "cost": 5,
     "attack": 4,
     "health": 6,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "RARE",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-116_M.psd:b52c598ea9dc5f249bc1d5da1dad9526",
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "nativeRawText": "내 <b>죽음의_메아리</b> 카드의 비용이 (2) 감소합니다.",
+    "nativeTextBuilder": 0
+  },
+  "2022-11-30": {
+    "changes": {
+      "races": [
+        "UNDEAD",
+        "BEAST"
+      ],
+      "race": "언데드, 야수"
+    },
+    "source": "taxonomy introduction"
+  },
+  "current": {
+    "id": "ICC_243",
+    "dbfId": 42822,
+    "name": "시체 과부거미",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "내 <b>죽음의 메아리</b> 카드의 비용이 (2) 감소합니다.",
+    "attack": 4,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
     "flavor": "죽은 뒤에도 결혼 생활은 계속됐지만 예전보단 좀 서먹서먹합니다.",
+    "spellSchool": "",
+    "portrait": "HS11-116_M.psd:b52c598ea9dc5f249bc1d5da1dad9526",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -85,26 +172,36 @@
         "value": 1
       }
     ],
-    "nativeRawText": "내 <b>죽음의_메아리</b> 카드의 비용이 (2) 감소합니다.",
-    "nativeTextBuilder": 0,
+    "races": [
+      "UNDEAD",
+      "BEAST"
+    ],
+    "race": "언데드, 야수",
+    "classes": [],
+    "art": "art/ICC_243.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [
+    "nativeRawText": "내 <b>죽음의_메아리</b> 카드의 비용이 (2) 감소합니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": [
       {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD",
-            "BEAST"
-          ]
-        }
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
       }
-    ],
-    "initialSpecStatus": "unverified",
-    "patchSources": {
-      "2022-11-30": "taxonomy introduction"
-    }
+    ]
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Corpse Widow",
   "root": true,
   "relatedIds": [],
   "expansion": {

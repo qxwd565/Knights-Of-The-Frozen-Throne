@@ -1,31 +1,102 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Righteous Protector",
-  "card": {
-    "id": "ICC_038",
-    "dbfId": 42467,
+  "schemaVersion": 2,
+  "id": "ICC_038",
+  "dbfId": 42467,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "정의로운 수호자",
-    "text": "<b>도발</b><br></br><b>천상의 보호막</b>",
     "type": "MINION",
     "cardClass": "PALADIN",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>도발</b><br></br><b>천상의 보호막</b>",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 1,
     "attack": 1,
     "health": 1,
-    "armor": 0,
-    "durability": 0,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-055_M.psd:f252b76a2c3c9b4429b3e38819e178e0",
+    "races": [],
+    "race": "",
+    "nativeRawText": "<b>도발</b>\n<b>천상의 보호막</b>",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_038",
+    "dbfId": 42467,
+    "name": "정의로운 수호자",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>도발</b><br></br><b>천상의 보호막</b>",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
     "flavor": "원래 이름은 동글이 수호자였지만, 더 멋져 보이는 이름으로 바꾸었습니다.",
+    "spellSchool": "",
+    "portrait": "HS11-055_M.psd:f252b76a2c3c9b4429b3e38819e178e0",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -83,14 +154,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>도발</b>\n<b>천상의 보호막</b>",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_038.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>도발</b>\n<b>천상의 보호막</b>",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Righteous Protector",
   "root": true,
   "relatedIds": [],
   "expansion": {

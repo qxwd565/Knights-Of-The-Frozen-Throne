@@ -1,31 +1,100 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Blood Razor",
-  "card": {
-    "id": "ICC_064",
-    "dbfId": 42700,
+  "schemaVersion": 2,
+  "id": "ICC_064",
+  "dbfId": 42700,
+  "sourceBaseline": {
+    "repository": "HearthSim/hsdata",
+    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+    "commitDate": "2017-08-08",
+    "build": "9.0.0.20457",
+    "path": "CardDefs.xml",
+    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+  },
+  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
+  "2017-08-11": {
     "name": "피의 칼날",
-    "text": "<b>전투의 함성과<br></br>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
     "type": "WEAPON",
     "cardClass": "WARRIOR",
-    "classes": [],
-    "nativeSetId": 1001,
-    "set": "ICECROWN",
-    "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
+    "text": "<b>전투의 함성과<br></br>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
+    "nativeTags": [
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 187,
+        "name": "DURABILITY",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "referenceTags": [],
     "cost": 4,
     "attack": 2,
     "health": 2,
-    "armor": 0,
-    "durability": 2,
+    "rarity": "COMMON",
     "collectible": true,
-    "chooseOne": false,
-    "installed": true,
-    "portrait": "HS11-132_W.psd:bde71d6a88771dc4381775eddd84c906",
+    "nativeRawText": "<b>전투의 함성과\n죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "current": {
+    "id": "ICC_064",
+    "dbfId": 42700,
+    "name": "피의 칼날",
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성과<br></br>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 2,
+    "armor": 0,
     "flavor": "아주 날카롭습니다. 주의: 지나치게 날카로울 수 있음.",
+    "spellSchool": "",
+    "portrait": "HS11-132_W.psd:bde71d6a88771dc4381775eddd84c906",
+    "set": "ICECROWN",
     "nativeTags": [
       {
         "id": 45,
@@ -73,14 +142,27 @@
         "value": 1
       }
     ],
-    "nativeRawText": "<b>전투의 함성과\n죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
-    "nativeTextBuilder": 0,
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/ICC_064.png",
     "releasedAt": "2017-08-11",
     "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
+    "nativeRawText": "<b>전투의 함성과\n죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+    "nativeTextBuilder": 0,
+    "referenceTags": []
   },
+  "nativeTagsTimelineStatus": "partial",
+  "historyIncompleteFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "unresolvedSourceFields": [
+    "nativeTags",
+    "referenceTags"
+  ],
+  "mode": "constructed",
+  "englishName": "Blood Razor",
   "root": true,
   "relatedIds": [],
   "expansion": {
