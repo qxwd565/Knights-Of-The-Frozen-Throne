@@ -298,9 +298,8 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                     elif key == "rawText":
                         self.assertEqual(event["changes"]["nativeRawText"], expected["after"], cid)
                         self.assertEqual(event["changes"]["text"], expected["after"].replace("[x]", "").replace(chr(10), "<br></br>"), cid)
-            for url in finding["sourceURLs"]:
-                self.assertTrue(all(url in source(ob["cardID"])[finding["koreanDay"]]["sources"]
-                                    for ob in finding["observations"]))
+                self.assertEqual(evidence["sourceURLs"], finding["sourceURLs"])
+                self.assertTrue(all(url in event["sources"] for url in finding["sourceURLs"]))
         self.assertEqual(len(observed_rows), 18)
         self.assertIn("rarity", source("ICC_829t2")["2017-12-07"]["remove"])
         self.assertEqual(source("ICC_856")["2024-10-30"]["nativeTagUpdates"], [{"id": 192, "value": 1}])
@@ -308,12 +307,20 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertEqual(source("ICC_064")["2025-03-19"]["nativeTagRemovals"], [187])
 
     def test_dated_text_replay_clears_resolved_launch_differences(self):
-        for cid in ("ICC_047t2", "ICC_051b", "ICC_405", "ICC_408"):
+        for cid in ("ICC_047t2", "ICC_051b"):
             item = source(cid)
             BUILD.replay_legacy(item, item["current"])
             timeline = item.get("timelineIncompleteFields", {})
             self.assertNotIn("text", timeline, cid)
             self.assertNotIn("nativeRawText", timeline, cid)
+        for cid in ("ICC_405", "ICC_408"):
+            item = source(cid)
+            BUILD.replay_legacy(item, item["current"])
+            timeline = item.get("timelineIncompleteFields", {})
+            self.assertIn("text", timeline, cid)
+            self.assertEqual(timeline["text"]["datedEventDates"], ["2018-02-07"], cid)
+            self.assertNotEqual(timeline["text"]["afterDatedEvents"], timeline["text"]["current"], cid)
+            self.assertIsNone(timeline["text"]["transitionDate"], cid)
         b = source("ICC_051b")
         BUILD.replay_legacy(b, b["current"])
         self.assertNotIn("text", b.get("timelineIncompleteFields", {}))
@@ -387,8 +394,12 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                         else:
                             self.assertNotIn(field, changes, f"{path.stem}:{day}:{field}")
                     elif field not in state and field in current:
-                        self.assertIn(field, item.get("historyIncompleteFields", []),
-                                      f"{path.stem}:{day}:{field}")
+                        if field == "collectible" and current.get(field) is False:
+                            self.assertIn(field, item.get("historyCompatibilityLimits", {}),
+                                          f"{path.stem}:{day}:{field}")
+                        else:
+                            self.assertIn(field, item.get("historyIncompleteFields", []),
+                                          f"{path.stem}:{day}:{field}")
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
