@@ -73,7 +73,7 @@ def applicable_history_fields(state: dict):
     fields = set(HISTORY_FIELDS)
     kind = state.get("type")
     if kind == "SPELL":
-        fields.difference_update({"attack", "health", "durability", "races", "race"})
+        fields.difference_update({"attack", "health", "durability", "armor", "races", "race"})
     elif kind == "MINION":
         fields.difference_update({"armor", "durability", "spellSchool"})
     elif kind == "HERO":
@@ -100,6 +100,7 @@ def replay_legacy(source: dict, record: dict):
         snapshots.append((day, copy.deepcopy(state)))
     current = source["current"]
     revisions = []
+    replay_mismatches = {}
     for index, (day, snapshot) in enumerate(snapshots[:-1]):
         before = snapshots[index + 1][0]
         changes = {}
@@ -115,7 +116,7 @@ def replay_legacy(source: dict, record: dict):
     for field in applicable_history_fields(final_state) & applicable_history_fields(current):
         if field in final_state and field in current and final_state[field] != current[field]:
             incomplete.add(field)
-            source.setdefault("historyReplayMismatches", {})[field] = {
+            replay_mismatches[field] = {
                 "datedReplay": copy.deepcopy(final_state[field]),
                 "current": copy.deepcopy(current[field]),
                 "transitionDate": None,
@@ -123,7 +124,7 @@ def replay_legacy(source: dict, record: dict):
             }
         elif (field in final_state) != (field in current):
             incomplete.add(field)
-            source.setdefault("historyReplayMismatches", {})[field] = {
+            replay_mismatches[field] = {
                 "datedReplayPresent": field in final_state,
                 "currentPresent": field in current,
                 "transitionDate": None,
@@ -131,6 +132,10 @@ def replay_legacy(source: dict, record: dict):
             }
     if "nativeTags" in current and final_state.get("nativeTags") != current["nativeTags"]:
         incomplete.add("nativeTags")
+    if replay_mismatches:
+        source["historyReplayMismatches"] = replay_mismatches
+    else:
+        source.pop("historyReplayMismatches", None)
     if incomplete != set(source.get("historyIncompleteFields", [])):
         source["historyIncompleteFields"] = sorted(incomplete)
     return revisions
@@ -153,6 +158,7 @@ def build_indexes(write=True):
     for path in data_paths:
         cid = path.stem
         source = load(path)
+        original_source = copy.deepcopy(source)
         if source.get("schemaVersion") != 2 or source.get("id") != cid:
             raise ValueError(f"{cid}: schemaVersion 2 source required")
         record = records[cid]
@@ -173,7 +179,7 @@ def build_indexes(write=True):
             render_card["history"] = revisions
             history[str(record["dbfId"])] = {"id": cid, "history": revisions}
         renderer.append(render_card)
-        if write and source.get("historyIncompleteFields") != load(path).get("historyIncompleteFields"):
+        if write and source != original_source:
             publish(path, source)
 
     render_doc = {"schema": 1, "set": catalog["set"], "cards": renderer}
