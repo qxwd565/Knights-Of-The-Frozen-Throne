@@ -145,7 +145,8 @@ def build_initial(cid, record, old_card, baseline):
         state["health"] = values[187]
     if 203 in values and values[203] in RARITY_TAG_VALUES:
         state["rarity"] = RARITY_TAG_VALUES[values[203]]
-    state["collectible"] = bool(values.get(321, 0))
+    if 321 in values:
+        state["collectible"] = bool(values[321])
     races = []
     if 200 in values and values[200] in RACE_TAG_VALUES:
         races = [RACE_TAG_VALUES[values[200]]]
@@ -153,10 +154,10 @@ def build_initial(cid, record, old_card, baseline):
     # backward; its actual later Undead/Beast state is dated separately.
     if cid == "ICC_705":
         races = []
-    if record["type"] == "MINION":
+    if state["type"] == "MINION":
         state["races"] = races
         state["race"] = race_label(races)
-    if record["type"] == "SPELL":
+    if state["type"] == "SPELL":
         state["spellSchool"] = ""
     raw = old_card.get("nativeRawText")
     if raw is not None:
@@ -233,6 +234,7 @@ def add_confirmed_events(cid, events, record, old_card):
             {"type": "MINION", "cost": 2, "attack": 1, "health": hp,
              "rarity": "RARE", "races": ["BEAST"], "race": "야수",
              "text": display_text(raw_after), "nativeRawText": raw_after},
+            remove=["spellSchool"],
             nativeTagUpdates=[
                 {"id": 202, "value": 4}, {"id": 48, "value": 2},
                 {"id": 47, "value": 1}, {"id": 45, "value": hp},
@@ -304,6 +306,17 @@ def main(xml_path: Path):
         data = load(path)
         if data.get("schemaVersion") == 2:
             total_events += sum(1 for key in data if DATE_RE.fullmatch(key)) - 1
+            initial = data.get(RELEASE_DATE, {})
+            baseline_tags = tag_map(baseline[cid]["nativeTags"])
+            if 321 not in baseline_tags:
+                initial.pop("collectible", None)
+            if cid in ("ICC_051a", "ICC_051b"):
+                initial.pop("race", None)
+                initial.pop("races", None)
+                data["2018-11-30"].setdefault("remove", [])
+                if "spellSchool" not in data["2018-11-30"]["remove"]:
+                    data["2018-11-30"]["remove"].append("spellSchool")
+            dump(path, data)
             continue
         if data.get("schemaVersion") != 1 or not isinstance(data.get("card"), dict):
             raise RuntimeError(f"{cid}: unexpected legacy source schema")
