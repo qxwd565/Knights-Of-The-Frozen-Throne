@@ -20,7 +20,7 @@ RACE_NAMES = {
 }
 RACE_TAG_VALUES = {
     14: "MURLOC", 15: "DEMON", 18: "ELEMENTAL", 20: "BEAST",
-    23: "PIRATE", 24: "DRAGON", 11: "UNDEAD", 2: "DRAENEI",
+    23: "PIRATE", 24: "DRAGON", 11: "UNDEAD", 2: "DRAENEI", 17: "MECHANICAL", 21: "TOTEM",
 }
 TAG_FIELD = {45: "health", 47: "attack", 48: "cost", 187: "health", 292: "armor"}
 TYPE_TAG_VALUES = {3: "HERO", 4: "MINION", 5: "SPELL", 6: "WEAPON", 10: "HERO_POWER"}
