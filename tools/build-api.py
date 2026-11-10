@@ -108,6 +108,13 @@ def replay_legacy(source: dict, record: dict):
         reasons.setdefault(field, []).append({"code": code, "detail": detail})
 
     initial_tags = {x["id"]: x for x in initial.get("nativeTags", [])}
+    def empty_text_projection(field):
+        return (
+            field in ("text", "nativeRawText")
+            and field not in initial
+            and field not in final_state
+            and current.get(field) == ""
+        )
     for field in source.get("unresolvedSourceFields", []):
         reason(field, "source_timeline_unresolved", "The source metadata explicitly marks this field as unresolved.")
     if source.get("nativeTagsTimelineStatus") == "partial":
@@ -153,7 +160,13 @@ def replay_legacy(source: dict, record: dict):
                 if field not in current or snapshot[field] != current[field]:
                     changes[field] = copy.deepcopy(snapshot[field])
             elif field in current:
-                if field == "collectible" and current.get(field) is False and 321 not in initial_tags:
+                if empty_text_projection(field):
+                    compatibility[field] = {
+                        "kind": "legacy_empty_string_for_absent_cardtext_tag",
+                        "value": "",
+                        "note": "The launch CardDefs has no CARDTEXT_INHAND value; current empty string is a compatibility projection, not a dated text change."
+                    }
+                elif field == "collectible" and current.get(field) is False and 321 not in initial_tags:
                     compatibility[field] = {
                         "kind": "legacy_boolean_without_native_tag",
                         "value": False,
@@ -183,7 +196,13 @@ def replay_legacy(source: dict, record: dict):
             reason(field, "dated_replay_current_mismatch",
                    "The final dated canonical state differs from the current canonical state.")
         elif (field in final_state) != (field in current):
-            if field == "collectible" and current.get(field) is False and 321 not in initial_tags:
+            if empty_text_projection(field):
+                compatibility[field] = {
+                    "kind": "legacy_empty_string_for_absent_cardtext_tag",
+                    "value": "",
+                    "note": "The launch CardDefs has no CARDTEXT_INHAND value; current empty string is a compatibility projection, not a dated text change."
+                }
+            elif field == "collectible" and current.get(field) is False and 321 not in initial_tags:
                 compatibility[field] = {
                     "kind": "legacy_boolean_without_native_tag",
                     "value": False,
@@ -218,6 +237,13 @@ def replay_legacy(source: dict, record: dict):
         launch_state = snapshot_field(initial, field)
         dated_state = snapshot_field(final_state, field)
         current_state = snapshot_field(current, field)
+        if empty_text_projection(field):
+            compatibility[field] = {
+                "kind": "legacy_empty_string_for_absent_cardtext_tag",
+                "value": "",
+                "note": "The launch CardDefs has no CARDTEXT_INHAND value; current empty string is a compatibility projection, not a dated text change."
+            }
+            continue
         if dated_state != current_state:
             timeline[field] = {
                 "launch": launch_state,

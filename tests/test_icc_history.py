@@ -330,6 +330,14 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertNotIn("durability", b.get("historyIncompleteFields", []))
         self.assertIn("collectible", b.get("historyCompatibilityLimits", {}))
 
+        for cid in ("ICC_829t2", "ICC_829t3", "ICC_829t4", "ICC_829t5"):
+            item = source(cid)
+            BUILD.replay_legacy(item, item["current"])
+            self.assertNotIn("text", item.get("timelineIncompleteFields", {}), cid)
+            self.assertNotIn("text", item.get("historyReplayMismatches", {}), cid)
+            self.assertIn("text", item.get("historyCompatibilityLimits", {}), cid)
+            self.assertNotIn("text", item.get("historyIncompleteFields", []), cid)
+
     def test_launch_strings_are_applied_without_rewriting_current_observations(self):
         fixture = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
         self.assertEqual(len(fixture["cards"]), 182)
