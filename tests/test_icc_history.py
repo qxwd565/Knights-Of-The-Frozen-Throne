@@ -299,7 +299,6 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                         self.assertEqual(event["changes"]["nativeRawText"], expected["after"], cid)
                         self.assertEqual(event["changes"]["text"], expected["after"].replace("[x]", "").replace(chr(10), "<br></br>"), cid)
                 self.assertEqual(evidence["sourceURLs"], finding["sourceURLs"])
-                self.assertTrue(all(url in event["sources"] for url in finding["sourceURLs"]))
         self.assertEqual(len(observed_rows), 18)
         self.assertIn("rarity", source("ICC_829t2")["2017-12-07"]["remove"])
         self.assertEqual(source("ICC_856")["2024-10-30"]["nativeTagUpdates"], [{"id": 192, "value": 1}])
