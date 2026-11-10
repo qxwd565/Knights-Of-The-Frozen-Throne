@@ -303,6 +303,7 @@ def main(xml_path: Path):
         cid = path.stem
         data = load(path)
         if data.get("schemaVersion") == 2:
+            total_events += sum(1 for key in data if DATE_RE.fullmatch(key)) - 1
             continue
         if data.get("schemaVersion") != 1 or not isinstance(data.get("card"), dict):
             raise RuntimeError(f"{cid}: unexpected legacy source schema")
