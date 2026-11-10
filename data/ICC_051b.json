@@ -160,6 +160,7 @@
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
     "attack",
+    "collectible",
     "cost",
     "health",
     "nativeTags",

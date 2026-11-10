@@ -137,6 +137,7 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "collectible",
     "nativeTags",
     "referenceTags"
   ],
