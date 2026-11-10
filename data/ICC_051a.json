@@ -155,7 +155,11 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "attack",
+    "cost",
+    "health",
     "nativeTags",
+    "rarity",
     "referenceTags"
   ],
   "unresolvedSourceFields": [
