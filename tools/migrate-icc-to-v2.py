@@ -23,7 +23,7 @@ RACE_TAG_VALUES = {
     23: "PIRATE", 24: "DRAGON", 11: "UNDEAD", 2: "DRAENEI",
 }
 TAG_FIELD = {45: "health", 47: "attack", 48: "cost", 187: "health", 292: "armor"}
-DATE_RE = re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 # These are source-level ReferencedTag records from the supplied 25-part audit.
 REFERENCE_TAGS = {
@@ -51,12 +51,12 @@ def load(path: Path):
 
 def dump(path: Path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 def scalar(value):
     if value is None:
         return None
-    if re.fullmatch(r"-?\\d+", str(value)):
+    if re.fullmatch(r"-?\d+", str(value)):
         return int(value)
     if str(value).lower() in ("true", "false"):
         return str(value).lower() == "true"
@@ -101,7 +101,7 @@ def race_label(races):
     return ", ".join(RACE_NAMES.get(x, x) for x in races)
 
 def display_text(raw):
-    return raw.replace("[x]", "").replace("\\n", "<br></br>")
+    return raw.replace("[x]", "").replace(chr(10), "<br></br>")
 
 def tag_map(tags):
     return {x["id"]: x["value"] for x in tags}
@@ -167,13 +167,13 @@ def build_initial(cid, record, old_card, baseline):
         state["nativeRawText"] = "내 무기에 <b>생명력 흡수</b>를 부여합니다."
         state["text"] = state["nativeRawText"]
     elif cid == "ICC_466":
-        state["nativeRawText"] = "<b>도발</b>, <b>전투의 함성:</b>\\n이 하수인을 복사하여 소환합니다."
+        state["nativeRawText"] = "<b>도발</b>, <b>전투의 함성:</b>\n이 하수인을 복사하여 소환합니다."
         state["text"] = display_text(state["nativeRawText"])
     elif cid == "ICC_055":
-        state["nativeRawText"] = "<b>생명력 흡수</b>\\n하수인에게 피해를\\n$2 줍니다."
+        state["nativeRawText"] = "<b>생명력 흡수</b>\n하수인에게 피해를\n$2 줍니다."
         state["text"] = display_text(state["nativeRawText"])
     elif cid == "ICC_910":
-        state["nativeRawText"] = "<b>연계:</b> 이번 턴에\\n앞서 낸 카드의 수만큼 피해를 줍니다."
+        state["nativeRawText"] = "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 피해를 줍니다."
         state["text"] = display_text(state["nativeRawText"])
     return state
 
@@ -202,14 +202,14 @@ def add_confirmed_events(cid, events, record, old_card):
         merge_event(events, cid, "2018-12-20", {"cost": 1, "text": display_text(raw), "nativeRawText": raw},
                     nativeTagUpdates=[{"id": 48, "value": 1}])
     elif cid == "ICC_466":
-        raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\\n다른 사로나이트 광산\\n노예를 소환합니다."
-        raw21 = "[x]<b>도발</b>, <b>전투의 함성:</b>\\n이 하수인을 복사하여 소환합니다."
+        raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n다른 사로나이트 광산\n노예를 소환합니다."
+        raw21 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n이 하수인을 복사하여 소환합니다."
         raw25 = "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다."
         merge_event(events, cid, "2018-12-20", {"text": display_text(raw18), "nativeRawText": raw18})
         merge_event(events, cid, "2021-03-26", {"text": display_text(raw21), "nativeRawText": raw21})
         merge_event(events, cid, "2025-05-23", {"text": display_text(raw25), "nativeRawText": raw25})
     elif cid == "ICC_055":
-        raw = "<b>생명력 흡수</b>\\n하수인에게 피해를\\n$3 줍니다."
+        raw = "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다."
         merge_event(events, cid, "2021-03-26", {"text": display_text(raw), "nativeRawText": raw})
     elif cid == "ICC_706":
         merge_event(events, cid, "2022-11-30", {"races": ["UNDEAD"], "race": "언데드"},
