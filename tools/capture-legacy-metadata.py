@@ -47,7 +47,7 @@ def main(commit):
     }
     out = ROOT / "sources" / "legacy-metadata-baseline.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"cards": len(cards), "counts": counts, "sourceCommit": commit}, ensure_ascii=False))
 
 if __name__ == "__main__":
