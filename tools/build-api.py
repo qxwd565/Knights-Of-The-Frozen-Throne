@@ -68,6 +68,21 @@ def apply_sparse_event(state: dict, event: dict, history_fields=HISTORY_FIELDS):
     return reverse, incomplete
 
 
+def applicable_history_fields(state: dict):
+    """Exclude API compatibility zero-values for fields not native to this card type."""
+    fields = set(HISTORY_FIELDS)
+    kind = state.get("type")
+    if kind == "SPELL":
+        fields.difference_update({"attack", "health", "durability", "races", "race"})
+    elif kind == "MINION":
+        fields.difference_update({"armor", "durability", "spellSchool"})
+    elif kind == "HERO":
+        fields.discard("health")
+    elif kind == "WEAPON":
+        fields.discard("health")
+    return fields
+
+
 def replay_legacy(source: dict, record: dict):
     """Build every historical interval as a complete known-field delta from current."""
     dates = sorted(k for k in source if DATE_RE.fullmatch(k))
@@ -88,7 +103,7 @@ def replay_legacy(source: dict, record: dict):
     for index, (day, snapshot) in enumerate(snapshots[:-1]):
         before = snapshots[index + 1][0]
         changes = {}
-        for field in HISTORY_FIELDS:
+        for field in applicable_history_fields(snapshot) & applicable_history_fields(current):
             if field in snapshot and field in current:
                 if snapshot[field] != current[field]:
                     changes[field] = copy.deepcopy(snapshot[field])
@@ -97,7 +112,7 @@ def replay_legacy(source: dict, record: dict):
         if changes:
             revisions.append({"from": day, "before": before, "changes": changes})
     final_state = snapshots[-1][1]
-    for field in HISTORY_FIELDS:
+    for field in applicable_history_fields(final_state) & applicable_history_fields(current):
         if field in final_state and field in current and final_state[field] != current[field]:
             incomplete.add(field)
             source.setdefault("historyReplayMismatches", {})[field] = {

@@ -236,6 +236,11 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                     self.assertEqual(rendered[cid].get(field), record[field], f"{cid}:{field}")
         for dbf_id, entry in legacy_history["cards"].items():
             self.assertEqual(records[entry["id"]]["dbfId"], int(dbf_id))
+        for card in render["cards"]:
+            dbf_id = str(records[card["id"]]["dbfId"])
+            if "history" in card:
+                self.assertIn(dbf_id, legacy_history["cards"])
+                self.assertEqual(card["history"], legacy_history["cards"][dbf_id]["history"])
 
 
     def test_launch_strings_are_applied_without_rewriting_current_observations(self):
@@ -268,6 +273,32 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                 self.assertEqual(revision["changes"].get(field), value, f"{cid}:{start}:{field}")
         self.assertEqual(source("ICC_235")["current"]["cost"], 7)
         self.assertEqual(source("ICC_910")["current"]["cost"], 5)
+
+    def test_full_known_state_is_restored_at_every_boundary_for_all_cards(self):
+        paths = sorted((ROOT / "data").glob("ICC_*.json"))
+        self.assertEqual(len(paths), 182)
+        for path in paths:
+            item = BUILD.load(path)
+            dates = sorted(k for k in item if BUILD.DATE_RE.fullmatch(k))
+            state = dict(item[dates[0]])
+            current = item["current"]
+            revisions = BUILD.replay_legacy(item, current)
+            for index, day in enumerate(dates[:-1]):
+                if index:
+                    BUILD.apply_sparse_event(state, item[day])
+                before = dates[index + 1]
+                revision = next((x for x in revisions if x["from"] == day and x["before"] == before), None)
+                changes = revision["changes"] if revision else {}
+                fields = BUILD.applicable_history_fields(state) & BUILD.applicable_history_fields(current)
+                for field in fields:
+                    if field in state and field in current:
+                        if state[field] != current[field]:
+                            self.assertEqual(changes.get(field), state[field], f"{path.stem}:{day}:{field}")
+                        else:
+                            self.assertNotIn(field, changes, f"{path.stem}:{day}:{field}")
+                    elif (field in state) != (field in current):
+                        self.assertIn(field, item.get("historyIncompleteFields", []),
+                                      f"{path.stem}:{day}:{field}")
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
