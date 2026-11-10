@@ -69,38 +69,44 @@ def apply_sparse_event(state: dict, event: dict, history_fields=HISTORY_FIELDS):
 
 
 def replay_legacy(source: dict, record: dict):
+    """Build every historical interval as a complete known-field delta from current."""
     dates = sorted(k for k in source if DATE_RE.fullmatch(k))
     if not dates or dates[0] != "2017-08-11":
         raise ValueError(f"{source.get('id')}: missing verified playable baseline")
     state = copy.deepcopy(source[dates[0]])
-    revisions = []
+    snapshots = [(dates[0], copy.deepcopy(state))]
     incomplete = set(source.get("historyIncompleteFields", []))
-    previous_day = dates[0]
     for day in dates[1:]:
         event = source[day]
         if not isinstance(event, dict) or not isinstance(event.get("changes", {}), dict):
             raise ValueError(f"{source['id']}: malformed event {day}")
-        reverse, blocked = apply_sparse_event(state, event)
+        _, blocked = apply_sparse_event(state, event)
         incomplete.update(blocked)
-        if reverse:
-            revisions.append({
-                "from": previous_day,
-                "before": day,
-                "changes": reverse,
-            })
-        previous_day = day
-
+        snapshots.append((day, copy.deepcopy(state)))
     current = source["current"]
+    revisions = []
+    for index, (day, snapshot) in enumerate(snapshots[:-1]):
+        before = snapshots[index + 1][0]
+        changes = {}
+        for field in HISTORY_FIELDS:
+            if field in snapshot and field in current:
+                if snapshot[field] != current[field]:
+                    changes[field] = copy.deepcopy(snapshot[field])
+            elif (field in snapshot) != (field in current):
+                incomplete.add(field)
+        if changes:
+            revisions.append({"from": day, "before": before, "changes": changes})
+    final_state = snapshots[-1][1]
     for field in HISTORY_FIELDS:
-        if field in state and field in current and state[field] != current[field]:
+        if field in final_state and field in current and final_state[field] != current[field]:
             raise ValueError(
                 f"{source['id']}: dated replay mismatch {field}: "
-                f"{state[field]!r} != {current[field]!r}"
+                f"{final_state[field]!r} != {current[field]!r}"
             )
-    if "nativeTags" in current and state.get("nativeTags") != current["nativeTags"]:
+        if (field in final_state) != (field in current):
+            incomplete.add(field)
+    if "nativeTags" in current and final_state.get("nativeTags") != current["nativeTags"]:
         incomplete.add("nativeTags")
-    if "collectible" not in state and "collectible" in current:
-        incomplete.add("collectible")
     if incomplete != set(source.get("historyIncompleteFields", [])):
         source["historyIncompleteFields"] = sorted(incomplete)
     return revisions

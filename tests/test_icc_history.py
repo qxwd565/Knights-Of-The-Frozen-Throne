@@ -238,5 +238,36 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertEqual(records[entry["id"]]["dbfId"], int(dbf_id))
 
 
+    def test_launch_strings_are_applied_without_rewriting_current_observations(self):
+        fixture = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
+        self.assertEqual(len(fixture["cards"]), 182)
+        self.assertEqual(source("ICC_051b")["2017-08-11"]["text"], "생명력 +3, <b>도발</b>")
+        self.assertEqual(source("ICC_055")["2017-08-11"]["nativeRawText"],
+                         "<b>생명력 흡수</b>\\n하수인 하나에게\\n피해를 $2 줍니다.")
+        self.assertIn("부여하고 피해를 3", source("ICC_047t2")["2017-08-11"]["text"])
+        zombeast = source("ICC_828t")
+        self.assertEqual(zombeast["2017-08-11"]["nativeRawText"], "{0}, {1}")
+        self.assertEqual(zombeast["2017-08-11"]["text"], "")
+        self.assertEqual(zombeast["current"]["text"], "")
+        self.assertEqual(source("ICC_314t2")["2017-08-11"]["name"], "사자의 군대")
+        self.assertEqual(source("ICC_827p")["2017-08-11"]["name"], "죽음의 그림자")
+        self.assertEqual(source("ICC_829t4")["2017-08-11"]["name"], "종교재판관 화이트메인")
+
+    def test_legacy_intervals_restore_all_known_fields_not_only_next_event_fields(self):
+        cases = {
+            "ICC_235": ("2017-08-11", {"cost": 6}),
+            "ICC_910": ("2017-08-11", {"cost": 6}),
+            "ICC_705": ("2017-08-11", {"races": []}),
+            "ICC_466": ("2021-03-26", {"text": "<b>도발</b>, <b>전투의 함성:</b><br></br>이 하수인을 복사하여 소환합니다."}),
+        }
+        for cid, (start, expected) in cases.items():
+            item = source(cid)
+            revisions = BUILD.replay_legacy(item, item["current"])
+            revision = next(x for x in revisions if x["from"] == start)
+            for field, value in expected.items():
+                self.assertEqual(revision["changes"].get(field), value, f"{cid}:{start}:{field}")
+        self.assertEqual(source("ICC_235")["current"]["cost"], 7)
+        self.assertEqual(source("ICC_910")["current"]["cost"], 5)
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

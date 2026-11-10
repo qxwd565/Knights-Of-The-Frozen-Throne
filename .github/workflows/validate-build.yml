@@ -31,6 +31,8 @@ jobs:
         run: python tools/migrate-icc-to-v2.py /tmp/CardDefs.xml
       - name: Extract all 182 launch names and card text in koKR/enUS
         run: python tools/extract-icc-launch-strings.py /tmp/CardDefs.xml
+      - name: Apply launch strings and canonical initial-state corrections
+        run: python tools/apply-icc-launch-strings.py
       - name: Restore historical source evidence and card verification metadata
         run: |
           git fetch --depth=1 origin 9dd6b844daa08ceffd171e090e001ae3de36c3ec
