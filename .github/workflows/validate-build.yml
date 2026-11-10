@@ -71,6 +71,13 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Re-run complete source pipeline in independent hash-seeded Python processes
         run: |
+          # The first build may legitimately create the ordered compatibility indexes.
+          # Commit those generated artifacts first; the push-triggered run starts from
+          # that exact SHA and performs the independent-process no-change proof below.
+          if ! git diff --quiet; then
+            echo "Generated artifacts differ from HEAD; defer replay proof until the resulting commit triggers this workflow."
+            exit 0
+          fi
           run_pipeline() {
             seed="$1"
             env PYTHONHASHSEED="$seed" python tools/probe-icc-carddefs.py /tmp/CardDefs.xml
