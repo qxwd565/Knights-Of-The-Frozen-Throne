@@ -5430,6 +5430,8630 @@
     ]
   },
   "legacyPatchEventCount": 111,
+  "rawSources": {
+    "ICC_018": {
+      "nativeRawText": "<b>전투의 함성:</b>\n내 무기의 능력치를 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 23
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_019": {
+      "nativeRawText": "<b>죽음의 메아리:</b> 상대편의 턴이면, 8/8 해골을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 974,
+          "name": "게임 태그 974",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 42329
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_019t": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_021": {
+      "nativeRawText": "<b>죽음의_메아리:</b> 모든 적 하수인에게 피해를 2 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_023": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_025": {
+      "nativeRawText": "<b>전투의 함성:</b>\n5/5 해골을 소환합니다.\n<b>죽음의 메아리:</b> 상대편에게 5/5 해골을 소환해 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 42423
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_025t": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_026": {
+      "nativeRawText": "<b>전투의 함성:</b>\n1/1 해골을 둘 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 43052
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_026t": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_027": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 용족을 내\n손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_028": {
+      "nativeRawText": "<b>전투의 함성:</b> 양옆의 하수인들에게 생명력을 +2 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1576,
+          "name": "게임 태그 1576",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_029": {
+      "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1429,
+          "name": "전장 황금 하수인 ID",
+          "value": 61442
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 4
+        },
+        {
+          "id": 1591,
+          "name": "전장 용족 분류",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_031": {
+      "nativeRawText": "이 하수인은\n피해를 받을 때마다 공격력을 +2 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_032": {
+      "nativeRawText": "<b>독성</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_034": {
+      "nativeRawText": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 974,
+          "name": "게임 태그 974",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 45305
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_038": {
+      "nativeRawText": "<b>도발</b>\n<b>천상의 보호막</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "천상의 보호막",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1429,
+          "name": "전장 황금 하수인 ID",
+          "value": 63774
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_039": {
+      "nativeRawText": "하수인의\n공격력과 생명력을\n3으로 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_041": {
+      "nativeRawText": "<b>모든</b> 하수인에게\n피해를 $1 줍니다. 하나라도 죽으면, 이 주문을 한 번 더 시전합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_047": {
+      "nativeRawText": "<b>죽음의 메아리 (비밀) 선택 -</b> <b>모든</b> 하수인에게\n피해를 3 줍니다. 또는 +2/+2를 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 443,
+          "name": "선택",
+          "value": 1
+        },
+        {
+          "id": 818,
+          "name": "게임 태그 818",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_047a": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n+2/+2를 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_047b": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 3 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_047t": {
+      "nativeRawText": "<b>죽음의 메아리 (비밀):</b>\n<b>모든</b> 하수인에게\n피해를 3 줍니다. 또는 +2/+2를 부여합니다.@<b>죽음의 메아리 (비밀):</b> <b>모든</b> 하수인에게 +2/+2를 부여합니다.@<b>죽음의 메아리 (비밀):</b> <b>모든</b> 하수인에게\n피해를 3 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 16
+    },
+    "ICC_047t2": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게 피해를 3 주고 +2/+2를 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_049": {
+      "nativeRawText": "하수인에게 피해를 $2 줍니다.\n그 하수인이 생존하면, <b>독성</b>을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_050": {
+      "nativeRawText": "<b>독성</b> 능력이 있는\n1/2 거미를 2마리 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 45302
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_051": {
+      "nativeRawText": "[x]<b>선택 -</b> 1/2 <b>독성</b> 하수인\n또는 1/5 <b>도발</b> 하수인으로\n변신합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 443,
+          "name": "선택",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_051a": {
+      "nativeRawText": "<b>독성</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_051b": {
+      "nativeRawText": "<b>도발</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_051t": {
+      "nativeRawText": "<b>독성</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_051t2": {
+      "nativeRawText": "<b>도발</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_051t3": {
+      "nativeRawText": "<b>도발</b>\n<b>독성</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_052": {
+      "nativeRawText": "아군 하수인의 <b>죽음의 메아리</b> 능력을 발동시킵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_054": {
+      "nativeRawText": "[x]<b>도발</b> 능력이 있는\n1/5 딱정벌레를 소환합니다.\n상대편의 하수인이 더 많으면,\n이 주문을 한 번 더 시전합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 45301
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_055": {
+      "nativeRawText": "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_056": {
+      "nativeRawText": "하수인에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_058": {
+      "nativeRawText": "<b>전투의 함성:</b> 적을 <b>빙결</b> 상태로 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 14
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_062": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n상대편의 턴이면, 방어도를 +6 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 974,
+          "name": "게임 태그 974",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_064": {
+      "nativeRawText": "<b>전투의 함성과\n죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_065": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 43052
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_067": {
+      "nativeRawText": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 974,
+          "name": "게임 태그 974",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 45305
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_068": {
+      "nativeRawText": "내 영웅 능력이 대상을 <b>빙결</b> 상태로도 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_069": {
+      "nativeRawText": "<b>전투의 함성:</b>\n'환영 복제' 주문을\n내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1084
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_071": {
+      "nativeRawText": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 194,
+          "name": "천상의 보호막",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_075": {
+      "nativeRawText": "내 턴이 끝날 때,\n모든 적 하수인에게\n피해를 1 줍니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_078": {
+      "nativeRawText": "하수인을\n<b>빙결</b> 상태로 만들고\n그 양옆의 하수인들에게 피해를 $3 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_079": {
+      "nativeRawText": "[x]방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_081": {
+      "nativeRawText": "<b>도발</b>\n<b>과부하:</b> (3)",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 215,
+          "name": "과부하",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_082": {
+      "nativeRawText": "<b>비밀:</b> 상대편이 하수인을 낸 후에,\n그 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_083": {
+      "nativeRawText": "상대편의 주문의 비용이\n(1) 증가합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_085": {
+      "nativeRawText": "피해를 $5 주고, 카드를 5장 뽑고, 방어도를 +5 얻고,\n5/5 구울을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 46389
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_085t": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_086": {
+      "nativeRawText": "내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_088": {
+      "nativeRawText": "[x]<b>도발</b>\n이 하수인에게 피해를\n받은 캐릭터는 <b>빙결</b>\n상태가 됩니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_089": {
+      "nativeRawText": "내 덱에서 멀록을 2마리 뽑습니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_090": {
+      "nativeRawText": "이번 게임에서 <b>과부하</b>된 내 마나 수정 하나당 비용이 (1)씩 감소합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 11
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 215,
+          "name": "과부하",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_091": {
+      "nativeRawText": "내 손에 있는 카드를 모두 복사하여 내 덱에 섞어 넣습니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_092": {
+      "nativeRawText": "[x]<b>전투의 함성:</b> 아군\n하수인에게 공격력을\n+1 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_093": {
+      "nativeRawText": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>주문_공격력 +1</b>을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 192,
+          "name": "주문 공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_094": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n아군 하수인에게\n+1/+1을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 2
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_096": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 손에 있는 모든 무기를 버리고 그 무기의 능력치를 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_097": {
+      "nativeRawText": "내 무기가 파괴될 때마다 +1/+1을 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_098": {
+      "nativeRawText": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 <b>죽음의 메아리</b> 하수인을 내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_099": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n내 하수인들에게\n피해를 5 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_200": {
+      "nativeRawText": "<b>비밀:</b> 내 하수인이 공격받으면, <b>독성</b> 능력이 있는 2/3 코브라를 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1098
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_201": {
+      "nativeRawText": "[x]카드를 뽑습니다.\n그 카드가 <b>죽음의 메아리</b>\n카드면, 이 주문을 한 번\n더 시전합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_204": {
+      "nativeRawText": "내가 <b>비밀</b>을 낸 후에, 무작위 사냥꾼 <b>비밀</b>을 시전합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_206": {
+      "nativeRawText": "아군 하수인을 상대편에게 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_207": {
+      "nativeRawText": "상대편의 덱에서 카드를 3장 복사하여 내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_210": {
+      "nativeRawText": "내 턴이 끝날 때,& 다른 무작위 아군 하수인에게 +1/+1을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "제작 결과 능력",
+          "value": 1
+        },
+        {
+          "id": 4577,
+          "name": "게임 태그 4577",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_212": {
+      "nativeRawText": "<b>생명력 흡수</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_213": {
+      "nativeRawText": "이번 게임에서 죽은 아군 하수인을 <b>발견</b>하여 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "발견 시각 효과",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_214": {
+      "nativeRawText": "<b>도발</b>, <b>생명력 흡수</b>, <b>죽음의 메아리:</b>& 무작위 적 하수인을 처치합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "제작 결과 능력",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_215": {
+      "nativeRawText": "<b>전투의 함성:</b> 상대편의 덱을 복사하여 내 덱에 섞어 넣습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_218": {
+      "nativeRawText": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_220": {
+      "nativeRawText": "<b>생명력 흡수</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 14
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_221": {
+      "nativeRawText": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        },
+        {
+          "id": 1623,
+          "name": "게임 태그 1623",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_233": {
+      "nativeRawText": "[x]하수인에게 무기를\n던져 무기의 공격력만큼\n피해를 주고 내 손으로\n다시 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_235": {
+      "nativeRawText": "내 덱에서 무작위 하수인을 복사하여\n5/5 하수인으로 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_236": {
+      "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_238": {
+      "nativeRawText": "[x]내가 하수인을 낸 후에,\n그 하수인에게\n피해를 1 줍니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_240": {
+      "nativeRawText": "내 턴 동안 내 무기가 내구도를 잃지 않습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_243": {
+      "nativeRawText": "내 <b>죽음의_메아리</b> 카드의 비용이 (2) 감소합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_244": {
+      "nativeRawText": "하수인에게 \"<b>죽음의_메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환함\" 능력을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_245": {
+      "nativeRawText": "[x]내 영웅이 치유될 때마다\n무작위 적 하수인에게\n그만큼 피해를 줍니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 9
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2525,
+          "name": "게임 태그 2525",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_252": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n<b>빙결</b> 상태인 적이 있으면,\n카드를 뽑습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_257": {
+      "nativeRawText": "<b>전투의 함성:</b> 아군 하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 554,
+          "name": "죽음의 기사",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_281": {
+      "nativeRawText": "[x]내 덱에서 무기를\n둘 뽑습니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_289": {
+      "nativeRawText": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314": {
+      "nativeRawText": "[x]<b>도발</b>, 내 턴이 끝날 때,\n무작위 <b>리치 왕</b> 카드를\n내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t1": {
+      "nativeRawText": "[x]<b>죽음의 메아리:</b>\n이 무기로 처치한\n모든 하수인을\n소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t2": {
+      "nativeRawText": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t3": {
+      "nativeRawText": "[x]<b>모든</b> 하수인을\n처치합니다. 처치한만큼\n내 다음 카드를 없앱니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t4": {
+      "nativeRawText": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t5": {
+      "nativeRawText": "적에게 피해를\n$5 줍니다. 또는 아군 캐릭터의 생명력을\n#5 회복시킵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t6": {
+      "nativeRawText": "[x]하수인을 처치합니다.\n그 하수인의 생명력만큼\n내 영웅에게 피해를 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t7": {
+      "nativeRawText": "내 하수인들에게 +2/+2와 <b>모면</b>을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1211,
+          "name": "모면",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_314t8": {
+      "nativeRawText": "모든 적에게 피해를 $3 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 0
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 0
+        },
+        {
+          "id": 330,
+          "name": "효과 생성 시각 효과",
+          "value": 0
+        },
+        {
+          "id": 331,
+          "name": "효과 지속 시각 효과",
+          "value": 0
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_405": {
+      "nativeRawText": "이 하수인은 피해를 받고 생존한 후에, 무작위 <b>전설</b> 하수인을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_407": {
+      "nativeRawText": "<b>전투의 함성</b>:& 상대편의 다음 카드를 없앱니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "제작 결과 능력",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_408": {
+      "nativeRawText": "[x]이 하수인은 피해를\n받고 생존한 후에, 2/2\n구울을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 45305
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_415": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 하수인을 <b>발견</b>해서 복사해옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "발견 시각 효과",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_419": {
+      "nativeRawText": "<b>모면</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1211,
+          "name": "모면",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_450": {
+      "nativeRawText": "<b>전투의 함성:</b> 피해를 받은 하수인 하나당 +1/+1을 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_466": {
+      "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_467": {
+      "nativeRawText": "[x]<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 240,
+          "name": "면역",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_468": {
+      "nativeRawText": "이 하수인은 공격할 때마다 적 영웅에게 피해를 2 줍니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_469": {
+      "nativeRawText": "아군 하수인을 선택합니다. 그 하수인과 무작위 적 하수인을 처치합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_481": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 하수인들을 비용이 (2) 높은 무작위 하수인으로 변신시킵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 42982
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_481p": {
+      "nativeRawText": "아군 하수인을 비용이 (1)\n높은 무작위 하수인으로 변신시킵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_700": {
+      "nativeRawText": "이번 턴에 내 영웅의 생명력이 회복되었으면, 비용이 (0)이 됩니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_701": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n두 플레이어의 손과 덱에\n있는 비용이 1인 주문을\n모두 파괴합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_702": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n무작위 <b>죽음의 메아리</b> 하수인을 내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_705": {
+      "nativeRawText": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2542,
+          "name": "게임 태그 2542",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_706": {
+      "nativeRawText": "주문의 비용이 (2) 증가합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_801": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 <b>천상의 보호막</b> 하수인을 뽑습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 194,
+          "name": "천상의 보호막",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_802": {
+      "nativeRawText": "<b>생명력 흡수</b>\n<b>모든</b> 하수인에게 피해를 $1 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_807": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n내 <b>도발</b> 하수인들에게\n+2/+2를 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_808": {
+      "nativeRawText": "[x]<b>도발</b>\n내 하수인이 소환된 후에,\n생명력을 +1 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_809": {
+      "nativeRawText": "<b>연계:</b> 아군 하수인에게 <b>독성</b>을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 220,
+          "name": "연계",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_810": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 손에 있는 무작위 <b>생명력 흡수</b> 하수인에게 +2/+2를 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_811": {
+      "nativeRawText": "<b>전투의 함성:</b>\n내 손에 있는 모든 주문을 <i>상대편 직업</i>의 무작위 주문으로 교체합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_812": {
+      "nativeRawText": "[x]<b>죽음의 메아리:</b>\n내 덱에서 이 하수인보다\n공격력이 낮은 하수인을\n소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 17
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_820": {
+      "nativeRawText": "<b>돌진</b>\n<b>생명력 흡수</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 197,
+          "name": "돌진",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_823": {
+      "nativeRawText": "내 손에 있는 가장 낮은 비용의 하수인을 복사합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_825": {
+      "nativeRawText": "<b>죽음의 메아리:</b> 이번 게임에서 죽은 무작위 아군 야수를 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_827": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 191,
+          "name": "은신",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 43188
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_827p": {
+      "nativeRawText": "[x]<b>지속 능력</b>\n내 턴 동안 '그림자_환영'을\n내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        },
+        {
+          "id": 402,
+          "name": "능력치 숨김",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_827t": {
+      "nativeRawText": "내가 카드를 낼 때마다 그 카드로 변신합니다.",
+      "nativeTags": [
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 402,
+          "name": "능력치 숨김",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_828": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n모든 적 하수인에게\n피해를 2 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 43183
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_828p": {
+      "nativeRawText": "원하는 누더기야수를 직접 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_828t": {
+      "nativeRawText": "{0}, {1}",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 3
+    },
+    "ICC_829": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 43013
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_829p": {
+      "nativeRawText": "2/2 기사단원을 소환합니다.\n내 전장에 4인 기사단이 모두 있으면, 적 영웅을 파괴합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_829t": {
+      "nativeRawText": "<b>생명력 흡수</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_829t2": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_829t3": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_829t4": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_829t5": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_830": {
+      "nativeRawText": "<b>전투의 함성:</b>\n공격력이 5 이상인 <b>모든</b> 하수인을 처치합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 45397
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_830p": {
+      "nativeRawText": "피해를 $2 줍니다.\n내가 카드를 낸 후에, 다시 사용할 수 있습니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_831": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n이번 게임에서 죽은\n모든 아군 악마를\n소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 43181
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_831p": {
+      "nativeRawText": "<b>생명력 흡수</b>\n피해를 $3 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832": {
+      "nativeRawText": "<b>선택 -</b> <b>독성</b> 능력이 있는 거미를 2마리 소환합니다. 또는 <b>도발</b> 능력이 있는 딱정벌레를 2마리 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 43182
+        },
+        {
+          "id": 443,
+          "name": "선택",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832a": {
+      "nativeRawText": "<b>도발</b> 능력이 있는 1/5 딱정벌레를 2마리 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832b": {
+      "nativeRawText": "<b>독성</b> 능력이 있는 1/2 거미를 2마리 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832p": {
+      "nativeRawText": "<b>선택 -</b> 이번 턴에 공격력을 +$a3 얻습니다. 또는 방어도를 $d3 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        },
+        {
+          "id": 443,
+          "name": "선택",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832pa": {
+      "nativeRawText": "방어도 +$d3",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832pb": {
+      "nativeRawText": "공격력 +$a3",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832t3": {
+      "nativeRawText": "<b>독성</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_832t4": {
+      "nativeRawText": "<b>도발</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_833": {
+      "nativeRawText": "[x]<b>전투의 함성:</b> 3/6\n물의 정령을 소환합니다.\n이번 게임에서 내 정령들이\n<b>생명력 흡수</b>를 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 42944
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_833h": {
+      "nativeRawText": "피해를 $1 줍니다.\n이 피해로 하수인이 죽으면, 물의 정령을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_833t": {
+      "nativeRawText": "이 하수인에게 피해를 받은 캐릭터는 <b>빙결</b> 상태가 됩니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 0
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 0
+        },
+        {
+          "id": 330,
+          "name": "효과 생성 시각 효과",
+          "value": 0
+        },
+        {
+          "id": 331,
+          "name": "효과 지속 시각 효과",
+          "value": 0
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_834": {
+      "nativeRawText": "<b>전투의 함성</b>: 공격 시 양옆의 하수인에게도 피해를 주는 4/3 어둠한을 장착합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 30
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 3
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 292,
+          "name": "방어도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 380,
+          "name": "영웅 능력",
+          "value": 45585
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_834h": {
+      "nativeRawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_834w": {
+      "nativeRawText": "내 영웅이 공격하는 대상 양옆의 하수인들에게도 피해를 줍니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_835": {
+      "nativeRawText": "<b>죽음의 메아리:</b>\n이번 게임에서 죽은\n내 <b>도발</b> 하수인들을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_836": {
+      "nativeRawText": "[x]무작위 적 하수인에게\n피해를 $2 주고\n<b>빙결</b> 상태로 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 3
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_837": {
+      "nativeRawText": "방어도를 +10 얻습니다. 상대편 손에 있는 하수인들의 비용이 (2) 감소합니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_838": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n0/1 얼어붙은 용사를\n2명 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 46019
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_838t": {
+      "nativeRawText": "[x]<b>죽음의 메아리:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_841": {
+      "nativeRawText": "[x]<b>생명력 흡수</b>\n이번 게임에서 내가 버린\n카드 하나당 공격력을\n+1 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_849": {
+      "nativeRawText": "[x]적 하수인을 선택합니다.\n내 턴이 시작될 때,\n그 하수인을 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_850": {
+      "nativeRawText": "<b>전투의 함성:</b> 이번 턴에 내 영웅이 <b>면역</b> 상태가 됩니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 240,
+          "name": "면역",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_851": {
+      "nativeRawText": "[x]<b>전투의 함성:</b> 내 덱에 비용이\n2인 카드가 없으면, 내 덱에\n있는 모든 하수인에게\n+1/+1을 부여합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_852": {
+      "nativeRawText": "[x]<b>전투의 함성:</b> 내 덱에\n비용이 3인 카드가 없으면,\n선택한 하수인으로 변신합니다.\n능력치는 3/3이 됩니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_853": {
+      "nativeRawText": "<b>전투의 함성:</b> 내 덱에 비용이 4인 카드가 없으면, <b>생명력 흡수</b>와 <b>도발</b>을 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_854": {
+      "nativeRawText": "<b>죽음의 메아리:</b> 무작위 <b>리치 왕</b> 카드를 내 손으로 가져옵니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2534,
+          "name": "게임 태그 2534",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_855": {
+      "nativeRawText": "<b>전투의 함성:</b>\n내 다른 하수인들을\n<b>빙결</b> 상태로 만듭니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 208,
+          "name": "빙결",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_856": {
+      "nativeRawText": "<b>주문 공격력 +2</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 192,
+          "name": "주문 공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_858": {
+      "nativeRawText": "[x]<b>천상의 보호막</b>, 아군\n하수인이 <b>천상의_보호막</b>을\n잃은 후에, 공격력을\n+2 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "천상의 보호막",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1429,
+          "name": "전장 황금 하수인 ID",
+          "value": 58405
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_900": {
+      "nativeRawText": "내 다른 하수인이 죽을 때마다 2/2 구울을 소환합니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 45305
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_900t": {
+      "nativeRawText": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_901": {
+      "nativeRawText": "턴이 끝날 때 발동하는 내 효과가 2번 발동합니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_902": {
+      "nativeRawText": "두 플레이어 모두\n영웅 능력을 사용할 수 없습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_903": {
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n아군 하수인을 처치하고\n+2/+2를 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_904": {
+      "nativeRawText": "<b>전투의 함성:</b> 이번 턴에 죽은 하수인 하나당 +1/+1을 얻습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_905": {
+      "nativeRawText": "<b>생명력 흡수</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_910": {
+      "nativeRawText": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 0
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 220,
+          "name": "연계",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 330,
+          "name": "효과 생성 시각 효과",
+          "value": 0
+        },
+        {
+          "id": 331,
+          "name": "효과 지속 시각 효과",
+          "value": 0
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_911": {
+      "nativeRawText": "내가 카드를 낼 때마다\n내 다음 카드 3장을 없앱니다.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_912": {
+      "nativeRawText": "[x]<b>전투의 함성:</b> 내 덱에 <b>도발</b>\n하수인이 있으면 <b>도발</b>을 얻습니다.\n<b>천상의 보호막</b>, <b>생명력 흡수</b>, <b>질풍</b>도\n동일하게 얻을 수 있습니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 0
+        },
+        {
+          "id": 189,
+          "name": "질풍",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "천상의 보호막",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 685,
+          "name": "생명력 흡수",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    },
+    "ICC_913": {
+      "nativeRawText": "<b>천상의 보호막</b>\n<b>주문 공격력 +1</b>",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 192,
+          "name": "주문 공격력",
+          "value": 1
+        },
+        {
+          "id": 194,
+          "name": "천상의 보호막",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeTextBuilder": 0
+    }
+  },
   "counts": {
     "root": 182,
     "relatedIds": 182,
