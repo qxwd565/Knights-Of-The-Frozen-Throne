@@ -65,10 +65,10 @@ jobs:
         run: |
           git fetch --depth=1 origin 9dd6b844daa08ceffd171e090e001ae3de36c3ec
           python tools/capture-legacy-metadata.py 9dd6b844daa08ceffd171e090e001ae3de36c3ec
-      - name: Test history operations
-        run: python -m unittest discover -s tests -v
       - name: Build schema-1 compatibility API indexes
         run: python tools/build-api.py
+      - name: Test history operations
+        run: python -m unittest discover -s tests -v
       - name: Re-run complete source pipeline in independent hash-seeded Python processes
         run: |
           run_pipeline() {
@@ -82,8 +82,8 @@ jobs:
             env PYTHONHASHSEED="$seed" python tools/verify-icc-undated-observations.py /tmp
             env PYTHONHASHSEED="$seed" python tools/enrich-icc-source-evidence.py 9dd6b844daa08ceffd171e090e001ae3de36c3ec
             env PYTHONHASHSEED="$seed" python tools/capture-legacy-metadata.py 9dd6b844daa08ceffd171e090e001ae3de36c3ec
-            env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
             env PYTHONHASHSEED="$seed" python tools/build-api.py
+            env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
           }
           run_pipeline 1
           git diff --exit-code
