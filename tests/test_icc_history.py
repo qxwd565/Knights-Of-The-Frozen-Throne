@@ -506,7 +506,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                 before = dates[index + 1]
                 revision = next((x for x in revisions if x["from"] == day and x["before"] == before), None)
                 changes = revision["changes"] if revision else {}
-                fields = BUILD.applicable_history_fields(state) & BUILD.applicable_history_fields(current)
+                fields = tuple(field for field in BUILD.applicable_history_fields(state) if field in BUILD.applicable_history_fields(current))
                 for field in fields:
                     if field in state and field in current:
                         if state[field] != current[field]:
