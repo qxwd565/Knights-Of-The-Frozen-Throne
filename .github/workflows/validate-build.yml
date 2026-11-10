@@ -1,0 +1,29 @@
+name: Validate and build Frozen Throne card API
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch immutable launch CardDefs snapshot
+        run: |
+          git init /tmp/hsdata
+          git -C /tmp/hsdata remote add origin https://github.com/HearthSim/hsdata.git
+          git -C /tmp/hsdata fetch --depth=1 origin 6f874a2b18045ed3464983aff85ca106bc656916
+          git -C /tmp/hsdata show 6f874a2b18045ed3464983aff85ca106bc656916:CardDefs.xml > /tmp/CardDefs.xml
+      - name: Inspect original CardDefs records
+        run: python tools/probe-icc-carddefs.py /tmp/CardDefs.xml
