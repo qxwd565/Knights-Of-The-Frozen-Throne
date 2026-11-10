@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 1,
+  "description": "Date-undetermined Frozen Throne CardDefs observations; source evidence only, no dated event or gameplay balance claim.",
+  "findings": [
+    {
+      "findingID": "FT-D02",
+      "event": "말퓨리온 선택 카드 COST 7 태그 관측",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "3e1a03e9c4206c1cff264d1b7d9fcb522ed8a059",
+        "xmlSha256": "980fc262b862962250ee46675dbd142637542ca498647c9c1e13cd8956a90a16",
+        "build": 30103,
+        "url": "https://github.com/HearthSim/hsdata/blob/3e1a03e9c4206c1cff264d1b7d9fcb522ed8a059/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "32c8b31a69662efc5984a09f7ba5eaced12ff4c8",
+        "xmlSha256": "bb834781da50c2a7a592784d3a1d140e7fac57c0f349ba5a724efc26fa183127",
+        "build": 30795,
+        "url": "https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_832a",
+          "changes": {
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "7"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_832b",
+          "changes": {
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "7"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_832pa",
+          "changes": {
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "7"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_832pb",
+          "changes": {
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "7"
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "선택 카드의 COST 태그 부재→7. 부재는 비용 0이 아니다. 부모 영웅 비용 7과 능력 비용 2는 그대로이며 실제 능력 비용 변경으로 보지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D03",
+      "event": "말퓨리온 영웅 능력 선택 카드 COST 7→2",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "8d75b318f31f3d4d1faf06f666cde029f0d140ac",
+        "xmlSha256": "776e7486cdac88a12216e4fa229108761e2b2638bc126c0dcf5399731795f12f",
+        "build": 180614,
+        "url": "https://github.com/HearthSim/hsdata/blob/8d75b318f31f3d4d1faf06f666cde029f0d140ac/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "1a884ec23e99e4daa26637df99433c6e17bba63c",
+        "xmlSha256": "f36fc61a25c794d1fb2886b18d4c32ae7ec5dfab8b4266996c13a4bbd281c1a0",
+        "build": 181554,
+        "url": "https://github.com/HearthSim/hsdata/blob/1a884ec23e99e4daa26637df99433c6e17bba63c/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_832pa",
+          "changes": {
+            "48": {
+              "before": {
+                "present": true,
+                "value": "7"
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_832pb",
+          "changes": {
+            "48": {
+              "before": {
+                "present": true,
+                "value": "7"
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "선택지 내부 표시 값이 부모 영웅 능력 비용과 일치하도록 바뀐 관측이다. 부모 능력 비용은 전후 2이며 실제 능력 비용 7→2로 기록하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D04",
+      "event": "운명술사 선택 카드 COST 5 태그 관측",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "8d75b318f31f3d4d1faf06f666cde029f0d140ac",
+        "xmlSha256": "776e7486cdac88a12216e4fa229108761e2b2638bc126c0dcf5399731795f12f",
+        "build": 180614,
+        "url": "https://github.com/HearthSim/hsdata/blob/8d75b318f31f3d4d1faf06f666cde029f0d140ac/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "1a884ec23e99e4daa26637df99433c6e17bba63c",
+        "xmlSha256": "f36fc61a25c794d1fb2886b18d4c32ae7ec5dfab8b4266996c13a4bbd281c1a0",
+        "build": 181554,
+        "url": "https://github.com/HearthSim/hsdata/blob/1a884ec23e99e4daa26637df99433c6e17bba63c/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_047a",
+          "changes": {
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "5"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_047b",
+          "changes": {
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "5"
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "성장·부식은 비공개 선택지다. 부모 하수인 비용은 5이며 선택지 태그 부재를 실제 마나 0으로 추정하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D09",
+      "event": "선택한 운명술사 형태 DEATHRATTLE 태그 제거",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "d7ed66f4cef80d4bd4b9eb0614472642adee9189",
+        "xmlSha256": "c30ed7889158780f12f6002461df397681a935df4469e5c605a8fb3fe5ea5db5",
+        "build": 188645,
+        "url": "https://github.com/HearthSim/hsdata/blob/d7ed66f4cef80d4bd4b9eb0614472642adee9189/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "6a795ece148dd7f5657d3e932acc0358526c8e82",
+        "xmlSha256": "5c43dfc42e319a9e5c7212156b1018728cfc40db78725c8c7f58454d3ba265c0",
+        "build": 189017,
+        "url": "https://github.com/HearthSim/hsdata/blob/6a795ece148dd7f5657d3e932acc0358526c8e82/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_047t",
+          "changes": {
+            "217": {
+              "before": {
+                "present": true,
+                "value": "1"
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "rawText": {
+              "before": "<b>죽음의 메아리 (비밀):</b>\n<b>모든</b> 하수인에게\n피해를 3 줍니다. 또는 +2/+2를 부여합니다.@<b>죽음의 메아리 (비밀):</b> <b>모든</b> 하수인에게 +2/+2를 부여합니다.@<b>죽음의 메아리 (비밀):</b> <b>모든</b> 하수인에게\n피해를 3 줍니다.",
+              "after": "<b>죽음의 메아리 (비밀):</b>\n<b>모든</b> 하수인에게\n피해를 3 줍니다. 또는 +2/+2를 부여합니다.@<b>죽음의 메아리 (비밀):</b> <b>모든</b> 하수인에게 +2/+2를 부여합니다.@<b>죽음의 메아리 (비밀):</b> <b>모든</b> 하수인에게\n피해를 3 줍니다."
+            }
+          }
+        }
+      ],
+      "assessment": "선택한 비공개 죽음의 메아리 설명은 그대로다. 태그 제거를 기능 삭제로 해석하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D10",
+      "event": "드라카리 수호병 OVERLOAD_OWED 태그 제거",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "f9d936096897c6fd4d723102381769efd8b9be89",
+        "xmlSha256": "bd0d4bc8d1ecd0695e01ea2576401fb594f48bfe33ca81458e323a3cda556d85",
+        "build": 28556,
+        "url": "https://github.com/HearthSim/hsdata/blob/f9d936096897c6fd4d723102381769efd8b9be89/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "aeffaf09cdbba14654c4543792558fab68cee363",
+        "xmlSha256": "169ecd1a285e6b3356f0d5f26eb5be4975b8f455d2952de750e4b4c9d5921022",
+        "build": 28855,
+        "url": "https://github.com/HearthSim/hsdata/blob/aeffaf09cdbba14654c4543792558fab68cee363/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_081",
+          "changes": {
+            "215": {
+              "before": {
+                "present": true,
+                "value": "3"
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "296": {
+              "before": {
+                "present": true,
+                "value": "3"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "OVERLOAD_OWED 3은 사라지지만 기본 OVERLOAD 3과 과부하 문구는 유지된다. 과부하 하향으로 세지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D11",
+      "event": "대마법 보호막·곰상어 회피 키워드 표현",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "b0d06776272138cab032979722d18ca4de6545f0",
+        "xmlSha256": "326d2fe2662a8931f0a1f19aa1ceeb90808c75703ce98ba5ad4230b07ce6b0a9",
+        "build": 195316,
+        "url": "https://github.com/HearthSim/hsdata/blob/b0d06776272138cab032979722d18ca4de6545f0/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "e072e5d302a93dc6fb33542e7c528ae4d39560f0",
+        "xmlSha256": "a220a1fffc23afde38b8fc79ca4a73e88a54a71c12711608130766a0f0f1351f",
+        "build": 195635,
+        "url": "https://github.com/HearthSim/hsdata/blob/e072e5d302a93dc6fb33542e7c528ae4d39560f0/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_314t7",
+          "changes": {
+            "311": {
+              "before": {
+                "present": true,
+                "value": "1"
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "332": {
+              "before": {
+                "present": true,
+                "value": "1"
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "1211": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "rawText": {
+              "before": "내 하수인들에게 +2/+2와 \"주문이나 영웅 능력의 대상으로 지정되지 않음\" 능력을 부여합니다.",
+              "after": "내 하수인들에게 +2/+2와 <b>모면</b>을 부여합니다."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_419",
+          "changes": {
+            "311": {
+              "before": {
+                "present": true,
+                "value": "1"
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "332": {
+              "before": {
+                "present": true,
+                "value": "1"
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "1211": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+              "after": "<b>모면</b>"
+            }
+          }
+        }
+      ],
+      "assessment": "기존 대상 지정 불가 표현이 모면으로 바뀐 관측이다. 곰상어의 소유 회피 태그와 보호막이 부여하는 회피를 구별하며 새 상향으로 세지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D12",
+      "event": "생성 카드 묶음 명칭 죽음의 기사→리치 왕",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "137007cb4afdd3bb160b9a1ffeab79cfc79a4f73",
+        "xmlSha256": "da6cd9101c3440a826c8f577eb7260e9700dc3ae4a2f9f1cbf57e27427f49e23",
+        "build": 152904,
+        "url": "https://github.com/HearthSim/hsdata/blob/137007cb4afdd3bb160b9a1ffeab79cfc79a4f73/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "9250bfdc7e5caedea2732988dbfa2b4a4ba256a0",
+        "xmlSha256": "c5f1bd13875af2a8b59029e6747e7952a4f1c5c2e568ef72f7d6a337e5c1a6ff",
+        "build": 154203,
+        "url": "https://github.com/HearthSim/hsdata/blob/9250bfdc7e5caedea2732988dbfa2b4a4ba256a0/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_314",
+          "changes": {
+            "rawText": {
+              "before": "<b>도발</b>, 내 턴이 끝날 때, 무작위 <b>죽음의 기사</b> 카드를 내 손으로 가져옵니다.",
+              "after": "[x]<b>도발</b>, 내 턴이 끝날 때,\n무작위 <b>리치 왕</b> 카드를\n내 손으로 가져옵니다."
+            },
+            "enText": {
+              "before": "[x]<b>Taunt</b>\nAt the end of your turn,\nadd a random <b>Death Knight</b>\ncard to your hand.",
+              "after": "[x]<b>Taunt</b>\nAt the end of your turn,\nadd a random <b>Lich King</b>\ncard to your hand."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_854",
+          "changes": {
+            "rawText": {
+              "before": "<b>죽음의_메아리:</b> 무작위 <b>죽음의 기사</b> 카드를 내 손으로 가져옵니다.",
+              "after": "<b>죽음의 메아리:</b> 무작위 <b>리치 왕</b> 카드를 내 손으로 가져옵니다."
+            },
+            "enText": {
+              "before": "<b>Deathrattle:</b> Add a random <b>Death Knight</b> card to your_hand.",
+              "after": "[x]<b>Deathrattle:</b> Add a random\n<b>Lich King</b> card to your_hand."
+            }
+          }
+        }
+      ],
+      "assessment": "기존 리치 왕 생성 카드 묶음의 명칭 정리다. 신규 직업 전체 카드로 생성 대상이 확장된 것으로 해석하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D14",
+      "event": "선택 화면용 변신 카드 독성·도발 태그",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "59c1e1229b3e48ecbc4436fda2fb0a22030d3808",
+        "xmlSha256": "0ecabaa56386e967fa16f7595a022b391d2627f1e0a7892f4326f6d125232d83",
+        "build": 246003,
+        "url": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "cc80e8aa220f39632c9c742f8587265f7569c5ef",
+        "xmlSha256": "a3b0e3dcd112626aa47ba16ede1b26506eed175b1fda288c1b6952065c06aac4",
+        "build": 247416,
+        "url": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_051a",
+          "changes": {
+            "190": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": false
+              }
+            },
+            "363": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_051b",
+          "changes": {
+            "190": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "363": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "실제 변신 결과는 이미 각각 독성·도발이었다. 선택 화면 카드 태그 보강만으로 부모 카드가 새 능력을 얻었다고 세지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D15",
+      "event": "영원한 족쇄·기워 붙인 추적자 DISCOVER 태그",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "02522f4d57def8c5c72deb6dfd537cbab6f819de",
+        "xmlSha256": "4d0e91ec82a10e363189db1785fbdabe790aeb4077d25353b349ce9ee9c96597",
+        "build": 31761,
+        "url": "https://github.com/HearthSim/hsdata/blob/02522f4d57def8c5c72deb6dfd537cbab6f819de/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "adedd63ac6a9181d379fcf320648fa4c7fb9ebf2",
+        "xmlSha256": "2bd58e2a3982a1dc0bfa3182c2e1e4912e2a55fcec6f4f8b33d639afa3a9ce7e",
+        "build": 32708,
+        "url": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_213",
+          "changes": {
+            "415": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "1342": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "이번 게임에서 죽은 아군 하수인을 <b>발견</b>하여 소환합니다.",
+              "after": "이번 게임에서 죽은 아군 하수인을 <b>발견</b>하여 소환합니다."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_415",
+          "changes": {
+            "415": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "1342": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>전투의 함성:</b> 내 덱에서 하수인을 <b>발견</b>합니다.",
+              "after": "<b>전투의 함성:</b> 내 덱에서 하수인을 <b>발견</b>합니다."
+            }
+          }
+        }
+      ],
+      "assessment": "두 카드 모두 출시부터 발견 효과 문구를 가진다. 뒤늦게 생긴 태그를 새 능력 상향으로 해석하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D16",
+      "event": "최신 빌드 의미 미확정 내부 태그",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "27fbd2323aec20cab1c6ecc7d5f55cf12729f956",
+        "xmlSha256": "6d75f63414c9ea0c1edaad9e2549aae7322cc0fde0f7953748ceb9c91ac1f419",
+        "build": 253932,
+        "url": "https://github.com/HearthSim/hsdata/blob/27fbd2323aec20cab1c6ecc7d5f55cf12729f956/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "7fce0fa55971169c7dc17915e689f6e525419fb1",
+        "xmlSha256": "de717fc210614be2033152cffae6052fb1cd6b85812dc598218ce75263ca9df3",
+        "build": 254477,
+        "url": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_210",
+          "changes": {
+            "4533": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "4577": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_214",
+          "changes": {
+            "4533": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "4577": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_407",
+          "changes": {
+            "4533": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "4577": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "4533·4577 소유 태그 추가를 관측했지만 의미와 실전 행동은 미확정이다. 무효과나 밸런스 변경으로 단정하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D17",
+      "event": "상대 턴 조건 죽음의 메아리 카드 내부 태그 974",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "80ddcf83ef53645d7e6b8bd6de1601a37a352990",
+        "xmlSha256": "ada7fb38895c7c24def87165b2f8f6569f324eb03ff36ad47480fa8e1c52dcda",
+        "build": 23576,
+        "url": "https://github.com/HearthSim/hsdata/blob/80ddcf83ef53645d7e6b8bd6de1601a37a352990/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "6317434bee453ec6e8267cbf45277c0a13da90f8",
+        "xmlSha256": "4353a7eb1c36c99ccfc3817eb30cccb3a7c14c810a043c82e980957864a09d94",
+        "build": 23966,
+        "url": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_019",
+          "changes": {
+            "974": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>죽음의 메아리:</b>\n상대편의 턴이면,\n8/8 해골을 하나 소환합니다.",
+              "after": "<b>죽음의 메아리:</b>\n상대편의 턴이면,\n8/8 해골을 하나 소환합니다."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_034",
+          "changes": {
+            "974": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다.",
+              "after": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_062",
+          "changes": {
+            "974": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>죽음의 메아리:</b>\n상대편의 턴이면, 방어도를 +6 얻습니다.",
+              "after": "<b>죽음의 메아리:</b>\n상대편의 턴이면, 방어도를 +6 얻습니다."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_067",
+          "changes": {
+            "974": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>죽음의 메아리:</b>\n상대편의 턴이면,\n2/2 구울을 하나 소환합니다.",
+              "after": "<b>죽음의 메아리:</b>\n상대편의 턴이면,\n2/2 구울을 하나 소환합니다."
+            }
+          }
+        }
+      ],
+      "assessment": "조건부 죽음의 메아리 문구는 전후 같다. 태그의 공개 의미가 입증되지 않아 밸런스 사건으로 세지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D18a",
+      "event": "의미 미확정 보조 태그 1576",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "aabc9af539d7c540539f2678b16bcc5007c9f6dd",
+        "xmlSha256": "2a69e9f8fca2efd84b422881d41996746619075b822a19aab240eb82a862aded",
+        "build": 45932,
+        "url": "https://github.com/HearthSim/hsdata/blob/aabc9af539d7c540539f2678b16bcc5007c9f6dd/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "5917d30ad2bb049d99b8f70c77c13c796420ddf1",
+        "xmlSha256": "a6f818880d3403204e3562ae61c0cba2ade4ff40a994aea002c8d674dda73cad",
+        "build": 47374,
+        "url": "https://github.com/HearthSim/hsdata/blob/5917d30ad2bb049d99b8f70c77c13c796420ddf1/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_028",
+          "changes": {
+            "1576": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>전투의 함성:</b> 양옆의 하수인들에게 생명력을 +2 부여합니다.",
+              "after": "<b>전투의 함성:</b> 양옆의 하수인들에게 생명력을 +2 부여합니다."
+            }
+          }
+        }
+      ],
+      "assessment": "효과 문구와 기본 수치는 동일하다. 태그만으로 특정 추가 효과를 단정하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D18b",
+      "event": "의미 미확정 보조 태그 1591",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "3c95d5d838cd95a37139beb83201f6eb8e028844",
+        "xmlSha256": "e5dbf977656be41fc701d31d103f0e42c969c06ce4474f3cb8d772ad6bf458f7",
+        "build": 48705,
+        "url": "https://github.com/HearthSim/hsdata/blob/3c95d5d838cd95a37139beb83201f6eb8e028844/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "e721b446d72fa20fd58139da93f7af31e5eb2333",
+        "xmlSha256": "dab0d3c2a97d0a6161019575a77312d7ecf25c7c2b1300e568a5be0aeae49c97",
+        "build": 49534,
+        "url": "https://github.com/HearthSim/hsdata/blob/e721b446d72fa20fd58139da93f7af31e5eb2333/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_029",
+          "changes": {
+            "1591": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+              "after": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다."
+            }
+          }
+        }
+      ],
+      "assessment": "효과 문구와 기본 수치는 동일하다. 태그만으로 특정 추가 효과를 단정하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D18c",
+      "event": "의미 미확정 보조 태그 1623",
+      "koreanDay": null,
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "archiveBefore": {
+        "commit": "132c8a94327896bbd9b911d7ee26086df7089290",
+        "xmlSha256": "622494f6cf70da9ecdfc79020c822b79a342bdd7e9e2d161fc961dce7bc57887",
+        "build": 74257,
+        "url": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+        "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29",
+        "build": 77662,
+        "url": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_221",
+          "changes": {
+            "1623": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다.",
+              "after": "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다."
+            }
+          }
+        }
+      ],
+      "assessment": "효과 문구와 기본 수치는 동일하다. 태그만으로 특정 추가 효과를 단정하지 않는다.",
+      "countedAsConfirmedGameplayHistory": false
+    }
+  ],
+  "excludedOutOfScope": [
+    {
+      "findingID": "FT-D20",
+      "classification": "out_of_scope_mode_or_linkage_metadata",
+      "cardIDs": [
+        "ICC_019",
+        "ICC_025",
+        "ICC_026",
+        "ICC_029",
+        "ICC_032",
+        "ICC_034",
+        "ICC_038",
+        "ICC_050",
+        "ICC_054",
+        "ICC_065",
+        "ICC_067",
+        "ICC_069",
+        "ICC_085",
+        "ICC_092",
+        "ICC_094",
+        "ICC_099",
+        "ICC_200",
+        "ICC_408",
+        "ICC_807",
+        "ICC_838",
+        "ICC_858",
+        "ICC_900"
+      ],
+      "reason": "Battlegrounds and cross-DBF linkage metadata are outside this standard-play task; no observations imported."
+    }
+  ]
+}

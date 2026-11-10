@@ -522,5 +522,39 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                             self.assertIn(field, item.get("historyIncompleteFields", []),
                                           f"{path.stem}:{day}:{field}")
 
+    def test_history_change_dict_uses_fixed_field_order(self):
+        self.assertIsInstance(BUILD.HISTORY_FIELDS, tuple)
+        for path in sorted((ROOT / "data").glob("ICC_*.json")):
+            item = BUILD.load(path)
+            revisions = BUILD.replay_legacy(item, item["current"])
+            for revision in revisions:
+                changes = revision["changes"]
+                expected = [field for field in BUILD.HISTORY_FIELDS if field in changes]
+                self.assertEqual(list(changes), expected, f"{path.stem}:{revision['from']}")
+
+    def test_undated_observations_remain_uncertain_source_evidence_only(self):
+        manifest = BUILD.load(ROOT / "sources" / "frozen-throne-undated-observations.json")
+        self.assertEqual(len(manifest["findings"]), 14)
+        self.assertEqual(sum(len(x["observations"]) for x in manifest["findings"]), 28)
+        self.assertEqual(len({s["commit"] for x in manifest["findings"]
+                              for s in (x["archiveBefore"], x["archiveAfter"])}), 26)
+        for finding in manifest["findings"]:
+            self.assertIsNone(finding["koreanDay"])
+            self.assertFalse(finding["countedAsConfirmedGameplayHistory"])
+            self.assertEqual(finding["classification"], "observed_archive_change_not_confirmed_gameplay_delta")
+        self.assertEqual(manifest["excludedOutOfScope"][0]["findingID"], "FT-D20")
+
+    def test_korean_official_release_notices_preserve_playable_day(self):
+        policy = BUILD.load(ROOT / "release-policy.json")
+        self.assertEqual(policy["default"]["date"], "2017-08-11")
+        self.assertEqual(policy["default"]["status"], "verified")
+        urls = {x["url"] for x in policy["koreanOfficialNotices"]}
+        self.assertEqual(urls, {
+            "https://hearthstone.blizzard.com/ko-kr/news/20904308",
+            "https://hearthstone.blizzard.com/ko-kr/news/20944003",
+        })
+        self.assertEqual(policy["koreanOfficialNotices"][0]["publishedDate"], "2017-08-04")
+        self.assertEqual(policy["koreanOfficialNotices"][1]["publishedDate"], "2017-08-10")
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

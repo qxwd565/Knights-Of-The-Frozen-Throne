@@ -9,5 +9,19 @@
   "cards": {},
   "sources": {
     "main": "https://hearthstone.blizzard.com/ko-kr/expansions-adventures/knights-of-the-frozen-throne"
-  }
+  },
+  "koreanOfficialNotices": [
+    {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20904308",
+      "title": "8월 11일, 얼어붙은 왕좌의 기사들이 출시됩니다!",
+      "publishedDate": "2017-08-04",
+      "role": "official_pre_release_announcement"
+    },
+    {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20944003",
+      "title": "일어나라, 얼어붙은 왕좌의 기사들이여!",
+      "publishedDate": "2017-08-10",
+      "role": "official_release_announcement"
+    }
+  ]
 }

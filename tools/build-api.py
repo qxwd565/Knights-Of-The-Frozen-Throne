@@ -15,10 +15,11 @@ RENDER_FIELDS = (
     "races", "race", "spellSchool", "set", "nativeTags", "mechanics",
     "watermark", "classes",
 )
-HISTORY_FIELDS = {
+HISTORY_FIELDS = (
     "name", "type", "cardClass", "rarity", "collectible", "cost", "attack",
     "health", "durability", "armor", "text", "races", "race", "spellSchool",
-}
+)
+HISTORY_FIELD_SET = frozenset(HISTORY_FIELDS)
 METADATA_FIELDS = (
     "root", "relatedIds", "englishName", "expansion", "setOrder", "formats",
     "provenance", "mode",
@@ -37,7 +38,7 @@ def publish(path: Path, value, compact=False):
     path.write_text(rendered, encoding="utf-8")
     return True
 
-def apply_sparse_event(state: dict, event: dict, history_fields=HISTORY_FIELDS):
+def apply_sparse_event(state: dict, event: dict, history_fields=HISTORY_FIELD_SET):
     """Apply assignments and explicit removals without conflating falsy values."""
     reverse = {}
     incomplete = set()
@@ -85,7 +86,7 @@ def applicable_history_fields(state: dict):
             fields.difference_update({"races", "race"})
         if kind in ("HERO", "WEAPON"):
             fields.discard("health")
-    return fields
+    return tuple(field for field in HISTORY_FIELDS if field in fields)
 
 
 def snapshot_field(state: dict, field: str):
@@ -155,7 +156,9 @@ def replay_legacy(source: dict, record: dict):
     for index, (day, snapshot) in enumerate(snapshots[:-1]):
         before = snapshots[index + 1][0]
         changes = {}
-        for field in applicable_history_fields(snapshot) & applicable_history_fields(current):
+        for field in applicable_history_fields(snapshot):
+            if field not in applicable_history_fields(current):
+                continue
             if field in snapshot:
                 if field not in current or snapshot[field] != current[field]:
                     changes[field] = copy.deepcopy(snapshot[field])
@@ -185,7 +188,9 @@ def replay_legacy(source: dict, record: dict):
             revisions.append({"from": day, "before": before, "changes": changes})
 
     replay_mismatches = {}
-    for field in applicable_history_fields(final_state) & applicable_history_fields(current):
+    for field in applicable_history_fields(final_state):
+        if field not in applicable_history_fields(current):
+            continue
         if field in final_state and field in current and final_state[field] != current[field]:
             replay_mismatches[field] = {
                 "datedReplay": copy.deepcopy(final_state[field]),

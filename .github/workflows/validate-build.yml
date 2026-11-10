@@ -49,6 +49,14 @@ jobs:
             git -C /tmp/hsdata show "$commit:CardDefs.xml" > "/tmp/CardDefs-$commit.xml"
           done
           python tools/apply-icc-native-tags.py /tmp
+      - name: Fetch and verify date-undetermined CardDefs observations
+        run: |
+          COMMITS="3e1a03e9c4206c1cff264d1b7d9fcb522ed8a059 32c8b31a69662efc5984a09f7ba5eaced12ff4c8 8d75b318f31f3d4d1faf06f666cde029f0d140ac 1a884ec23e99e4daa26637df99433c6e17bba63c d7ed66f4cef80d4bd4b9eb0614472642adee9189 6a795ece148dd7f5657d3e932acc0358526c8e82 f9d936096897c6fd4d723102381769efd8b9be89 aeffaf09cdbba14654c4543792558fab68cee363 b0d06776272138cab032979722d18ca4de6545f0 e072e5d302a93dc6fb33542e7c528ae4d39560f0 137007cb4afdd3bb160b9a1ffeab79cfc79a4f73 9250bfdc7e5caedea2732988dbfa2b4a4ba256a0 59c1e1229b3e48ecbc4436fda2fb0a22030d3808 cc80e8aa220f39632c9c742f8587265f7569c5ef 02522f4d57def8c5c72deb6dfd537cbab6f819de adedd63ac6a9181d379fcf320648fa4c7fb9ebf2 27fbd2323aec20cab1c6ecc7d5f55cf12729f956 7fce0fa55971169c7dc17915e689f6e525419fb1 80ddcf83ef53645d7e6b8bd6de1601a37a352990 6317434bee453ec6e8267cbf45277c0a13da90f8 aabc9af539d7c540539f2678b16bcc5007c9f6dd 5917d30ad2bb049d99b8f70c77c13c796420ddf1 3c95d5d838cd95a37139beb83201f6eb8e028844 e721b446d72fa20fd58139da93f7af31e5eb2333 132c8a94327896bbd9b911d7ee26086df7089290 9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+          git -C /tmp/hsdata fetch --depth=1 origin $COMMITS
+          for commit in $COMMITS; do
+            git -C /tmp/hsdata show "$commit:CardDefs.xml" > "/tmp/CardDefs-$commit.xml"
+          done
+          python tools/verify-icc-undated-observations.py /tmp
       - name: Restore historical source evidence and card verification metadata
         run: |
           git fetch --depth=1 origin 9dd6b844daa08ceffd171e090e001ae3de36c3ec
@@ -61,6 +69,28 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Build schema-1 compatibility API indexes
         run: python tools/build-api.py
+      - name: Re-run complete source pipeline in independent hash-seeded Python processes
+        run: |
+          run_pipeline() {
+            seed="$1"
+            env PYTHONHASHSEED="$seed" python tools/probe-icc-carddefs.py /tmp/CardDefs.xml
+            env PYTHONHASHSEED="$seed" python tools/migrate-icc-to-v2.py /tmp/CardDefs.xml
+            env PYTHONHASHSEED="$seed" python tools/extract-icc-launch-strings.py /tmp/CardDefs.xml
+            env PYTHONHASHSEED="$seed" python tools/apply-icc-launch-strings.py
+            env PYTHONHASHSEED="$seed" python tools/apply-icc-observation-events.py /tmp
+            env PYTHONHASHSEED="$seed" python tools/apply-icc-native-tags.py /tmp
+            env PYTHONHASHSEED="$seed" python tools/verify-icc-undated-observations.py /tmp
+            env PYTHONHASHSEED="$seed" python tools/enrich-icc-source-evidence.py 9dd6b844daa08ceffd171e090e001ae3de36c3ec
+            env PYTHONHASHSEED="$seed" python tools/capture-legacy-metadata.py 9dd6b844daa08ceffd171e090e001ae3de36c3ec
+            env PYTHONHASHSEED="$seed" python -m unittest discover -s tests -v
+            env PYTHONHASHSEED="$seed" python tools/build-api.py
+          }
+          run_pipeline 1
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          run_pipeline 8675309
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
       - name: Commit migrated card sources and baseline
         run: |
           git config user.name "github-actions[bot]"
