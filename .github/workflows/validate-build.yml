@@ -29,11 +29,15 @@ jobs:
         run: python tools/probe-icc-carddefs.py /tmp/CardDefs.xml
       - name: Migrate all 182 cards to dated schema
         run: python tools/migrate-icc-to-v2.py /tmp/CardDefs.xml
+      - name: Test history operations
+        run: python -m unittest discover -s tests -v
+      - name: Build schema-1 compatibility API indexes
+        run: python tools/build-api.py
       - name: Commit migrated card sources and baseline
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json sources/carddefs-9.0.0.20457-baseline.json
+          git add cards.json render.json history.json data/*.json sources/*.json
           if git diff --cached --quiet; then
             echo "No card source changes."
             exit 0
