@@ -208,8 +208,8 @@ def add_confirmed_events(cid, events, record, old_card):
                     sources=["https://hearthstone.blizzard.com/ko-kr/news/22817529",
                              "https://www.inven.co.kr/webzine/news/?news=212483&site=hs"])
     elif cid == "ICC_466":
-        raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\\n다른 사로나이트 광산\\n노예를 소환합니다."
-        raw21 = "[x]<b>도발</b>, <b>전투의 함성:</b>\\n이 하수인을 복사하여 소환합니다."
+        raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n다른 사로나이트 광산\n노예를 소환합니다."
+        raw21 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n이 하수인을 복사하여 소환합니다."
         raw25 = "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다."
         merge_event(events, cid, "2018-12-20", {"text": display_text(raw18), "nativeRawText": raw18},
                     sources=["https://hearthstone.blizzard.com/ko-kr/news/22817529",
@@ -221,7 +221,7 @@ def add_confirmed_events(cid, events, record, old_card):
                     sources=["https://hearthstone.blizzard.com/ko-kr/news/24204920/32-2-4",
                              "https://us.forums.blizzard.com/en/hearthstone/t/3224-patch-notes/146356.json"])
     elif cid == "ICC_055":
-        raw = "<b>생명력 흡수</b>\\n하수인에게 피해를\\n$3 줍니다."
+        raw = "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다."
         merge_event(events, cid, "2021-03-26", {"text": record["text"], "nativeRawText": raw},
                     sources=["https://hearthstone.blizzard.com/ko-kr/news/23642550",
                              "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml"])
