@@ -4,6 +4,7 @@ from __future__ import annotations
 import copy
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -115,6 +116,7 @@ def build_indexes(write=True):
     renderer = []
     history = {}
     event_count = 0
+    incomplete_counts = Counter()
     for path in data_paths:
         cid = path.stem
         source = load(path)
@@ -132,6 +134,7 @@ def build_indexes(write=True):
                 raise ValueError(f"{cid}: current cache mismatch for {field}")
         revisions = replay_legacy(source, record)
         event_count += len([k for k in source if DATE_RE.fullmatch(k)]) - 1
+        incomplete_counts.update(source.get("historyIncompleteFields", []))
         render_card = {field: copy.deepcopy(record[field]) for field in RENDER_FIELDS if field in record}
         if revisions:
             render_card["history"] = revisions
@@ -154,6 +157,7 @@ def build_indexes(write=True):
         "dateEvents": event_count,
         "published": changed,
         "historyIncompleteCards": sum(1 for p in data_paths if load(p).get("historyIncompleteFields")),
+        "incompleteFieldCounts": dict(sorted(incomplete_counts.items())),
     }
 
 def main():
