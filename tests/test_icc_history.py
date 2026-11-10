@@ -402,7 +402,8 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                         else:
                             self.assertNotIn(field, changes, f"{path.stem}:{day}:{field}")
                     elif field not in state and field in current:
-                        if field == "collectible" and current.get(field) is False:
+                        if ((field == "collectible" and current.get(field) is False)
+                                or (field == "text" and current.get(field) == "")):
                             self.assertIn(field, item.get("historyCompatibilityLimits", {}),
                                           f"{path.stem}:{day}:{field}")
                         else:
