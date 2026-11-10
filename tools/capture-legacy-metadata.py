@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Capture and verify the eight stable top-level metadata fields before migration."""
+import copy
 import json
 import subprocess
 import sys
@@ -23,12 +24,15 @@ def main(commit):
     if len(current_paths) != 182:
         raise RuntimeError(f"Expected 182 current data files, found {len(current_paths)}")
     cards = {}
+    legacy_patches = {}
     counts = {field: 0 for field in FIELDS}
     for path in current_paths:
         cid = path.stem
         before = git_json(commit, f"data/{cid}.json")
         after = load(path)
         metadata = {field: before[field] for field in FIELDS if field in before}
+        old_card = before.get("card", {})
+        legacy_patches[cid] = copy.deepcopy(old_card.get("patches", []))
         for field, value in metadata.items():
             counts[field] += 1
             if field not in after:
@@ -43,6 +47,8 @@ def main(commit):
         "sourceCommit": commit,
         "fields": list(FIELDS),
         "cards": cards,
+        "legacyPatches": legacy_patches,
+        "legacyPatchEventCount": sum(len(x) for x in legacy_patches.values()),
         "counts": counts,
     }
     out = ROOT / "sources" / "legacy-metadata-baseline.json"
