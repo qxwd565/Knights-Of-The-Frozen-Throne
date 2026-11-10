@@ -31,6 +31,8 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertEqual(item["current"]["dbfId"], item["dbfId"])
             self.assertEqual(item["current"]["releasedAt"], "2017-08-11")
             self.assertEqual(item["current"]["releaseStatus"], "verified")
+            self.assertIn("initialSpecStatus", item)
+            self.assertIn("patchSources", item)
             self.assertEqual(sorted(k for k in item if BUILD.DATE_RE.fullmatch(k))[0], "2017-08-11")
             for field in stable:
                 self.assertIn(field, item, f"{path.stem}:{field}")
@@ -63,6 +65,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         a = source("ICC_832t3")
         self.assertEqual(a["2017-08-11"]["cost"], 2)
         self.assertEqual(a["2017-12-07"]["changes"]["cost"], 1)
+        self.assertIn("https://hearthstone.blizzard.com/ko-kr/news/21274279", a["2017-12-07"]["sources"])
 
         a = source("ICC_221")
         self.assertEqual(a["2017-08-11"]["cost"], 2)
@@ -75,6 +78,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                          "<b>도발</b>, <b>전투의 함성:</b><br></br>다른 사로나이트 광산<br></br>노예를 소환합니다.")
         self.assertIn("이 하수인을 복사하여", a["2021-03-26"]["changes"]["text"])
         self.assertEqual(a["2025-05-23"]["changes"]["text"], a["current"]["text"])
+        self.assertTrue(a["2025-05-23"]["sources"])
 
         a = source("ICC_055")
         self.assertIn("$2", a["2017-08-11"]["text"])
@@ -121,6 +125,9 @@ class FrozenThroneHistoryTest(unittest.TestCase):
     def test_reference_tags_are_separate_from_owned_raw_tags(self):
         item = source("ICC_221")
         self.assertIn(685, [x["id"] for x in item["2017-08-11"]["referenceTags"]])
+        ref = next(x for x in item["2017-08-11"]["referenceTags"] if x["id"] == 685)
+        self.assertEqual(ref["sourceType"], "ReferencedTag")
+        self.assertEqual(ref["label"], "생명력 흡수")
         self.assertNotIn(685, [x["id"] for x in item["2017-08-11"]["nativeTags"]])
         self.assertIn(685, [x["id"] for x in item["current"]["referenceTags"]])
         # Preserve the old source array exactly in current; the separate list
