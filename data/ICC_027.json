@@ -6,7 +6,7 @@
     "id": "ICC_027",
     "dbfId": 42439,
     "name": "해골 비룡",
-    "text": "<b>죽음의 메아리:</b>\n무작위 용족을 내\n손으로 가져옵니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>무작위 용족을 내<br></br>손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

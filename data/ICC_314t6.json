@@ -6,7 +6,7 @@
     "id": "ICC_314t6",
     "dbfId": 43120,
     "name": "절멸",
-    "text": "하수인을 처치합니다.\n그 하수인의 생명력만큼\n내 영웅에게 피해를 줍니다.",
+    "text": "하수인을 처치합니다.<br></br>그 하수인의 생명력만큼<br></br>내 영웅에게 피해를 줍니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "classes": [],

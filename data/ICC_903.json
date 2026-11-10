@@ -6,7 +6,7 @@
     "id": "ICC_903",
     "dbfId": 45321,
     "name": "핏빛 하객",
-    "text": "<b>전투의 함성:</b>\n아군 하수인을 처치하고\n+2/+2를 얻습니다.",
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인을 처치하고<br></br>+2/+2를 얻습니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_281",
     "dbfId": 42998,
     "name": "영혼의 제련소",
-    "text": "내 덱에서 무기를\n둘 뽑습니다.",
+    "text": "내 덱에서 무기를<br></br>둘 뽑습니다.",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "classes": [],

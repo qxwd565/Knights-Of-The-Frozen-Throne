@@ -6,7 +6,7 @@
     "id": "ICC_481p",
     "dbfId": 42982,
     "name": "영혼 뒤틀기",
-    "text": "아군 하수인을 비용이 (1)\n높은 무작위 하수인으로 변신시킵니다.",
+    "text": "아군 하수인을 비용이 (1)<br></br>높은 무작위 하수인으로 변신시킵니다.",
     "type": "HERO_POWER",
     "cardClass": "NEUTRAL",
     "classes": [],

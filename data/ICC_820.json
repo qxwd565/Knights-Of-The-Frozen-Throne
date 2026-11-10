@@ -6,7 +6,7 @@
     "id": "ICC_820",
     "dbfId": 43127,
     "name": "싸늘칼날 용사",
-    "text": "<b>돌진</b>\n<b>생명력 흡수</b>",
+    "text": "<b>돌진</b><br></br><b>생명력 흡수</b>",
     "type": "MINION",
     "cardClass": "PALADIN",
     "classes": [],

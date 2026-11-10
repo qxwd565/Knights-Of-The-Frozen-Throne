@@ -6,7 +6,7 @@
     "id": "ICC_831",
     "dbfId": 43415,
     "name": "핏빛약탈자 굴단",
-    "text": "<b>전투의 함성:</b>\n이번 게임에서 죽은\n모든 아군 악마를\n소환합니다.",
+    "text": "<b>전투의 함성:</b><br></br>이번 게임에서 죽은<br></br>모든 아군 악마를<br></br>소환합니다.",
     "type": "HERO",
     "cardClass": "WARLOCK",
     "classes": [],

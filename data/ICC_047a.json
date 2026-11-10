@@ -6,7 +6,7 @@
     "id": "ICC_047a",
     "dbfId": 43437,
     "name": "성장",
-    "text": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게\n+2/+2를 부여합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게<br></br>+2/+2를 부여합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "classes": [],

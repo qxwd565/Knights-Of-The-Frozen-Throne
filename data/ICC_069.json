@@ -6,7 +6,7 @@
     "id": "ICC_069",
     "dbfId": 42718,
     "name": "섬뜩한 창조술사",
-    "text": "<b>전투의 함성:</b>\n'환영 복제' 주문을\n내 손으로 가져옵니다.",
+    "text": "<b>전투의 함성:</b><br></br>'환영 복제' 주문을<br></br>내 손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "MAGE",
     "classes": [],

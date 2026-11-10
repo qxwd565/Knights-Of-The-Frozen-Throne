@@ -6,7 +6,7 @@
     "id": "ICC_093",
     "dbfId": 42775,
     "name": "투스카르 낚시꾼",
-    "text": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>주문 공격력 +1</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br><b>주문 공격력 +1</b>을 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_855",
     "dbfId": 45377,
     "name": "힐드니르 서리기수",
-    "text": "<b>전투의 함성:</b>\n내 다른 하수인들을\n<b>빙결</b> 상태로 만듭니다.",
+    "text": "<b>전투의 함성:</b><br></br>내 다른 하수인들을<br></br><b>빙결</b> 상태로 만듭니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

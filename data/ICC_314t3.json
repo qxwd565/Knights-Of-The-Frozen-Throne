@@ -6,7 +6,7 @@
     "id": "ICC_314t3",
     "dbfId": 42587,
     "name": "파멸의 서약",
-    "text": "<b>모든</b> 하수인을\n처치합니다. 처치한만큼\n내 다음 카드를 없앱니다.",
+    "text": "<b>모든</b> 하수인을<br></br>처치합니다. 처치한만큼<br></br>내 다음 카드를 없앱니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_018",
     "dbfId": 42327,
     "name": "유령 약탈자",
-    "text": "<b>전투의 함성:</b>\n내 무기의 능력치를 얻습니다.",
+    "text": "<b>전투의 함성:</b><br></br>내 무기의 능력치를 얻습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

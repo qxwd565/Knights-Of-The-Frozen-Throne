@@ -6,7 +6,7 @@
     "id": "ICC_289",
     "dbfId": 43072,
     "name": "무라비",
-    "text": "다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
+    "text": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "classes": [],

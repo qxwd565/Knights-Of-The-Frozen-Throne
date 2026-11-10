@@ -6,7 +6,7 @@
     "id": "ICC_913",
     "dbfId": 46103,
     "name": "타락한 광신도",
-    "text": "<b>천상의 보호막</b>\n<b>주문 공격력 +1</b>",
+    "text": "<b>천상의 보호막</b><br></br><b>주문 공격력 +1</b>",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

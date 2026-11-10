@@ -6,7 +6,7 @@
     "id": "ICC_835",
     "dbfId": 43439,
     "name": "하드로녹스",
-    "text": "<b>죽음의 메아리:</b>\n이번 게임에서 죽은\n내 <b>도발</b> 하수인들을 소환합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>이번 게임에서 죽은<br></br>내 <b>도발</b> 하수인들을 소환합니다.",
     "type": "MINION",
     "cardClass": "DRUID",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_314t5",
     "dbfId": 45384,
     "name": "죽음의 고리",
-    "text": "적에게 피해를\n$5 줍니다. 또는 아군 캐릭터의 생명력을\n#5 회복시킵니다.",
+    "text": "적에게 피해를<br></br>$5 줍니다. 또는 아군 캐릭터의 생명력을<br></br>#5 회복시킵니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_065",
     "dbfId": 42712,
     "name": "뼈다귀 남작",
-    "text": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>1/1 해골 둘을<br></br>내 손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "ROGUE",
     "classes": [],

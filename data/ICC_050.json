@@ -6,7 +6,7 @@
     "id": "ICC_050",
     "dbfId": 42649,
     "name": "거미줄 짜기",
-    "text": "<b>독성</b> 능력이 있는\n1/2 거미를 2마리 소환합니다.",
+    "text": "<b>독성</b> 능력이 있는<br></br>1/2 거미를 2마리 소환합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "classes": [],

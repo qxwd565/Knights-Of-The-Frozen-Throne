@@ -6,7 +6,7 @@
     "id": "ICC_236",
     "dbfId": 42808,
     "name": "얼음 파괴자",
-    "text": "이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
+    "text": "이 무기에 피해를<br></br>받은 <b>빙결</b> 상태인<br></br>하수인을 무조건<br></br>처치합니다.",
     "type": "WEAPON",
     "cardClass": "SHAMAN",
     "classes": [],

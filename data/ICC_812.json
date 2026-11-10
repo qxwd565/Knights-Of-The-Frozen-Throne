@@ -6,7 +6,7 @@
     "id": "ICC_812",
     "dbfId": 43051,
     "name": "시체 수레",
-    "text": "<b>죽음의 메아리:</b>\n내 덱에서 이 하수인보다\n공격력이 낮은 하수인을\n소환합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>내 덱에서 이 하수인보다<br></br>공격력이 낮은 하수인을<br></br>소환합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

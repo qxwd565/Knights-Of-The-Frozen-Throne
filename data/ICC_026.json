@@ -6,7 +6,7 @@
     "id": "ICC_026",
     "dbfId": 42438,
     "name": "음산한 강령술사",
-    "text": "<b>전투의 함성:</b>\n1/1 해골을 둘 소환합니다.",
+    "text": "<b>전투의 함성:</b><br></br>1/1 해골을 둘 소환합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

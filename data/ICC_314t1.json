@@ -6,7 +6,7 @@
     "id": "ICC_314t1",
     "dbfId": 43012,
     "name": "서리한",
-    "text": "<b>죽음의 메아리:</b>\n이 무기로 처치한\n모든 하수인을\n소환합니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>이 무기로 처치한<br></br>모든 하수인을<br></br>소환합니다.",
     "type": "WEAPON",
     "cardClass": "DEATHKNIGHT",
     "classes": [],

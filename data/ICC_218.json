@@ -6,7 +6,7 @@
     "id": "ICC_218",
     "dbfId": 42642,
     "name": "울부짖는 마귀",
-    "text": "이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다.",
+    "text": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "classes": [],

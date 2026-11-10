@@ -6,7 +6,7 @@
     "id": "ICC_408",
     "dbfId": 42671,
     "name": "발키르 영혼강탈자",
-    "text": "이 하수인은 피해를\n받고 생존한 후에, 2/2\n구울을 소환합니다.",
+    "text": "이 하수인은 피해를<br></br>받고 생존한 후에, 2/2<br></br>구울을 소환합니다.",
     "type": "MINION",
     "cardClass": "WARRIOR",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_829",
     "dbfId": 43406,
     "name": "칠흑의 기사단장 우서",
-    "text": "<b>전투의 함성:</b>\n5/3 <b>생명력 흡수</b>\n무기를 장착합니다.",
+    "text": "<b>전투의 함성:</b><br></br>5/3 <b>생명력 흡수</b><br></br>무기를 장착합니다.",
     "type": "HERO",
     "cardClass": "PALADIN",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_055",
     "dbfId": 42658,
     "name": "영혼 흡수",
-    "text": "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다.",
+    "text": "<b>생명력 흡수</b><br></br>하수인에게 피해를<br></br>$3 줍니다.",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "classes": [],

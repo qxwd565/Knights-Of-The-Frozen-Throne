@@ -6,7 +6,7 @@
     "id": "ICC_081",
     "dbfId": 42750,
     "name": "드라카리 수호병",
-    "text": "<b>도발</b>\n<b>과부하:</b> (3)",
+    "text": "<b>도발</b><br></br><b>과부하:</b> (3)",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_238",
     "dbfId": 42810,
     "name": "살아 움직이는 광전사",
-    "text": "내가 하수인을 낸 후에,\n그 하수인에게\n피해를 1 줍니다.",
+    "text": "내가 하수인을 낸 후에,<br></br>그 하수인에게<br></br>피해를 1 줍니다.",
     "type": "MINION",
     "cardClass": "WARRIOR",
     "classes": [],

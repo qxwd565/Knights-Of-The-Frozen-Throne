@@ -6,7 +6,7 @@
     "id": "ICC_039",
     "dbfId": 42469,
     "name": "어두운 신념",
-    "text": "하수인의\n공격력과 생명력을\n3으로 만듭니다.",
+    "text": "하수인의<br></br>공격력과 생명력을<br></br>3으로 만듭니다.",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "classes": [],

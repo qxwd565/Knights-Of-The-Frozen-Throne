@@ -6,7 +6,7 @@
     "id": "ICC_831p",
     "dbfId": 43181,
     "name": "생명력 착취",
-    "text": "<b>생명력 흡수</b>\n피해를 $3 줍니다.",
+    "text": "<b>생명력 흡수</b><br></br>피해를 $3 줍니다.",
     "type": "HERO_POWER",
     "cardClass": "NEUTRAL",
     "classes": [],

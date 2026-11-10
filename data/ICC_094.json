@@ -6,7 +6,7 @@
     "id": "ICC_094",
     "dbfId": 42777,
     "name": "타락한 태양 성직자",
-    "text": "<b>전투의 함성:</b>\n아군 하수인에게\n+1/+1을 부여합니다.",
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br>+1/+1을 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

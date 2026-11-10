@@ -6,7 +6,7 @@
     "id": "ICC_252",
     "dbfId": 42836,
     "name": "서리 망령",
-    "text": "<b>전투의 함성:</b>\n<b>빙결</b> 상태인 적이 있으면,\n카드를 뽑습니다.",
+    "text": "<b>전투의 함성:</b><br></br><b>빙결</b> 상태인 적이 있으면,<br></br>카드를 뽑습니다.",
     "type": "MINION",
     "cardClass": "MAGE",
     "classes": [],

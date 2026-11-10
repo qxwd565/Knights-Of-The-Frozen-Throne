@@ -6,7 +6,7 @@
     "id": "ICC_062",
     "dbfId": 42698,
     "name": "산불의 방어구",
-    "text": "<b>죽음의 메아리:</b>\n상대편의 턴이면, 방어도를 +6 얻습니다.",
+    "text": "<b>죽음의 메아리:</b><br></br>상대편의 턴이면, 방어도를 +6 얻습니다.",
     "type": "MINION",
     "cardClass": "WARRIOR",
     "classes": [],

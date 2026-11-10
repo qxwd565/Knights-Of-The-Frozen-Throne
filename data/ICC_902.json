@@ -6,7 +6,7 @@
     "id": "ICC_902",
     "dbfId": 45314,
     "name": "정신파괴자",
-    "text": "두 플레이어 모두\n영웅 능력을 사용할 수 없습니다.",
+    "text": "두 플레이어 모두<br></br>영웅 능력을 사용할 수 없습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

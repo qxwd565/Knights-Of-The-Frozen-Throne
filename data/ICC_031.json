@@ -6,7 +6,7 @@
     "id": "ICC_031",
     "dbfId": 42445,
     "name": "밤의 울음꾼",
-    "text": "이 하수인은\n피해를 받을 때마다 공격력을 +2 얻습니다.",
+    "text": "이 하수인은<br></br>피해를 받을 때마다 공격력을 +2 얻습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

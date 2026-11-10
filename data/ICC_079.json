@@ -6,7 +6,7 @@
     "id": "ICC_079",
     "dbfId": 42748,
     "name": "뾰족니",
-    "text": "방어도를 +3 얻고,\n이번 턴에 내 영웅이\n공격력을 +3 얻습니다.",
+    "text": "방어도를 +3 얻고,<br></br>이번 턴에 내 영웅이<br></br>공격력을 +3 얻습니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "classes": [],

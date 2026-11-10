@@ -6,7 +6,7 @@
     "id": "ICC_827p",
     "dbfId": 43188,
     "name": "죽음의 환영",
-    "text": "<b>지속 능력</b>\n내 턴 동안 '그림자 환영'을\n내 손으로 가져옵니다.",
+    "text": "<b>지속 능력</b><br></br>내 턴 동안 '그림자 환영'을<br></br>내 손으로 가져옵니다.",
     "type": "HERO_POWER",
     "cardClass": "ROGUE",
     "classes": [],

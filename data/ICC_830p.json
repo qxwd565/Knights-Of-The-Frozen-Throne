@@ -6,7 +6,7 @@
     "id": "ICC_830p",
     "dbfId": 45397,
     "name": "공허의 형상",
-    "text": "피해를 $2 줍니다.\n내가 카드를 낸 후에, 다시 사용할 수 있습니다.",
+    "text": "피해를 $2 줍니다.<br></br>내가 카드를 낸 후에, 다시 사용할 수 있습니다.",
     "type": "HERO_POWER",
     "cardClass": "PRIEST",
     "classes": [],

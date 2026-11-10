@@ -6,7 +6,7 @@
     "id": "ICC_808",
     "dbfId": 43025,
     "name": "지하군주",
-    "text": "<b>도발</b>\n내 하수인이 소환된 후에,\n생명력을 +1 얻습니다.",
+    "text": "<b>도발</b><br></br>내 하수인이 소환된 후에,<br></br>생명력을 +1 얻습니다.",
     "type": "MINION",
     "cardClass": "DRUID",
     "classes": [],

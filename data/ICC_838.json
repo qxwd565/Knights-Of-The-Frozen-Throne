@@ -6,7 +6,7 @@
     "id": "ICC_838",
     "dbfId": 43506,
     "name": "신드라고사",
-    "text": "<b>전투의 함성:</b>\n0/1 얼어붙은 용사를\n2명 소환합니다.",
+    "text": "<b>전투의 함성:</b><br></br>0/1 얼어붙은 용사를<br></br>2명 소환합니다.",
     "type": "MINION",
     "cardClass": "MAGE",
     "classes": [],

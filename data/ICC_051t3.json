@@ -6,7 +6,7 @@
     "id": "ICC_051t3",
     "dbfId": 46009,
     "name": "무리의 드루이드",
-    "text": "<b>도발</b>\n<b>독성</b>",
+    "text": "<b>도발</b><br></br><b>독성</b>",
     "type": "MINION",
     "cardClass": "DRUID",
     "classes": [],

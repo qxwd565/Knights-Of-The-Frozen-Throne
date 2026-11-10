@@ -6,7 +6,7 @@
     "id": "ICC_245",
     "dbfId": 42825,
     "name": "검은경비병",
-    "text": "내 영웅이 치유될 때마다\n무작위 적 하수인에게\n그만큼 피해를 줍니다.",
+    "text": "내 영웅이 치유될 때마다<br></br>무작위 적 하수인에게<br></br>그만큼 피해를 줍니다.",
     "type": "MINION",
     "cardClass": "PALADIN",
     "classes": [],

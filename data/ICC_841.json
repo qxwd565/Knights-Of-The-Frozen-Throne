@@ -6,7 +6,7 @@
     "id": "ICC_841",
     "dbfId": 43064,
     "name": "피의 여왕 라나텔",
-    "text": "<b>생명력 흡수</b>\n이번 게임에서 내가 버린\n카드 하나당 공격력을\n+1 얻습니다.",
+    "text": "<b>생명력 흡수</b><br></br>이번 게임에서 내가 버린<br></br>카드 하나당 공격력을<br></br>+1 얻습니다.",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_828",
     "dbfId": 43398,
     "name": "죽음추적자 렉사르",
-    "text": "<b>전투의 함성:</b>\n모든 적 하수인에게\n피해를 2 줍니다.",
+    "text": "<b>전투의 함성:</b><br></br>모든 적 하수인에게<br></br>피해를 2 줍니다.",
     "type": "HERO",
     "cardClass": "HUNTER",
     "classes": [],

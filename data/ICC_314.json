@@ -6,7 +6,7 @@
     "id": "ICC_314",
     "dbfId": 42818,
     "name": "리치 왕",
-    "text": "<b>도발</b>, 내 턴이 끝날 때,\n무작위 <b>리치 왕</b> 카드를\n내 손으로 가져옵니다.",
+    "text": "<b>도발</b>, 내 턴이 끝날 때,<br></br>무작위 <b>리치 왕</b> 카드를<br></br>내 손으로 가져옵니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_083",
     "dbfId": 42756,
     "name": "파멸의 수습생",
-    "text": "상대편의 주문의 비용이\n(1) 증가합니다.",
+    "text": "상대편의 주문의 비용이<br></br>(1) 증가합니다.",
     "type": "MINION",
     "cardClass": "MAGE",
     "classes": [],

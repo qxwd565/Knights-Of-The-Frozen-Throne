@@ -6,7 +6,7 @@
     "id": "ICC_467",
     "dbfId": 42394,
     "name": "죽음예언자",
-    "text": "<b>전투의 함성:</b> 이번\n턴에 아군 하수인에게\n<b>면역</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b> 이번<br></br>턴에 아군 하수인에게<br></br><b>면역</b>을 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

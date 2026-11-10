@@ -6,7 +6,7 @@
     "id": "ICC_807",
     "dbfId": 43022,
     "name": "튼튼껍질 청소부",
-    "text": "<b>전투의 함성:</b>\n내 <b>도발</b> 하수인들에게\n+2/+2를 부여합니다.",
+    "text": "<b>전투의 함성:</b><br></br>내 <b>도발</b> 하수인들에게<br></br>+2/+2를 부여합니다.",
     "type": "MINION",
     "cardClass": "DRUID",
     "classes": [],

@@ -6,7 +6,7 @@
     "id": "ICC_092",
     "dbfId": 42773,
     "name": "아케루스 정예병",
-    "text": "<b>전투의 함성:</b> 아군\n하수인에게 공격력을\n+1 부여합니다.",
+    "text": "<b>전투의 함성:</b> 아군<br></br>하수인에게 공격력을<br></br>+1 부여합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],

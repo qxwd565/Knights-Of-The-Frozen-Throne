@@ -6,7 +6,7 @@
     "id": "ICC_088",
     "dbfId": 42762,
     "name": "부두교 사술사",
-    "text": "<b>도발</b>\n이 하수인에게 피해를\n받은 캐릭터는 <b>빙결</b>\n상태가 됩니다.",
+    "text": "<b>도발</b><br></br>이 하수인에게 피해를<br></br>받은 캐릭터는 <b>빙결</b><br></br>상태가 됩니다.",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "classes": [],
