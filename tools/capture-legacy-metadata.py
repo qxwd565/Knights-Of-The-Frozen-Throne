@@ -25,6 +25,7 @@ def main(commit):
         raise RuntimeError(f"Expected 182 current data files, found {len(current_paths)}")
     cards = {}
     legacy_patches = {}
+    raw_sources = {}
     counts = {field: 0 for field in FIELDS}
     for path in current_paths:
         cid = path.stem
@@ -33,6 +34,11 @@ def main(commit):
         metadata = {field: before[field] for field in FIELDS if field in before}
         old_card = before.get("card", {})
         legacy_patches[cid] = copy.deepcopy(old_card.get("patches", []))
+        raw_sources[cid] = {
+            field: copy.deepcopy(old_card[field])
+            for field in ("nativeRawText", "nativeTags", "nativeTextBuilder")
+            if field in old_card
+        }
         for field, value in metadata.items():
             counts[field] += 1
             if field not in after:
@@ -49,6 +55,7 @@ def main(commit):
         "cards": cards,
         "legacyPatches": legacy_patches,
         "legacyPatchEventCount": sum(len(x) for x in legacy_patches.values()),
+        "rawSources": raw_sources,
         "counts": counts,
     }
     out = ROOT / "sources" / "legacy-metadata-baseline.json"
