@@ -53,6 +53,7 @@ def apply_sparse_event(state: dict, event: dict, history_fields=HISTORY_FIELDS):
             if field in history_fields:
                 reverse[field] = copy.deepcopy(state[field])
             state.pop(field)
+            incomplete.add(field)
         else:
             incomplete.add(field)
     tags = {x["id"]: copy.deepcopy(x) for x in state.get("nativeTags", [])}
@@ -98,6 +99,8 @@ def replay_legacy(source: dict, record: dict):
             )
     if "nativeTags" in current and state.get("nativeTags") != current["nativeTags"]:
         incomplete.add("nativeTags")
+    if "collectible" not in state and "collectible" in current:
+        incomplete.add("collectible")
     if incomplete != set(source.get("historyIncompleteFields", [])):
         source["historyIncompleteFields"] = sorted(incomplete)
     return revisions
