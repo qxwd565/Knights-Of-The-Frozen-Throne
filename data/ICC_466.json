@@ -83,13 +83,21 @@
     "changes": {
       "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>다른 사로나이트 광산<br></br>노예를 소환합니다.",
       "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n다른 사로나이트 광산\n노예를 소환합니다."
-    }
+    },
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/22817529",
+      "https://www.inven.co.kr/webzine/news/?news=212483&site=hs"
+    ]
   },
   "2021-03-26": {
     "changes": {
       "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>이 하수인을 복사하여 소환합니다.",
       "nativeRawText": "[x]<b>도발</b>, <b>전투의 함성:</b>\n이 하수인을 복사하여 소환합니다."
-    }
+    },
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+      "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml"
+    ]
   },
   "2024-10-30": {
     "changes": {
@@ -104,7 +112,11 @@
     "changes": {
       "text": "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다.",
       "nativeRawText": "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다."
-    }
+    },
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24204920/32-2-4",
+      "https://us.forums.blizzard.com/en/hearthstone/t/3224-patch-notes/146356.json"
+    ]
   },
   "current": {
     "id": "ICC_466",
@@ -217,5 +229,9 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "initialSpecStatus": "unverified",
+  "patchSources": {
+    "2024-10-30": "taxonomy introduction"
   }
 }

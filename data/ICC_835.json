@@ -77,7 +77,9 @@
       {
         "id": 190,
         "name": "TAUNT",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "도발"
       }
     ],
     "cost": 9,
@@ -181,7 +183,9 @@
       {
         "id": 190,
         "name": "도발",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "도발"
       }
     ]
   },
@@ -214,5 +218,7 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "initialSpecStatus": "unverified",
+  "patchSources": {}
 }

@@ -67,7 +67,9 @@
       {
         "id": 194,
         "name": "DIVINE_SHIELD",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "천상의 보호막"
       }
     ],
     "cost": 4,
@@ -155,7 +157,9 @@
       {
         "id": 194,
         "name": "천상의 보호막",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "천상의 보호막"
       }
     ]
   },
@@ -188,5 +192,7 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "initialSpecStatus": "unverified",
+  "patchSources": {}
 }

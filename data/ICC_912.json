@@ -67,22 +67,30 @@
       {
         "id": 189,
         "name": "WINDFURY",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "질풍"
       },
       {
         "id": 190,
         "name": "TAUNT",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "도발"
       },
       {
         "id": 194,
         "name": "DIVINE_SHIELD",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "천상의 보호막"
       },
       {
         "id": 685,
         "name": "1",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "생명력 흡수"
       }
     ],
     "cost": 4,
@@ -208,22 +216,30 @@
       {
         "id": 189,
         "name": "질풍",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "질풍"
       },
       {
         "id": 190,
         "name": "도발",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "도발"
       },
       {
         "id": 194,
         "name": "천상의 보호막",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "천상의 보호막"
       },
       {
         "id": 685,
         "name": "생명력 흡수",
-        "value": 1
+        "value": 1,
+        "sourceType": "ReferencedTag",
+        "label": "생명력 흡수"
       }
     ]
   },
@@ -256,5 +272,9 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "initialSpecStatus": "unverified",
+  "patchSources": {
+    "2022-11-30": "taxonomy introduction"
   }
 }

@@ -936,7 +936,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -1112,7 +1114,9 @@
         {
           "id": 363,
           "name": "POISONOUS",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "독성"
         }
       ]
     },
@@ -1154,7 +1158,9 @@
         {
           "id": 363,
           "name": "POISONOUS",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "독성"
         }
       ]
     },
@@ -1211,12 +1217,16 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         },
         {
           "id": 363,
           "name": "POISONOUS",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "독성"
         }
       ]
     },
@@ -1458,7 +1468,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -1500,7 +1512,9 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         }
       ]
     },
@@ -1583,7 +1597,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -1645,7 +1661,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -1911,7 +1929,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -2019,7 +2039,9 @@
         {
           "id": 194,
           "name": "DIVINE_SHIELD",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "천상의 보호막"
         }
       ]
     },
@@ -2419,7 +2441,9 @@
         {
           "id": 219,
           "name": "SECRET",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "비밀"
         }
       ]
     },
@@ -2568,7 +2592,9 @@
         {
           "id": 215,
           "name": "OVERLOAD",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "과부하"
         }
       ]
     },
@@ -2712,7 +2738,9 @@
         {
           "id": 192,
           "name": "SPELLPOWER",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "주문 공격력"
         }
       ]
     },
@@ -2927,7 +2955,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -3025,7 +3055,9 @@
         {
           "id": 363,
           "name": "POISONOUS",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "독성"
         }
       ]
     },
@@ -3067,7 +3099,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -3129,7 +3163,9 @@
         {
           "id": 219,
           "name": "SECRET",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "비밀"
         }
       ]
     },
@@ -3345,7 +3381,9 @@
         {
           "id": 415,
           "name": "DISCOVER",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "DISCOVER"
         }
       ]
     },
@@ -3646,7 +3684,9 @@
         {
           "id": 685,
           "name": "1",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "생명력 흡수"
         }
       ]
     },
@@ -3780,7 +3820,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -3944,7 +3986,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -3986,7 +4030,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -4094,7 +4140,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -4156,7 +4204,9 @@
         {
           "id": 217,
           "name": "DEATHRATTLE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "죽음의 메아리"
         }
       ]
     },
@@ -4254,7 +4304,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -4803,7 +4855,9 @@
         {
           "id": 415,
           "name": "DISCOVER",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "DISCOVER"
         }
       ]
     },
@@ -5028,7 +5082,9 @@
         {
           "id": 240,
           "name": "IMMUNE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "면역"
         }
       ]
     },
@@ -5407,7 +5463,9 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         }
       ]
     },
@@ -5515,7 +5573,9 @@
         {
           "id": 194,
           "name": "DIVINE_SHIELD",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "천상의 보호막"
         }
       ]
     },
@@ -5613,7 +5673,9 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         }
       ]
     },
@@ -5726,7 +5788,9 @@
         {
           "id": 363,
           "name": "POISONOUS",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "독성"
         }
       ]
     },
@@ -5783,7 +5847,9 @@
         {
           "id": 685,
           "name": "1",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "생명력 흡수"
         }
       ]
     },
@@ -6105,7 +6171,9 @@
         {
           "id": 191,
           "name": "STEALTH",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "은신"
         }
       ]
     },
@@ -6347,7 +6415,9 @@
         {
           "id": 685,
           "name": "1",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "생명력 흡수"
         }
       ]
     },
@@ -6844,12 +6914,16 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         },
         {
           "id": 363,
           "name": "POISONOUS",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "독성"
         }
       ]
     },
@@ -7123,7 +7197,9 @@
         {
           "id": 685,
           "name": "1",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "생명력 흡수"
         }
       ]
     },
@@ -7405,7 +7481,9 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         }
       ]
     },
@@ -7447,7 +7525,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -7729,7 +7809,9 @@
         {
           "id": 240,
           "name": "IMMUNE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "면역"
         }
       ]
     },
@@ -7903,12 +7985,16 @@
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         },
         {
           "id": 685,
           "name": "1",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "생명력 흡수"
         }
       ]
     },
@@ -8026,7 +8112,9 @@
         {
           "id": 208,
           "name": "FREEZE",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "빙결"
         }
       ]
     },
@@ -8644,22 +8732,30 @@
         {
           "id": 189,
           "name": "WINDFURY",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "질풍"
         },
         {
           "id": 190,
           "name": "TAUNT",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "도발"
         },
         {
           "id": 194,
           "name": "DIVINE_SHIELD",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "천상의 보호막"
         },
         {
           "id": 685,
           "name": "1",
-          "value": 1
+          "value": 1,
+          "sourceType": "ReferencedTag",
+          "label": "생명력 흡수"
         }
       ]
     },
