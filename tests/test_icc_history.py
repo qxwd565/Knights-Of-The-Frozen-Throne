@@ -67,6 +67,15 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                     self.assertIn(field, item[day]["changes"], f"{cid}:{day}:{field}")
                     self.assertEqual(item[day]["changes"][field], expected, f"{cid}:{day}:{field}")
 
+    def test_all_current_raw_text_and_native_tags_match_pre_migration_sources(self):
+        manifest = BUILD.load(ROOT / "sources" / "legacy-metadata-baseline.json")
+        self.assertEqual(len(manifest["rawSources"]), 182)
+        for cid, fields in manifest["rawSources"].items():
+            current = source(cid)["current"]
+            for field, expected in fields.items():
+                self.assertIn(field, current, f"{cid}:{field}")
+                self.assertEqual(current[field], expected, f"{cid}:{field}")
+
     def test_launch_carddefs_snapshot_has_exact_ids_and_dbf_mappings(self):
         baseline = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
         catalog = BUILD.load(ROOT / "cards.json")
