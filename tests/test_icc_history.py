@@ -275,10 +275,14 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertEqual(source("ICC_910")["current"]["cost"], 5)
 
         for cid in ("ICC_051b", "ICC_055"):
-            mismatches = source(cid).get("historyReplayMismatches", {})
+            item = source(cid)
+            BUILD.replay_legacy(item, item["current"])
+            mismatches = item.get("historyReplayMismatches", {})
             self.assertNotIn("durability", mismatches, cid)
             self.assertNotIn("armor", mismatches, cid)
-        self.assertNotIn("spellSchool", source("ICC_051b").get("historyReplayMismatches", {}))
+        item = source("ICC_051b")
+        BUILD.replay_legacy(item, item["current"])
+        self.assertNotIn("spellSchool", item.get("historyReplayMismatches", {}))
 
     def test_full_known_state_is_restored_at_every_boundary_for_all_cards(self):
         paths = sorted((ROOT / "data").glob("ICC_*.json"))
