@@ -4302,6 +4302,1134 @@
       "mode": "constructed"
     }
   },
+  "legacyPatches": {
+    "ICC_018": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "PIRATE"
+          ]
+        }
+      }
+    ],
+    "ICC_019": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_019t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_021": [],
+    "ICC_023": [],
+    "ICC_025": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_025t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_026": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_026t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_027": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "DRAGON"
+          ]
+        }
+      }
+    ],
+    "ICC_028": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_029": [],
+    "ICC_031": [],
+    "ICC_032": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_034": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_038": [],
+    "ICC_039": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_041": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_047": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_047a": [],
+    "ICC_047b": [],
+    "ICC_047t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_047t2": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_049": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
+      }
+    ],
+    "ICC_050": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_051": [],
+    "ICC_051a": [],
+    "ICC_051b": [],
+    "ICC_051t": [],
+    "ICC_051t2": [],
+    "ICC_051t3": [],
+    "ICC_052": [],
+    "ICC_054": [
+      {
+        "date": "2017-09-19",
+        "changes": {
+          "cost": 6
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
+      }
+    ],
+    "ICC_055": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_056": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_058": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "MURLOC"
+          ]
+        }
+      }
+    ],
+    "ICC_062": [],
+    "ICC_064": [],
+    "ICC_065": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_067": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_068": [],
+    "ICC_069": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_071": [],
+    "ICC_075": [],
+    "ICC_078": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_079": [],
+    "ICC_081": [],
+    "ICC_082": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_083": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_085": [],
+    "ICC_085t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_086": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_088": [],
+    "ICC_089": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_090": [],
+    "ICC_091": [],
+    "ICC_092": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_093": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_094": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_096": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_097": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "ELEMENTAL"
+          ]
+        }
+      }
+    ],
+    "ICC_098": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_099": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_200": [],
+    "ICC_201": [],
+    "ICC_204": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_206": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_207": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_210": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_212": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_213": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_214": [],
+    "ICC_215": [],
+    "ICC_218": [],
+    "ICC_220": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "MURLOC"
+          ]
+        }
+      }
+    ],
+    "ICC_221": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
+      }
+    ],
+    "ICC_233": [],
+    "ICC_235": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_236": [],
+    "ICC_238": [],
+    "ICC_240": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_243": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "BEAST"
+          ]
+        }
+      }
+    ],
+    "ICC_244": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "HOLY"
+        }
+      }
+    ],
+    "ICC_245": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      },
+      {
+        "date": "2024-10-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "DRAENEI"
+          ]
+        }
+      }
+    ],
+    "ICC_252": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_257": [],
+    "ICC_281": [],
+    "ICC_289": [],
+    "ICC_314": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_314t1": [],
+    "ICC_314t2": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_314t3": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_314t4": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_314t5": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_314t6": [],
+    "ICC_314t7": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_314t8": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_405": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_407": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_408": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_415": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_419": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "BEAST"
+          ]
+        }
+      }
+    ],
+    "ICC_450": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_466": [
+      {
+        "date": "2024-10-30",
+        "changes": {
+          "races": [
+            "DRAENEI"
+          ]
+        }
+      }
+    ],
+    "ICC_467": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_468": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_469": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_481": [],
+    "ICC_481p": [],
+    "ICC_700": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_701": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_702": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_705": [
+      {
+        "date": "2018-02-07",
+        "changes": {
+          "cost": 8
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 7
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "BEAST"
+          ]
+        }
+      }
+    ],
+    "ICC_706": [],
+    "ICC_801": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_802": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_807": [],
+    "ICC_808": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_809": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_810": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_811": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_812": [],
+    "ICC_820": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_823": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_825": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_827": [],
+    "ICC_827p": [],
+    "ICC_827t": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_828": [],
+    "ICC_828p": [],
+    "ICC_828t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "BEAST"
+          ]
+        }
+      }
+    ],
+    "ICC_829": [],
+    "ICC_829p": [],
+    "ICC_829t": [],
+    "ICC_829t2": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_829t3": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_829t4": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_829t5": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_830": [],
+    "ICC_830p": [],
+    "ICC_831": [],
+    "ICC_831p": [],
+    "ICC_832": [],
+    "ICC_832a": [],
+    "ICC_832b": [],
+    "ICC_832p": [],
+    "ICC_832pa": [],
+    "ICC_832pb": [],
+    "ICC_832t3": [],
+    "ICC_832t4": [],
+    "ICC_833": [],
+    "ICC_833h": [],
+    "ICC_833t": [],
+    "ICC_834": [],
+    "ICC_834h": [],
+    "ICC_834w": [],
+    "ICC_835": [],
+    "ICC_836": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
+      }
+    ],
+    "ICC_837": [],
+    "ICC_838": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "DRAGON"
+          ]
+        }
+      }
+    ],
+    "ICC_838t": [],
+    "ICC_841": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_849": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ],
+    "ICC_850": [],
+    "ICC_851": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_852": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_853": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_854": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD",
+            "BEAST"
+          ]
+        }
+      }
+    ],
+    "ICC_855": [],
+    "ICC_856": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_858": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_900": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_900t": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_901": [],
+    "ICC_902": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_903": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_904": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_905": [],
+    "ICC_910": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_911": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_912": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "ICC_913": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ]
+  },
+  "legacyPatchEventCount": 111,
   "counts": {
     "root": 182,
     "relatedIds": 182,
