@@ -200,7 +200,7 @@ def add_confirmed_events(cid, events, record, old_card):
         merge_event(events, cid, "2017-12-07", {"cost": 1}, nativeTagUpdates=[{"id": 48, "value": 1}])
     elif cid == "ICC_221":
         raw = "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다."
-        merge_event(events, cid, "2018-12-20", {"cost": 1, "text": display_text(raw), "nativeRawText": raw},
+        merge_event(events, cid, "2018-12-20", {"cost": 1, "text": record["text"], "nativeRawText": raw},
                     nativeTagUpdates=[{"id": 48, "value": 1}])
     elif cid == "ICC_466":
         raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n다른 사로나이트 광산\n노예를 소환합니다."
@@ -208,10 +208,10 @@ def add_confirmed_events(cid, events, record, old_card):
         raw25 = "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다."
         merge_event(events, cid, "2018-12-20", {"text": display_text(raw18), "nativeRawText": raw18})
         merge_event(events, cid, "2021-03-26", {"text": display_text(raw21), "nativeRawText": raw21})
-        merge_event(events, cid, "2025-05-23", {"text": display_text(raw25), "nativeRawText": raw25})
+        merge_event(events, cid, "2025-05-23", {"text": record["text"], "nativeRawText": raw25})
     elif cid == "ICC_055":
         raw = "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다."
-        merge_event(events, cid, "2021-03-26", {"text": display_text(raw), "nativeRawText": raw})
+        merge_event(events, cid, "2021-03-26", {"text": record["text"], "nativeRawText": raw})
     elif cid in ("ICC_051a", "ICC_051b"):
         hp = 2 if cid == "ICC_051a" else 5
         raw_after = "<b>독성</b>" if cid == "ICC_051a" else "<b>도발</b>"
@@ -233,7 +233,7 @@ def add_confirmed_events(cid, events, record, old_card):
                     nativeTagRemovals=[200])
     elif cid == "ICC_910":
         raw = "<b>연계:</b> 이번 턴에 앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
-        merge_event(events, cid, "2023-03-03", {"cost": 5, "text": display_text(raw), "nativeRawText": raw},
+        merge_event(events, cid, "2023-03-03", {"cost": 5, "text": record["text"], "nativeRawText": raw},
                     nativeTagUpdates=[{"id": 48, "value": 5}])
     elif cid == "ICC_210":
         merge_event(events, cid, "2023-04-05", {"health": 3}, nativeTagUpdates=[{"id": 45, "value": 3}])
