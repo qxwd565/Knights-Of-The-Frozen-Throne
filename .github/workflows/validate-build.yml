@@ -27,3 +27,16 @@ jobs:
           git -C /tmp/hsdata show 6f874a2b18045ed3464983aff85ca106bc656916:CardDefs.xml > /tmp/CardDefs.xml
       - name: Inspect original CardDefs records
         run: python tools/probe-icc-carddefs.py /tmp/CardDefs.xml
+      - name: Migrate all 182 cards to dated schema
+        run: python tools/migrate-icc-to-v2.py /tmp/CardDefs.xml
+      - name: Commit migrated card sources and baseline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json sources/carddefs-9.0.0.20457-baseline.json
+          if git diff --cached --quiet; then
+            echo "No card source changes."
+            exit 0
+          fi
+          git commit -m "Migrate Frozen Throne cards to dated schema v2"
+          git push origin HEAD:main
