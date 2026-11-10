@@ -166,11 +166,8 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "durability",
     "nativeTags",
     "referenceTags",
-    "spellSchool",
     "text"
   ],
   "unresolvedSourceFields": [
@@ -210,46 +207,156 @@
         "present": true,
         "value": "이 하수인은 피해를 받고 생존할 때마다 2/2 구울을 하나 소환합니다."
       },
+      "afterDatedEvents": {
+        "present": true,
+        "value": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다."
+      },
       "current": {
         "present": true,
         "value": "이 하수인은 피해를<br></br>받고 생존한 후에, 2/2<br></br>구울을 소환합니다."
       },
+      "datedEventDates": [
+        "2018-02-07"
+      ],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     },
     "nativeRawText": {
       "launch": {
         "present": true,
         "value": "이 하수인은 피해를 받고 생존할 때마다 2/2 구울을 하나 소환합니다."
       },
+      "afterDatedEvents": {
+        "present": true,
+        "value": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다."
+      },
       "current": {
         "present": true,
         "value": "[x]이 하수인은 피해를\n받고 생존한 후에, 2/2\n구울을 소환합니다."
       },
+      "datedEventDates": [
+        "2018-02-07"
+      ],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     },
     "nativeTextBuilder": {
       "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
   "historyReplayMismatches": {
     "text": {
-      "datedReplay": "이 하수인은 피해를 받고 생존할 때마다 2/2 구울을 하나 소환합니다.",
+      "datedReplay": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다.",
       "current": "이 하수인은 피해를<br></br>받고 생존한 후에, 2/2<br></br>구울을 소환합니다.",
       "transitionDate": null,
-      "note": "Dated events do not establish this field's transition; both observations are preserved."
+      "note": "Dated events do not reconcile this canonical field with current; both observations are preserved."
+    }
+  },
+  "2018-02-07": {
+    "changes": {
+      "nativeRawText": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다.",
+      "text": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다."
+    },
+    "sourceEvidence": [
+      {
+        "findingID": "FT-D13",
+        "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+        "event": "피해를 받고 생존할 때마다 → 생존한 후에 문구",
+        "koreanDay": "2018-02-07",
+        "archiveBefore": {
+          "build": 22611,
+          "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+          "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+          "url": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+        },
+        "archiveAfter": {
+          "build": 23180,
+          "commit": "1a0dcda07394c622066630e4d09817aca8ff9fbf",
+          "xmlSha256": "dbe848ad25b843779b0accca4ad4fffebbbbf2beee2caffd04e09dfc9c8332f5",
+          "url": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+        },
+        "cardObservation": {
+          "cardID": "ICC_408",
+          "dbfId": 42671,
+          "name": "발키르 영혼강탈자",
+          "changes": {
+            "rawText": {
+              "before": "이 하수인은 피해를 받고 생존할 때마다 2/2 구울을 하나 소환합니다.",
+              "after": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다."
+            },
+            "enText": {
+              "before": "[x]Whenever this minion\nsurvives damage,\nsummon a 2/2 Ghoul.",
+              "after": "[x]After this minion\nsurvives damage,\nsummon a 2/2 Ghoul."
+            }
+          }
+        },
+        "assessment": "썩은얼굴의 얼음 파괴자 상호작용 수정과 시기가 겹친다. 해당 기능 사건을 중복 집계하지 않으며, 발키르 문구만으로 독립 효과 변경을 확정하지 않는다.",
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+          "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+        ],
+        "countedAsConfirmedGameplayHistory": false
+      }
+    ],
+    "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+      "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+    ]
+  },
+  "historyIncompleteReasons": {
+    "nativeTags": [
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "text": [
+      {
+        "code": "dated_replay_current_mismatch",
+        "detail": "The final dated canonical state differs from the current canonical state."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "spellSchool": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

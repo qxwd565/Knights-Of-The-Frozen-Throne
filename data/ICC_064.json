@@ -153,13 +153,8 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "health",
     "nativeTags",
-    "race",
-    "races",
-    "referenceTags",
-    "spellSchool"
+    "referenceTags"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -193,39 +188,135 @@
       "launch": {
         "present": false
       },
+      "afterDatedEvents": {
+        "present": false
+      },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
-  "historyReplayMismatches": {
-    "race": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "races": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+  "2025-03-19": {
+    "changes": {},
+    "nativeTagUpdates": [
+      {
+        "id": 45,
+        "value": 2
+      }
+    ],
+    "nativeTagRemovals": [
+      187
+    ],
+    "sourceEvidence": [
+      {
+        "findingID": "FT-D19",
+        "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+        "event": "무기 내구도 저장 태그 187 → 45 이관",
+        "koreanDay": "2025-03-19",
+        "archiveBefore": {
+          "build": 217489,
+          "commit": "62cc0f00dbed73f2d48ccefca6f611e6f8898986",
+          "xmlSha256": "6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2",
+          "url": "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml"
+        },
+        "archiveAfter": {
+          "build": 217964,
+          "commit": "fdad346dc49ebb5465f548a0a2b58b59edcbe087",
+          "xmlSha256": "039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf",
+          "url": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+        },
+        "cardObservation": {
+          "cardID": "ICC_064",
+          "dbfId": 42700,
+          "name": "피의 칼날",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "2"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        "assessment": "내구도 수치가 같은 채로 저장 위치가 바뀐다. 이전 내구도 태그 부재를 내구도 0 하향으로 해석하지 않는다.",
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/24187196",
+          "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+        ],
+        "countedAsConfirmedGameplayHistory": false
+      }
+    ],
+    "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24187196",
+      "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+    ]
+  },
+  "historyIncompleteReasons": {
+    "nativeTags": [
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     },
     "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+    "health": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 2,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "race": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "races": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": [],
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

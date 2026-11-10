@@ -203,11 +203,8 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "durability",
     "nativeTags",
-    "referenceTags",
-    "spellSchool"
+    "referenceTags"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -239,43 +236,78 @@
     "2022-11-30": "taxonomy introduction"
   },
   "timelineIncompleteFields": {
-    "text": {
-      "launch": {
-        "present": true,
-        "value": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 피해를 줍니다."
-      },
-      "current": {
-        "present": true,
-        "value": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
-      },
-      "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
-    },
     "nativeRawText": {
       "launch": {
         "present": true,
         "value": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 피해를 줍니다."
       },
+      "afterDatedEvents": {
+        "present": true,
+        "value": "<b>연계:</b> 이번 턴에 앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
+      },
       "current": {
         "present": true,
         "value": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
       },
+      "datedEventDates": [
+        "2023-03-03"
+      ],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     },
     "nativeTextBuilder": {
       "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
+    }
+  },
+  "historyIncompleteReasons": {
+    "nativeTags": [
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "spellSchool": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

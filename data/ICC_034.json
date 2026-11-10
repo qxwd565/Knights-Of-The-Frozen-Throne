@@ -171,11 +171,8 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "durability",
     "nativeTags",
     "referenceTags",
-    "spellSchool",
     "text"
   ],
   "unresolvedSourceFields": [
@@ -215,16 +212,7 @@
         "present": true,
         "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다."
       },
-      "current": {
-        "present": true,
-        "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 소환합니다."
-      },
-      "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
-    },
-    "nativeRawText": {
-      "launch": {
+      "afterDatedEvents": {
         "present": true,
         "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다."
       },
@@ -232,21 +220,41 @@
         "present": true,
         "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 소환합니다."
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다."
+      },
+      "afterDatedEvents": {
+        "present": true,
+        "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 소환합니다."
+      },
+      "datedEventDates": [],
+      "transitionDate": null,
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     },
     "nativeTextBuilder": {
       "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
   "historyReplayMismatches": {
@@ -254,7 +262,48 @@
       "datedReplay": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 하나 소환합니다.",
       "current": "<b>죽음의 메아리:</b> 상대편의 턴이면, 2/2 구울을 소환합니다.",
       "transitionDate": null,
-      "note": "Dated events do not establish this field's transition; both observations are preserved."
+      "note": "Dated events do not reconcile this canonical field with current; both observations are preserved."
+    }
+  },
+  "historyIncompleteReasons": {
+    "nativeTags": [
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "text": [
+      {
+        "code": "dated_replay_current_mismatch",
+        "detail": "The final dated canonical state differs from the current canonical state."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "spellSchool": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

@@ -82,17 +82,9 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "attack",
-    "collectible",
     "cost",
-    "durability",
-    "health",
     "nativeTags",
-    "race",
-    "races",
-    "referenceTags",
-    "spellSchool"
+    "referenceTags"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -127,25 +119,32 @@
         "present": true,
         "value": "방어도 +3"
       },
+      "afterDatedEvents": {
+        "present": true,
+        "value": "방어도 +3"
+      },
       "current": {
         "present": true,
         "value": "방어도 +$d3"
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     },
     "nativeTextBuilder": {
       "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
   "historyReplayMismatches": {
@@ -153,19 +152,68 @@
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
+      "note": "Canonical field presence differs after replay; absence is not converted to a default."
+    }
+  },
+  "historyIncompleteReasons": {
+    "cost": [
+      {
+        "code": "dated_replay_current_presence_mismatch",
+        "detail": "The final dated canonical state and current state disagree about field presence."
+      }
+    ],
+    "nativeTags": [
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
     "collectible": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+      "kind": "legacy_boolean_without_native_tag",
+      "value": false,
+      "note": "The launch CardDefs has no COLLECTIBLE Tag; current false is not backfilled into the launch state."
     },
     "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+      "kind": "legacy_empty_default",
+      "value": "",
+      "note": "An empty compatibility cache value is not treated as a dated native spell-school assignment."
+    },
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "health": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "race": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "races": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": [],
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

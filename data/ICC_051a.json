@@ -82,7 +82,101 @@
     ],
     "remove": [
       "spellSchool"
-    ]
+    ],
+    "sourceEvidence": [
+      {
+        "findingID": "FT-D05",
+        "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+        "event": "무리의 드루이드 선택 화면 데이터의 하수인형 전환",
+        "koreanDay": "2018-11-30",
+        "archiveBefore": {
+          "build": 27358,
+          "commit": "1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac",
+          "xmlSha256": "306a14e083346e4731151c21b7b1e323fc70be4e6aae3ece55cb7114a845554a",
+          "url": "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml"
+        },
+        "archiveAfter": {
+          "build": 27845,
+          "commit": "0565689bc30e7fe550053066d033958f1f90033f",
+          "xmlSha256": "dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a",
+          "url": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
+        },
+        "cardObservation": {
+          "cardID": "ICC_051a",
+          "dbfId": 46048,
+          "name": "거미 변신",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "47": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "20"
+              }
+            },
+            "202": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": true,
+                "value": "4"
+              }
+            },
+            "203": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "rawText": {
+              "before": "<b>독성</b>",
+              "after": "<b>독성</b>"
+            }
+          }
+        },
+        "assessment": "선택 화면용 주문형 데이터가 하수인형으로 바뀐 관측이며 실제 소환 결과 카드의 밸런스 변화로 세지 않는다.",
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/22788307",
+          "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
+        ],
+        "countedAsConfirmedGameplayHistory": false
+      }
+    ],
+    "classification": "observed_archive_change_not_confirmed_gameplay_delta"
   },
   "current": {
     "id": "ICC_051a",
@@ -158,11 +252,8 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
     "attack",
-    "collectible",
     "cost",
-    "durability",
     "health",
     "nativeTags",
     "race",
@@ -203,21 +294,110 @@
       "launch": {
         "present": false
       },
+      "afterDatedEvents": {
+        "present": false
+      },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
-  "historyReplayMismatches": {
+  "historyIncompleteReasons": {
+    "attack": [
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ],
+    "cost": [
+      {
+        "code": "legacy_cannot_remove_current_field",
+        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
+      },
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ],
+    "health": [
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ],
+    "nativeTags": [
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "race": [
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ],
+    "races": [
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ],
+    "rarity": [
+      {
+        "code": "legacy_cannot_remove_current_field",
+        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
+      },
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "spellSchool": [
+      {
+        "code": "event_removes_absent_field",
+        "detail": "A dated removal refers to a field absent in the prior state."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
     "collectible": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+      "kind": "legacy_boolean_without_native_tag",
+      "value": false,
+      "note": "The launch CardDefs has no COLLECTIBLE Tag; current false is not backfilled into the launch state."
+    },
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "spellSchool": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

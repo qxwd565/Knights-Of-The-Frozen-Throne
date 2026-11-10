@@ -142,13 +142,8 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "collectible",
-    "durability",
     "nativeTags",
-    "rarity",
     "referenceTags",
-    "spellSchool",
     "text"
   ],
   "unresolvedSourceFields": [
@@ -185,57 +180,170 @@
       "launch": {
         "present": false
       },
-      "current": {
-        "present": true,
-        "value": ""
-      },
-      "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
-    },
-    "nativeRawText": {
-      "launch": {
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": ""
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": ""
+      },
+      "datedEventDates": [],
+      "transitionDate": null,
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     },
     "nativeTextBuilder": {
       "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
   "historyReplayMismatches": {
-    "collectible": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "rarity": {
-      "datedReplayPresent": true,
-      "currentPresent": false,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+      "note": "Canonical field presence differs after replay; absence is not converted to a default."
+    }
+  },
+  "2017-12-07": {
+    "changes": {},
+    "nativeTagRemovals": [
+      203
+    ],
+    "remove": [
+      "rarity"
+    ],
+    "sourceEvidence": [
+      {
+        "findingID": "FT-D07",
+        "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+        "event": "4인 기사단 토큰의 RARITY 태그 제거",
+        "koreanDay": "2017-12-07",
+        "archiveBefore": {
+          "build": 22115,
+          "commit": "c623eb10a6fed4a214cf27923e749da9cb52c226",
+          "xmlSha256": "632aa9cbbb8ce8815fa80173bcbcc5c21af6e0ecbe2558c164b8e6504b84f94a",
+          "url": "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml"
+        },
+        "archiveAfter": {
+          "build": 22611,
+          "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+          "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+          "url": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+        },
+        "cardObservation": {
+          "cardID": "ICC_829t5",
+          "dbfId": 45621,
+          "name": "다리온 모그레인",
+          "changes": {
+            "203": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        "assessment": "RARITY 5 → 부재를 전설 → 일반 변경으로 해석하지 않는다. 수집 불가 토큰의 보이는 등급과 실제 상호작용은 별도 검증하지 않았다.",
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+          "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+        ],
+        "countedAsConfirmedGameplayHistory": false
+      }
+    ],
+    "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+      "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+    ]
+  },
+  "historyIncompleteReasons": {
+    "nativeTags": [
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "text": [
+      {
+        "code": "dated_replay_current_presence_mismatch",
+        "detail": "The final dated canonical state and current state disagree about field presence."
+      },
+      {
+        "code": "legacy_cannot_remove_current_field",
+        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
+      },
+      {
+        "code": "legacy_cannot_remove_current_field",
+        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "collectible": {
+      "kind": "legacy_boolean_without_native_tag",
+      "value": false,
+      "note": "The launch CardDefs has no COLLECTIBLE Tag; current false is not backfilled into the launch state."
+    },
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "spellSchool": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

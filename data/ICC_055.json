@@ -138,13 +138,7 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
-    "armor",
-    "attack",
-    "durability",
-    "health",
     "nativeTags",
-    "race",
-    "races",
     "referenceTags",
     "spellSchool"
   ],
@@ -178,43 +172,75 @@
     "2021-03-26": "taxonomy introduction"
   },
   "timelineIncompleteFields": {
-    "text": {
-      "launch": {
-        "present": true,
-        "value": "<b>생명력 흡수</b><br></br>하수인 하나에게<br></br>피해를 $2 줍니다."
-      },
-      "current": {
-        "present": true,
-        "value": "<b>생명력 흡수</b><br></br>하수인에게 피해를<br></br>$3 줍니다."
-      },
-      "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
-    },
-    "nativeRawText": {
-      "launch": {
-        "present": true,
-        "value": "<b>생명력 흡수</b>\n하수인 하나에게\n피해를 $2 줍니다."
-      },
-      "current": {
-        "present": true,
-        "value": "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다."
-      },
-      "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
-    },
     "nativeTextBuilder": {
       "launch": {
+        "present": false
+      },
+      "afterDatedEvents": {
         "present": false
       },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
+    }
+  },
+  "historyIncompleteReasons": {
+    "nativeTags": [
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "spellSchool": [
+      {
+        "code": "legacy_cannot_remove_current_field",
+        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
+      },
+      {
+        "code": "legacy_cannot_remove_newly_added_field",
+        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "armor": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "health": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "race": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "races": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": [],
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }

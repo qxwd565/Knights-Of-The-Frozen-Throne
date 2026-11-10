@@ -163,13 +163,8 @@
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
     "attack",
-    "durability",
-    "health",
     "nativeTags",
-    "race",
-    "races",
-    "referenceTags",
-    "spellSchool"
+    "referenceTags"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -206,45 +201,75 @@
       "launch": {
         "present": false
       },
+      "afterDatedEvents": {
+        "present": false
+      },
       "current": {
         "present": true,
         "value": 0
       },
+      "datedEventDates": [],
       "transitionDate": null,
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "note": "Launch/current observations differ; transition date is not established."
+      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
     }
   },
   "historyReplayMismatches": {
-    "race": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "races": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "attack": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
+      "note": "Canonical field presence differs after replay; absence is not converted to a default."
+    }
+  },
+  "historyIncompleteReasons": {
+    "attack": [
+      {
+        "code": "dated_replay_current_presence_mismatch",
+        "detail": "The final dated canonical state and current state disagree about field presence."
+      }
+    ],
+    "nativeTags": [
+      {
+        "code": "native_tag_timeline_partial",
+        "detail": "Only the observed native Tag snapshots are known."
+      },
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ],
+    "referenceTags": [
+      {
+        "code": "source_timeline_unresolved",
+        "detail": "The source metadata explicitly marks this field as unresolved."
+      }
+    ]
+  },
+  "historyCompatibilityLimits": {
+    "durability": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 0,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "spellSchool": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "health": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": 30,
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "race": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": "",
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "races": {
+      "kind": "legacy_projection_or_type_inapplicable",
+      "value": [],
+      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
     }
   }
 }
