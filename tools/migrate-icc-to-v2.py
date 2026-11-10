@@ -23,6 +23,8 @@ RACE_TAG_VALUES = {
     23: "PIRATE", 24: "DRAGON", 11: "UNDEAD", 2: "DRAENEI",
 }
 TAG_FIELD = {45: "health", 47: "attack", 48: "cost", 187: "health", 292: "armor"}
+TYPE_TAG_VALUES = {3: "HERO", 4: "MINION", 5: "SPELL", 6: "WEAPON", 10: "HERO_POWER"}
+RARITY_TAG_VALUES = {1: "COMMON", 2: "FREE", 3: "RARE", 4: "EPIC", 5: "LEGENDARY"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 # These are source-level ReferencedTag records from the supplied 25-part audit.
@@ -127,7 +129,7 @@ def build_initial(cid, record, old_card, baseline):
         item["name"] = names.get(item["id"], item["name"])
     state = {
         "name": record["name"],
-        "type": record["type"],
+        "type": TYPE_TAG_VALUES.get(values.get(202), record["type"]),
         "cardClass": record["cardClass"],
         "text": record.get("text", ""),
         "nativeTags": tags,
@@ -141,10 +143,9 @@ def build_initial(cid, record, old_card, baseline):
     if record["type"] == "WEAPON" and 187 in values:
         state.pop("health", None)
         state["health"] = values[187]
-    if 203 in values:
-        state["rarity"] = record.get("rarity")
-    if 321 in values:
-        state["collectible"] = bool(values[321])
+    if 203 in values and values[203] in RARITY_TAG_VALUES:
+        state["rarity"] = RARITY_TAG_VALUES[values[203]]
+    state["collectible"] = bool(values.get(321, 0))
     races = []
     if 200 in values and values[200] in RACE_TAG_VALUES:
         races = [RACE_TAG_VALUES[values[200]]]
@@ -211,6 +212,20 @@ def add_confirmed_events(cid, events, record, old_card):
     elif cid == "ICC_055":
         raw = "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다."
         merge_event(events, cid, "2021-03-26", {"text": display_text(raw), "nativeRawText": raw})
+    elif cid in ("ICC_051a", "ICC_051b"):
+        hp = 2 if cid == "ICC_051a" else 5
+        raw_after = "<b>독성</b>" if cid == "ICC_051a" else "<b>도발</b>"
+        merge_event(
+            events, cid, "2018-11-30",
+            {"type": "MINION", "cost": 2, "attack": 1, "health": hp,
+             "rarity": "RARE", "races": ["BEAST"], "race": "야수",
+             "text": display_text(raw_after), "nativeRawText": raw_after},
+            nativeTagUpdates=[
+                {"id": 202, "value": 4}, {"id": 48, "value": 2},
+                {"id": 47, "value": 1}, {"id": 45, "value": hp},
+                {"id": 200, "value": 20}, {"id": 203, "value": 3},
+            ],
+        )
     elif cid == "ICC_706":
         merge_event(events, cid, "2022-11-30", {"races": ["UNDEAD"], "race": "언데드"},
                     nativeTagUpdates=[{"id": 200, "value": 11}])
