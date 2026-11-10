@@ -261,25 +261,7 @@
     }
   },
   "historyReplayMismatches": {
-    "health": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "race": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "attack": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
@@ -292,6 +274,18 @@
       "note": "Field absence is not inferred as an empty or zero value."
     },
     "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "attack": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,

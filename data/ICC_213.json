@@ -221,47 +221,11 @@
     }
   },
   "historyReplayMismatches": {
-    "health": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "race": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "attack": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "이번 게임에서 죽은<br></br>아군 하수인을 하나<br></br><b>발견</b>하여 소환합니다.",
       "current": "이번 게임에서 죽은 아군 하수인을 <b>발견</b>하여 소환합니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "races": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

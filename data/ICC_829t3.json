@@ -219,31 +219,7 @@
     }
   },
   "historyReplayMismatches": {
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "text": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "collectible": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
@@ -252,6 +228,12 @@
     "rarity": {
       "datedReplayPresent": true,
       "currentPresent": false,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
       "transitionDate": null,
       "note": "Field absence is not inferred as an empty or zero value."
     }

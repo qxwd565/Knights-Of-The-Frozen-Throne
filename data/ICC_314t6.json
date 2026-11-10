@@ -178,7 +178,7 @@
     }
   },
   "historyReplayMismatches": {
-    "health": {
+    "collectible": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
@@ -190,47 +190,11 @@
       "transitionDate": null,
       "note": "Field absence is not inferred as an empty or zero value."
     },
-    "race": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "attack": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "하수인 하나를 처치합니다. 그 하수인의 생명력만큼 내 영웅에게 피해를 줍니다.",
       "current": "하수인을 처치합니다.<br></br>그 하수인의 생명력만큼<br></br>내 영웅에게 피해를 줍니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "collectible": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "races": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

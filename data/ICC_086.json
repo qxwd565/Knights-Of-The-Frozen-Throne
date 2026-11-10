@@ -224,47 +224,11 @@
     }
   },
   "historyReplayMismatches": {
-    "health": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "race": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "attack": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "내 덱에 있는 모든 종류의 <b>비밀</b> 카드를 1장씩 사용합니다.",
       "current": "내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "races": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

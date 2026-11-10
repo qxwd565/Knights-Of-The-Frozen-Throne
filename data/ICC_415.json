@@ -266,29 +266,11 @@
     }
   },
   "historyReplayMismatches": {
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "<b>전투의 함성:</b><br></br>내 덱에서 하수인을<br></br>하나 <b>발견</b>합니다.",
       "current": "<b>전투의 함성:</b> 내 덱에서 하수인을 <b>발견</b>해서 복사해옵니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

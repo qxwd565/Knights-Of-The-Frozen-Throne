@@ -251,29 +251,11 @@
     }
   },
   "historyReplayMismatches": {
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "<b>전투의 함성:</b> 아군 하수인<br></br>하나에게 \"<b>죽음의 메아리:</b><br></br>이 하수인을 다시 소환함\"<br></br>능력을 부여합니다.",
       "current": "<b>전투의 함성:</b> 아군 하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

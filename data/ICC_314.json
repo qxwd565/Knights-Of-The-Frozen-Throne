@@ -267,29 +267,11 @@
     }
   },
   "historyReplayMismatches": {
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "<b>도발</b><br></br>내 턴이 끝날 때, 무작위<br></br><b>죽음의 기사</b> 카드 1장을 내 손으로 가져옵니다.",
       "current": "<b>도발</b>, 내 턴이 끝날 때,<br></br>무작위 <b>리치 왕</b> 카드를<br></br>내 손으로 가져옵니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

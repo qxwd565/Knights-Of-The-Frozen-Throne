@@ -259,29 +259,11 @@
     }
   },
   "historyReplayMismatches": {
-    "spellSchool": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
     "text": {
       "datedReplay": "<b>전투의 함성:</b> 내 덱에서 <b>천상의 보호막</b> 하수인을 하나 뽑습니다.",
       "current": "<b>전투의 함성:</b> 내 덱에서 <b>천상의 보호막</b> 하수인을 뽑습니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }

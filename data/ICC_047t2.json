@@ -228,7 +228,7 @@
     }
   },
   "historyReplayMismatches": {
-    "spellSchool": {
+    "collectible": {
       "datedReplayPresent": false,
       "currentPresent": true,
       "transitionDate": null,
@@ -239,24 +239,6 @@
       "current": "<b>죽음의 메아리:</b><br></br><b>모든</b> 하수인에게 피해를 3 주고 +2/+2를 부여합니다.",
       "transitionDate": null,
       "note": "Dated events do not establish this field's transition; both observations are preserved."
-    },
-    "collectible": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "durability": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
-    },
-    "armor": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Field absence is not inferred as an empty or zero value."
     }
   }
 }
