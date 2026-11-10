@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATE_RE = re.compile(r"^\\d{4}-\\d{2}-\\d{2}$")
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 RENDER_FIELDS = (
     "id", "dbfId", "name", "type", "cardClass", "rarity", "collectible",
     "cost", "text", "attack", "health", "durability", "armor", "art",
@@ -28,7 +28,7 @@ def load(path: Path):
 
 def publish(path: Path, value, compact=False):
     rendered = (
-        json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\\n"
+        json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n"
         if compact else json.dumps(value, ensure_ascii=False, indent=2) + "\\n"
     )
     if path.exists() and path.read_text(encoding="utf-8") == rendered:
