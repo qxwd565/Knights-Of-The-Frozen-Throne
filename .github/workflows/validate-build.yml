@@ -33,6 +33,14 @@ jobs:
         run: python tools/extract-icc-launch-strings.py /tmp/CardDefs.xml
       - name: Apply launch strings and canonical initial-state corrections
         run: python tools/apply-icc-launch-strings.py
+      - name: Fetch and verify immutable before/after CardDefs archive snapshots
+        run: |
+          COMMITS="c623eb10a6fed4a214cf27923e749da9cb52c226 d399871096675e4186c1c2d35b9c410464a4ffbf 1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac 0565689bc30e7fe550053066d033958f1f90033f e6b9c5e51678d5035d1188f63c246326bb221c60 0a387d653f339297339625710e4df91f0c62b67b 1a0dcda07394c622066630e4d09817aca8ff9fbf 62cc0f00dbed73f2d48ccefca6f611e6f8898986 fdad346dc49ebb5465f548a0a2b58b59edcbe087"
+          git -C /tmp/hsdata fetch --depth=1 origin $COMMITS
+          for commit in $COMMITS; do
+            git -C /tmp/hsdata show "$commit:CardDefs.xml" > "/tmp/CardDefs-$commit.xml"
+          done
+          python tools/apply-icc-observation-events.py /tmp
       - name: Restore historical source evidence and card verification metadata
         run: |
           git fetch --depth=1 origin 9dd6b844daa08ceffd171e090e001ae3de36c3ec

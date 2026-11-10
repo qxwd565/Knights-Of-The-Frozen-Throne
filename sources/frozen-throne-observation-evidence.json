@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 1,
+  "description": "Immutable HearthSim CardDefs archive observations with Korean official patch-date references. These findings are not confirmed gameplay or balance events.",
+  "findings": [
+    {
+      "findingID": "FT-D01",
+      "event": "합본 운명술사 효과 순서 문구 변경",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2017-12-07",
+      "archiveBefore": {
+        "build": 22115,
+        "commit": "c623eb10a6fed4a214cf27923e749da9cb52c226",
+        "xmlSha256": "632aa9cbbb8ce8815fa80173bcbcc5c21af6e0ecbe2558c164b8e6504b84f94a",
+        "url": "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 22611,
+        "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+        "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+        "url": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_047t2",
+          "dbfId": 43431,
+          "name": "운명술사",
+          "changes": {
+            "rawText": {
+              "before": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게 +2/+2를 부여하고 피해를 3 줍니다.",
+              "after": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게 피해를 3 주고 +2/+2를 부여합니다."
+            },
+            "enText": {
+              "before": "<b>Deathrattle:</b> Give all minions +2/+2, then deal 3 damage to them.",
+              "after": "<b>Deathrattle:</b> Deal 3 damage to all minions and give them +2/+2."
+            }
+          }
+        }
+      ],
+      "assessment": "원본 양 언어의 효과 순서 문구 변경은 확인했다. 실제 엔진 처리 순서 변경 여부와 서버 적용은 보류한다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+        "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D05",
+      "event": "무리의 드루이드 선택 화면 데이터의 하수인형 전환",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2018-11-30",
+      "archiveBefore": {
+        "build": 27358,
+        "commit": "1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac",
+        "xmlSha256": "306a14e083346e4731151c21b7b1e323fc70be4e6aae3ece55cb7114a845554a",
+        "url": "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 27845,
+        "commit": "0565689bc30e7fe550053066d033958f1f90033f",
+        "xmlSha256": "dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a",
+        "url": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_051a",
+          "dbfId": 46048,
+          "name": "거미 변신",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "47": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "20"
+              }
+            },
+            "202": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": true,
+                "value": "4"
+              }
+            },
+            "203": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "rawText": {
+              "before": "<b>독성</b>",
+              "after": "<b>독성</b>"
+            }
+          }
+        },
+        {
+          "cardID": "ICC_051b",
+          "dbfId": 46049,
+          "name": "딱정벌레 변신",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "5"
+              }
+            },
+            "47": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "48": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "20"
+              }
+            },
+            "202": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": true,
+                "value": "4"
+              }
+            },
+            "203": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "rawText": {
+              "before": "생명력 +3, <b>도발</b>",
+              "after": "<b>도발</b>"
+            }
+          }
+        }
+      ],
+      "assessment": "선택 화면용 주문형 데이터가 하수인형으로 바뀐 관측이며 실제 소환 결과 카드의 밸런스 변화로 세지 않는다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22788307",
+        "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D06",
+      "event": "생성 무기의 ELITE 태그 추가",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2017-12-07",
+      "archiveBefore": {
+        "build": 22115,
+        "commit": "c623eb10a6fed4a214cf27923e749da9cb52c226",
+        "xmlSha256": "632aa9cbbb8ce8815fa80173bcbcc5c21af6e0ecbe2558c164b8e6504b84f94a",
+        "url": "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 22611,
+        "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+        "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+        "url": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_314t1",
+          "dbfId": 43012,
+          "name": "서리한",
+          "changes": {
+            "114": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_829t",
+          "dbfId": 43405,
+          "name": "죽음의 복수",
+          "changes": {
+            "114": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_834w",
+          "dbfId": 45297,
+          "name": "어둠한",
+          "changes": {
+            "114": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "ELITE 부재 → 1만으로 일반전에서 새로 전설 등급이 된 것으로 판정하지 않는다. 무기의 비용·공격력·내구도는 그대로다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+        "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D07",
+      "event": "4인 기사단 토큰의 RARITY 태그 제거",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2017-12-07",
+      "archiveBefore": {
+        "build": 22115,
+        "commit": "c623eb10a6fed4a214cf27923e749da9cb52c226",
+        "xmlSha256": "632aa9cbbb8ce8815fa80173bcbcc5c21af6e0ecbe2558c164b8e6504b84f94a",
+        "url": "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 22611,
+        "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+        "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+        "url": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_829t2",
+          "dbfId": 45618,
+          "name": "죽음군주 나즈그림",
+          "changes": {
+            "203": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_829t3",
+          "dbfId": 45619,
+          "name": "토라스 트롤베인",
+          "changes": {
+            "203": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_829t4",
+          "dbfId": 45620,
+          "name": "심문관 화이트메인",
+          "changes": {
+            "203": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_829t5",
+          "dbfId": 45621,
+          "name": "다리온 모그레인",
+          "changes": {
+            "203": {
+              "before": {
+                "present": true,
+                "value": "5"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "RARITY 5 → 부재를 전설 → 일반 변경으로 해석하지 않는다. 수집 불가 토큰의 보이는 등급과 실제 상호작용은 별도 검증하지 않았다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+        "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D08",
+      "event": "주문술사의 SPELLPOWER 태그 2 → 1",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2024-10-30",
+      "archiveBefore": {
+        "build": 209698,
+        "commit": "e6b9c5e51678d5035d1188f63c246326bb221c60",
+        "xmlSha256": "5625316024488e65c0cad7a3409775e1a70e14aa896fd2ee90eb3426f89f9ca2",
+        "url": "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 210009,
+        "commit": "0a387d653f339297339625710e4df91f0c62b67b",
+        "xmlSha256": "672f96b5396ddb4705ea64f0acf8ae9d27e7dcc2544847e02a96342a04581a41",
+        "url": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_856",
+          "dbfId": 45378,
+          "name": "주문직공",
+          "changes": {
+            "192": {
+              "before": {
+                "present": true,
+                "value": "2"
+              },
+              "after": {
+                "present": true,
+                "value": "1"
+              }
+            },
+            "rawText": {
+              "before": "<b>주문 공격력 +2</b>",
+              "after": "<b>주문 공격력 +2</b>"
+            },
+            "enText": {
+              "before": "<b>Spell Damage +2</b>",
+              "after": "<b>Spell Damage +2</b>"
+            }
+          }
+        }
+      ],
+      "assessment": "한국어·영어 문구는 계속 주문 공격력 +2다. 태그 숫자만으로 효과 하향이나 현재 효과 오류라고 판정하지 않는다. 실제 전투 적용은 재현하지 않았다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24149389/31-0-patch-notes",
+        "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D13",
+      "event": "피해를 받고 생존할 때마다 → 생존한 후에 문구",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2018-02-07",
+      "archiveBefore": {
+        "build": 22611,
+        "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+        "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+        "url": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 23180,
+        "commit": "1a0dcda07394c622066630e4d09817aca8ff9fbf",
+        "xmlSha256": "dbe848ad25b843779b0accca4ad4fffebbbbf2beee2caffd04e09dfc9c8332f5",
+        "url": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_405",
+          "dbfId": 42630,
+          "name": "썩은얼굴",
+          "changes": {
+            "rawText": {
+              "before": "이 하수인은 피해를 받고 생존할 때마다 무작위 <b>전설</b> 하수인을 하나 소환합니다.",
+              "after": "이 하수인은 피해를 받고 생존한 후에, 무작위 <b>전설</b> 하수인을 하나 소환합니다."
+            },
+            "enText": {
+              "before": "[x]Whenever this minion\nsurvives damage,\nsummon a random\n<b>Legendary</b> minion.",
+              "after": "[x]After this minion\nsurvives damage,\nsummon a random\n<b>Legendary</b> minion."
+            }
+          }
+        },
+        {
+          "cardID": "ICC_408",
+          "dbfId": 42671,
+          "name": "발키르 영혼강탈자",
+          "changes": {
+            "rawText": {
+              "before": "이 하수인은 피해를 받고 생존할 때마다 2/2 구울을 하나 소환합니다.",
+              "after": "이 하수인은 피해를 받고 생존한 후에, 2/2 구울을 하나 소환합니다."
+            },
+            "enText": {
+              "before": "[x]Whenever this minion\nsurvives damage,\nsummon a 2/2 Ghoul.",
+              "after": "[x]After this minion\nsurvives damage,\nsummon a 2/2 Ghoul."
+            }
+          }
+        }
+      ],
+      "assessment": "썩은얼굴의 얼음 파괴자 상호작용 수정과 시기가 겹친다. 해당 기능 사건을 중복 집계하지 않으며, 발키르 문구만으로 독립 효과 변경을 확정하지 않는다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+        "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    },
+    {
+      "findingID": "FT-D19",
+      "event": "무기 내구도 저장 태그 187 → 45 이관",
+      "classification": "observed_archive_change_not_confirmed_gameplay_delta",
+      "koreanDay": "2025-03-19",
+      "archiveBefore": {
+        "build": 217489,
+        "commit": "62cc0f00dbed73f2d48ccefca6f611e6f8898986",
+        "xmlSha256": "6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2",
+        "url": "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml"
+      },
+      "archiveAfter": {
+        "build": 217964,
+        "commit": "fdad346dc49ebb5465f548a0a2b58b59edcbe087",
+        "xmlSha256": "039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf",
+        "url": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      },
+      "observations": [
+        {
+          "cardID": "ICC_064",
+          "dbfId": 42700,
+          "name": "피의 칼날",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "2"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_071",
+          "dbfId": 42735,
+          "name": "빛의 슬픔",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "4"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "4"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_236",
+          "dbfId": 42808,
+          "name": "얼음 파괴자",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "3"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_314t1",
+          "dbfId": 43012,
+          "name": "서리한",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "3"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_829t",
+          "dbfId": 43405,
+          "name": "죽음의 복수",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "3"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_834w",
+          "dbfId": 45297,
+          "name": "어둠한",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "3"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "3"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        },
+        {
+          "cardID": "ICC_850",
+          "dbfId": 45338,
+          "name": "그림자칼날",
+          "changes": {
+            "45": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": "2"
+              }
+            },
+            "187": {
+              "before": {
+                "present": true,
+                "value": "2"
+              },
+              "after": {
+                "present": false
+              }
+            }
+          }
+        }
+      ],
+      "assessment": "내구도 수치가 같은 채로 저장 위치가 바뀐다. 이전 내구도 태그 부재를 내구도 0 하향으로 해석하지 않는다.",
+      "sourceURLs": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24187196",
+        "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      ],
+      "countedAsConfirmedGameplayHistory": false
+    }
+  ]
+}

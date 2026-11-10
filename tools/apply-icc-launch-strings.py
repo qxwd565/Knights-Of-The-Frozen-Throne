@@ -64,24 +64,6 @@ def main():
             if durability is not None:
                 launch["durability"] = durability
         save(path, data)
-    for path in paths:
-        data = load(path)
-        initial, current = data[RELEASE_DATE], data["current"]
-        observations = {}
-        for field in ("name", "text", "nativeRawText", "nativeTextBuilder"):
-            ip, cp = field in initial, field in current
-            if ip != cp or (ip and initial[field] != current[field]):
-                observations[field] = {
-                    "launch": {"present": ip, **({"value": initial[field]} if ip else {})},
-                    "current": {"present": cp, **({"value": current[field]} if cp else {})},
-                    "transitionDate": None, "source": BASELINE_URL,
-                    "note": "Launch/current observations differ; transition date is not established."
-                }
-        if observations:
-            data["timelineIncompleteFields"] = observations
-        else:
-            data.pop("timelineIncompleteFields", None)
-        save(path, data)
     print(json.dumps({"cards": len(paths), "source": SOURCE}, ensure_ascii=False))
 
 if __name__ == "__main__":

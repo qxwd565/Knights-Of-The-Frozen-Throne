@@ -221,7 +221,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertIn(cid, records)
             if cid == "ICC_018":
                 self.assertIn("<br></br>", record["text"])
-        self.assertEqual(result["dateEvents"], 124)
+        self.assertEqual(result["dateEvents"], 142)
         self.assertGreater(result["datedCards"], 100)
         render = BUILD.load(ROOT / "render.json")
         legacy_history = BUILD.load(ROOT / "history.json")
@@ -242,6 +242,86 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                 self.assertIn(dbf_id, legacy_history["cards"])
                 self.assertEqual(card["history"], legacy_history["cards"][dbf_id]["history"])
 
+
+    def test_launch_strings_match_the_immutable_fixture_for_all_182_cards(self):
+        fixture = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
+        self.assertEqual(len(fixture["cards"]), 182)
+        for cid, original in fixture["cards"].items():
+            launch = source(cid)["2017-08-11"]
+            strings = original["localizedStrings"]
+            name = strings["CARDNAME"]
+            ko_name = name["locales"]["koKR"]
+            self.assertTrue(name["tagPresent"], cid)
+            self.assertTrue(ko_name["present"], cid)
+            self.assertEqual(launch["name"], ko_name["nativeRawText"], cid)
+            text = strings["CARDTEXT_INHAND"]
+            ko_text = text["locales"]["koKR"]
+            if text["tagPresent"] and ko_text["present"]:
+                self.assertIn("nativeRawText", launch, cid)
+                self.assertEqual(launch["nativeRawText"], ko_text["nativeRawText"], cid)
+                expected_display = "" if cid == "ICC_828t" else ko_text["nativeRawText"].replace("[x]", "").replace(chr(10), "<br></br>")
+                self.assertEqual(launch["text"], expected_display, cid)
+            else:
+                self.assertNotIn("nativeRawText", launch, cid)
+                self.assertNotIn("text", launch, cid)
+            self.assertNotIn("nativeTextBuilder", launch, cid)
+
+    def test_seven_archive_observation_groups_are_separate_from_balance_history(self):
+        manifest = BUILD.load(ROOT / "sources" / "frozen-throne-observation-evidence.json")
+        self.assertEqual(len(manifest["findings"]), 7)
+        self.assertEqual({x["findingID"] for x in manifest["findings"]},
+                         {"FT-D01", "FT-D05", "FT-D06", "FT-D07", "FT-D08", "FT-D13", "FT-D19"})
+        observed_rows = set()
+        for finding in manifest["findings"]:
+            self.assertFalse(finding["countedAsConfirmedGameplayHistory"])
+            self.assertEqual(finding["classification"], "observed_archive_change_not_confirmed_gameplay_delta")
+            self.assertIn(finding["archiveBefore"]["url"], finding["sourceURLs"])
+            self.assertIn(finding["archiveAfter"]["url"], finding["sourceURLs"])
+            for observation in finding["observations"]:
+                cid, day = observation["cardID"], finding["koreanDay"]
+                observed_rows.add((cid, day))
+                event = source(cid)[day]
+                self.assertEqual(event["classification"], finding["classification"])
+                evidence = next(x for x in event["sourceEvidence"] if x["findingID"] == finding["findingID"])
+                self.assertFalse(evidence["countedAsConfirmedGameplayHistory"])
+                self.assertEqual(evidence["archiveBefore"], finding["archiveBefore"])
+                self.assertEqual(evidence["archiveAfter"], finding["archiveAfter"])
+                for key, expected in observation["changes"].items():
+                    if key.isdigit():
+                        tag_id = int(key)
+                        if expected["after"]["present"]:
+                            update = next(x for x in event.get("nativeTagUpdates", []) if x["id"] == tag_id)
+                            self.assertEqual(update["value"], int(expected["after"]["value"]), f"{cid}:{day}:Tag{tag_id}")
+                            self.assertNotIn(tag_id, event.get("nativeTagRemovals", []))
+                        else:
+                            self.assertIn(tag_id, event.get("nativeTagRemovals", []), f"{cid}:{day}:Tag{tag_id}")
+                    elif key == "rawText":
+                        self.assertEqual(event["changes"]["nativeRawText"], expected["after"], cid)
+                        self.assertEqual(event["changes"]["text"], expected["after"].replace("[x]", "").replace(chr(10), "<br></br>"), cid)
+            for url in finding["sourceURLs"]:
+                self.assertTrue(all(url in source(ob["cardID"])[finding["koreanDay"]]["sources"]
+                                    for ob in finding["observations"]))
+        self.assertEqual(len(observed_rows), 18)
+        self.assertIn("rarity", source("ICC_829t2")["2017-12-07"]["remove"])
+        self.assertEqual(source("ICC_856")["2024-10-30"]["nativeTagUpdates"], [{"id": 192, "value": 1}])
+        self.assertEqual(source("ICC_064")["2025-03-19"]["nativeTagUpdates"], [{"id": 45, "value": 2}])
+        self.assertEqual(source("ICC_064")["2025-03-19"]["nativeTagRemovals"], [187])
+
+    def test_dated_text_replay_clears_resolved_launch_differences(self):
+        for cid in ("ICC_047t2", "ICC_051b", "ICC_405", "ICC_408"):
+            item = source(cid)
+            BUILD.replay_legacy(item, item["current"])
+            timeline = item.get("timelineIncompleteFields", {})
+            self.assertNotIn("text", timeline, cid)
+            self.assertNotIn("nativeRawText", timeline, cid)
+        b = source("ICC_051b")
+        BUILD.replay_legacy(b, b["current"])
+        self.assertNotIn("text", b.get("timelineIncompleteFields", {}))
+        self.assertIn("nativeTextBuilder", b.get("timelineIncompleteFields", {}))
+        self.assertNotIn("spellSchool", b.get("historyReplayMismatches", {}))
+        self.assertNotIn("durability", b.get("historyReplayMismatches", {}))
+        self.assertNotIn("durability", b.get("historyIncompleteFields", []))
+        self.assertIn("collectible", b.get("historyCompatibilityLimits", {}))
 
     def test_launch_strings_are_applied_without_rewriting_current_observations(self):
         fixture = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
@@ -306,7 +386,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                             self.assertEqual(changes.get(field), state[field], f"{path.stem}:{day}:{field}")
                         else:
                             self.assertNotIn(field, changes, f"{path.stem}:{day}:{field}")
-                    elif (field in state) != (field in current):
+                    elif field not in state and field in current:
                         self.assertIn(field, item.get("historyIncompleteFields", []),
                                       f"{path.stem}:{day}:{field}")
 
