@@ -36,6 +36,36 @@ def publish(path: Path, value, compact=False):
     path.write_text(rendered, encoding="utf-8")
     return True
 
+def apply_sparse_event(state: dict, event: dict, history_fields=HISTORY_FIELDS):
+    """Apply assignments and explicit removals without conflating falsy values."""
+    reverse = {}
+    incomplete = set()
+    for field, value in event.get("changes", {}).items():
+        if field in history_fields:
+            if field in state:
+                reverse[field] = copy.deepcopy(state[field])
+            else:
+                incomplete.add(field)
+        state[field] = copy.deepcopy(value)
+    for field in event.get("remove", []):
+        if field in state:
+            if field in history_fields:
+                reverse[field] = copy.deepcopy(state[field])
+            state.pop(field)
+        else:
+            incomplete.add(field)
+    tags = {x["id"]: copy.deepcopy(x) for x in state.get("nativeTags", [])}
+    for item in event.get("nativeTagUpdates", []):
+        tag_id = item["id"]
+        tags[tag_id] = {"id": tag_id, "value": item["value"]}
+    for tag_id in event.get("nativeTagRemovals", []):
+        tags.pop(tag_id, None)
+    if "nativeTagUpdates" in event or "nativeTagRemovals" in event:
+        state["nativeTags"] = [tags[k] for k in sorted(tags)]
+        incomplete.add("nativeTags")
+    return reverse, incomplete
+
+
 def replay_legacy(source: dict, record: dict):
     dates = sorted(k for k in source if DATE_RE.fullmatch(k))
     if not dates or dates[0] != "2017-08-11":
@@ -48,25 +78,8 @@ def replay_legacy(source: dict, record: dict):
         event = source[day]
         if not isinstance(event, dict) or not isinstance(event.get("changes", {}), dict):
             raise ValueError(f"{source['id']}: malformed event {day}")
-        reverse = {}
-        for field, value in event.get("changes", {}).items():
-            if field in HISTORY_FIELDS:
-                if field in state:
-                    reverse[field] = copy.deepcopy(state[field])
-                else:
-                    incomplete.add(field)
-            state[field] = copy.deepcopy(value)
-        # Apply raw-tag deltas to the canonical replay state. The old API has no
-        # faithful representation for tag provenance or missing-vs-present tags.
-        tags = {x["id"]: copy.deepcopy(x) for x in state.get("nativeTags", [])}
-        for item in event.get("nativeTagUpdates", []):
-            tag_id = item["id"]
-            tags[tag_id] = {"id": tag_id, "value": item["value"]}
-        for tag_id in event.get("nativeTagRemovals", []):
-            tags.pop(tag_id, None)
-        if "nativeTagUpdates" in event or "nativeTagRemovals" in event:
-            state["nativeTags"] = [tags[k] for k in sorted(tags)]
-            incomplete.add("nativeTags")
+        reverse, blocked = apply_sparse_event(state, event)
+        incomplete.update(blocked)
         if reverse:
             revisions.append({
                 "from": previous_day,
@@ -82,11 +95,8 @@ def replay_legacy(source: dict, record: dict):
                 f"{source['id']}: dated replay mismatch {field}: "
                 f"{state[field]!r} != {current[field]!r}"
             )
-    if "nativeTags" in current:
-        # Current nativeTags are the latest source cache, not a fully dated
-        # historical series. Preserve them exactly and report the limitation.
-        if state.get("nativeTags") != current["nativeTags"]:
-            incomplete.add("nativeTags")
+    if "nativeTags" in current and state.get("nativeTags") != current["nativeTags"]:
+        incomplete.add("nativeTags")
     if incomplete != set(source.get("historyIncompleteFields", [])):
         source["historyIncompleteFields"] = sorted(incomplete)
     return revisions
