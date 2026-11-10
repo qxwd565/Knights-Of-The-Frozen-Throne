@@ -78,7 +78,8 @@
     ],
     "sources": [
       "https://hearthstone.blizzard.com/ko-kr/news/22788307",
-      "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml"
+      "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
     ],
     "remove": [
       "spellSchool"
