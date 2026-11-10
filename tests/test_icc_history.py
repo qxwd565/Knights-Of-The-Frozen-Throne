@@ -76,6 +76,18 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertIsInstance(original["nativeTags"], list, cid)
             self.assertIsInstance(original["referenceTags"], list, cid)
 
+    def test_47_noncollectible_cards_keep_absence_distinct_from_false(self):
+        catalog = BUILD.load(ROOT / "cards.json")
+        baseline = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
+        records = [x for x in catalog["cards"] if x.get("collectible") is False]
+        self.assertEqual(len(records), 47)
+        for record in records:
+            item = source(record["id"])
+            initial = item["2017-08-11"]
+            self.assertNotIn(321, [x["id"] for x in baseline["cards"][record["id"]]["nativeTags"]])
+            self.assertNotIn("collectible", initial, record["id"])
+            self.assertIs(item["current"]["collectible"], False, record["id"])
+
     def test_nine_card_twelve_operation_history_is_present(self):
         a = source("ICC_832t3")
         self.assertEqual(a["2017-08-11"]["cost"], 2)
@@ -133,6 +145,9 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertEqual(a["2018-11-30"]["changes"]["type"], "MINION")
         self.assertEqual(a["2018-11-30"]["changes"]["attack"], 1)
         self.assertEqual(a["2018-11-30"]["changes"]["health"], 2)
+        self.assertNotIn("race", a["2017-08-11"])
+        self.assertNotIn("races", a["2017-08-11"])
+        self.assertIn("spellSchool", a["2018-11-30"]["remove"])
         self.assertEqual(b["2017-08-11"]["type"], "SPELL")
         self.assertEqual(b["2018-11-30"]["changes"]["health"], 5)
         self.assertEqual(b["2018-11-30"]["changes"]["text"], "<b>도발</b>")
@@ -172,6 +187,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertEqual(reverse["race"], "")
         self.assertEqual(state["nativeTags"], [{"id": 48, "value": 2}])
         self.assertIn("nativeTags", incomplete)
+        self.assertIn("race", incomplete)
 
         added = {"cost": 2}
         reverse, incomplete = BUILD.apply_sparse_event(
