@@ -15,7 +15,7 @@
     "name": "빛의 슬픔",
     "type": "WEAPON",
     "cardClass": "PALADIN",
-    "text": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "text": "아군 하수인 하나가 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
     "nativeTags": [
       {
         "id": 32,
@@ -74,11 +74,10 @@
     ],
     "cost": 4,
     "attack": 1,
-    "health": 4,
     "rarity": "EPIC",
     "collectible": true,
-    "nativeRawText": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "아군 하수인 하나가 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+    "durability": 4
   },
   "current": {
     "id": "ICC_071",
@@ -165,8 +164,14 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "health",
     "nativeTags",
-    "referenceTags"
+    "race",
+    "races",
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -194,5 +199,83 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "아군 하수인 하나가 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다."
+      },
+      "current": {
+        "present": true,
+        "value": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "아군 하수인 하나가 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다."
+      },
+      "current": {
+        "present": true,
+        "value": "아군 하수인이 <b>천상의_보호막</b>을 잃은 후에, 공격력을 +1 얻습니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "health": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "race": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "아군 하수인 하나가 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+      "current": "아군 하수인이 <b>천상의 보호막</b>을 잃은 후에, 공격력을 +1 얻습니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "races": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

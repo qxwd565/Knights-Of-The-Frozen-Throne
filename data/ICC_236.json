@@ -74,11 +74,10 @@
     ],
     "cost": 3,
     "attack": 1,
-    "health": 3,
     "rarity": "RARE",
     "collectible": true,
     "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
-    "nativeTextBuilder": 0
+    "durability": 3
   },
   "current": {
     "id": "ICC_236",
@@ -165,8 +164,13 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "health",
     "nativeTags",
-    "referenceTags"
+    "race",
+    "races",
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -194,5 +198,51 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "health": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "race": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "races": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

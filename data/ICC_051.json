@@ -86,8 +86,7 @@
     "collectible": true,
     "races": [],
     "race": "",
-    "nativeRawText": "[x]<b>선택 -</b> 1/2 <b>독성</b> 하수인\n또는 1/5 <b>도발</b> 하수인으로\n변신합니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "[x]<b>선택 -</b> 1/2 <b>독성</b> 하수인\n또는 1/5 <b>도발</b> 하수인으로\n변신합니다."
   },
   "current": {
     "id": "ICC_051",
@@ -186,8 +185,11 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -221,5 +223,39 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

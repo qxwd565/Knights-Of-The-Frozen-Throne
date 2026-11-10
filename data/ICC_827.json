@@ -83,12 +83,10 @@
       }
     ],
     "cost": 9,
-    "health": 30,
     "armor": 5,
     "rarity": "LEGENDARY",
     "collectible": true,
-    "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "<b>전투의 함성:</b> 내 다음 턴까지 <b>은신</b>합니다."
   },
   "current": {
     "id": "ICC_827",
@@ -185,8 +183,14 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "attack",
+    "durability",
+    "health",
     "nativeTags",
-    "referenceTags"
+    "race",
+    "races",
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -217,5 +221,57 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "health": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "race": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "attack": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "races": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

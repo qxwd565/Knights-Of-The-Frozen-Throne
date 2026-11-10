@@ -15,7 +15,7 @@
     "name": "강제된 희생",
     "type": "SPELL",
     "cardClass": "WARLOCK",
-    "text": "아군 하수인을 선택합니다. 그 하수인과 무작위 적 하수인을 처치합니다.",
+    "text": "아군 하수인 하나를 선택합니다. 그 하수인과 무작위 적 하수인 하나를 처치합니다.",
     "nativeTags": [
       {
         "id": 48,
@@ -52,9 +52,7 @@
     "cost": 3,
     "rarity": "RARE",
     "collectible": true,
-    "spellSchool": "",
-    "nativeRawText": "아군 하수인을 선택합니다. 그 하수인과 무작위 적 하수인을 처치합니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "아군 하수인 하나를 선택합니다. 그 하수인과 무작위 적 하수인 하나를 처치합니다."
   },
   "2021-03-26": {
     "changes": {
@@ -124,8 +122,16 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "attack",
+    "durability",
+    "health",
     "nativeTags",
-    "referenceTags"
+    "race",
+    "races",
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -155,5 +161,89 @@
   "initialSpecStatus": "unverified",
   "patchSources": {
     "2021-03-26": "taxonomy introduction"
+  },
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "아군 하수인 하나를 선택합니다. 그 하수인과 무작위 적 하수인 하나를 처치합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "아군 하수인을 선택합니다. 그 하수인과 무작위 적 하수인을 처치합니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "아군 하수인 하나를 선택합니다. 그 하수인과 무작위 적 하수인 하나를 처치합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "아군 하수인을 선택합니다. 그 하수인과 무작위 적 하수인을 처치합니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "health": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "race": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "attack": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "아군 하수인 하나를 선택합니다. 그 하수인과 무작위 적 하수인 하나를 처치합니다.",
+      "current": "아군 하수인을 선택합니다. 그 하수인과 무작위 적 하수인을 처치합니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "races": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
   }
 }

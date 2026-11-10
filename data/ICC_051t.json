@@ -72,8 +72,7 @@
       "BEAST"
     ],
     "race": "야수",
-    "nativeRawText": "<b>독성</b>",
-    "nativeTextBuilder": 0
+    "nativeRawText": "<b>독성</b>"
   },
   "current": {
     "id": "ICC_051t",
@@ -149,9 +148,12 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
     "collectible",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -179,5 +181,45 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "collectible": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

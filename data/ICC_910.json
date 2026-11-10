@@ -76,8 +76,7 @@
     "collectible": true,
     "races": [],
     "race": "",
-    "nativeRawText": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 피해를 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 피해를 줍니다."
   },
   "2022-11-30": {
     "changes": {
@@ -204,8 +203,11 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -235,5 +237,65 @@
   "initialSpecStatus": "unverified",
   "patchSources": {
     "2022-11-30": "taxonomy introduction"
+  },
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 피해를 줍니다."
+      },
+      "current": {
+        "present": true,
+        "value": "<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 피해를 줍니다."
+      },
+      "current": {
+        "present": true,
+        "value": "<b>연계:</b> 이번 턴에\n앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
   }
 }

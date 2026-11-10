@@ -15,7 +15,7 @@
     "name": "급속 빙결",
     "type": "SPELL",
     "cardClass": "SHAMAN",
-    "text": "하수인에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다.",
+    "text": "하수인 하나에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다.",
     "nativeTags": [
       {
         "id": 48,
@@ -60,9 +60,7 @@
     "cost": 2,
     "rarity": "EPIC",
     "collectible": true,
-    "spellSchool": "",
-    "nativeRawText": "하수인에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "하수인 하나에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다."
   },
   "2021-03-26": {
     "changes": {
@@ -145,8 +143,16 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "attack",
+    "durability",
+    "health",
     "nativeTags",
-    "referenceTags"
+    "race",
+    "races",
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -176,5 +182,89 @@
   "initialSpecStatus": "unverified",
   "patchSources": {
     "2021-03-26": "taxonomy introduction"
+  },
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "하수인 하나에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다."
+      },
+      "current": {
+        "present": true,
+        "value": "하수인에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "하수인 하나에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다."
+      },
+      "current": {
+        "present": true,
+        "value": "하수인에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "health": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "race": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "attack": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "하수인 하나에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다.",
+      "current": "하수인에게 +3/+3을 부여하고 <b>빙결</b> 상태로 만듭니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "races": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
   }
 }

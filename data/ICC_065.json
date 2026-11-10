@@ -71,8 +71,7 @@
     "collectible": true,
     "races": [],
     "race": "",
-    "nativeRawText": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "<b>죽음의 메아리:</b>\n1/1 해골 둘을\n내 손으로 가져옵니다."
   },
   "2022-11-30": {
     "changes": {
@@ -167,8 +166,11 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -200,5 +202,39 @@
   "initialSpecStatus": "unverified",
   "patchSources": {
     "2022-11-30": "taxonomy introduction"
+  },
+  "timelineIncompleteFields": {
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
   }
 }

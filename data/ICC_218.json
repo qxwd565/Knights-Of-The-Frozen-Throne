@@ -15,7 +15,7 @@
     "name": "울부짖는 마귀",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "text": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다.",
+    "text": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 1장 버립니다.",
     "nativeTags": [
       {
         "id": 32,
@@ -93,8 +93,7 @@
       "DEMON"
     ],
     "race": "악마",
-    "nativeRawText": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 1장 버립니다."
   },
   "current": {
     "id": "ICC_218",
@@ -190,8 +189,12 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -219,5 +222,71 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 1장 버립니다."
+      },
+      "current": {
+        "present": true,
+        "value": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 1장 버립니다."
+      },
+      "current": {
+        "present": true,
+        "value": "[x]이 하수인이 피해를\n받을 때마다 무작위로\n카드를 버립니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 1장 버립니다.",
+      "current": "이 하수인이 피해를<br></br>받을 때마다 무작위로<br></br>카드를 버립니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

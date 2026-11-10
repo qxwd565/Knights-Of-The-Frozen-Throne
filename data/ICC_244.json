@@ -15,7 +15,7 @@
     "name": "필사적인 저항",
     "type": "SPELL",
     "cardClass": "PALADIN",
-    "text": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환함\" 능력을 부여합니다.",
+    "text": "하수인 하나에게 '<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환합니다.' 능력을 부여합니다.",
     "nativeTags": [
       {
         "id": 48,
@@ -60,9 +60,7 @@
     "cost": 2,
     "rarity": "RARE",
     "collectible": true,
-    "spellSchool": "",
-    "nativeRawText": "하수인에게 \"<b>죽음의_메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환함\" 능력을 부여합니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "하수인 하나에게 '<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환합니다.' 능력을 부여합니다."
   },
   "2021-03-26": {
     "changes": {
@@ -145,8 +143,16 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "attack",
+    "durability",
+    "health",
     "nativeTags",
-    "referenceTags"
+    "race",
+    "races",
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -176,5 +182,89 @@
   "initialSpecStatus": "unverified",
   "patchSources": {
     "2021-03-26": "taxonomy introduction"
+  },
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "하수인 하나에게 '<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환합니다.' 능력을 부여합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환함\" 능력을 부여합니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "하수인 하나에게 '<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환합니다.' 능력을 부여합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "하수인에게 \"<b>죽음의_메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환함\" 능력을 부여합니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "health": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "race": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "attack": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "하수인 하나에게 '<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환합니다.' 능력을 부여합니다.",
+      "current": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 생명력이 1인 상태로 다시 소환함\" 능력을 부여합니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "races": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
   }
 }

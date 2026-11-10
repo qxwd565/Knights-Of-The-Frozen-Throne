@@ -15,7 +15,7 @@
     "name": "푸른비늘혈족 맹독전사",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인 하나에게 공격력을 +3 부여합니다.",
     "nativeTags": [
       {
         "id": 32,
@@ -78,8 +78,7 @@
       "DRAGON"
     ],
     "race": "용족",
-    "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인 하나에게 공격력을 +3 부여합니다."
   },
   "current": {
     "id": "ICC_029",
@@ -175,8 +174,12 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -204,5 +207,71 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인 하나에게 공격력을 +3 부여합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +3 부여합니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "내 턴이 끝날 때,\n다른 무작위 아군 하수인 하나에게 공격력을 +3 부여합니다."
+      },
+      "current": {
+        "present": true,
+        "value": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +3 부여합니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인 하나에게 공격력을 +3 부여합니다.",
+      "current": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +3 부여합니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }

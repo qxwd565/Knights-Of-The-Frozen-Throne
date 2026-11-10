@@ -15,7 +15,7 @@
     "name": "무라비",
     "type": "MINION",
     "cardClass": "SHAMAN",
-    "text": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다.",
+    "text": "다른 하수인 하나가 <b>빙결</b> 상태가 될 때마다 그 카드를 복사하여 내 손으로 가져옵니다.",
     "nativeTags": [
       {
         "id": 32,
@@ -84,8 +84,7 @@
     "collectible": true,
     "races": [],
     "race": "",
-    "nativeRawText": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeRawText": "다른 하수인 하나가 <b>빙결</b> 상태가 될 때마다 그 카드를 복사하여 내 손으로 가져옵니다."
   },
   "current": {
     "id": "ICC_289",
@@ -169,8 +168,12 @@
   },
   "nativeTagsTimelineStatus": "partial",
   "historyIncompleteFields": [
+    "armor",
+    "durability",
     "nativeTags",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool",
+    "text"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -198,5 +201,71 @@
     "locale": "koKR"
   },
   "initialSpecStatus": "unverified",
-  "patchSources": {}
+  "patchSources": {},
+  "timelineIncompleteFields": {
+    "text": {
+      "launch": {
+        "present": true,
+        "value": "다른 하수인 하나가 <b>빙결</b> 상태가 될 때마다 그 카드를 복사하여 내 손으로 가져옵니다."
+      },
+      "current": {
+        "present": true,
+        "value": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeRawText": {
+      "launch": {
+        "present": true,
+        "value": "다른 하수인 하나가 <b>빙결</b> 상태가 될 때마다 그 카드를 복사하여 내 손으로 가져옵니다."
+      },
+      "current": {
+        "present": true,
+        "value": "[x]다른 하수인이\n<b>빙결</b> 상태가 될 때마다\n그 카드를 복사하여 내\n손으로 가져옵니다."
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    },
+    "nativeTextBuilder": {
+      "launch": {
+        "present": false
+      },
+      "current": {
+        "present": true,
+        "value": 0
+      },
+      "transitionDate": null,
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "note": "Launch/current observations differ; transition date is not established."
+    }
+  },
+  "historyReplayMismatches": {
+    "spellSchool": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "text": {
+      "datedReplay": "다른 하수인 하나가 <b>빙결</b> 상태가 될 때마다 그 카드를 복사하여 내 손으로 가져옵니다.",
+      "current": "다른 하수인이<br></br><b>빙결</b> 상태가 될 때마다<br></br>그 카드를 복사하여 내<br></br>손으로 가져옵니다.",
+      "transitionDate": null,
+      "note": "Dated events do not establish this field's transition; both observations are preserved."
+    },
+    "durability": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    },
+    "armor": {
+      "datedReplayPresent": false,
+      "currentPresent": true,
+      "transitionDate": null,
+      "note": "Field absence is not inferred as an empty or zero value."
+    }
+  }
 }
