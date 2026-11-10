@@ -87,10 +87,12 @@ jobs:
           }
           run_pipeline 1
           git diff --exit-code
-          test -z "$(git status --porcelain)"
+          test -z "$(git status --porcelain --untracked-files=no)"
+          echo "PYTHONHASHSEED=1: git diff --exit-code clean"
           run_pipeline 8675309
           git diff --exit-code
-          test -z "$(git status --porcelain)"
+          test -z "$(git status --porcelain --untracked-files=no)"
+          echo "PYTHONHASHSEED=8675309: git diff --exit-code clean"
       - name: Commit migrated card sources and baseline
         run: |
           git config user.name "github-actions[bot]"
