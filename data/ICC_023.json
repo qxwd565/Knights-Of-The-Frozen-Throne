@@ -138,8 +138,7 @@
   "historyIncompleteFields": [
     "cost",
     "nativeTags",
-    "referenceTags",
-    "text"
+    "referenceTags"
   ],
   "unresolvedSourceFields": [
     "nativeTags",
@@ -169,36 +168,6 @@
   "initialSpecStatus": "unverified",
   "patchSources": {},
   "timelineIncompleteFields": {
-    "text": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": ""
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    },
-    "nativeRawText": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": ""
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    },
     "nativeTextBuilder": {
       "launch": {
         "present": false
@@ -216,12 +185,6 @@
     }
   },
   "historyReplayMismatches": {
-    "text": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Canonical field presence differs after replay; absence is not converted to a default."
-    },
     "cost": {
       "datedReplayPresent": false,
       "currentPresent": true,
@@ -251,15 +214,14 @@
         "code": "source_timeline_unresolved",
         "detail": "The source metadata explicitly marks this field as unresolved."
       }
-    ],
-    "text": [
-      {
-        "code": "dated_replay_current_presence_mismatch",
-        "detail": "The final dated canonical state and current state disagree about field presence."
-      }
     ]
   },
   "historyCompatibilityLimits": {
+    "text": {
+      "kind": "legacy_empty_string_for_absent_cardtext_tag",
+      "value": "",
+      "note": "The launch CardDefs has no CARDTEXT_INHAND value; current empty string is a compatibility projection, not a dated text change."
+    },
     "armor": {
       "kind": "legacy_projection_or_type_inapplicable",
       "value": 0,
@@ -274,6 +236,11 @@
       "kind": "legacy_projection_or_type_inapplicable",
       "value": "",
       "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
+    },
+    "nativeRawText": {
+      "kind": "legacy_empty_string_for_absent_cardtext_tag",
+      "value": "",
+      "note": "The launch CardDefs has no CARDTEXT_INHAND value; current empty string is a compatibility projection, not a dated text change."
     }
   }
 }
