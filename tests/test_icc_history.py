@@ -52,6 +52,21 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                 self.assertIn(field, item, f"{cid}:{field}")
                 self.assertEqual(item[field], expected, f"{cid}:{field}")
 
+    def test_all_111_legacy_patch_events_are_retained(self):
+        manifest = BUILD.load(ROOT / "sources" / "legacy-metadata-baseline.json")
+        self.assertEqual(manifest["legacyPatchEventCount"], 111)
+        for cid, patches in manifest["legacyPatches"].items():
+            item = source(cid)
+            for patch in patches:
+                day = patch["date"]
+                self.assertIn(day, item, f"{cid}:{day}")
+                for field, old_value in patch["changes"].items():
+                    expected = old_value
+                    if cid == "ICC_705" and day == "2022-11-30" and field == "races":
+                        expected = ["UNDEAD", "BEAST"]
+                    self.assertIn(field, item[day]["changes"], f"{cid}:{day}:{field}")
+                    self.assertEqual(item[day]["changes"][field], expected, f"{cid}:{day}:{field}")
+
     def test_launch_carddefs_snapshot_has_exact_ids_and_dbf_mappings(self):
         baseline = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
         catalog = BUILD.load(ROOT / "cards.json")
