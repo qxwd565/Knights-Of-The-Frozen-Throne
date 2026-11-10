@@ -104,7 +104,10 @@ def main(commit):
         source["patchSources"] = old_card.get("patchSources", {})
         for key in [k for k in source if len(k) == 10 and k[4] == "-" and k[7] == "-"]:
             if (cid, key) in SOURCES:
-                source[key]["sources"] = SOURCES[(cid, key)]
+                existing = source[key].get("sources", [])
+                if isinstance(existing, str):
+                    existing = [existing]
+                source[key]["sources"] = list(dict.fromkeys(list(existing) + SOURCES[(cid, key)]))
         for day in [k for k in source if len(k) == 10 and k[4] == "-" and k[7] == "-"]:
             if "referenceTags" in source[day]:
                 annotate_reference_tags(source[day]["referenceTags"])

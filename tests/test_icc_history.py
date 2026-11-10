@@ -286,6 +286,8 @@ class FrozenThroneHistoryTest(unittest.TestCase):
                 self.assertFalse(evidence["countedAsConfirmedGameplayHistory"])
                 self.assertEqual(evidence["archiveBefore"], finding["archiveBefore"])
                 self.assertEqual(evidence["archiveAfter"], finding["archiveAfter"])
+                self.assertTrue(all(url in event.get("sources", []) for url in finding["sourceURLs"]),
+                                f"{cid}:{day}: event sources must retain archive and official references")
                 for key, expected in observation["changes"].items():
                     if key.isdigit():
                         tag_id = int(key)
