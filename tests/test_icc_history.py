@@ -243,7 +243,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertEqual(len(fixture["cards"]), 182)
         self.assertEqual(source("ICC_051b")["2017-08-11"]["text"], "생명력 +3, <b>도발</b>")
         self.assertEqual(source("ICC_055")["2017-08-11"]["nativeRawText"],
-                         "<b>생명력 흡수</b>\\n하수인 하나에게\\n피해를 $2 줍니다.")
+                         "<b>생명력 흡수</b>\n하수인 하나에게\n피해를 $2 줍니다.")
         self.assertIn("부여하고 피해를 3", source("ICC_047t2")["2017-08-11"]["text"])
         zombeast = source("ICC_828t")
         self.assertEqual(zombeast["2017-08-11"]["nativeRawText"], "{0}, {1}")
