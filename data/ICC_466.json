@@ -105,7 +105,63 @@
       ],
       "race": "드레나이"
     },
-    "source": "taxonomy introduction"
+    "source": "taxonomy introduction",
+    "nativeTagUpdates": [
+      {
+        "id": 200,
+        "value": 2
+      }
+    ],
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24149389/31-0-patch-notes",
+      "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+    ],
+    "nativeTagEvidence": [
+      {
+        "groupId": "B-2024-10-30",
+        "classification": "verified_original_native_tag_transition",
+        "day": "2024-10-30",
+        "patchSource": "taxonomy introduction",
+        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/24149389/31-0-patch-notes",
+        "archiveBefore": {
+          "build": 209698,
+          "commit": "e6b9c5e51678d5035d1188f63c246326bb221c60",
+          "source": "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml",
+          "xmlSha256": "5625316024488e65c0cad7a3409775e1a70e14aa896fd2ee90eb3426f89f9ca2"
+        },
+        "archiveAfter": {
+          "build": 210009,
+          "commit": "0a387d653f339297339625710e4df91f0c62b67b",
+          "source": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml",
+          "xmlSha256": "672f96b5396ddb4705ea64f0acf8ae9d27e7dcc2544847e02a96342a04581a41"
+        },
+        "observedNativeTags": {
+          "200": {
+            "before": {
+              "present": false
+            },
+            "after": {
+              "present": true,
+              "value": 2
+            }
+          }
+        },
+        "changedTagOperations": [
+          {
+            "id": 200,
+            "operation": "update",
+            "value": 2
+          }
+        ],
+        "unchangedTagIds": [],
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/24149389/31-0-patch-notes",
+          "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+        ]
+      }
+    ]
   },
   "2025-05-23": {
     "changes": {
@@ -252,6 +308,10 @@
   },
   "historyIncompleteReasons": {
     "nativeTags": [
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
       {
         "code": "native_tag_timeline_partial",
         "detail": "Only the observed native Tag snapshots are known."

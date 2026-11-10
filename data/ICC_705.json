@@ -85,13 +85,127 @@
     "changes": {
       "cost": 8
     },
-    "source": "https://hearthstone.blizzard.com/ko-kr/news/21507224"
+    "source": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+    "nativeTagUpdates": [
+      {
+        "id": 48,
+        "value": 8
+      }
+    ],
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+      "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+    ],
+    "nativeTagEvidence": [
+      {
+        "groupId": "B-2018-02-07",
+        "classification": "verified_original_native_tag_transition",
+        "day": "2018-02-07",
+        "patchSource": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+        "archiveBefore": {
+          "build": 22611,
+          "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+          "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+          "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2"
+        },
+        "archiveAfter": {
+          "build": 23180,
+          "commit": "1a0dcda07394c622066630e4d09817aca8ff9fbf",
+          "source": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml",
+          "xmlSha256": "dbe848ad25b843779b0accca4ad4fffebbbbf2beee2caffd04e09dfc9c8332f5"
+        },
+        "observedNativeTags": {
+          "48": {
+            "before": {
+              "present": true,
+              "value": 7
+            },
+            "after": {
+              "present": true,
+              "value": 8
+            }
+          }
+        },
+        "changedTagOperations": [
+          {
+            "id": 48,
+            "operation": "update",
+            "value": 8
+          }
+        ],
+        "unchangedTagIds": [],
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+          "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
+        ]
+      }
+    ]
   },
   "2021-03-26": {
     "changes": {
       "cost": 7
     },
-    "source": "https://hearthstone.blizzard.com/en-us/news/23642550"
+    "source": "https://hearthstone.blizzard.com/en-us/news/23642550",
+    "nativeTagUpdates": [
+      {
+        "id": 48,
+        "value": 7
+      }
+    ],
+    "sources": [
+      "https://hearthstone.blizzard.com/en-us/news/23642550",
+      "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+    ],
+    "nativeTagEvidence": [
+      {
+        "groupId": "B-2021-03-26",
+        "classification": "verified_original_native_tag_transition",
+        "day": "2021-03-26",
+        "patchSource": "https://hearthstone.blizzard.com/en-us/news/23642550",
+        "officialPatchSource": "https://hearthstone.blizzard.com/en-us/news/23642550",
+        "archiveBefore": {
+          "build": 73652,
+          "commit": "48f9590ce66d87b30530b411ed7fe18a0fa10db1",
+          "source": "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
+          "xmlSha256": "b615cef33af68394480ecfcc875aeef3bacff8323f5244e0d3bae2eda5dd58d1"
+        },
+        "archiveAfter": {
+          "build": 77662,
+          "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+          "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+          "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29"
+        },
+        "observedNativeTags": {
+          "48": {
+            "before": {
+              "present": true,
+              "value": 8
+            },
+            "after": {
+              "present": true,
+              "value": 7
+            }
+          }
+        },
+        "changedTagOperations": [
+          {
+            "id": 48,
+            "operation": "update",
+            "value": 7
+          }
+        ],
+        "unchangedTagIds": [],
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/en-us/news/23642550",
+          "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+        ]
+      }
+    ]
   },
   "2022-11-30": {
     "changes": {
@@ -114,7 +228,68 @@
     ],
     "sources": [
       "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-      "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
+      "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
+      "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+    ],
+    "nativeTagEvidence": [
+      {
+        "groupId": "B-2022-11-30",
+        "classification": "verified_original_native_tag_transition",
+        "day": "2022-11-30",
+        "patchSource": "taxonomy introduction",
+        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
+        "archiveBefore": {
+          "build": 155409,
+          "commit": "beaa46cc24c1332ad91d4f7ae096024f6ff7d394",
+          "source": "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
+          "xmlSha256": "6b0cc04e3181ee49d34372eb14d7f57760aeb308f3b614b2f6729b44f9295d90"
+        },
+        "archiveAfter": {
+          "build": 158725,
+          "commit": "54141c4a6bf3efeedaf69d7510b987f216ff00e6",
+          "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+          "xmlSha256": "5a01259c4f9b13b0ddecce04718ef5de16ec4cae3867957835559946f89ff439"
+        },
+        "observedNativeTags": {
+          "200": {
+            "before": {
+              "present": false
+            },
+            "after": {
+              "present": true,
+              "value": 11
+            }
+          },
+          "2542": {
+            "before": {
+              "present": false
+            },
+            "after": {
+              "present": true,
+              "value": 1
+            }
+          }
+        },
+        "changedTagOperations": [
+          {
+            "id": 200,
+            "operation": "update",
+            "value": 11
+          },
+          {
+            "id": 2542,
+            "operation": "update",
+            "value": 1
+          }
+        ],
+        "unchangedTagIds": [],
+        "sourceURLs": [
+          "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
+          "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
+          "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+        ]
+      }
     ]
   },
   "current": {
@@ -311,6 +486,14 @@
   },
   "historyIncompleteReasons": {
     "nativeTags": [
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
+      {
+        "code": "native_tag_history_not_exposed_in_legacy_api",
+        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
+      },
       {
         "code": "native_tag_history_not_exposed_in_legacy_api",
         "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
