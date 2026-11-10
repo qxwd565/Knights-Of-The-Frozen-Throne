@@ -40,7 +40,6 @@
     ],
     "referenceTags": [],
     "cost": 2,
-    "collectible": false,
     "nativeRawText": "피해를 $1 줍니다.\n이 피해로 하수인이 죽으면, 물의 정령을 소환합니다.",
     "nativeTextBuilder": 0
   },

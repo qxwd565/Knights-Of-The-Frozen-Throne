@@ -51,7 +51,6 @@
     "referenceTags": [],
     "attack": 1,
     "health": 1,
-    "collectible": false,
     "races": [
       "BEAST"
     ],

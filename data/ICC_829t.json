@@ -57,7 +57,6 @@
     "cost": 8,
     "attack": 5,
     "health": 3,
-    "collectible": false,
     "nativeRawText": "<b>생명력 흡수</b>",
     "nativeTextBuilder": 0
   },

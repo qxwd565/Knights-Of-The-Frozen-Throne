@@ -40,7 +40,6 @@
     ],
     "referenceTags": [],
     "cost": 2,
-    "collectible": false,
     "nativeRawText": "아군 하수인을 비용이 (1)\n높은 무작위 하수인으로 변신시킵니다.",
     "nativeTextBuilder": 0
   },

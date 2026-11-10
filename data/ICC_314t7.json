@@ -50,7 +50,6 @@
     ],
     "referenceTags": [],
     "cost": 4,
-    "collectible": false,
     "spellSchool": "",
     "nativeRawText": "내 하수인들에게 +2/+2와 <b>모면</b>을 부여합니다.",
     "nativeTextBuilder": 0

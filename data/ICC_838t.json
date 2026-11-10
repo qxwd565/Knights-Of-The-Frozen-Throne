@@ -51,7 +51,6 @@
     "referenceTags": [],
     "cost": 1,
     "health": 1,
-    "collectible": false,
     "races": [],
     "race": "",
     "nativeRawText": "[x]<b>죽음의 메아리:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다.",

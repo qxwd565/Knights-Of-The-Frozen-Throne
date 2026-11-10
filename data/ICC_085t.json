@@ -52,7 +52,6 @@
     "cost": 5,
     "attack": 5,
     "health": 5,
-    "collectible": false,
     "races": [],
     "race": "",
     "nativeRawText": "",

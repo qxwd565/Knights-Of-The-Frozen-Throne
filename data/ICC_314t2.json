@@ -40,7 +40,6 @@
     ],
     "referenceTags": [],
     "cost": 6,
-    "collectible": false,
     "spellSchool": "",
     "nativeRawText": "내가 다음에 뽑을 카드 5장을 없앱니다. 하수인을 없애면, 그 하수인을 소환합니다.",
     "nativeTextBuilder": 0

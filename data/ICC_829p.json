@@ -40,7 +40,6 @@
     ],
     "referenceTags": [],
     "cost": 2,
-    "collectible": false,
     "nativeRawText": "2/2 기사단원을 소환합니다.\n내 전장에 4인 기사단이 모두 있으면, 적 영웅을 파괴합니다.",
     "nativeTextBuilder": 0
   },

@@ -77,7 +77,6 @@
     "cost": 4,
     "attack": 3,
     "health": 6,
-    "collectible": false,
     "races": [
       "ELEMENTAL"
     ],

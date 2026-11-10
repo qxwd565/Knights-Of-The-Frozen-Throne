@@ -68,7 +68,6 @@
     "attack": 1,
     "health": 2,
     "rarity": "RARE",
-    "collectible": false,
     "races": [
       "BEAST"
     ],

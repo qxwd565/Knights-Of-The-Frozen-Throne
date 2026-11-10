@@ -57,7 +57,6 @@
     "cost": 8,
     "attack": 4,
     "health": 3,
-    "collectible": false,
     "nativeRawText": "내 영웅이 공격하는 대상 양옆의 하수인들에게도 피해를 줍니다.",
     "nativeTextBuilder": 0
   },

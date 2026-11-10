@@ -45,7 +45,6 @@
     ],
     "referenceTags": [],
     "cost": 2,
-    "collectible": false,
     "nativeRawText": "<b>선택 -</b> 이번 턴에 공격력을 +$a3 얻습니다. 또는 방어도를 $d3 얻습니다.",
     "nativeTextBuilder": 0
   },

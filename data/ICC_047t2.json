@@ -63,7 +63,6 @@
     "attack": 5,
     "health": 3,
     "rarity": "EPIC",
-    "collectible": false,
     "races": [],
     "race": "",
     "nativeRawText": "<b>죽음의 메아리:</b>\n<b>모든</b> 하수인에게 피해를 3 주고 +2/+2를 부여합니다.",

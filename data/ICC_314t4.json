@@ -40,7 +40,6 @@
     ],
     "referenceTags": [],
     "cost": 2,
-    "collectible": false,
     "spellSchool": "",
     "nativeRawText": "상대편의 덱에서 하수인을 내 손으로 가져옵니다.",
     "nativeTextBuilder": 0

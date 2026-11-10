@@ -40,7 +40,6 @@
     ],
     "referenceTags": [],
     "cost": 2,
-    "collectible": false,
     "nativeRawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
     "nativeTextBuilder": 0
   },

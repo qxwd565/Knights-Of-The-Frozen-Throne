@@ -34,9 +34,6 @@
       }
     ],
     "referenceTags": [],
-    "collectible": false,
-    "races": [],
-    "race": "",
     "nativeRawText": "<b>독성</b>",
     "nativeTextBuilder": 0
   },
@@ -83,6 +80,9 @@
     "sources": [
       "https://hearthstone.blizzard.com/ko-kr/news/22788307",
       "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml"
+    ],
+    "remove": [
+      "spellSchool"
     ]
   },
   "current": {
@@ -163,8 +163,11 @@
     "cost",
     "health",
     "nativeTags",
+    "race",
+    "races",
     "rarity",
-    "referenceTags"
+    "referenceTags",
+    "spellSchool"
   ],
   "unresolvedSourceFields": [
     "nativeTags",

@@ -55,7 +55,6 @@
     ],
     "referenceTags": [],
     "cost": 5,
-    "collectible": false,
     "spellSchool": "",
     "nativeRawText": "[x]<b>모든</b> 하수인을\n처치합니다. 처치한만큼\n내 다음 카드를 없앱니다.",
     "nativeTextBuilder": 0

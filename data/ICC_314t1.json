@@ -57,7 +57,6 @@
     "cost": 7,
     "attack": 5,
     "health": 3,
-    "collectible": false,
     "nativeRawText": "[x]<b>죽음의 메아리:</b>\n이 무기로 처치한\n모든 하수인을\n소환합니다.",
     "nativeTextBuilder": 0
   },
