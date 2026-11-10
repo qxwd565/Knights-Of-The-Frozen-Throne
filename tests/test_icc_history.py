@@ -37,6 +37,19 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertIsInstance(item["root"], bool, path.stem)
             self.assertIsInstance(item["relatedIds"], list, path.stem)
 
+    def test_all_stable_metadata_matches_the_pre_v2_source_commit(self):
+        manifest = BUILD.load(ROOT / "sources" / "legacy-metadata-baseline.json")
+        self.assertEqual(
+            manifest["sourceCommit"],
+            "9dd6b844daa08ceffd171e090e001ae3de36c3ec",
+        )
+        self.assertEqual(len(manifest["cards"]), 182)
+        for cid, expected_fields in manifest["cards"].items():
+            item = source(cid)
+            for field, expected in expected_fields.items():
+                self.assertIn(field, item, f"{cid}:{field}")
+                self.assertEqual(item[field], expected, f"{cid}:{field}")
+
     def test_launch_carddefs_snapshot_has_exact_ids_and_dbf_mappings(self):
         baseline = BUILD.load(ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json")
         catalog = BUILD.load(ROOT / "cards.json")
@@ -130,8 +143,21 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertIn(cid, records)
             if cid == "ICC_018":
                 self.assertIn("<br></br>", record["text"])
-        self.assertGreater(result["dateEvents"], 111)
+        self.assertEqual(result["dateEvents"], 124)
         self.assertGreater(result["datedCards"], 100)
+        render = BUILD.load(ROOT / "render.json")
+        legacy_history = BUILD.load(ROOT / "history.json")
+        self.assertEqual(render["schema"], 1)
+        self.assertEqual(legacy_history["schema"], 1)
+        rendered = {x["id"]: x for x in render["cards"]}
+        self.assertEqual(len(rendered), 182)
+        for cid, record in records.items():
+            self.assertIn(cid, rendered)
+            for field in BUILD.RENDER_FIELDS:
+                if field in record:
+                    self.assertEqual(rendered[cid].get(field), record[field], f"{cid}:{field}")
+        for dbf_id, entry in legacy_history["cards"].items():
+            self.assertEqual(records[entry["id"]]["dbfId"], int(dbf_id))
 
 
 if __name__ == "__main__":
