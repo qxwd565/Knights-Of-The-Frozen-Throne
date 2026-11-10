@@ -34,7 +34,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
             self.assertEqual(sorted(k for k in item if BUILD.DATE_RE.fullmatch(k))[0], "2017-08-11")
             for field in stable:
                 self.assertIn(field, item, f"{path.stem}:{field}")
-            self.assertEqual(item["root"], isinstance(item["root"], bool), path.stem)
+            self.assertIsInstance(item["root"], bool, path.stem)
             self.assertIsInstance(item["relatedIds"], list, path.stem)
 
     def test_launch_carddefs_snapshot_has_exact_ids_and_dbf_mappings(self):
@@ -59,7 +59,7 @@ class FrozenThroneHistoryTest(unittest.TestCase):
 
         a = source("ICC_466")
         self.assertEqual(a["2018-12-20"]["changes"]["text"],
-                         "[x]<b>도발</b>, <b>전투의 함성:</b><br></br>다른 사로나이트 광산<br></br>노예를 소환합니다.")
+                         "<b>도발</b>, <b>전투의 함성:</b><br></br>다른 사로나이트 광산<br></br>노예를 소환합니다.")
         self.assertIn("이 하수인을 복사하여", a["2021-03-26"]["changes"]["text"])
         self.assertEqual(a["2025-05-23"]["changes"]["text"], a["current"]["text"])
 
