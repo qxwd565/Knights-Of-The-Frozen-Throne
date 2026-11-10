@@ -110,14 +110,14 @@ def main(commit):
                 annotate_reference_tags(source[day]["referenceTags"])
         if "referenceTags" in source.get("current", {}):
             annotate_reference_tags(source["current"]["referenceTags"])
-        path.write_text(json.dumps(source, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        path.write_text(json.dumps(source, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         updated += 1
 
     manifest_path = ROOT / "sources" / "carddefs-9.0.0.20457-baseline.json"
     manifest = load(manifest_path)
     for item in manifest["cards"].values():
         annotate_reference_tags(item["referenceTags"])
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"cards": updated, "eventsWithSources": len(SOURCES), "legacyCommit": commit}, ensure_ascii=False))
 
 if __name__ == "__main__":
