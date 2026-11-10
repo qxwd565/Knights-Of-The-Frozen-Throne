@@ -197,21 +197,34 @@ def add_confirmed_events(cid, events, record, old_card):
     # Nine cards, twelve confirmed gameplay/text operations; 11 new date rows
     # plus one additional field on the already-known 2021-03-26 event.
     if cid == "ICC_832t3":
-        merge_event(events, cid, "2017-12-07", {"cost": 1}, nativeTagUpdates=[{"id": 48, "value": 1}])
+        merge_event(events, cid, "2017-12-07", {"cost": 1},
+                    nativeTagUpdates=[{"id": 48, "value": 1}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/21274279",
+                             "https://github.com/HearthSim/hsdata/blob/c623eb10a6fed4a214cf27923e749da9cb52c226/CardDefs.xml"])
     elif cid == "ICC_221":
         raw = "이번 턴에 내 무기에 <b>생명력 흡수</b>를 부여합니다."
         merge_event(events, cid, "2018-12-20", {"cost": 1, "text": record["text"], "nativeRawText": raw},
-                    nativeTagUpdates=[{"id": 48, "value": 1}])
+                    nativeTagUpdates=[{"id": 48, "value": 1}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/22817529",
+                             "https://www.inven.co.kr/webzine/news/?news=212483&site=hs"])
     elif cid == "ICC_466":
-        raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n다른 사로나이트 광산\n노예를 소환합니다."
-        raw21 = "[x]<b>도발</b>, <b>전투의 함성:</b>\n이 하수인을 복사하여 소환합니다."
+        raw18 = "[x]<b>도발</b>, <b>전투의 함성:</b>\\n다른 사로나이트 광산\\n노예를 소환합니다."
+        raw21 = "[x]<b>도발</b>, <b>전투의 함성:</b>\\n이 하수인을 복사하여 소환합니다."
         raw25 = "<b>도발</b>, <b>전투의 함성:</b> 사로나이트 광산 노예를 소환합니다."
-        merge_event(events, cid, "2018-12-20", {"text": display_text(raw18), "nativeRawText": raw18})
-        merge_event(events, cid, "2021-03-26", {"text": display_text(raw21), "nativeRawText": raw21})
-        merge_event(events, cid, "2025-05-23", {"text": record["text"], "nativeRawText": raw25})
+        merge_event(events, cid, "2018-12-20", {"text": display_text(raw18), "nativeRawText": raw18},
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/22817529",
+                             "https://www.inven.co.kr/webzine/news/?news=212483&site=hs"])
+        merge_event(events, cid, "2021-03-26", {"text": display_text(raw21), "nativeRawText": raw21},
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23642550",
+                             "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml"])
+        merge_event(events, cid, "2025-05-23", {"text": record["text"], "nativeRawText": raw25},
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/24204920/32-2-4",
+                             "https://us.forums.blizzard.com/en/hearthstone/t/3224-patch-notes/146356.json"])
     elif cid == "ICC_055":
-        raw = "<b>생명력 흡수</b>\n하수인에게 피해를\n$3 줍니다."
-        merge_event(events, cid, "2021-03-26", {"text": record["text"], "nativeRawText": raw})
+        raw = "<b>생명력 흡수</b>\\n하수인에게 피해를\\n$3 줍니다."
+        merge_event(events, cid, "2021-03-26", {"text": record["text"], "nativeRawText": raw},
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23642550",
+                             "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml"])
     elif cid in ("ICC_051a", "ICC_051b"):
         hp = 2 if cid == "ICC_051a" else 5
         raw_after = "<b>독성</b>" if cid == "ICC_051a" else "<b>도발</b>"
@@ -225,25 +238,44 @@ def add_confirmed_events(cid, events, record, old_card):
                 {"id": 47, "value": 1}, {"id": 45, "value": hp},
                 {"id": 200, "value": 20}, {"id": 203, "value": 3},
             ],
+            sources=["https://hearthstone.blizzard.com/ko-kr/news/22788307",
+                     "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml"],
         )
     elif cid == "ICC_706":
         merge_event(events, cid, "2022-11-30", {"races": ["UNDEAD"], "race": "언데드"},
-                    nativeTagUpdates=[{"id": 200, "value": 11}])
+                    nativeTagUpdates=[{"id": 200, "value": 11}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
+                             "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml"])
         merge_event(events, cid, "2023-02-15", {"races": [], "race": ""},
-                    nativeTagRemovals=[200])
+                    nativeTagRemovals=[200],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23913671",
+                             "https://github.com/HearthSim/hsdata/blob/cf08a2eee9159a63ff589cfe2deabc4035673871/CardDefs.xml"])
     elif cid == "ICC_910":
         raw = "<b>연계:</b> 이번 턴에 앞서 낸 카드의 수만큼 하수인에게 피해를 2씩 줍니다."
         merge_event(events, cid, "2023-03-03", {"cost": 5, "text": record["text"], "nativeRawText": raw},
-                    nativeTagUpdates=[{"id": 48, "value": 5}])
+                    nativeTagUpdates=[{"id": 48, "value": 5}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23921492",
+                             "https://www.inven.co.kr/board/hs/3508/19562"])
     elif cid == "ICC_210":
-        merge_event(events, cid, "2023-04-05", {"health": 3}, nativeTagUpdates=[{"id": 45, "value": 3}])
+        merge_event(events, cid, "2023-04-05", {"health": 3},
+                    nativeTagUpdates=[{"id": 45, "value": 3}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23934449",
+                             "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/6TFP77K62FEJ1679527943503.pdf"])
     elif cid == "ICC_235":
-        merge_event(events, cid, "2023-09-29", {"cost": 7}, nativeTagUpdates=[{"id": 48, "value": 7}])
+        merge_event(events, cid, "2023-09-29", {"cost": 7},
+                    nativeTagUpdates=[{"id": 48, "value": 7}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23999072",
+                             "https://www.inven.co.kr/board/hs/3508/20029"])
     elif cid == "ICC_075":
-        merge_event(events, cid, "2025-03-19", {"health": 6}, nativeTagUpdates=[{"id": 45, "value": 6}])
+        merge_event(events, cid, "2025-03-19", {"health": 6},
+                    nativeTagUpdates=[{"id": 45, "value": 6}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/24187196",
+                             "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5L4LK5ASYDUL1739227664823.pdf"])
     elif cid == "ICC_705":
         merge_event(events, cid, "2022-11-30", {"races": ["UNDEAD", "BEAST"], "race": "언데드, 야수"},
-                    nativeTagUpdates=[{"id": 200, "value": 11}, {"id": 2542, "value": 1}])
+                    nativeTagUpdates=[{"id": 200, "value": 11}, {"id": 2542, "value": 1}],
+                    sources=["https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
+                             "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"])
 
 def main(xml_path: Path):
     catalog = load(ROOT / "cards.json")
@@ -330,6 +362,8 @@ def main(xml_path: Path):
             RELEASE_DATE: initial,
             **dated,
             "current": current,
+            "initialSpecStatus": old_card.get("initialSpecStatus", "unverified"),
+            "patchSources": copy.deepcopy(old_card.get("patchSources", {})),
             "nativeTagsTimelineStatus": "partial",
             "historyIncompleteFields": sorted(set(data.get("historyIncompleteFields", [])) | {"nativeTags", "referenceTags"}),
             "unresolvedSourceFields": sorted(set(data.get("unresolvedSourceFields", [])) | {"nativeTags", "referenceTags"}),
