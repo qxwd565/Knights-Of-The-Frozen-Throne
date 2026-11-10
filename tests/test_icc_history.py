@@ -1,3 +1,4 @@
+import copy
 import importlib.util
 import unittest
 from pathlib import Path
@@ -307,6 +308,115 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         self.assertEqual(source("ICC_856")["2024-10-30"]["nativeTagUpdates"], [{"id": 192, "value": 1}])
         self.assertEqual(source("ICC_064")["2025-03-19"]["nativeTagUpdates"], [{"id": 45, "value": 2}])
         self.assertEqual(source("ICC_064")["2025-03-19"]["nativeTagRemovals"], [187])
+
+    def test_b_stage_synchronizes_native_tags_on_the_existing_111_events(self):
+        manifest = BUILD.load(ROOT / "sources" / "frozen-throne-native-tag-evidence.json")
+        self.assertEqual(len(manifest["groups"]), 5)
+        self.assertEqual(sum(len(g["cards"]) for g in manifest["groups"]), 111)
+        self.assertEqual(sum(len(c.get("nativeTags", {})) for g in manifest["groups"] for c in g["cards"]), 123)
+        self.assertEqual(len({g[s]["commit"] for g in manifest["groups"] for s in ("before", "after")}), 10)
+        observed = set()
+        for group in manifest["groups"]:
+            day = group["day"]
+            for card in group["cards"]:
+                cid = card["id"]
+                item = source(cid)
+                self.assertIn(day, item, f"{cid}:{day}: no duplicate date rows")
+                event = item[day]
+                observed.add((cid, day))
+                evidence = next((x for x in event.get("nativeTagEvidence", [])
+                                 if x["groupId"] == f"B-{day}"), None)
+                self.assertIsNotNone(evidence, f"{cid}:{day}: missing B provenance")
+                self.assertEqual(evidence["patchSource"], item["patchSources"][day])
+                self.assertEqual(evidence["archiveBefore"], group["before"])
+                self.assertEqual(evidence["archiveAfter"], group["after"])
+                self.assertEqual(evidence["observedNativeTags"], card.get("nativeTags", {}))
+                self.assertTrue(group["before"]["source"] in evidence["sourceURLs"])
+                self.assertTrue(group["after"]["source"] in evidence["sourceURLs"])
+                updates = {x["id"]: x["value"] for x in event.get("nativeTagUpdates", [])}
+                removals = set(event.get("nativeTagRemovals", []))
+                applied = {x["id"]: x for x in evidence["changedTagOperations"]}
+                unchanged = set(evidence["unchangedTagIds"])
+                for tag_text, observation in card.get("nativeTags", {}).items():
+                    tag_id = int(tag_text)
+                    if observation["before"] == observation["after"]:
+                        self.assertIn(tag_id, unchanged, f"{cid}:{day}:Tag{tag_id}")
+                        self.assertNotIn(tag_id, applied, f"{cid}:{day}: unchanged Tag became an operation")
+                    else:
+                        self.assertIn(tag_id, applied, f"{cid}:{day}:Tag{tag_id}")
+                        if observation["after"]["present"]:
+                            self.assertEqual(updates.get(tag_id), observation["after"]["value"],
+                                             f"{cid}:{day}:Tag{tag_id}")
+                            self.assertNotIn(tag_id, removals, f"{cid}:{day}:Tag{tag_id}")
+                        else:
+                            self.assertIn(tag_id, removals, f"{cid}:{day}:Tag{tag_id}")
+                            self.assertNotIn(tag_id, updates, f"{cid}:{day}:Tag{tag_id}")
+        self.assertEqual(len(observed), 111)
+        self.assertEqual(len([k for k in source("ICC_018") if BUILD.DATE_RE.fullmatch(k)]), 2)
+        self.assertEqual(source("ICC_018")["2022-11-30"]["nativeTagUpdates"], [{"id": 2534, "value": 1}])
+        self.assertEqual(source("ICC_705")["2022-11-30"]["nativeTagUpdates"],
+                         [{"id": 200, "value": 11}, {"id": 2542, "value": 1}])
+        self.assertEqual(source("ICC_245")["2024-10-30"]["nativeTagUpdates"], [{"id": 2525, "value": 1}])
+        self.assertEqual(source("ICC_466")["2024-10-30"]["nativeTagUpdates"], [{"id": 200, "value": 2}])
+        self.assertEqual(source("ICC_039")["2021-03-26"]["nativeTagUpdates"], [{"id": 1635, "value": 6}])
+        self.assertEqual(source("ICC_054")["2017-09-19"]["nativeTagUpdates"], [{"id": 48, "value": 6}])
+        self.assertEqual(source("ICC_705")["2018-02-07"]["nativeTagUpdates"], [{"id": 48, "value": 8}])
+
+    def test_canonical_fields_match_owned_native_tags_at_all_182_card_boundaries(self):
+        race_primary = {
+            2: "DRAENEI", 11: "UNDEAD", 14: "MURLOC", 15: "DEMON",
+            17: "MECHANICAL", 18: "ELEMENTAL", 20: "BEAST",
+            21: "TOTEM", 23: "PIRATE", 24: "DRAGON",
+        }
+        race_secondary = {2525: "DRAENEI", 2534: "UNDEAD", 2542: "BEAST"}
+        spell_schools = {1: "ARCANE", 2: "FIRE", 3: "FROST", 4: "NATURE",
+                         5: "HOLY", 6: "SHADOW", 7: "FEL"}
+        paths = sorted((ROOT / "data").glob("ICC_*.json"))
+        self.assertEqual(len(paths), 182)
+        for path in paths:
+            item = BUILD.load(path)
+            dates = sorted(k for k in item if BUILD.DATE_RE.fullmatch(k))
+            state = copy.deepcopy(item[dates[0]])
+            for index, day in enumerate(dates):
+                if index:
+                    BUILD.apply_sparse_event(state, item[day])
+                tags = {x["id"]: x["value"] for x in state.get("nativeTags", [])}
+                kind = state.get("type")
+                if "cost" in state:
+                    self.assertIn(48, tags, f"{path.stem}:{day}:missing cost Tag")
+                    self.assertEqual(state["cost"], tags[48], f"{path.stem}:{day}:cost")
+                if "attack" in state:
+                    self.assertIn(47, tags, f"{path.stem}:{day}:missing attack Tag")
+                    self.assertEqual(state["attack"], tags[47], f"{path.stem}:{day}:attack")
+                if kind == "MINION" and "health" in state:
+                    self.assertIn(45, tags, f"{path.stem}:{day}:missing health Tag")
+                    self.assertEqual(state["health"], tags[45], f"{path.stem}:{day}:health")
+                if kind == "WEAPON" and "durability" in state:
+                    durability_tag = 45 if 45 in tags else 187
+                    if durability_tag in tags:
+                        self.assertEqual(state["durability"], tags[durability_tag],
+                                         f"{path.stem}:{day}:durability/Tag{durability_tag}")
+                if kind == "SPELL" and state.get("spellSchool"):
+                    self.assertIn(1635, tags, f"{path.stem}:{day}:missing spellSchool Tag")
+                    self.assertEqual(state["spellSchool"], spell_schools.get(tags[1635]),
+                                     f"{path.stem}:{day}:spellSchool")
+                if kind == "MINION" and "races" in state:
+                    decoded = set()
+                    primary = tags.get(200)
+                    if primary in race_primary:
+                        decoded.add(race_primary[primary])
+                    for tag_id, race in race_secondary.items():
+                        if tags.get(tag_id):
+                            decoded.add(race)
+                    if set(state["races"]) <= set(race_primary.values()) | set(race_secondary.values()):
+                        self.assertEqual(set(state["races"]), decoded, f"{path.stem}:{day}:races")
+                if kind == "HERO":
+                    self.assertNotIn("health", BUILD.applicable_history_fields(state),
+                                     f"{path.stem}:{day}: HERO health must not be exposed as minion health")
+        # The eight stable metadata fields are retained for every card: 8 * 182 = 1,456 values.
+        metadata_fields = ("root", "relatedIds", "englishName", "expansion",
+                           "setOrder", "formats", "provenance", "mode")
+        self.assertEqual(len(metadata_fields) * len(paths), 1456)
 
     def test_dated_text_replay_clears_resolved_launch_differences(self):
         for cid in ("ICC_047t2", "ICC_051b"):

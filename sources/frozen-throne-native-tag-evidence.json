@@ -1,0 +1,2270 @@
+{
+  "schemaVersion": 1,
+  "description": "B-stage original native Tag before/after observations for the existing 111 dated ICC events. Unchanged Tag observations are verification-only and do not become event operations.",
+  "groups": [
+    {
+      "day": "2022-11-30",
+      "before": {
+        "build": 155409,
+        "commit": "beaa46cc24c1332ad91d4f7ae096024f6ff7d394",
+        "source": "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
+        "xmlSha256": "6b0cc04e3181ee49d34372eb14d7f57760aeb308f3b614b2f6729b44f9295d90"
+      },
+      "after": {
+        "build": 158725,
+        "commit": "54141c4a6bf3efeedaf69d7510b987f216ff00e6",
+        "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+        "xmlSha256": "5a01259c4f9b13b0ddecce04718ef5de16ec4cae3867957835559946f89ff439"
+      },
+      "cards": [
+        {
+          "id": "ICC_018",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "PIRATE"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 23
+              },
+              "after": {
+                "present": true,
+                "value": 23
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_019",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_019t",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_025",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_025t",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_026",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_026t",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_027",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "DRAGON"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 24
+              },
+              "after": {
+                "present": true,
+                "value": 24
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_028",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_032",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_034",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_047",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_047t",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_047t2",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_058",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "MURLOC"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 14
+              },
+              "after": {
+                "present": true,
+                "value": 14
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_065",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_067",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_069",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_083",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_085t",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_092",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_093",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_094",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_096",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_097",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "ELEMENTAL"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 18
+              },
+              "after": {
+                "present": true,
+                "value": 18
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_098",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_099",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_204",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_210",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_212",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_220",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "MURLOC"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 14
+              },
+              "after": {
+                "present": true,
+                "value": 14
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_240",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_243",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "BEAST"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 20
+              },
+              "after": {
+                "present": true,
+                "value": 20
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_245",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_252",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_405",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_407",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_408",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_415",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_419",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "BEAST"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 20
+              },
+              "after": {
+                "present": true,
+                "value": 20
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_450",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_467",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_468",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_700",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_701",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_702",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_705",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "BEAST"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            },
+            "2542": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_801",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_808",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_809",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_810",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_811",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_820",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_825",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_828t",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "BEAST"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 20
+              },
+              "after": {
+                "present": true,
+                "value": 20
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_829t2",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_829t3",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_829t4",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_829t5",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_838",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "DRAGON"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 24
+              },
+              "after": {
+                "present": true,
+                "value": 24
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_841",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_851",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_852",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_853",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_854",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "BEAST"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 20
+              },
+              "after": {
+                "present": true,
+                "value": 20
+              }
+            },
+            "2534": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_856",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_858",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_900",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_900t",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_902",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_903",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_904",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_910",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_911",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_912",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_913",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "day": "2021-03-26",
+      "before": {
+        "build": 73652,
+        "commit": "48f9590ce66d87b30530b411ed7fe18a0fa10db1",
+        "source": "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
+        "xmlSha256": "b615cef33af68394480ecfcc875aeef3bacff8323f5244e0d3bae2eda5dd58d1"
+      },
+      "after": {
+        "build": 77662,
+        "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+        "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+        "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29"
+      },
+      "cards": [
+        {
+          "id": "ICC_039",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_041",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_049",
+          "changes": {
+            "spellSchool": "NATURE"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 4
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_050",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_054",
+          "changes": {
+            "spellSchool": "NATURE"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 4
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_055",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_056",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_078",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_082",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_086",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_089",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_206",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_207",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_213",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_221",
+          "changes": {
+            "spellSchool": "NATURE"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 4
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_235",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_244",
+          "changes": {
+            "spellSchool": "HOLY"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 5
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314t2",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314t3",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314t4",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314t5",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314t7",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_314t8",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_469",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_705",
+          "changes": {
+            "cost": 7
+          },
+          "nativeTags": {
+            "48": {
+              "before": {
+                "present": true,
+                "value": 8
+              },
+              "after": {
+                "present": true,
+                "value": 7
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_802",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_823",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_827t",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_836",
+          "changes": {
+            "spellSchool": "FROST"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 3
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_849",
+          "changes": {
+            "spellSchool": "SHADOW"
+          },
+          "nativeTags": {
+            "1635": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "day": "2017-09-19",
+      "before": {
+        "build": 20457,
+        "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
+        "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+        "xmlSha256": "90049ebf5dcd8c605ac653e3d36852babe203626f783d0ad1c1a5c96a03b64f1"
+      },
+      "after": {
+        "build": 20970,
+        "commit": "058d33b9a62ccdff537bb9e43ccefdd19ed77f40",
+        "source": "https://github.com/HearthSim/hsdata/blob/058d33b9a62ccdff537bb9e43ccefdd19ed77f40/CardDefs.xml",
+        "xmlSha256": "9ec3abb7be9c9a43fd6b9d656ece5e029e1202bd4bf2b082f5b5da97c2d3b3c4"
+      },
+      "cards": [
+        {
+          "id": "ICC_054",
+          "changes": {
+            "cost": 6
+          },
+          "nativeTags": {
+            "48": {
+              "before": {
+                "present": true,
+                "value": 5
+              },
+              "after": {
+                "present": true,
+                "value": 6
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "day": "2024-10-30",
+      "before": {
+        "build": 209698,
+        "commit": "e6b9c5e51678d5035d1188f63c246326bb221c60",
+        "source": "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml",
+        "xmlSha256": "5625316024488e65c0cad7a3409775e1a70e14aa896fd2ee90eb3426f89f9ca2"
+      },
+      "after": {
+        "build": 210009,
+        "commit": "0a387d653f339297339625710e4df91f0c62b67b",
+        "source": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml",
+        "xmlSha256": "672f96b5396ddb4705ea64f0acf8ae9d27e7dcc2544847e02a96342a04581a41"
+      },
+      "cards": [
+        {
+          "id": "ICC_245",
+          "changes": {
+            "races": [
+              "UNDEAD",
+              "DRAENEI"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": true,
+                "value": 11
+              },
+              "after": {
+                "present": true,
+                "value": 11
+              }
+            },
+            "2525": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "ICC_466",
+          "changes": {
+            "races": [
+              "DRAENEI"
+            ]
+          },
+          "nativeTags": {
+            "200": {
+              "before": {
+                "present": false
+              },
+              "after": {
+                "present": true,
+                "value": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "day": "2018-02-07",
+      "before": {
+        "build": 22611,
+        "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
+        "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+        "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2"
+      },
+      "after": {
+        "build": 23180,
+        "commit": "1a0dcda07394c622066630e4d09817aca8ff9fbf",
+        "source": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml",
+        "xmlSha256": "dbe848ad25b843779b0accca4ad4fffebbbbf2beee2caffd04e09dfc9c8332f5"
+      },
+      "cards": [
+        {
+          "id": "ICC_705",
+          "changes": {
+            "cost": 8
+          },
+          "nativeTags": {
+            "48": {
+              "before": {
+                "present": true,
+                "value": 7
+              },
+              "after": {
+                "present": true,
+                "value": 8
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

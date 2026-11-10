@@ -41,6 +41,14 @@ jobs:
             git -C /tmp/hsdata show "$commit:CardDefs.xml" > "/tmp/CardDefs-$commit.xml"
           done
           python tools/apply-icc-observation-events.py /tmp
+      - name: Fetch and synchronize original native Tag transitions for the existing 111 events
+        run: |
+          COMMITS="beaa46cc24c1332ad91d4f7ae096024f6ff7d394 54141c4a6bf3efeedaf69d7510b987f216ff00e6 48f9590ce66d87b30530b411ed7fe18a0fa10db1 9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62 6f874a2b18045ed3464983aff85ca106bc656916 058d33b9a62ccdff537bb9e43ccefdd19ed77f40 e6b9c5e51678d5035d1188f63c246326bb221c60 0a387d653f339297339625710e4df91f0c62b67b d399871096675e4186c1c2d35b9c410464a4ffbf 1a0dcda07394c622066630e4d09817aca8ff9fbf"
+          git -C /tmp/hsdata fetch --depth=1 origin $COMMITS
+          for commit in $COMMITS; do
+            git -C /tmp/hsdata show "$commit:CardDefs.xml" > "/tmp/CardDefs-$commit.xml"
+          done
+          python tools/apply-icc-native-tags.py /tmp
       - name: Restore historical source evidence and card verification metadata
         run: |
           git fetch --depth=1 origin 9dd6b844daa08ceffd171e090e001ae3de36c3ec
