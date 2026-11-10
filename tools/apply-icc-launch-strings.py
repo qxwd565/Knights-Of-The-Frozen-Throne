@@ -47,7 +47,7 @@ def main():
         else:
             raw = ko_text["nativeRawText"]
             launch["nativeRawText"] = raw
-            launch["text"] = display_text(raw)
+            launch["text"] = "" if cid == "ICC_828t" else display_text(raw)
             launch.pop("nativeTextBuilder", None)
         kind = launch.get("type")
         if kind == "SPELL":
