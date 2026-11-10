@@ -99,12 +99,21 @@ def replay_legacy(source: dict, record: dict):
     final_state = snapshots[-1][1]
     for field in HISTORY_FIELDS:
         if field in final_state and field in current and final_state[field] != current[field]:
-            raise ValueError(
-                f"{source['id']}: dated replay mismatch {field}: "
-                f"{final_state[field]!r} != {current[field]!r}"
-            )
-        if (field in final_state) != (field in current):
             incomplete.add(field)
+            source.setdefault("historyReplayMismatches", {})[field] = {
+                "datedReplay": copy.deepcopy(final_state[field]),
+                "current": copy.deepcopy(current[field]),
+                "transitionDate": None,
+                "note": "Dated events do not establish this field's transition; both observations are preserved."
+            }
+        elif (field in final_state) != (field in current):
+            incomplete.add(field)
+            source.setdefault("historyReplayMismatches", {})[field] = {
+                "datedReplayPresent": field in final_state,
+                "currentPresent": field in current,
+                "transitionDate": None,
+                "note": "Field absence is not inferred as an empty or zero value."
+            }
     if "nativeTags" in current and final_state.get("nativeTags") != current["nativeTags"]:
         incomplete.add("nativeTags")
     if incomplete != set(source.get("historyIncompleteFields", [])):
