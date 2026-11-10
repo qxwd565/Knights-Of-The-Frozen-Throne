@@ -312,6 +312,14 @@ def build_indexes(write=True):
             if field in current and field in record and current[field] != record[field]:
                 raise ValueError(f"{cid}: current cache mismatch for {field}")
         revisions = replay_legacy(source, record)
+        # Normalize every exported change map at the serialization boundary too.
+        # This protects render/history JSON from any upstream mapping/set order.
+        for revision in revisions:
+            revision["changes"] = {
+                field: revision["changes"][field]
+                for field in HISTORY_FIELDS
+                if field in revision["changes"]
+            }
         event_count += len([k for k in source if DATE_RE.fullmatch(k)]) - 1
         incomplete_counts.update(source.get("historyIncompleteFields", []))
         render_card = {field: copy.deepcopy(record[field]) for field in RENDER_FIELDS if field in record}

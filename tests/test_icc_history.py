@@ -524,6 +524,18 @@ class FrozenThroneHistoryTest(unittest.TestCase):
 
     def test_history_change_dict_uses_fixed_field_order(self):
         self.assertIsInstance(BUILD.HISTORY_FIELDS, tuple)
+        render = BUILD.load(ROOT / "render.json")
+        history = BUILD.load(ROOT / "history.json")
+        for card in render["cards"]:
+            for revision in card.get("history", []):
+                self.assertEqual(list(revision["changes"]),
+                                 [field for field in BUILD.HISTORY_FIELDS if field in revision["changes"]],
+                                 f"render:{card['id']}:{revision['from']}")
+        for entry in history["cards"].values():
+            for revision in entry["history"]:
+                self.assertEqual(list(revision["changes"]),
+                                 [field for field in BUILD.HISTORY_FIELDS if field in revision["changes"]],
+                                 f"history:{entry['id']}:{revision['from']}")
         for path in sorted((ROOT / "data").glob("ICC_*.json")):
             item = BUILD.load(path)
             revisions = BUILD.replay_legacy(item, item["current"])
