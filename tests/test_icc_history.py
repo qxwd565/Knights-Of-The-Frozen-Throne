@@ -134,6 +134,37 @@ class FrozenThroneHistoryTest(unittest.TestCase):
         # records that its origin was a ReferencedTag, not an owned Tag.
         self.assertTrue(any(x["id"] == 685 for x in item["current"]["nativeTags"]))
 
+    def test_sparse_event_add_remove_and_falsy_values_are_distinct(self):
+        state = {
+            "cost": 0, "collectible": False, "text": None,
+            "race": "", "races": [], "nativeTags": [{"id": 48, "value": 0}],
+        }
+        reverse, incomplete = BUILD.apply_sparse_event(
+            state,
+            {
+                "changes": {"cost": 1},
+                "remove": ["race"],
+                "nativeTagUpdates": [{"id": 48, "value": 2}, {"id": 45, "value": 1}],
+                "nativeTagRemovals": [45],
+            },
+        )
+        self.assertEqual(state["cost"], 1)
+        self.assertIs(state["collectible"], False)
+        self.assertIsNone(state["text"])
+        self.assertEqual(state["races"], [])
+        self.assertNotIn("race", state)
+        self.assertEqual(reverse["cost"], 0)
+        self.assertEqual(reverse["race"], "")
+        self.assertEqual(state["nativeTags"], [{"id": 48, "value": 2}])
+        self.assertIn("nativeTags", incomplete)
+
+        added = {"cost": 2}
+        reverse, incomplete = BUILD.apply_sparse_event(
+            added, {"changes": {"spellSchool": "SHADOW"}}
+        )
+        self.assertEqual(reverse, {})
+        self.assertIn("spellSchool", incomplete)
+
     def test_raw_lf_and_display_breaks_are_distinct(self):
         item = source("ICC_466")
         self.assertIn("\n", item["2017-08-11"]["nativeRawText"])
