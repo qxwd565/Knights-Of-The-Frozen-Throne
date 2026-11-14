@@ -104,7 +104,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cards.json render.json history.json data/*.json sources/*.json
+          git add cards.json data/*.json sources/*.json
           if git diff --cached --quiet; then
             echo "No card source changes."
             exit 0
