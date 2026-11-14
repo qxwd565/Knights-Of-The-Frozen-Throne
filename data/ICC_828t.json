@@ -1,16 +1,4 @@
 {
-  "schemaVersion": 2,
-  "id": "ICC_828t",
-  "dbfId": 46119,
-  "sourceBaseline": {
-    "repository": "HearthSim/hsdata",
-    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
-    "commitDate": "2017-08-08",
-    "build": "9.0.0.20457",
-    "path": "CardDefs.xml",
-    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
-  },
-  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
   "2017-08-11": {
     "name": "누더기야수",
     "type": "MINION",
@@ -48,110 +36,24 @@
         "value": 4
       }
     ],
-    "referenceTags": [],
     "attack": 1,
     "health": 1,
     "races": [
       "BEAST"
     ],
     "race": "야수",
-    "nativeRawText": "{0}, {1}"
-  },
-  "2022-11-30": {
-    "changes": {
-      "races": [
-        "UNDEAD",
-        "BEAST"
-      ],
-      "race": "언데드, 야수"
-    },
-    "source": "taxonomy introduction",
-    "nativeTagUpdates": [
-      {
-        "id": 2534,
-        "value": 1
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-      "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-    ],
-    "nativeTagEvidence": [
-      {
-        "groupId": "B-2022-11-30",
-        "classification": "verified_original_native_tag_transition",
-        "day": "2022-11-30",
-        "patchSource": "taxonomy introduction",
-        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-        "archiveBefore": {
-          "build": 155409,
-          "commit": "beaa46cc24c1332ad91d4f7ae096024f6ff7d394",
-          "source": "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
-          "xmlSha256": "6b0cc04e3181ee49d34372eb14d7f57760aeb308f3b614b2f6729b44f9295d90"
-        },
-        "archiveAfter": {
-          "build": 158725,
-          "commit": "54141c4a6bf3efeedaf69d7510b987f216ff00e6",
-          "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
-          "xmlSha256": "5a01259c4f9b13b0ddecce04718ef5de16ec4cae3867957835559946f89ff439"
-        },
-        "observedNativeTags": {
-          "200": {
-            "before": {
-              "present": true,
-              "value": 20
-            },
-            "after": {
-              "present": true,
-              "value": 20
-            }
-          },
-          "2534": {
-            "before": {
-              "present": false
-            },
-            "after": {
-              "present": true,
-              "value": 1
-            }
-          }
-        },
-        "changedTagOperations": [
-          {
-            "id": 2534,
-            "operation": "update",
-            "value": 1
-          }
-        ],
-        "unchangedTagIds": [
-          200
-        ],
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-          "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        ]
-      }
-    ]
-  },
-  "current": {
+    "nativeRawText": "{0}, {1}",
     "id": "ICC_828t",
     "dbfId": 46119,
-    "name": "누더기야수",
-    "type": "MINION",
-    "cardClass": "HUNTER",
-    "collectible": false,
-    "cost": 0,
-    "text": "",
-    "attack": 1,
-    "health": 1,
-    "durability": 0,
-    "armor": 0,
-    "flavor": "",
-    "spellSchool": "",
-    "portrait": "HS11-117_M.psd:0246a816f07444148b5588159a10379f",
     "set": "ICECROWN",
+    "art": "art/ICC_828t.png"
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD",
+      "BEAST"
+    ],
+    "race": "언데드, 야수",
     "nativeTags": [
       {
         "id": 45,
@@ -162,6 +64,11 @@
         "id": 47,
         "name": "공격력",
         "value": 1
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
       },
       {
         "id": 199,
@@ -180,135 +87,8 @@
       },
       {
         "id": 2534,
-        "name": "게임 태그 2534",
         "value": 1
       }
-    ],
-    "races": [
-      "UNDEAD",
-      "BEAST"
-    ],
-    "race": "언데드, 야수",
-    "classes": [],
-    "art": "art/ICC_828t.png",
-    "releasedAt": "2017-08-11",
-    "releaseStatus": "verified",
-    "nativeRawText": "{0}, {1}",
-    "nativeTextBuilder": 3,
-    "referenceTags": []
-  },
-  "nativeTagsTimelineStatus": "partial",
-  "historyIncompleteFields": [
-    "cost",
-    "nativeTags",
-    "referenceTags"
-  ],
-  "unresolvedSourceFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "mode": "constructed",
-  "englishName": "Zombeast",
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1001,
-    "slug": "knights-of-the-frozen-throne",
-    "name": "얼어붙은 왕좌의 기사들",
-    "type": "expansion",
-    "englishName": "Knights Of The Frozen Throne"
-  },
-  "setOrder": 33,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "initialSpecStatus": "unverified",
-  "patchSources": {
-    "2022-11-30": "taxonomy introduction"
-  },
-  "timelineIncompleteFields": {
-    "nativeTextBuilder": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": 3
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    }
-  },
-  "historyReplayMismatches": {
-    "cost": {
-      "datedReplayPresent": false,
-      "currentPresent": true,
-      "transitionDate": null,
-      "note": "Canonical field presence differs after replay; absence is not converted to a default."
-    }
-  },
-  "historyIncompleteReasons": {
-    "cost": [
-      {
-        "code": "dated_replay_current_presence_mismatch",
-        "detail": "The final dated canonical state and current state disagree about field presence."
-      },
-      {
-        "code": "legacy_cannot_remove_current_field",
-        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
-      }
-    ],
-    "nativeTags": [
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_timeline_partial",
-        "detail": "Only the observed native Tag snapshots are known."
-      },
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "referenceTags": [
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
     ]
-  },
-  "historyCompatibilityLimits": {
-    "collectible": {
-      "kind": "legacy_boolean_without_native_tag",
-      "value": false,
-      "note": "The launch CardDefs has no COLLECTIBLE Tag; current false is not backfilled into the launch state."
-    },
-    "armor": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "durability": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "spellSchool": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    }
   }
 }

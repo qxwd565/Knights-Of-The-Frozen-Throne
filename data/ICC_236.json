@@ -1,16 +1,4 @@
 {
-  "schemaVersion": 2,
-  "id": "ICC_236",
-  "dbfId": 42808,
-  "sourceBaseline": {
-    "repository": "HearthSim/hsdata",
-    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
-    "commitDate": "2017-08-08",
-    "build": "9.0.0.20457",
-    "path": "CardDefs.xml",
-    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
-  },
-  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
   "2017-08-11": {
     "name": "얼음 파괴자",
     "type": "WEAPON",
@@ -63,50 +51,23 @@
         "value": 1
       }
     ],
-    "referenceTags": [
-      {
-        "id": 208,
-        "name": "FREEZE",
-        "value": 1,
-        "sourceType": "ReferencedTag",
-        "label": "빙결"
-      }
-    ],
     "cost": 3,
     "attack": 1,
     "rarity": "RARE",
     "collectible": true,
     "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
-    "durability": 3
-  },
-  "current": {
+    "durability": 3,
     "id": "ICC_236",
     "dbfId": 42808,
-    "name": "얼음 파괴자",
-    "type": "WEAPON",
-    "cardClass": "SHAMAN",
-    "rarity": "RARE",
-    "collectible": true,
-    "cost": 3,
-    "text": "이 무기에 피해를<br></br>받은 <b>빙결</b> 상태인<br></br>하수인을 무조건<br></br>처치합니다.",
-    "attack": 1,
-    "health": 3,
-    "durability": 3,
-    "armor": 0,
-    "flavor": "지구 온난화를 막기 위해 빙하는 파괴하지 않습니다.",
-    "spellSchool": "",
-    "portrait": "HS11-046.psd:23243ddfad7a9b146bc34647abbad235",
     "set": "ICECROWN",
+    "art": "art/ICC_236.png"
+  },
+  "2025-03-19": {
     "nativeTags": [
       {
         "id": 32,
         "name": "발동 효과 표시",
         "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
       },
       {
         "id": 47,
@@ -116,6 +77,16 @@
       {
         "id": 48,
         "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 187,
+        "name": "DURABILITY",
         "value": 3
       },
       {
@@ -134,200 +105,14 @@
         "value": 3
       },
       {
-        "id": 208,
-        "name": "빙결",
-        "value": 1
-      },
-      {
         "id": 321,
         "name": "수집 가능",
         "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/ICC_236.png",
-    "releasedAt": "2017-08-11",
-    "releaseStatus": "verified",
-    "nativeRawText": "[x]이 무기에 피해를\n받은 <b>빙결</b> 상태인\n하수인을 무조건\n처치합니다.",
-    "nativeTextBuilder": 0,
-    "referenceTags": [
-      {
-        "id": 208,
-        "name": "빙결",
-        "value": 1,
-        "sourceType": "ReferencedTag",
-        "label": "빙결"
-      }
-    ]
-  },
-  "nativeTagsTimelineStatus": "partial",
-  "historyIncompleteFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "unresolvedSourceFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "mode": "constructed",
-  "englishName": "Ice Breaker",
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1001,
-    "slug": "knights-of-the-frozen-throne",
-    "name": "얼어붙은 왕좌의 기사들",
-    "type": "expansion",
-    "englishName": "Knights Of The Frozen Throne"
-  },
-  "setOrder": 33,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "initialSpecStatus": "unverified",
-  "patchSources": {},
-  "timelineIncompleteFields": {
-    "nativeTextBuilder": {
-      "launch": {
-        "present": false
       },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": 0
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    }
-  },
-  "2025-03-19": {
-    "changes": {},
-    "nativeTagUpdates": [
       {
         "id": 45,
         "value": 3
       }
-    ],
-    "nativeTagRemovals": [
-      187
-    ],
-    "sourceEvidence": [
-      {
-        "findingID": "FT-D19",
-        "classification": "observed_archive_change_not_confirmed_gameplay_delta",
-        "event": "무기 내구도 저장 태그 187 → 45 이관",
-        "koreanDay": "2025-03-19",
-        "archiveBefore": {
-          "build": 217489,
-          "commit": "62cc0f00dbed73f2d48ccefca6f611e6f8898986",
-          "xmlSha256": "6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2",
-          "url": "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml"
-        },
-        "archiveAfter": {
-          "build": 217964,
-          "commit": "fdad346dc49ebb5465f548a0a2b58b59edcbe087",
-          "xmlSha256": "039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf",
-          "url": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        },
-        "cardObservation": {
-          "cardID": "ICC_236",
-          "dbfId": 42808,
-          "name": "얼음 파괴자",
-          "changes": {
-            "45": {
-              "before": {
-                "present": false
-              },
-              "after": {
-                "present": true,
-                "value": "3"
-              }
-            },
-            "187": {
-              "before": {
-                "present": true,
-                "value": "3"
-              },
-              "after": {
-                "present": false
-              }
-            }
-          }
-        },
-        "assessment": "내구도 수치가 같은 채로 저장 위치가 바뀐다. 이전 내구도 태그 부재를 내구도 0 하향으로 해석하지 않는다.",
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/ko-kr/news/24187196",
-          "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        ],
-        "countedAsConfirmedGameplayHistory": false
-      }
-    ],
-    "classification": "observed_archive_change_not_confirmed_gameplay_delta",
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/24187196",
-      "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
     ]
-  },
-  "historyIncompleteReasons": {
-    "nativeTags": [
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_timeline_partial",
-        "detail": "Only the observed native Tag snapshots are known."
-      },
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "referenceTags": [
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ]
-  },
-  "historyCompatibilityLimits": {
-    "armor": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "spellSchool": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "health": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 3,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "race": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "races": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": [],
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    }
   }
 }

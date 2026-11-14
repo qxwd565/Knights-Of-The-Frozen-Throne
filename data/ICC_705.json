@@ -1,16 +1,4 @@
 {
-  "schemaVersion": 2,
-  "id": "ICC_705",
-  "dbfId": 42790,
-  "sourceBaseline": {
-    "repository": "HearthSim/hsdata",
-    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
-    "commitDate": "2017-08-08",
-    "build": "9.0.0.20457",
-    "path": "CardDefs.xml",
-    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
-  },
-  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
   "2017-08-11": {
     "name": "해골마",
     "type": "MINION",
@@ -63,15 +51,6 @@
         "value": 1
       }
     ],
-    "referenceTags": [
-      {
-        "id": 190,
-        "name": "TAUNT",
-        "value": 1,
-        "sourceType": "ReferencedTag",
-        "label": "도발"
-      }
-    ],
     "cost": 7,
     "attack": 5,
     "health": 5,
@@ -79,237 +58,14 @@
     "collectible": true,
     "races": [],
     "race": "",
-    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다."
-  },
-  "2018-02-07": {
-    "changes": {
-      "cost": 8
-    },
-    "source": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-    "nativeTagUpdates": [
-      {
-        "id": 48,
-        "value": 8
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-      "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
-    ],
-    "nativeTagEvidence": [
-      {
-        "groupId": "B-2018-02-07",
-        "classification": "verified_original_native_tag_transition",
-        "day": "2018-02-07",
-        "patchSource": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-        "archiveBefore": {
-          "build": 22611,
-          "commit": "d399871096675e4186c1c2d35b9c410464a4ffbf",
-          "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
-          "xmlSha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2"
-        },
-        "archiveAfter": {
-          "build": 23180,
-          "commit": "1a0dcda07394c622066630e4d09817aca8ff9fbf",
-          "source": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml",
-          "xmlSha256": "dbe848ad25b843779b0accca4ad4fffebbbbf2beee2caffd04e09dfc9c8332f5"
-        },
-        "observedNativeTags": {
-          "48": {
-            "before": {
-              "present": true,
-              "value": 7
-            },
-            "after": {
-              "present": true,
-              "value": 8
-            }
-          }
-        },
-        "changedTagOperations": [
-          {
-            "id": 48,
-            "operation": "update",
-            "value": 8
-          }
-        ],
-        "unchangedTagIds": [],
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-          "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml"
-        ]
-      }
-    ]
-  },
-  "2021-03-26": {
-    "changes": {
-      "cost": 7
-    },
-    "source": "https://hearthstone.blizzard.com/en-us/news/23642550",
-    "nativeTagUpdates": [
-      {
-        "id": 48,
-        "value": 7
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/en-us/news/23642550",
-      "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-    ],
-    "nativeTagEvidence": [
-      {
-        "groupId": "B-2021-03-26",
-        "classification": "verified_original_native_tag_transition",
-        "day": "2021-03-26",
-        "patchSource": "https://hearthstone.blizzard.com/en-us/news/23642550",
-        "officialPatchSource": "https://hearthstone.blizzard.com/en-us/news/23642550",
-        "archiveBefore": {
-          "build": 73652,
-          "commit": "48f9590ce66d87b30530b411ed7fe18a0fa10db1",
-          "source": "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
-          "xmlSha256": "b615cef33af68394480ecfcc875aeef3bacff8323f5244e0d3bae2eda5dd58d1"
-        },
-        "archiveAfter": {
-          "build": 77662,
-          "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
-          "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
-          "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29"
-        },
-        "observedNativeTags": {
-          "48": {
-            "before": {
-              "present": true,
-              "value": 8
-            },
-            "after": {
-              "present": true,
-              "value": 7
-            }
-          }
-        },
-        "changedTagOperations": [
-          {
-            "id": 48,
-            "operation": "update",
-            "value": 7
-          }
-        ],
-        "unchangedTagIds": [],
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/en-us/news/23642550",
-          "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        ]
-      }
-    ]
-  },
-  "2022-11-30": {
-    "changes": {
-      "races": [
-        "UNDEAD",
-        "BEAST"
-      ],
-      "race": "언데드, 야수"
-    },
-    "source": "taxonomy introduction",
-    "nativeTagUpdates": [
-      {
-        "id": 200,
-        "value": 11
-      },
-      {
-        "id": 2542,
-        "value": 1
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-      "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-    ],
-    "nativeTagEvidence": [
-      {
-        "groupId": "B-2022-11-30",
-        "classification": "verified_original_native_tag_transition",
-        "day": "2022-11-30",
-        "patchSource": "taxonomy introduction",
-        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-        "archiveBefore": {
-          "build": 155409,
-          "commit": "beaa46cc24c1332ad91d4f7ae096024f6ff7d394",
-          "source": "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
-          "xmlSha256": "6b0cc04e3181ee49d34372eb14d7f57760aeb308f3b614b2f6729b44f9295d90"
-        },
-        "archiveAfter": {
-          "build": 158725,
-          "commit": "54141c4a6bf3efeedaf69d7510b987f216ff00e6",
-          "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
-          "xmlSha256": "5a01259c4f9b13b0ddecce04718ef5de16ec4cae3867957835559946f89ff439"
-        },
-        "observedNativeTags": {
-          "200": {
-            "before": {
-              "present": false
-            },
-            "after": {
-              "present": true,
-              "value": 11
-            }
-          },
-          "2542": {
-            "before": {
-              "present": false
-            },
-            "after": {
-              "present": true,
-              "value": 1
-            }
-          }
-        },
-        "changedTagOperations": [
-          {
-            "id": 200,
-            "operation": "update",
-            "value": 11
-          },
-          {
-            "id": 2542,
-            "operation": "update",
-            "value": 1
-          }
-        ],
-        "unchangedTagIds": [],
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
-          "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        ]
-      }
-    ]
-  },
-  "current": {
+    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다.",
     "id": "ICC_705",
     "dbfId": 42790,
-    "name": "해골마",
-    "type": "MINION",
-    "cardClass": "NEUTRAL",
-    "rarity": "COMMON",
-    "collectible": true,
-    "cost": 7,
-    "text": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
-    "attack": 5,
-    "health": 5,
-    "durability": 0,
-    "armor": 0,
-    "flavor": "백골마인지 천골마인지는 중요하지 않습니다.",
-    "spellSchool": "",
-    "portrait": "W12_a196_M.psd:ee9376cd70e42fc4fa516ae6ec867e8f",
     "set": "ICECROWN",
+    "art": "art/ICC_705.png"
+  },
+  "2018-02-07": {
+    "cost": 8,
     "nativeTags": [
       {
         "id": 45,
@@ -323,13 +79,12 @@
       },
       {
         "id": 48,
-        "name": "마나 비용",
-        "value": 7
+        "value": 8
       },
       {
-        "id": 190,
-        "name": "도발",
-        "value": 1
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
       },
       {
         "id": 199,
@@ -337,9 +92,106 @@
         "value": 12
       },
       {
-        "id": 200,
-        "name": "종족",
-        "value": 11
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ]
+  },
+  "2021-03-26": {
+    "cost": 7,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ]
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD",
+      "BEAST"
+    ],
+    "race": "언데드, 야수",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
       },
       {
         "id": 202,
@@ -362,179 +214,13 @@
         "value": 1
       },
       {
+        "id": 200,
+        "value": 11
+      },
+      {
         "id": 2542,
-        "name": "게임 태그 2542",
         "value": 1
       }
-    ],
-    "races": [
-      "UNDEAD",
-      "BEAST"
-    ],
-    "race": "언데드, 야수",
-    "classes": [],
-    "art": "art/ICC_705.png",
-    "releasedAt": "2017-08-11",
-    "releaseStatus": "verified",
-    "nativeRawText": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
-    "nativeTextBuilder": 0,
-    "referenceTags": [
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1,
-        "sourceType": "ReferencedTag",
-        "label": "도발"
-      }
     ]
-  },
-  "nativeTagsTimelineStatus": "partial",
-  "historyIncompleteFields": [
-    "nativeTags",
-    "referenceTags",
-    "text"
-  ],
-  "unresolvedSourceFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "mode": "constructed",
-  "englishName": "Bonemare",
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1001,
-    "slug": "knights-of-the-frozen-throne",
-    "name": "얼어붙은 왕좌의 기사들",
-    "type": "expansion",
-    "englishName": "Knights Of The Frozen Throne"
-  },
-  "setOrder": 33,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "initialSpecStatus": "partially_verified",
-  "patchSources": {
-    "2018-02-07": "https://hearthstone.blizzard.com/ko-kr/news/21507224",
-    "2021-03-26": "https://hearthstone.blizzard.com/en-us/news/23642550",
-    "2022-11-30": "taxonomy introduction"
-  },
-  "timelineIncompleteFields": {
-    "text": {
-      "launch": {
-        "present": true,
-        "value": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다."
-      },
-      "afterDatedEvents": {
-        "present": true,
-        "value": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다."
-      },
-      "current": {
-        "present": true,
-        "value": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다."
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    },
-    "nativeRawText": {
-      "launch": {
-        "present": true,
-        "value": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다."
-      },
-      "afterDatedEvents": {
-        "present": true,
-        "value": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다."
-      },
-      "current": {
-        "present": true,
-        "value": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다."
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    },
-    "nativeTextBuilder": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": 0
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    }
-  },
-  "historyReplayMismatches": {
-    "text": {
-      "datedReplay": "<b>전투의 함성:</b> 아군 하수인 하나에게 +4/+4와 <b>도발</b>을 부여합니다.",
-      "current": "<b>전투의 함성:</b> 아군 하수인에게 +4/+4와 <b>도발</b>을 부여합니다.",
-      "transitionDate": null,
-      "note": "Dated events do not reconcile this canonical field with current; both observations are preserved."
-    }
-  },
-  "historyIncompleteReasons": {
-    "nativeTags": [
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_timeline_partial",
-        "detail": "Only the observed native Tag snapshots are known."
-      },
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "referenceTags": [
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "text": [
-      {
-        "code": "dated_replay_current_mismatch",
-        "detail": "The final dated canonical state differs from the current canonical state."
-      }
-    ]
-  },
-  "historyCompatibilityLimits": {
-    "armor": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "durability": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "spellSchool": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    }
   }
 }

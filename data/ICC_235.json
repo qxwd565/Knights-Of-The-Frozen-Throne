@@ -1,16 +1,4 @@
 {
-  "schemaVersion": 2,
-  "id": "ICC_235",
-  "dbfId": 42804,
-  "sourceBaseline": {
-    "repository": "HearthSim/hsdata",
-    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
-    "commitDate": "2017-08-08",
-    "build": "9.0.0.20457",
-    "path": "CardDefs.xml",
-    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
-  },
-  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
   "2017-08-11": {
     "name": "암흑의 정수",
     "type": "SPELL",
@@ -48,112 +36,27 @@
         "value": 1
       }
     ],
-    "referenceTags": [],
     "cost": 6,
     "rarity": "RARE",
     "collectible": true,
-    "nativeRawText": "내 덱에서 무작위 하수인 하나를 복사하여\n5/5 하수인으로 소환합니다."
-  },
-  "2021-03-26": {
-    "changes": {
-      "spellSchool": "SHADOW"
-    },
-    "source": "taxonomy introduction",
-    "nativeTagUpdates": [
-      {
-        "id": 1635,
-        "value": 6
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/23642550",
-      "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-    ],
-    "nativeTagEvidence": [
-      {
-        "groupId": "B-2021-03-26",
-        "classification": "verified_original_native_tag_transition",
-        "day": "2021-03-26",
-        "patchSource": "taxonomy introduction",
-        "officialPatchSource": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
-        "archiveBefore": {
-          "build": 73652,
-          "commit": "48f9590ce66d87b30530b411ed7fe18a0fa10db1",
-          "source": "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
-          "xmlSha256": "b615cef33af68394480ecfcc875aeef3bacff8323f5244e0d3bae2eda5dd58d1"
-        },
-        "archiveAfter": {
-          "build": 77662,
-          "commit": "9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
-          "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
-          "xmlSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29"
-        },
-        "observedNativeTags": {
-          "1635": {
-            "before": {
-              "present": false
-            },
-            "after": {
-              "present": true,
-              "value": 6
-            }
-          }
-        },
-        "changedTagOperations": [
-          {
-            "id": 1635,
-            "operation": "update",
-            "value": 6
-          }
-        ],
-        "unchangedTagIds": [],
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/ko-kr/news/23642550",
-          "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        ]
-      }
-    ]
-  },
-  "2023-09-29": {
-    "changes": {
-      "cost": 7
-    },
-    "nativeTagUpdates": [
-      {
-        "id": 48,
-        "value": 7
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/23999072",
-      "https://www.inven.co.kr/board/hs/3508/20029"
-    ]
-  },
-  "current": {
+    "nativeRawText": "내 덱에서 무작위 하수인 하나를 복사하여\n5/5 하수인으로 소환합니다.",
     "id": "ICC_235",
     "dbfId": 42804,
-    "name": "암흑의 정수",
-    "type": "SPELL",
-    "cardClass": "PRIEST",
-    "rarity": "RARE",
-    "collectible": true,
-    "cost": 7,
-    "text": "내 덱에서 무작위 하수인을 복사하여<br></br>5/5 하수인으로 소환합니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
-    "flavor": "병에 담아서 팔기에는 어렵지만 효능은 확실합니다.",
-    "spellSchool": "SHADOW",
-    "portrait": "HS11-018_S.psd:c83bbae9509b4324b89ba3b32b6f33ba",
     "set": "ICECROWN",
+    "art": "art/ICC_235.png"
+  },
+  "2021-03-26": {
+    "spellSchool": "SHADOW",
     "nativeTags": [
       {
         "id": 48,
         "name": "마나 비용",
-        "value": 7
+        "value": 6
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
       },
       {
         "id": 199,
@@ -177,182 +80,46 @@
       },
       {
         "id": 1635,
-        "name": "주문 속성",
         "value": 6
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/ICC_235.png",
-    "releasedAt": "2017-08-11",
-    "releaseStatus": "verified",
-    "nativeRawText": "내 덱에서 무작위 하수인을 복사하여\n5/5 하수인으로 소환합니다.",
-    "nativeTextBuilder": 0,
-    "referenceTags": []
-  },
-  "nativeTagsTimelineStatus": "partial",
-  "historyIncompleteFields": [
-    "nativeTags",
-    "referenceTags",
-    "spellSchool",
-    "text"
-  ],
-  "unresolvedSourceFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "mode": "constructed",
-  "englishName": "Shadow Essence",
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1001,
-    "slug": "knights-of-the-frozen-throne",
-    "name": "얼어붙은 왕좌의 기사들",
-    "type": "expansion",
-    "englishName": "Knights Of The Frozen Throne"
-  },
-  "setOrder": 33,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "initialSpecStatus": "unverified",
-  "patchSources": {
-    "2021-03-26": "taxonomy introduction"
-  },
-  "timelineIncompleteFields": {
-    "text": {
-      "launch": {
-        "present": true,
-        "value": "내 덱에서 무작위 하수인 하나를 복사하여<br></br>5/5 하수인으로 소환합니다."
-      },
-      "afterDatedEvents": {
-        "present": true,
-        "value": "내 덱에서 무작위 하수인 하나를 복사하여<br></br>5/5 하수인으로 소환합니다."
-      },
-      "current": {
-        "present": true,
-        "value": "내 덱에서 무작위 하수인을 복사하여<br></br>5/5 하수인으로 소환합니다."
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    },
-    "nativeRawText": {
-      "launch": {
-        "present": true,
-        "value": "내 덱에서 무작위 하수인 하나를 복사하여\n5/5 하수인으로 소환합니다."
-      },
-      "afterDatedEvents": {
-        "present": true,
-        "value": "내 덱에서 무작위 하수인 하나를 복사하여\n5/5 하수인으로 소환합니다."
-      },
-      "current": {
-        "present": true,
-        "value": "내 덱에서 무작위 하수인을 복사하여\n5/5 하수인으로 소환합니다."
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    },
-    "nativeTextBuilder": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": 0
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    }
-  },
-  "historyReplayMismatches": {
-    "text": {
-      "datedReplay": "내 덱에서 무작위 하수인 하나를 복사하여<br></br>5/5 하수인으로 소환합니다.",
-      "current": "내 덱에서 무작위 하수인을 복사하여<br></br>5/5 하수인으로 소환합니다.",
-      "transitionDate": null,
-      "note": "Dated events do not reconcile this canonical field with current; both observations are preserved."
-    }
-  },
-  "historyIncompleteReasons": {
-    "nativeTags": [
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_timeline_partial",
-        "detail": "Only the observed native Tag snapshots are known."
-      },
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "referenceTags": [
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "spellSchool": [
-      {
-        "code": "legacy_cannot_remove_current_field",
-        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
-      },
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "text": [
-      {
-        "code": "dated_replay_current_mismatch",
-        "detail": "The final dated canonical state differs from the current canonical state."
       }
     ]
   },
-  "historyCompatibilityLimits": {
-    "armor": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "durability": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "health": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "race": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "races": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": [],
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    }
+  "2023-09-29": {
+    "cost": 7,
+    "nativeTags": [
+      {
+        "id": 48,
+        "value": 7
+      },
+      {
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "value": 6
+      }
+    ]
   }
 }

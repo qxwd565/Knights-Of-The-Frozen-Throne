@@ -1,16 +1,4 @@
 {
-  "schemaVersion": 2,
-  "id": "ICC_051t",
-  "dbfId": 42650,
-  "sourceBaseline": {
-    "repository": "HearthSim/hsdata",
-    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
-    "commitDate": "2017-08-08",
-    "build": "9.0.0.20457",
-    "path": "CardDefs.xml",
-    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
-  },
-  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
   "2017-08-11": {
     "name": "무리의 드루이드",
     "type": "MINION",
@@ -63,7 +51,6 @@
         "value": 1
       }
     ],
-    "referenceTags": [],
     "cost": 2,
     "attack": 1,
     "health": 2,
@@ -72,167 +59,10 @@
       "BEAST"
     ],
     "race": "야수",
-    "nativeRawText": "<b>독성</b>"
-  },
-  "current": {
+    "nativeRawText": "<b>독성</b>",
     "id": "ICC_051t",
     "dbfId": 42650,
-    "name": "무리의 드루이드",
-    "type": "MINION",
-    "cardClass": "DRUID",
-    "rarity": "RARE",
-    "collectible": false,
-    "cost": 2,
-    "text": "<b>독성</b>",
-    "attack": 1,
-    "health": 2,
-    "durability": 0,
-    "armor": 0,
-    "flavor": "",
-    "spellSchool": "",
-    "portrait": "HS11-129_M.psd:436b53a4b69628d4597d1bed2b5ec06b",
     "set": "ICECROWN",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 363,
-        "name": "독성",
-        "value": 1
-      }
-    ],
-    "races": [
-      "BEAST"
-    ],
-    "race": "야수",
-    "classes": [],
-    "art": "art/ICC_051t.png",
-    "releasedAt": "2017-08-11",
-    "releaseStatus": "verified",
-    "nativeRawText": "<b>독성</b>",
-    "nativeTextBuilder": 0,
-    "referenceTags": []
-  },
-  "nativeTagsTimelineStatus": "partial",
-  "historyIncompleteFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "unresolvedSourceFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "mode": "constructed",
-  "englishName": "Druid of the Swarm",
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1001,
-    "slug": "knights-of-the-frozen-throne",
-    "name": "얼어붙은 왕좌의 기사들",
-    "type": "expansion",
-    "englishName": "Knights Of The Frozen Throne"
-  },
-  "setOrder": 33,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "initialSpecStatus": "unverified",
-  "patchSources": {},
-  "timelineIncompleteFields": {
-    "nativeTextBuilder": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": 0
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    }
-  },
-  "historyIncompleteReasons": {
-    "nativeTags": [
-      {
-        "code": "native_tag_timeline_partial",
-        "detail": "Only the observed native Tag snapshots are known."
-      },
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "referenceTags": [
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ]
-  },
-  "historyCompatibilityLimits": {
-    "collectible": {
-      "kind": "legacy_boolean_without_native_tag",
-      "value": false,
-      "note": "The launch CardDefs has no COLLECTIBLE Tag; current false is not backfilled into the launch state."
-    },
-    "armor": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "durability": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "spellSchool": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    }
+    "art": "art/ICC_051t.png"
   }
 }

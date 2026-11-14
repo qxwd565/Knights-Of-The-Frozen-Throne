@@ -1,16 +1,4 @@
 {
-  "schemaVersion": 2,
-  "id": "ICC_051b",
-  "dbfId": 46049,
-  "sourceBaseline": {
-    "repository": "HearthSim/hsdata",
-    "commit": "6f874a2b18045ed3464983aff85ca106bc656916",
-    "commitDate": "2017-08-08",
-    "build": "9.0.0.20457",
-    "path": "CardDefs.xml",
-    "url": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml"
-  },
-  "dateMeaning": "Top-level dates are Korean-local playable card states/events. 2017-08-08 is the CardDefs snapshot, not a playable date; first playable date is 2017-08-11.",
   "2017-08-11": {
     "name": "딱정벌레 변신",
     "type": "SPELL",
@@ -33,190 +21,29 @@
         "value": 5
       }
     ],
-    "referenceTags": [],
-    "nativeRawText": "생명력 +3, <b>도발</b>"
-  },
-  "2018-11-30": {
-    "changes": {
-      "type": "MINION",
-      "cost": 2,
-      "attack": 1,
-      "health": 5,
-      "rarity": "RARE",
-      "races": [
-        "BEAST"
-      ],
-      "race": "야수",
-      "text": "<b>도발</b>",
-      "nativeRawText": "<b>도발</b>"
-    },
-    "nativeTagUpdates": [
-      {
-        "id": 45,
-        "value": 5
-      },
-      {
-        "id": 47,
-        "value": 1
-      },
-      {
-        "id": 48,
-        "value": 2
-      },
-      {
-        "id": 200,
-        "value": 20
-      },
-      {
-        "id": 202,
-        "value": 4
-      },
-      {
-        "id": 203,
-        "value": 3
-      }
-    ],
-    "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/22788307",
-      "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml",
-      "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
-    ],
-    "remove": [
-      "spellSchool"
-    ],
-    "sourceEvidence": [
-      {
-        "findingID": "FT-D05",
-        "classification": "observed_archive_change_not_confirmed_gameplay_delta",
-        "event": "무리의 드루이드 선택 화면 데이터의 하수인형 전환",
-        "koreanDay": "2018-11-30",
-        "archiveBefore": {
-          "build": 27358,
-          "commit": "1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac",
-          "xmlSha256": "306a14e083346e4731151c21b7b1e323fc70be4e6aae3ece55cb7114a845554a",
-          "url": "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml"
-        },
-        "archiveAfter": {
-          "build": 27845,
-          "commit": "0565689bc30e7fe550053066d033958f1f90033f",
-          "xmlSha256": "dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a",
-          "url": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
-        },
-        "cardObservation": {
-          "cardID": "ICC_051b",
-          "dbfId": 46049,
-          "name": "딱정벌레 변신",
-          "changes": {
-            "45": {
-              "before": {
-                "present": false
-              },
-              "after": {
-                "present": true,
-                "value": "5"
-              }
-            },
-            "47": {
-              "before": {
-                "present": false
-              },
-              "after": {
-                "present": true,
-                "value": "1"
-              }
-            },
-            "48": {
-              "before": {
-                "present": false
-              },
-              "after": {
-                "present": true,
-                "value": "2"
-              }
-            },
-            "200": {
-              "before": {
-                "present": false
-              },
-              "after": {
-                "present": true,
-                "value": "20"
-              }
-            },
-            "202": {
-              "before": {
-                "present": true,
-                "value": "5"
-              },
-              "after": {
-                "present": true,
-                "value": "4"
-              }
-            },
-            "203": {
-              "before": {
-                "present": false
-              },
-              "after": {
-                "present": true,
-                "value": "3"
-              }
-            },
-            "rawText": {
-              "before": "생명력 +3, <b>도발</b>",
-              "after": "<b>도발</b>"
-            }
-          }
-        },
-        "assessment": "선택 화면용 주문형 데이터가 하수인형으로 바뀐 관측이며 실제 소환 결과 카드의 밸런스 변화로 세지 않는다.",
-        "sourceURLs": [
-          "https://hearthstone.blizzard.com/ko-kr/news/22788307",
-          "https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml",
-          "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
-        ],
-        "countedAsConfirmedGameplayHistory": false
-      }
-    ],
-    "classification": "observed_archive_change_not_confirmed_gameplay_delta"
-  },
-  "current": {
+    "nativeRawText": "생명력 +3, <b>도발</b>",
     "id": "ICC_051b",
     "dbfId": 46049,
-    "name": "딱정벌레 변신",
+    "set": "ICECROWN",
+    "art": "art/ICC_051b.png"
+  },
+  "2018-11-30": {
     "type": "MINION",
-    "cardClass": "DRUID",
-    "rarity": "RARE",
-    "collectible": false,
     "cost": 2,
-    "text": "<b>도발</b>",
     "attack": 1,
     "health": 5,
-    "durability": 0,
-    "armor": 0,
-    "flavor": "",
-    "spellSchool": "",
-    "portrait": "HS11-130_S.psd:451d2153070a63543bb0c0160c000914",
-    "set": "ICECROWN",
+    "rarity": "RARE",
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "text": "<b>도발</b>",
+    "nativeRawText": "<b>도발</b>",
     "nativeTags": [
       {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
+        "id": 183,
+        "name": "CARD_SET",
+        "value": 1001
       },
       {
         "id": 199,
@@ -224,181 +51,29 @@
         "value": 2
       },
       {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
         "id": 202,
-        "name": "카드 유형",
         "value": 4
       },
       {
+        "id": 45,
+        "value": 5
+      },
+      {
+        "id": 47,
+        "value": 1
+      },
+      {
+        "id": 48,
+        "value": 2
+      },
+      {
+        "id": 200,
+        "value": 20
+      },
+      {
         "id": 203,
-        "name": "희귀도",
         "value": 3
       }
-    ],
-    "races": [
-      "BEAST"
-    ],
-    "race": "야수",
-    "classes": [],
-    "art": "art/ICC_051b.png",
-    "releasedAt": "2017-08-11",
-    "releaseStatus": "verified",
-    "nativeRawText": "<b>도발</b>",
-    "nativeTextBuilder": 0,
-    "referenceTags": []
-  },
-  "nativeTagsTimelineStatus": "partial",
-  "historyIncompleteFields": [
-    "attack",
-    "cost",
-    "health",
-    "nativeTags",
-    "race",
-    "races",
-    "rarity",
-    "referenceTags",
-    "spellSchool"
-  ],
-  "unresolvedSourceFields": [
-    "nativeTags",
-    "referenceTags"
-  ],
-  "mode": "constructed",
-  "englishName": "Scarab Form",
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1001,
-    "slug": "knights-of-the-frozen-throne",
-    "name": "얼어붙은 왕좌의 기사들",
-    "type": "expansion",
-    "englishName": "Knights Of The Frozen Throne"
-  },
-  "setOrder": 33,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "initialSpecStatus": "unverified",
-  "patchSources": {},
-  "timelineIncompleteFields": {
-    "nativeTextBuilder": {
-      "launch": {
-        "present": false
-      },
-      "afterDatedEvents": {
-        "present": false
-      },
-      "current": {
-        "present": true,
-        "value": 0
-      },
-      "datedEventDates": [],
-      "transitionDate": null,
-      "note": "Only the remaining launch-to-current difference is undated; dated event changes have already been replayed."
-    }
-  },
-  "historyIncompleteReasons": {
-    "attack": [
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "cost": [
-      {
-        "code": "legacy_cannot_remove_current_field",
-        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
-      },
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "health": [
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "nativeTags": [
-      {
-        "code": "native_tag_history_not_exposed_in_legacy_api",
-        "detail": "Numeric Tag observations are preserved in dated source events, not the legacy history schema."
-      },
-      {
-        "code": "native_tag_timeline_partial",
-        "detail": "Only the observed native Tag snapshots are known."
-      },
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "race": [
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "races": [
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "rarity": [
-      {
-        "code": "legacy_cannot_remove_current_field",
-        "detail": "The historical state lacks this property, but legacy history cannot express property removal."
-      },
-      {
-        "code": "legacy_cannot_remove_newly_added_field",
-        "detail": "The legacy history shape can assign a value but cannot express its earlier absence."
-      }
-    ],
-    "referenceTags": [
-      {
-        "code": "source_timeline_unresolved",
-        "detail": "The source metadata explicitly marks this field as unresolved."
-      }
-    ],
-    "spellSchool": [
-      {
-        "code": "event_removes_absent_field",
-        "detail": "A dated removal refers to a field absent in the prior state."
-      }
     ]
-  },
-  "historyCompatibilityLimits": {
-    "collectible": {
-      "kind": "legacy_boolean_without_native_tag",
-      "value": false,
-      "note": "The launch CardDefs has no COLLECTIBLE Tag; current false is not backfilled into the launch state."
-    },
-    "armor": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "durability": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": 0,
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    },
-    "spellSchool": {
-      "kind": "legacy_projection_or_type_inapplicable",
-      "value": "",
-      "note": "Preserved in the current compatibility cache; omitted from canonical historical state for this card type."
-    }
   }
 }
